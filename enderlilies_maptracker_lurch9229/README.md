@@ -1,5 +1,7 @@
 # EnderLiliesTracker
-EmoTracker Package for Ender Lilies: Quietus of the Knights Randomizer.
+PopTracker Package for Ender Lilies: Quietus of the Knights Randomizer, which can be downloaded here https://github.com/Trexounay/EnderLilies.Randomizer/releases
+
+NOW WITH AUTO-TRACKING!!!!
 
 This package contains a Map tracker, which features all the areas of the game, a world map variant, which has all locations on a single map, and 2 items only variants.
 
