@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Ancient Dragon Claw",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/ancient_dragon_claw.png",
+    "codes": "dragonclaw"
+  },
+  {
+    "name": "Aura's Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/auras_ring.png",
+    "codes": "aura"
+  },
+  {
+    "name": "Blighted Appendage",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/blighted_appendage.png",
+    "codes": "appendage"
+  },
+  {"name": "Blighted Phantom",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/blighted_phantom.png",
+    "codes": "phantom"
+  },
+  {
+    "name": "Blightwreathed Blade",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/blightwreathed_blade.png",
+    "codes": "blightblade"
+  },
+  {
+    "name": "Bloodstained Ribbon",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/bloodstained_ribbon.png",
+    "codes": "ribbon"
+  },
+  {
+    "name": "Broken Music Box",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/broken_music_box.png",
+    "codes": "music"
+  },
+  {
+    "name": "Caliva's Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/calivas_ring.png",
+    "codes": "caliva"
+  },
+  {
+    "name": "Cracked Familiar Stone",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/cracked_familiar_stone.png",
+    "codes": "familiar"
+  },
+  {
+    "name": "Decayed Crown",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/decayed_crown.png",
+    "codes": "crown"
+  },
+  {
+    "name": "Eldred's Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/eldreds_ring.png",
+    "codes": "eldred"
+  },
+  {
+    "name": "Executioner's Gloves",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/executioners_gloves.png",
+    "codes": "executionergloves"
+  },
+  {
+    "name": "Fretia's Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/fretias_ring.png",
+    "codes": "fretia"
+  },
+  {
+    "name": "Giant's Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/giants_ring.png",
+    "codes": "giant"
+  },
+  {
+    "name": "Heretic's Mask",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/heretics_mask.png",
+    "codes": "heretic,mask"
+  },
+  {
+    "name": "Holy Spring Water",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/holy_spring_water.png",
+    "codes": "holywater"
+  },
+  {
+    "name": "Immortal's Crest",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/immortals_crest.png",
+    "codes": "immortal"
+  },
+  {
+    "name": "Kilteus' Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/kilteus_ring.png",
+    "codes": "kilteus"
+  },
+  {
+    "name": "Lost Heirloom",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/lost_heirloom.png",
+    "codes": "heirloom"
+  },
+  {
+    "name": "Luminant Aegis Curio",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/luminant_aegis_curio.png",
+    "codes": "luminantcurio"
+  },
+  {
+    "name": "Manisa's Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/manisas_ring.png",
+    "codes": "manisa"
+  },
+  {
+    "name": "Nymphilia's Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/nymphilias_ring.png",
+    "codes": "nymphilia"
+  },
+  {
+    "name": "Priestess' Doll",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/priestess_doll.png",
+    "codes": "doll"
+  },
+  {
+    "name": "Ricorus' Ring",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/ricorus_ring.png",
+    "codes": "ricorus"
+  },
+  {
+    "name": "Royal Aegis Crest",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/royal_aegis_crest.png",
+    "codes": "royalcrest,aegis"
+  },
+  {
+    "name": "Ruined Witch's Book",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/ruined_witchs_book.png",
+    "codes": "witchbook"
+  },
+  {
+    "name": "Rusted Blue Ornament",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/rusted_blue_ornament.png",
+    "codes": "ornament"
+  },
+  {
+    "name": "Snowdrop Bracelet",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/snowdrop_bracelet.png",
+    "codes": "snowdrop"
+  },
+  {
+    "name": "Soiled Prayer Beads",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/soiled_prayer_beads.png",
+    "codes": "prayerbeads"
+  },
+  {
+    "name": "Spellbound Anklet",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/spellbound_anklet.png",
+    "codes": "spellbound,anklet"
+  },
+  {
+    "name": "Vibrant Plume",
+    "type": "toggle",
+    "loop": false,
+    "img": "images/relics/vibrant_plume.png",
+    "codes": "vibrant,plume"
+  },
+  {
+    "name": "Weathered Necklace",
+    "type": "toggle",
+    "img": "images/relics/weathered_necklace.png",
+    "loop": false,
+    "codes": "weatherneck"
+  },
+  {
+    "name": "White Priestess' Earrings",
+    "type": "toggle",
+    "img": "images/relics/white_priestess_earrings.png",
+    "loop": false,
+    "codes": "earrings"
+  },
+  {
+    "name": "White Priestess Statue",
+    "type": "toggle",
+    "img": "images/relics/white_priestess_statue.png",
+    "loop": false,
+    "codes": "statue"
+  }, 
+  {
+    "name": "Iris' Ring (UNUSED)",
+    "type": "toggle",
+    "img": "images/relics/iris_ring.png",
+    "loop": false,
+    "codes": "iris"
+  },
+  {
+    "name": "Sinner's Hood (UNUSED)",
+    "type": "toggle",
+    "img": "images/relics/sinners_hood.png",
+    "loop": false,
+    "codes": "hood"
+  },
+  {
+    "name": "Melville's Gift (UNUSED)",
+    "type": "toggle",
+    "img": "images/relics/melvilles_gift.png",
+    "loop": false,
+    "codes": "gift"
+  },
+  {
+    "name": "Faden's Orb (UNUSED)",
+    "type": "toggle",
+    "img": "images/relics/fadens_orb.png",
+    "loop": false,
+    "codes": "orb"
+  }, 
+  {
+    "name": "Heiml's Pride (UNUSED)",
+    "type": "toggle",
+    "img": "images/relics/heimls_pride.png",
+    "loop": false,
+    "codes": "heiml"
+  },
+  {
+    "name": "Miriel's Ring (UNUSED)",
+    "type": "toggle",
+    "img": "images/relics/miriels_ring.png",
+    "loop": false,
+    "codes": "miriel"
+  },
+  {
+    "name": "Groa's Ring (UNUSED)",
+    "type": "toggle",
+    "img": "images/relics/groas_ring.png",
+    "loop": false,
+    "codes": "groa"
+  } 
+]

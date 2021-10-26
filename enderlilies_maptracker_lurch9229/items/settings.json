@@ -1,0 +1,173 @@
+[
+    {
+        "name": "Shuffle Spirits",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "images/settings/spirits_on.png",
+                "codes": "setting_spirits",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/spirits_off.png",
+                "codes": "setting_spirits_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Relics",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "images/settings/relics_on.png",
+                "codes": "setting_relics",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/relics_off.png",
+                "codes": "setting_relics_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Amulets",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/amulets_on.png",
+                "codes": "setting_amulets",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/amulets_off.png",
+                "codes": "setting_amulets_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Chains",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/chains_on.png",
+                "codes": "setting_chains",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/chains_off.png",
+                "codes": "setting_relics_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Blight",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/blight_on.png",
+                "codes": "setting_blight",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/blight_off.png",
+                "codes": "setting_blight_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Wishes",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/wishes_on.png",
+                "codes": "setting_wishes",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/wishes_off.png",
+                "codes": "setting_wishes_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Findings",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/findings_on.png",
+                "codes": "setting_findings",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/findings_off.png",
+                "codes": "setting_findings_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle C Ending Items",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/c_end_on.png",
+                "codes": "setting_c_end",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/c_end_off.png",
+                "codes": "setting_c_end_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuffle Relic Costs",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/costs_on.png",
+                "codes": "setting_costs",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/costs_off.png",
+                "codes": "setting_costs_off",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

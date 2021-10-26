@@ -1,0 +1,1132 @@
+[
+    {
+        "name": "Verboten Domain",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 2980,
+                        "y": 350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J1",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath",
+                            "$VerbotenDomainACCESS,mask"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP) (In Crate)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 2480,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J1",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4750,
+                        "y": 740
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J2",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath",
+                            "$VerbotenDomainACCESS,mask"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Champion Fight",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4620,
+                        "y": 1030
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J2",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,unlock",
+                            "$VerbotenDomainACCESS,mask,unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4330,
+                        "y": 1800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J3",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,aquatic",
+                            "$VerbotenDomainACCESS,mask,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x100",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 3850,
+                        "y": 1850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J3",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,aquatic",
+                            "$VerbotenDomainACCESS,mask,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Heretic's Mask",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4960,
+                        "y": 1430
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J4",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J4ACCESSF26"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 5080,
+                        "y": 1350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J4ACCESSF26"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Verboten Domain Notice",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 5140,
+                        "y": 1450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J4",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J4ACCESSF26",
+                            "$D16ACCESS,dash,mask",
+                            "$D16ACCESS,dodge2,mask",
+                            "$D16ACCESS,dodge2,$domainMath",
+                            "$D16ACCESS,dash,$domainMath"
+                            
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Weathered Necklace",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1080,
+                        "y": 695
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J5",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,$LEDGE",
+                            "$VerbotenDomainACCESS,mask,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 700,
+                        "y": 505
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,$LEDGE,$HORIZONTAL",
+                            "$VerbotenDomainACCESS,$domainMath,silva,djump",
+                            "$VerbotenDomainACCESS,mask,$LEDGE,$HORIZONTAL",
+                            "$VerbotenDomainACCESS,mask,silva,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1100,
+                        "y": 980
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J6",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath",
+                            "$VerbotenDomainACCESS,mask"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 680,
+                        "y": 1240
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J6ACCESS,$domainMath,hammer",
+                            "$J6ACCESS,mask,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x30",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1100,
+                        "y": 1255
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,hook,hammer",
+                            "$VerbotenDomainACCESS,$domainMath,claws,hammer",
+                            "$VerbotenDomainACCESS,mask,hook,hammer",
+                            "$VerbotenDomainACCESS,mask,claws,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 210,
+                        "y": 1410
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J7",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J7ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Faden's Archives IV",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 260,
+                        "y": 1330
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J7",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J7ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x100",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1480,
+                        "y": 1785
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J8",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J8ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 765,
+                        "y": 2055
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J8",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J8ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x100",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1695,
+                        "y": 2795
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J9",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Gem (+20 HP)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1425,
+                        "y": 2810
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J9",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x100",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1180,
+                        "y": 2795
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J9",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Blighted Appendage",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4270,
+                        "y": 2270
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J10",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J10ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 3850,
+                        "y": 2220
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J10",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J10ACCESS,djump,$HORIZONTAL",
+                            "$J10ACCESS,silva,$HORIZONTAL",
+                            "$J10ACCESS,claws,verboten,$HORIZONTAL",
+                            "$J10ACCESS,claws,verboten,djump",
+                            "$J10ACCESS,silva,djump,claws",
+                            "$J10ACCESS,silva,djump,plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 3700,
+                        "y": 2700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J11",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J11ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Incompetent Sinner Fight",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 3920,
+                        "y": 3180
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J11",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J11ACCESS,mask,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Priestess' Wish (Prayer Upgrade)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4550,
+                        "y": 2960
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J12",
+                        "visibility_rules": 
+                        [
+                            "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J11ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Faden's Archives II",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4675,
+                        "y": 2885
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J12",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J11ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 3020,
+                        "y": 1755
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J13",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J13ACCESSE,claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Calivia's Ring",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 2620,
+                        "y": 2040
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J13",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J13ACCESSW,$LEDGE,claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Faden's Archives I",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 2800,
+                        "y": 3275
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J14",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x800",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1798,
+                        "y": 3220
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J16",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS,$LEDGE,claws,$HORIZONTAL2",
+                            "$J14ACCESS,$LEDGE2,dodge2,claws",
+                            "$J14ACCESS,$FULLSILVA,claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Miriel, The Beloved Prize",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1798,
+                        "y": 3335
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Faden",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Finding - Miriel's Blighted Letter",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Finding - Faden's Archives V",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Silva's Bloodstained Note I",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1758,
+                        "y": 3630
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K1",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K1ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x100",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1500,
+                        "y": 4300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K1",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K1ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Silva's Bloodstained Note II",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1910,
+                        "y": 4850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K2",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Fretia's Memoirs V",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1765,
+                        "y": 4725
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K2",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "White Priestess' Earrings",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1645,
+                        "y": 4850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K2",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mother",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1815,
+                        "y": 4850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ending B",
+                        "visibility_rules": 
+                        [
+                            "setting_hidden"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ending C",
+                        "visibility_rules": 
+                        [
+                            "setting_hidden"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS,luminantcurio"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1970,
+                        "y": 4690
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K2",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS,claws,$LEDGE,$HORIZONTAL,",
+                            "$K2ACCESS,$HORIZONTAL2",
+                            "$K2ACCESS,silva,djump,dodge2,ulv",
+                            "$K2ACCESS,claws,$LEDGE2,dash",
+                            "$K2ACCESS,claws,silva,djump,dash"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x100",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4830,
+                        "y": 3540
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x100",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4830,
+                        "y": 3725
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Soul x2",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4830,
+                        "y": 4380
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stone Tablet Fragment",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4750,
+                        "y": 4380
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K5",
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1 
+                    }
+                ]
+            },
+            {
+            "name": "Finding - The Deathless Pact",
+            "map_locations": [
+                {
+                    "map": "VerbotenDomain",
+                    "x": 4680,
+                    "y": 4380
+                }
+            ],
+            "sections": [
+                {
+                    "name": "K5",
+                    "visibility_rules": 
+                    [
+                        "setting_findings"
+                    ],
+                    "access_rules": 
+                    [
+                        "$K5ACCESS"
+                    ],
+                    "item_count": 1 
+                }
+            ]
+        }
+        ] 
+    }
+]

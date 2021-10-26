@@ -1,0 +1,15 @@
+[
+ 
+  {
+    "name": "Credits",
+    "location_size": 100,
+    "location_border_thickness": 5,
+    "img": "images/items/credits.png"
+  },
+  {
+    "name": "WorldMap",
+    "location_size": 140,
+    "location_border_thickness": 5,
+    "img": "images/maps/full_map.png"
+  }
+]

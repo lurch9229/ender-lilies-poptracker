@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Go Mode",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": "true",
+    "v_alignment": "center",
+    "stages": [
+      {
+		    "name": "Journey's End",
+		    "img": "images/items/Journeys_End_edited.png",
+		    "codes": "Bend",
+		    "inherit_codes": false
+	    },
+	    {
+        "name": "Dawn Prayer",
+		    "img": "images/items/Dawn_Prayer_edited.png",
+		    "codes": "Cend",
+		    "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Chapter",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+     
+      {
+        "name": "Chapter 1",
+        "img": "images/items/chapter/ch1.png",
+        "inherit_codes": true,
+        "codes": "ch1" 
+      },
+      {
+        "name": "Chapter 2",
+        "img": "images/items/chapter/ch2.png",
+        "inherit_codes": true,
+        "codes": "ch2"
+      },
+      {
+        "name": "Chapter 3",
+        "img": "images/items/chapter/ch3.png",
+        "inherit_codes": true,
+        "codes": "ch3"
+      },
+      {
+        "name": "Chapter 4",
+        "img": "images/items/chapter/ch4.png",
+        "inherit_codes": true,
+        "codes": "ch4"
+      },
+      {
+        "name": "Chapter 5",
+        "img": "images/items/chapter/ch5.png",
+        "inherit_codes": true,
+        "codes": "ch5"
+      },
+      {
+        "name": "Chapter 6",
+        "img": "images/items/chapter/ch6.png",
+        "inherit_codes": true,
+        "codes": "ch6"
+      },
+      {
+        "name": "Chapter 7",
+        "img": "images/items/chapter/ch7.png",
+        "inherit_codes": true,
+        "codes": "ch7"
+      },
+      {
+        "name": "Chapter 8",
+        "img": "images/items/chapter/ch8.png",
+        "inherit_codes": true,
+        "codes": "ch8"
+      },
+      {
+        "name": "Chapter 9",
+        "img": "images/items/chapter/ch9.png",
+        "inherit_codes": true,
+        "codes": "ch9"
+      },
+      {
+        "name": "Chapter 10",
+        "img": "images/items/chapter/ch10.png",
+        "inherit_codes": true,
+        "codes": "ch9"
+      }
+    ]
+  },
+  {
+    "name": "Amulet Fragment",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/Amulet_Fragment.png",
+    "overlay_background": "#000",
+    "codes": "fragment",
+    "max_quantity": 36,
+    "initial_quantity": 0,
+    "increment": 1,
+	"swap_actions": false
+  }, 
+  {
+    "name": "Amulet Gem",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/Amulet_Gem.png",
+    "overlay_background": "#000",
+    "codes": "gem",
+    "max_quantity": 6,
+    "initial_quantity": 0,
+    "increment": 1,
+	"swap_actions": false
+  },
+  {
+    "name": "Bloody Knight's Claws",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/bloody_knights_claws.png",
+    "codes": "claws",
+	"swap_actions": false
+  },
+  {
+    "name": "Chain Of Sorcery",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/Chain_of_Sorcery.png",
+    "overlay_background": "#000",
+    "codes": "relicslot",
+    "min_quantity": 2,
+    "max_quantity": 20,
+    "initial_quantity": 2,
+    "increment": 1,
+	"swap_actions": false
+  },
+  {
+    "name": "Dash",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/dash.png",
+    "codes": "dash",
+	"swap_actions": false
+  },
+  {
+    "name": "Dodge",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/dodge.png",
+    "codes": "dodge"
+  },
+  {
+    "name": "Executioner's Hook",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/executioners_hook.png",
+    "codes": "hook",
+	"swap_actions": false
+  },
+  {
+    "name": "Giant's Hammer",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/giants_hammer.png",
+    "codes": "hammer",
+	"swap_actions": false
+  },
+  {
+    "name": "Guardian's Leap",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/guardians_leap.png",
+    "codes": "djump",
+	"swap_actions": false
+  },
+  {
+    "name": "Guardian's Wings",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/guardians_wings.png",
+    "codes": "dodge2",
+	"swap_actions": false
+  },
+  {
+    "name": "Jump",
+    "type": "toggle",
+	  "initial_active_state": true,
+	  "allow_disabled": false,
+    "img": "images/items/jump.png",
+    "codes": "jump"
+  },
+  {
+    "name": "Last Rites",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/last_rites.png",
+    "codes": "rites,ult",
+	"swap_actions": false
+  },
+  {
+    "name": "Piercing Spectral Lance",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/piercing_spectral_lance.png",
+    "codes": "lance",
+	"swap_actions": false
+  },
+  {
+    "name": "Prayer",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/prayer.png",
+    "codes": "pray"
+  },
+  {
+    "name": "Pristess' Wish",
+    "type": "consumable",
+    "overlay_background": "#000",
+    "max_quantity": 8,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/items/Priestess_Wish.png",
+    "codes": "wish",
+	"swap_actions": false
+  },
+  {
+    "name": "Swim",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/swim.png",
+    "codes": "paddle"
+  },
+  {
+    "name": "Switch Spirits",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/switch.png",
+    "codes": "switch"
+  },
+  {
+    "name": "Unlock",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/unlock.png",
+    "codes": "unlock",
+	"swap_actions": false
+  },
+  {
+    "name": "Witch's Bubble",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/witchs_bubble.png",
+    "codes": "aquatic",
+	"swap_actions": false
+  },
+  {
+    "name": "Witch's Bubble",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/witchs_bubble.png",
+    "codes": "aquatic",
+	"swap_actions": false
+  },
+  {
+    "name": "Health",
+    "type": "toggle",
+    "loop": "false",
+    "codes": "health",
+	"swap_actions": false
+  },
+  {
+    "name": "Defeat Siegrid",
+    "type": "toggle",
+    "codes": "defeatSiegrid"
+  },
+  {
+    "name": "Defeat Gerrod",
+    "type": "toggle",
+    "codes": "defeatGerrod"
+  },
+  {
+    "name": "Defeat Hoenir",
+    "type": "toggle",
+    "codes": "defeatHoenir"
+  },
+  {
+    "name": "Defeat Ulv",
+    "type": "toggle",
+    "codes": "defeatUlv"
+  },
+  {
+    "name": "Stone Tablet Cliffs",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/stone_tabletch.png",
+    "codes": "tabletch",
+	"swap_actions": false
+  },
+  {
+    "name": "Stone Tablet Thicket",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/stone_tabletwt.png",
+    "codes": "tabletwt",
+	"swap_actions": false
+  },
+  {
+    "name": "Stone Tablet Catacombs",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/stone_tabletcc.png",
+    "codes": "tabletcc",
+	"swap_actions": false
+  },
+  {
+    "name": "Stone Tablet Castle",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/stone_tabletrc.png",
+    "codes": "tabletrc",
+	"swap_actions": false
+  },
+  {
+    "name": "Stone Tablet Stockade",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/stone_tabletsa.png",
+    "codes": "tabletsa",
+	"swap_actions": false
+  },
+  {
+    "name": "Stone Tablet Spires",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/stone_tabletts.png",
+    "codes": "tabletts",
+	"swap_actions": false
+  },
+  {
+    "name": "Stone Tablet Domain",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/stone_tabletvd.png",
+    "codes": "tabletvd",
+	"swap_actions": false
+  }
+]

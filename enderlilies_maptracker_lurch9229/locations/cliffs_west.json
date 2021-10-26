@@ -1,0 +1,969 @@
+[
+    {
+        "name": "Cliffside Hamlet West",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 520,
+                        "y": 1700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C1",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "$C1ACCESS,hook",
+                            "$C15ACCESS,$LEDGE2",
+							"$C1ACCESS,djump,$HORIZONTAL",
+							"$C1ACCESS,sinner",
+							"$C1ACCESS,silva,ulv,fretia"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 700,
+                        "y": 1800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C1 Inside Crate",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules":
+                        [
+                            "$C1ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 1250,
+                        "y": 1650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C1",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "$C2ACCESS,hook",
+                            "$C2ACCESS,djump,silva",
+                            "$C2ACCESS,verboten,silva"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 1740,
+                        "y": 1320
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP) (In Barrel)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 1800,
+                        "y": 1320
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C2",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 1900,
+                        "y": 1320
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C2ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Broken Music Box",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2440,
+                        "y": 1305
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C2",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C2ACCESS,claws",
+                            "$C2ACCESS,silva",
+                            "$C2ACCESS,$HORIZONTAL",
+                            "$C2ACCESS,djump",
+                            "$C2ACCESS,$AIRSTALL",
+                            "$C2ACCESS,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - True Believer's Note",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3035,
+                        "y": 1315
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C3",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C3ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                       
+                        "x": 3370,
+                        "y": 1150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules":
+                        [
+                            "$C4ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "2 Stagnant Blights x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3680,
+                        "y": 1330
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C4ACCESS,hammer,claws",
+                            "$C4ACCESS,hammer,hook",
+                            "$C4ACCESS,hammer,verboten,djump",
+                            "$C4ACCESS,hammer,verboten,silva"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 4340,
+                        "y": 1330
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "$C4ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 4170,
+                        "y": 1180
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C4ACCESS,hook",
+                            "$C4ACCESS,claws",
+                            "$C4ACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 4410,
+                        "y": 1150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C4ACCESS,claws,$LEDGE",
+                            "$C4ACCESS,$LEDGE2",
+                            "$C4ACCESS,plume,verboten",
+                            "$C4ACCESS,plume,djump",
+                            "$C4ACCESS,plume,sinner",
+                            "$C4ACCESS,sinner,silva",
+                            "$C4ACCESS,$HORIZONTAL,verboten",
+                            "$C4ACCESS,$HORIZONTAL2,hook",
+                            "$C4ACCESS,djump,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 4780,
+                        "y": 780
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "$C5ACCESS,hook,djump",
+                            "$C5ACCESS,hook,silva",
+                            "$C5ACCESS,hook,verboten",
+                            "$C5ACCESS,djump,silva",
+                            "$C5ACCESS,verboten,silva",
+                            "$C5ACCESS,djump,verboten"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5070,
+                        "y": 780
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5290,
+                        "y": 772
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C5",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LEDGE",
+                            "plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 4840,
+                        "y": 1360
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C6ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 4950,
+                        "y": 1300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C6",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Headless Defender Fight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5160,
+                        "y": 1240
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C6",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Hamlet Request I",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5740,
+                        "y": 1150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C7",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C7ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Adherent's Letter",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5900,
+                        "y": 1090
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C7",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C7ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 1990,
+                        "y": 2300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C9",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "$C9ACCESS1"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Giant's Ring",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2050,
+                        "y": 2430
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C9",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C9ACCESS1,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot) (In Barrel)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2300,
+                        "y": 2320
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C9",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C9ACCESS2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Gem (+20 HP)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2180,
+                        "y": 2230
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C9",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C9ACCESS2,$LEDGE2",
+                            "$C9ACCESS2,$LEDGE,$HORIZONTAL",
+							"$C9ACCESS2,djump,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3680,
+                        "y": 2500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C10ACCESS9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fretia's Ring",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 4780,
+                        "y": 2480
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C11",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C11ACCESS",
+                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
+                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x800",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5330,
+                        "y": 2490
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C11",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump",
+                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
+                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - True Believer's Note",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3210,
+                        "y": 2810
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C12",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C10ACCESS9,dash,lance"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Stone Tablet Fragment",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3150,
+                        "y": 2810
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C12",
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C10ACCESS9,dash,lance"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bloodstained Ribbon",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2330,
+                        "y": 700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C13",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS,$LEDGE2",
+                            "$C13ACCESS,hook,djump",
+                            "$C13ACCESS,hook,$HORIZONTAL",
+                            "$C13ACCESS,hook,dash",
+                            "$C13ACCESS,djump,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2250,
+                        "y": 850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C13",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 1923,
+                        "y": 680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C13",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Western Merchant Fight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2210,
+                        "y": 350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C14",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x30",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5500,
+                        "y": 500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C15",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C15ACCESS,hammer,claws,$LEDGE",
+                            "$C15ACCESS,hammer,$FULLSILVA",
+                            "$C15ACCESS,hammer,hook"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5940,
+                        "y": 480
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C15",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C15ACCESS,hammer,djump,dodge2,claws",
+                            "$C15ACCESS,hammer,djump,dodge2,dash",
+                            "$C15ACCESS,hammer,djump,dodge2,ulv,plume",
+                            "$C15ACCESS,hammer,djump,dodge2,ulv,fretia",
+                            "$C15ACCESS,hammer,dodge2,verboten,claws",
+                            "$C15ACCESS,hammer,dodge2,verboten,ulv,fretia",
+                            "$C15ACCESS,hammer,sinner,verboten",
+                            "$C15ACCESS,hammer,dodge2,silva,claws",
+                            "$C15ACCESS,hammer,sinner,silva",
+                            "$C15ACCESS,hammer,djump,sinner",
+                            "$C15ACCESS,hammer,$HORIZONTAL2,plume",
+                            "$C15ACCESS,hammer,hook",
+                            "$C15ACCESS,hammer,silva,djump,claws",
+                            "$C15ACCESS,hammer,djump,silva,ulv,fretia",
+                            "$C15ACCESS,hammer,verboten,djump,ulv,fretia",
+                            "$C15ACCESS,hammer,plume,silva,djump,ulv",
+                            "$C15ACCESS,hammer,plume,verboten,silva,ulv,fretia",
+                            "$C15ACCESS,hammer,$FULLSILVA"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet Elder Fight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5720,
+                        "y": 300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C15",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C15ACCESS,plume",
+                            "$C15ACCESS,$LEDGE",
+                            "$C15ACCESS,hook,$HORIZONTAL",
+                            "$C15ACCESS,hook,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

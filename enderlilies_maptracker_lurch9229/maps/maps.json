@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Cathedral",
+    "location_size": 100,
+    "location_border_thickness": 5,
+    "img": "images/maps/Cathedral.png"
+  },
+  {
+    "name": "WhiteParish",
+    "location_size": 100,
+    "location_border_thickness": 5,
+    "img": "images/maps/White_Parish.png"
+  },
+  {
+    "name": "CliffsideHamletWest",
+    "location_size": 60,
+    "location_border_thickness": 5,
+    "img": "images/maps/Cliffside_Hamlet_W.png"
+  },
+  {
+    "name": "CliffsideHamletEast",
+    "location_size": 100,
+    "location_border_thickness": 5,
+    "img": "images/maps/Cliffside_Hamlet_E.png"
+  },
+  {
+    "name": "WitchesThicket",
+    "location_size": 60,
+    "location_border_thickness": 5,
+    "img": "images/maps/Witches_Thicket.png"
+  },
+  {
+    "name": "Catacombs",
+    "location_size": 65,
+    "location_border_thickness": 5,
+    "img": "images/maps/Catacombs.png"
+  },
+  {
+    "name": "TwinSpires",
+    "location_size": 60,
+    "location_border_thickness": 5,
+    "img": "images/maps/Twin_Spires.png"
+  },
+  {
+    "name": "Stockade",
+    "location_size": 60,
+    "location_border_thickness": 5,
+    "img": "images/maps/Stockade.png"
+  },
+  {
+    "name": "RuinedCastle",
+    "location_size": 60,
+    "location_border_thickness": 5,
+    "img": "images/maps/Ruined_Castle.png"
+  },
+  {
+    "name": "VerbotenDomain",
+    "location_size": 100,
+    "location_border_thickness": 5,
+    "img": "images/maps/Verboten_Domain.png"
+  },
+  {
+    "name": "Credits",
+    "location_size": 100,
+    "location_border_thickness": 5,
+    "img": "images/items/credits.png"
+  },
+  {
+    "name": "WorldMap",
+    "location_size": 140,
+    "location_border_thickness": 5,
+    "img": "images/maps/full_map.png"
+  }
+]

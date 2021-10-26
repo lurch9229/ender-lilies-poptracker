@@ -1,0 +1,1115 @@
+[
+    {
+        "name": "Ruined Castle",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Finding - Proof of Founding",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4665,
+                        "y": 2170
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H1",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Royal Aegis Crest",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3295,
+                        "y": 2075
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H2",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4080,
+                        "y": 2075
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3600,
+                        "y": 1485
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H3",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,$AIRSTALL",
+                            "$RuinedCastleACCESS,$LEDGE",
+                            "$RuinedCastleACCESS,$HORIZONTAL"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King of the First Age's Diary I",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3580,
+                        "y": 1440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H3",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King of the FIrst Age's Diary II",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4150,
+                        "y": 1440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H3",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3750,
+                        "y": 1380
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H3",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
+                        "access_rules":
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,claws,silva,djump,dodge2",
+                            "$RuinedCastleACCESS,claws,$FULLSILVA",
+                            "$RuinedCastleACCESS,claws,silva,dodge2,verboten"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Blightwreathed Blade",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1480,
+                        "y": 2030
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1020,
+                        "y": 2170
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 900,
+                        "y": 2120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 840,
+                        "y": 1970
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1300,
+                        "y": 1970
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws",
+                            "$RuinedCastleACCESS,silva,ulv,djump,dodge2",
+                            "$RuinedCastleACCESS,$FULLSILVA,dodge2",
+                            "$RuinedCastleACCESS,silva,dodge2,djump,plume",
+                            "$RuinedCastleACCESS,silva,djump,$HORIZONTAL2"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x30",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1900,
+                        "y": 1450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,djump,$HORIZONTAL",
+                            "$RuinedCastleACCESS,$LEDGE2,dodge2",
+                            "$RuinedCastleACCESS,$HORIZONTAL2",
+                            "$RuinedCastleACCESS,$FULLSILVA",
+                            "$RuinedCastleACCESS,sinner,djump",
+                            "$RuinedCastleACCESS,silva,djump,ulv"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Julius' Book",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 450,
+                        "y": 1500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H7",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 450,
+                        "y": 1600
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H7",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Gem (+20 HP)",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2700,
+                        "y": 1090
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H9",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,dodge2,silva",
+                            "$RuinedCastleACCESS,claws,dodge2,djump,hook",
+                            "$RuinedCastleACCESS,claws,$FULLSILVA"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1600,
+                        "y": 1120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5HP)",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1780,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H11",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance",
+                            "$H16ACCESS,dash,lance"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King's Note II",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1620,
+                        "y": 730
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H11",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance",
+                            "$H16ACCESS,dash,lance"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x100",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2050,
+                        "y": 730
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H11",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance,hook",
+                            "$H16ACCESS,dash,lance,hook"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Eldred's Ring",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1560,
+                        "y": 730
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H11",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance",
+                            "$H16ACCESS,dash,lance"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King's Note I",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2625,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H12",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10",
+                            "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Knight Captain Julius Fight",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3210,
+                        "y": 780
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H13",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
+                        "access_rules":
+                        [
+                            "$H11ACCESS10",
+                            "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x100",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4140,
+                        "y": 1190
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H14",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,lance,dash,claws",
+                            "$RuinedCastleACCESS,dash,lance,silva,djump",
+                            "$RuinedCastleACCESS,dash,lance,silva,dodge2",
+                            "$RuinedCastleACCESS,dash,lance,djump,dodge2",
+                            "$RuinedCastleACCESS,dash,lance,sinner",
+                            "$RuinedCastleACCESS,dash,lance,djump,verboten"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5HP) ",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4140,
+                        "y": 850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H14",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,$FULLSILVA,dodge2,claws"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x800",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4070,
+                        "y": 720
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H14",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,$FULLSILVA,dodge2",
+                            "$RuinedCastleACCESS,claws,$LEDGE2,$HORIZONTAL2",
+                            "$RuinedCastleACCESS,claws,$LEDGE2,dodge2,dash",
+                            "$RuinedCastleACCESS,claws,silva,$HORIZONTAL2"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Priestess' Wish (Prayer Upgrade)",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3440,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H15",
+                        "visibility_rules": 
+                        [
+                            "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Priestess' Castle Memo",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3495,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H15",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Castle Roof",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1980,
+                        "y": 430
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "One-Eyed Royal Aegis Fight",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1540,
+                        "y": 380
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H16",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H16ACCESS,claws",
+                            "$H16ACCESS,$FULLSILVA",
+                            "$H16ACCESS,silva,djump,dodge2"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2682,
+                        "y": 1950
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H17",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,$HORIZONTAL",
+                            "$RuinedCastleACCESS,claws,$LEDGE",
+                            "$RuinedCastleACCESS,hook"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5HP) ",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2682,
+                        "y": 1800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H17",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2990,
+                        "y": 2430
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H18",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,$FULLSILVA",
+                            "$RuinedCastleACCESS,silva,djump,dodge2"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5HP) ",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1875,
+                        "y": 2445
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H18",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Report from a Verboten Mage",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2512,
+                        "y": 2700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H19",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x100",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4570,
+                        "y": 1590
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H20",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,unlock"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stone Tablet Fragment",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4810,
+                        "y": 1620
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H20",
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,unlock"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King of the First Age's Diary III",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4648,
+                        "y": 1500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H20",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,unlock"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

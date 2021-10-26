@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Castle Town Maiden",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/castle_town_maiden.png",
+    "overlay_background": "#000",
+    "codes": "maiden",
+	"swap_actions": false
+  },
+  {
+    "name": "Chief Guardian",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/chief_guardian.png",
+    "overlay_background": "#000",
+    "codes": "chief",
+	  "action_swap": false
+  },
+  {
+    "name": "Cliffside Hamlet Elder",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/cliffside_hamlet_elder.png",
+    "overlay_background": "#000",
+    "codes": "cliffelder",
+	  "action_swap": false
+  },
+  {
+    "name": "Cliffside Hamlet Youth",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/cliffside_hamlet_youth.png",
+    "overlay_background": "#000",
+    "codes": "cliffyouth",
+	  "action_swap": false
+  },
+  {
+    "name": "Dark Executioner",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/dark_executioner.png",
+    "overlay_background": "#000",
+    "codes": "executioner",
+	  "action_swap": false
+  },
+  {
+    "name": "Dark Witch Eleine",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/dark_witch_eleine.png",
+    "overlay_background": "#000",
+    "codes": "eleine"
+  },
+  {
+    "name": "Elder Crypt Keeper",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/elder_crypt_keeper.png",
+    "overlay_background": "#000",
+    "codes": "elderkeeper"
+  },
+  {
+    "name": "Faden, The Heretic",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/faden_the_heretic.png",
+    "overlay_background": "#000",
+    "codes": "faden"
+  },
+  {
+    "name": "Fallen Archer",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/fallen_archer.png",
+    "overlay_background": "#000",
+    "codes": "archer"
+  },
+  {
+    "name": "Fallen Sentinel",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/fallen_sentinel.png",
+    "overlay_background": "#000",
+    "codes": "sentinel"
+  },
+  {
+    "name": "Floral Sorceress",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/floral_sorceress.png",
+    "overlay_background": "#000",
+    "codes": "floral"
+  },
+  {
+    "name": "Forsaken Fellwyrm",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/forsaken_fellwyrm.png",
+    "overlay_background": "#000",
+    "codes": "fellwyrm"
+  },
+  {
+    "name": "Fungal Sorcerer",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/fungal_sorcerer.png",
+    "overlay_background": "#000",
+    "codes": "fungal"
+  },
+  {
+    "name": "Gerrod, The Elder Warrior ",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/gerrod.png",
+    "overlay_background": "#000",
+    "codes": "gerrod"
+  },
+  {
+    "name": "Guardian Siegrid",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/guardian_siegrid.png",
+    "overlay_background": "#000",
+    "codes": "siegrid"
+  },
+  {
+    "name": "Guardian Silva",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/guardian_silva.png",
+    "overlay_background": "#000",
+    "codes": "silva"
+  },
+  {
+    "name": "Headless Defender",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/headless_defender.png",
+    "overlay_background": "#000",
+    "codes": "headless"
+  },
+  {
+    "name": "Hidden Test Subject",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/hidden_test_subject.png",
+    "overlay_background": "#000",
+    "codes": "testsubject"
+  },
+  {
+    "name": "Hoenir, Keeper Of The Abyss",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/hoenir.png",
+    "overlay_background": "#000",
+    "codes": "hoenir"
+  },
+  {
+    "name": "Incompetent Sinner",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "img": "images/spirits/incompetent_sinner.png",
+    "overlay_background": "#000",
+    "codes": "sinner"
+  },
+  {
+    "name": "Knight Captain Julius ",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/julius.png",
+    "overlay_background": "#000",
+    "codes": "julius"
+  },
+  {
+    "name": "One-Eyed Royal Aegis",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/one-eyed_royal_aegis.png",
+    "overlay_background": "#000",
+    "codes": "royalaegis"
+  },
+  {
+    "name": "Ulv, The Mad Knight",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/ulv.png",
+    "overlay_background": "#000",
+    "codes": "ulv"
+  },
+  {
+    "name": "Umbral Knight",
+	"type": "consumable",
+  "max_quantity": 6,
+  "increment": 1,
+	"min_quantity": 1,
+	"allow_disabled": false,
+	"img": "images/spirits/umbral_knight.png",
+  "overlay_background": "#000",
+    "codes": "umbral"
+  },
+  {
+    "name": "Verboten Champion",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/verboten_champion.png",
+    "overlay_background": "#000",
+    "codes": "verboten"
+  },
+  {"name": "Western Merchant",
+    "type": "consumable",
+    "max_quantity": 6,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/spirits/western_merchant.png",
+    "overlay_background": "#000",
+    "codes": "merchant"
+  }
+]

@@ -1,0 +1,221 @@
+﻿{
+  "lily_spirit_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "40,40",
+    "rows": [
+      ["umbral","gerrod","silva","julius","ulv","eleine","hoenir"],
+      ["faden","siegrid","cliffyouth","headless","merchant","maiden","archer"],
+      ["elderkeeper","fungal","floral","sentinel","testsubject","executioner","sinner"],
+      ["","verboten","cliffelder","chief","royalaegis","fellwyrm",""]
+    ]
+  },
+"lily_relic_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "40,40",
+    "rows": [
+      [ "prayerbeads", "royalcrest", "music", "familiar", "snowdrop", "appendage", "giant"],
+      [ "dragonclaw", "ornament", "executionergloves", "crown", "weatherneck", "immortal",  "manisa"],
+      [ "aura", "kilteus", "caliva", "statue", "doll", "earrings", "holywater"],
+      [ "nymphilia", "spellbound", "plume", "witchbook", "ribbon", "blightblade", "heretic"],
+      [ "eldred","ricorus", "luminantcurio", "heirloom", "phantom", "fretia"]
+    ]
+  },
+"lily_ability_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "40,40",
+    "rows": [
+      ["pray", "jump", "dodge", "paddle", "switch"],
+      [ "djump", "hammer", "aquatic", "dodge2", "rites"],
+      [ "hook", "claws", "dash", "lance", "unlock"],
+      [ "ch1", "Bend", "gem", "fragment", "relicslot", "wish"],
+      [ "iris", "hood", "orb", "heiml", "gift", "miriel", "groa"],
+      ["tabletch", "tabletwt", "tabletcc", "tabletsa", "tabletts", "tabletrc", "tabletvd"]
+    ]
+  },
+
+  "settings_popup": {
+    "type": "array",
+    "margin": 5,
+    "content": [
+      {
+        "type": "group",
+        "header": "Settings",
+        "content": [
+          {
+            "type": "item",
+            "item": "setting_spirits"
+          },
+          {
+            "type": "item",
+            "margin": "0, 30, 0, 0",
+            "item": "setting_relics"
+          },
+          {
+            "type": "item",
+            "margin": "0, 60, 0, 0",
+            "item": "setting_amulets"
+          },
+          {
+            "type": "item",
+            "margin":"165, 0, 0, 0",
+            "item": "setting_chains"
+          },
+          {
+            "type": "item",
+            "margin":"165, 30, 0, 0",
+            "item": "setting_blight"
+          },
+          {
+            "type": "item",
+            "margin":"165, 60, 0, 0",
+            "item": "setting_wishes"
+          },
+          {
+            "type": "item",
+            "margin":"330, 0, 0, 0",
+            "item": "setting_findings"
+          },
+          {
+            "type": "item",
+            "margin":"330, 30, 0, 0",
+            "item": "setting_c_end"
+          },
+          {
+            "type": "item",
+            "margin":"330, 60, 0, 0",
+            "item": "setting_costs"
+          }
+        ]
+      }
+    ]
+  },
+
+"tracker_horizontal": 
+{
+  "type": "container",
+  "content": 
+  {
+    "type": "dock",
+    "dropshadow": true,
+    "content": 
+    [
+      {
+        "type": "array",
+        "dock": "bottom",
+		    "orientation": "horizontal",
+        "h_alginment": "center",
+        "content": 
+        [
+          {
+            "type": "group",
+            "header": "Spirits",
+            "header_content": {
+              "type": "button_popup",
+              "style": "settings",
+              "popup_background": "#55212121",
+              "layout": "settings_popup"
+            },
+            "content": 
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "h_alignment": "center",
+              "margin": "0,0",
+              "content": 
+              [
+                {
+                  "type": "layout",
+                  "key": "lily_spirit_grid"
+                }
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "header": "Relics",
+            "content":
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "h_alignment": "center",
+              "margin": "0,0",
+              "content":
+              [
+                {
+                  "type": "layout",
+                  "key": "lily_relic_grid"
+                }
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "header": "Abilities",
+            "content":
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "h_alignment": "center",
+              "margin": "0,0",
+              "content":
+              [
+                {
+                  "type": "layout",
+                  "key": "lily_ability_grid"
+                }
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "header": "Pinned Locations",
+            "content": 
+            {
+              "type": "recentpins",
+              "style": "wrap",
+              "h_alignment": "stretch",
+              "v_alignment": "stretch",
+              "orientation": "horizontal",
+              "compact": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "dock",
+        "v_alignment": "stretch",
+        "h_alignment": "stretch",
+        "margin": "0, 0, 0, 0",
+        "content": [
+            {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+              {
+                "title": "World Map",
+                "content": {
+                  "type":"map",
+                  "maps": ["WorldMap"]
+                }
+              },
+              {
+                "title": "Credits",
+                "content": {
+                  "type": "map",
+                  "maps": ["Credits"]
+                }
+              } 
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+}
