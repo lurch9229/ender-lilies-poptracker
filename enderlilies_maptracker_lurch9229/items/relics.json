@@ -1,288 +1,1684 @@
 [
   {
     "name": "Ancient Dragon Claw",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/ancient_dragon_claw.png",
-    "codes": "dragonclaw"
+    "stages": [
+      {
+        "img": "images/relics/ancient_dragon_claw.png",
+        "codes": "dragonclaw"
+      },
+      {
+        "img": "images/relics/ancient_dragon_claw.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "dragonclaw0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ancient_dragon_claw.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "dragonclaw1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ancient_dragon_claw.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "dragonclaw2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ancient_dragon_claw.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "dragonclaw3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ancient_dragon_claw.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "dragonclaw4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Aura's Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/auras_ring.png",
-    "codes": "aura"
+    "stages": [
+      {
+        "img": "images/relics/auras_ring.png",
+        "codes": "aura"
+      },
+      {
+        "img": "images/relics/auras_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "aura0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/auras_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "aura1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/auras_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "aura2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/auras_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "aura3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/auras_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "aura4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Blighted Appendage",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/blighted_appendage.png",
-    "codes": "appendage"
+    "stages": [
+      {
+        "img": "images/relics/blighted_appendage.png",
+        "codes": "appendage"
+      },
+      {
+        "img": "images/relics/blighted_appendage.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "appendage0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blighted_appendage.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "appendage1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blighted_appendage.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "appendage2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blighted_appendage.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "appendage3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blighted_appendage.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "appendage4",
+        "inherit_codes": true
+      }
+    ]
   },
   {"name": "Blighted Phantom",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/blighted_phantom.png",
-    "codes": "phantom"
+    "stages": [
+      {
+        "img": "images/relics/blighted_phantom.png",
+        "codes": "phantom"
+      },
+      {
+        "img": "images/relics/blighted_phantom.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "phantom0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blighted_phantom.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "phantom1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blighted_phantom.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "phantom2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blighted_phantom.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "phantom3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blighted_phantom.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "phantom4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Blightwreathed Blade",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/blightwreathed_blade.png",
-    "codes": "blightblade"
+    "stages": [
+      {
+        "img": "images/relics/blightwreathed_blade.png",
+        "codes": "blightblade"
+      },
+      {
+        "img": "images/relics/blightwreathed_blade.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "blightblade0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blightwreathed_blade.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "blightblade1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blightwreathed_blade.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "blightblade2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blightwreathed_blade.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "blightblade3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/blightwreathed_blade.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "blightblade4",
+        "inherit_codes": true
+      }
+    ]   
   },
   {
     "name": "Bloodstained Ribbon",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/bloodstained_ribbon.png",
-    "codes": "ribbon"
+    "stages": [
+      {
+        "img": "images/relics/bloodstained_ribbon.png",
+        "codes": "ribbon"
+      },
+      {
+        "img": "images/relics/bloodstained_ribbon.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "ribbon0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/bloodstained_ribbon.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "ribbon1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/bloodstained_ribbon.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "ribbon2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/bloodstained_ribbon.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "ribbon3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/bloodstained_ribbon.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "ribbon4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Broken Music Box",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/broken_music_box.png",
-    "codes": "music"
+    "stages": [
+      {
+        "img": "images/relics/broken_music_box.png",
+        "codes": "music"
+      },
+      {
+        "img": "images/relics/broken_music_box.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "music0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/broken_music_box.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "music1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/broken_music_box.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "music2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/broken_music_box.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "music3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/broken_music_box.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "music4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Caliva's Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/calivas_ring.png",
-    "codes": "caliva"
+    "stages": [
+      {
+        "img": "images/relics/calivas_ring.png",
+        "codes": "caliva"
+      },
+      {
+        "img": "images/relics/calivas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "caliva0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/calivas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "caliva1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/calivas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "caliva2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/calivas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "caliva3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/calivas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "caliva4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Cracked Familiar Stone",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/cracked_familiar_stone.png",
-    "codes": "familiar"
+    "stages": [
+      {
+        "img": "images/relics/cracked_familiar_stone.png",
+        "codes": "familiar"       
+      },
+      {
+        "img": "images/relics/cracked_familiar_stone.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "familiar0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/cracked_familiar_stone.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "familiar1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/cracked_familiar_stone.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "familiar2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/cracked_familiar_stone.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "familiar3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/cracked_familiar_stone.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "familiar4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Decayed Crown",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/decayed_crown.png",
-    "codes": "crown"
+    "stages": [
+      {
+        "img": "images/relics/decayed_crown.png",
+        "codes": "crown"
+      },
+      {
+        "img": "images/relics/decayed_crown.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "crown0",
+        "inherit_codes": true
+      },
+      {
+        
+        "img": "images/relics/decayed_crown.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "crown1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/decayed_crown.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "crown2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/decayed_crown.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "crown3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/decayed_crown.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "crown4",
+        "inherit_codes": true
+      }
+    ]
+    
   },
   {
     "name": "Eldred's Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/eldreds_ring.png",
-    "codes": "eldred"
+    "stages": [
+      {
+        "img": "images/relics/eldreds_ring.png",
+        "codes": "eldred"
+      },
+      {
+        "img": "images/relics/eldreds_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "eldred0",
+        "inherit_codes": true        
+      },
+      {
+        "img": "images/relics/eldreds_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "eldred1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/eldreds_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "eldred2",
+        "inherit_codes": true 
+      },
+      {
+        "img": "images/relics/eldreds_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "eldred3",
+        "inherit_codes": true 
+      },
+      {
+        "img": "images/relics/eldreds_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "eldred4",
+        "inherit_codes": true 
+      }
+    ]
   },
   {
     "name": "Executioner's Gloves",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/executioners_gloves.png",
-    "codes": "executionergloves"
+    "stages": [
+      {
+        "img": "images/relics/executioners_gloves.png",
+        "codes": "executionergloves"
+      },
+      {
+        "img": "images/relics/executioners_gloves.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "executionergloves0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/executioners_gloves.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "executionergloves1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/executioners_gloves.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "executionergloves2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/executioners_gloves.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "executionergloves3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/executioners_gloves.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "executionergloves4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Fretia's Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/fretias_ring.png",
-    "codes": "fretia"
+    "stages": [
+      {
+        "img": "images/relics/fretias_ring.png",
+        "codes": "fretia"
+      },
+      {
+        "img": "images/relics/fretias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png", 
+        "codes": "fretia0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/fretias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png", 
+        "codes": "fretia1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/fretias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png", 
+        "codes": "fretia2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/fretias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png", 
+        "codes": "fretia3",
+        "inherit_codes": true
+      },
+      {  
+        "img": "images/relics/fretias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png", 
+        "codes": "fretia4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Giant's Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/giants_ring.png",
-    "codes": "giant"
+    "stages": [
+      {
+        "img": "images/relics/giants_ring.png",
+        "codes": "giant"        
+      },
+      {
+        "img": "images/relics/giants_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "giant0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/giants_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "giant1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/giants_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "giant2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/giants_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "giant3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/giants_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "giant4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Heretic's Mask",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/heretics_mask.png",
-    "codes": "heretic,mask"
+    "stages": [
+      {
+        "img": "images/relics/heretics_mask.png",
+        "codes": "heretic,mask"
+      },
+      {
+        "img": "images/relics/heretics_mask.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "heretic0,mask0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/heretics_mask.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "heretic1,mask1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/heretics_mask.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "heretic2,mask2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/heretics_mask.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "heretic3,mask3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/heretics_mask.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "heretic4,mask4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Holy Spring Water",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/holy_spring_water.png",
-    "codes": "holywater"
+    "stages": [
+      {
+        "img": "images/relics/holy_spring_water.png",
+        "codes": "holywater"
+      },
+      {
+        "img": "images/relics/holy_spring_water.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "holywater0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/holy_spring_water.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "holywater1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/holy_spring_water.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "holywater2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/holy_spring_water.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "holywater3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/holy_spring_water.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "holywater4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Immortal's Crest",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/immortals_crest.png",
-    "codes": "immortal"
+    "stages": [
+      {
+        "img": "images/relics/immortals_crest.png",
+        "codes": "immortal"
+      },
+      {
+        "img": "images/relics/immortals_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "immortal0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/immortals_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "immortal1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/immortals_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "immortal2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/immortals_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "immortal3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/immortals_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "immortal4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Kilteus' Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/kilteus_ring.png",
-    "codes": "kilteus"
+    "stages": [
+      {
+        "img": "images/relics/kilteus_ring.png",
+        "codes": "kilteus"
+      },
+      {
+        "img": "images/relics/kilteus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "kilteus0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/kilteus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "kilteus1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/kilteus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "kilteus2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/kilteus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "kilteus3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/kilteus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "kilteus4",
+        "inherit_codes": true
+      }
+    ] 
   },
   {
     "name": "Lost Heirloom",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/lost_heirloom.png",
-    "codes": "heirloom"
+    "stages": [
+      {
+        "img": "images/relics/lost_heirloom.png",
+        "codes": "heirloom"
+      },
+      {
+        "img": "images/relics/lost_heirloom.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "heirloom0",
+        "inherit_codes": true        
+      },
+      {
+        "img": "images/relics/lost_heirloom.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "heirloom1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/lost_heirloom.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "heirloom2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/lost_heirloom.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "heirloom3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/lost_heirloom.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "heirloom4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Luminant Aegis Curio",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/luminant_aegis_curio.png",
-    "codes": "luminantcurio"
+    "stages": [
+      {
+        "img": "images/relics/luminant_aegis_curio.png",
+        "codes": "luminantcurio"
+      },
+      {
+        "img": "images/relics/luminant_aegis_curio.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "luminantcurio0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/luminant_aegis_curio.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "luminantcurio1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/luminant_aegis_curio.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "luminantcurio2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/luminant_aegis_curio.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "luminantcurio3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/luminant_aegis_curio.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "luminantcurio4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Manisa's Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/manisas_ring.png",
-    "codes": "manisa"
+    "stages": [
+      {
+        "img": "images/relics/manisas_ring.png",
+        "codes": "manisa"
+      },
+      {
+        "img": "images/relics/manisas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "manisa0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/manisas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "manisa1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/manisas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "manisa2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/manisas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "manisa3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/manisas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "manisa4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Nymphilia's Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/nymphilias_ring.png",
-    "codes": "nymphilia"
+    "stages": [
+      {
+        "img": "images/relics/nymphilias_ring.png",
+        "codes": "nymphilia"
+      },
+      {
+        "img": "images/relics/nymphilias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "nymphilia0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/nymphilias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "nymphilia1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/nymphilias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "nymphilia2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/nymphilias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "nymphilia3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/nymphilias_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "nymphilia4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Priestess' Doll",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/priestess_doll.png",
-    "codes": "doll"
+    "stages": [
+      {
+        "img": "images/relics/priestess_doll.png",
+        "codes": "doll"        
+      },
+      {
+        "img": "images/relics/priestess_doll.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "doll0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/priestess_doll.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "doll1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/priestess_doll.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "doll2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/priestess_doll.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "doll3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/priestess_doll.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "doll4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Ricorus' Ring",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/ricorus_ring.png",
-    "codes": "ricorus"
+    "stages": [
+      {
+        "img": "images/relics/ricorus_ring.png",
+        "codes": "ricorus"
+      },
+      {
+        "img": "images/relics/ricorus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "ricorus0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ricorus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "ricorus1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ricorus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "ricorus2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ricorus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "ricorus3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ricorus_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "ricorus4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Royal Aegis Crest",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/royal_aegis_crest.png",
-    "codes": "royalcrest,aegis"
+    "stages": [
+      {
+        "img": "images/relics/royal_aegis_crest.png",
+        "codes": "royalcrest,aegis"
+      },
+      {
+        "img": "images/relics/royal_aegis_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "royalcrest0,aegis0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/royal_aegis_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "royalcrest1,aegis1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/royal_aegis_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "royalcrest2,aegis2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/royal_aegis_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "royalcrest3,aegis3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/royal_aegis_crest.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "royalcrest4,aegis4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Ruined Witch's Book",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/ruined_witchs_book.png",
-    "codes": "witchbook"
+    "stages": [
+      {
+        "img": "images/relics/ruined_witchs_book.png",
+        "codes": "witchbook"
+      },
+      {
+        "img": "images/relics/ruined_witchs_book.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "witchbook0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ruined_witchs_book.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "witchbook1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ruined_witchs_book.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "witchbook2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ruined_witchs_book.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "witchbook3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/ruined_witchs_book.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "witchbook4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Rusted Blue Ornament",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/rusted_blue_ornament.png",
-    "codes": "ornament"
+    "stages": [
+      {
+        "img": "images/relics/rusted_blue_ornament.png",
+        "codes": "ornament"
+      },
+      {
+        "img": "images/relics/rusted_blue_ornament.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "ornament0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/rusted_blue_ornament.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "ornament1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/rusted_blue_ornament.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "ornament2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/rusted_blue_ornament.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "ornament3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/rusted_blue_ornament.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "ornament4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Snowdrop Bracelet",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/snowdrop_bracelet.png",
-    "codes": "snowdrop"
+    "stages": [
+      {
+        "img": "images/relics/snowdrop_bracelet.png",
+        "codes": "snowdrop"
+      },
+      {
+        "img": "images/relics/snowdrop_bracelet.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "snowdrop0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/snowdrop_bracelet.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "snowdrop1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/snowdrop_bracelet.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "snowdrop2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/snowdrop_bracelet.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "snowdrop3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/snowdrop_bracelet.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "snowdrop4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Soiled Prayer Beads",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/soiled_prayer_beads.png",
-    "codes": "prayerbeads"
+    "stages": [
+      {
+        "img": "images/relics/soiled_prayer_beads.png",
+        "codes": "prayerbeads"
+      },
+      {
+        "img": "images/relics/soiled_prayer_beads.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "prayerbeads0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/soiled_prayer_beads.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "prayerbeads1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/soiled_prayer_beads.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "prayerbeads2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/soiled_prayer_beads.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "prayerbeads3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/soiled_prayer_beads.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "prayerbeads4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Spellbound Anklet",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/spellbound_anklet.png",
-    "codes": "spellbound,anklet"
+    "stages": [
+      {
+        "img": "images/relics/spellbound_anklet.png",
+        "codes": "spellbound,anklet"
+      },
+      {
+        "img": "images/relics/spellbound_anklet.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "spellbound0,anklet0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/spellbound_anklet.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "spellbound1,anklet1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/spellbound_anklet.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "spellbound2,anklet2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/spellbound_anklet.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "spellbound3,anklet3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/spellbound_anklet.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "spellbound4,anklet4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Vibrant Plume",
-    "type": "toggle",
+    "type": "progressive_toggle",
     "loop": false,
-    "img": "images/relics/vibrant_plume.png",
-    "codes": "vibrant,plume"
+    "stages": [
+      {
+        "img": "images/relics/vibrant_plume.png",
+        "codes": "vibrant,plume"
+      },
+      {
+        "img": "images/relics/vibrant_plume.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "vibrant0,plume0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/vibrant_plume.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "vibrant1,plume1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/vibrant_plume.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "vibrant2,plume2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/vibrant_plume.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "vibrant3,plume3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/vibrant_plume.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "vibrant4,plume4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Weathered Necklace",
-    "type": "toggle",
-    "img": "images/relics/weathered_necklace.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "weatherneck"
+    "stages": [
+      {
+        "img": "images/relics/weathered_necklace.png",
+        "codes": "weatherneck"
+      },
+      {
+        "img": "images/relics/weathered_necklace.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "weatherneck0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/weathered_necklace.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "weatherneck1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/weathered_necklace.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "weatherneck2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/weathered_necklace.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "weatherneck3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/weathered_necklace.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "weatherneck4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "White Priestess' Earrings",
-    "type": "toggle",
-    "img": "images/relics/white_priestess_earrings.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "earrings"
+    "stages": [
+      {
+        "img": "images/relics/white_priestess_earrings.png",
+        "codes": "earrings"
+      },
+      {
+        "img": "images/relics/white_priestess_earrings.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "earrings0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/white_priestess_earrings.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "earrings1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/white_priestess_earrings.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "earrings2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/white_priestess_earrings.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "earrings3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/white_priestess_earrings.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "earrings4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "White Priestess Statue",
-    "type": "toggle",
-    "img": "images/relics/white_priestess_statue.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "statue"
+    "stages": [
+      {
+        "img": "images/relics/white_priestess_statue.png",
+        "codes": "statue"
+      },
+      {
+        "img": "images/relics/white_priestess_statue.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "statue0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/white_priestess_statue.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "statue1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/white_priestess_statue.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "statue2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/white_priestess_statue.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "statue3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/white_priestess_statue.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "statue4",
+        "inherit_codes": true
+      }
+    ]
   }, 
   {
     "name": "Iris' Ring (UNUSED)",
-    "type": "toggle",
-    "img": "images/relics/iris_ring.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "iris"
+    "stages": [
+      {
+        "img": "images/relics/iris_ring.png",
+        "codes": "iris"
+      },
+      {
+        "img": "images/relics/iris_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "iris0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/iris_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "iris1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/iris_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "iris2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/iris_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "iris3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/iris_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "iris4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Sinner's Hood (UNUSED)",
-    "type": "toggle",
-    "img": "images/relics/sinners_hood.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "hood"
+    "stages": [
+      {
+        "img": "images/relics/sinners_hood.png",
+        "codes": "hood"
+      },
+      {
+        "img": "images/relics/sinners_hood.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "hood0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/sinners_hood.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "hood1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/sinners_hood.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "hood2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/sinners_hood.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "hood3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/sinners_hood.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "hood4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Melville's Gift (UNUSED)",
-    "type": "toggle",
-    "img": "images/relics/melvilles_gift.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "gift"
+    "stages": [
+      {
+        "img": "images/relics/melvilles_gift.png",
+        "codes": "gift"
+      },
+      {
+        "img": "images/relics/melvilles_gift.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "gift0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/melvilles_gift.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "gift1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/melvilles_gift.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "gift2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/melvilles_gift.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "gift3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/melvilles_gift.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "gift4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Faden's Orb (UNUSED)",
-    "type": "toggle",
-    "img": "images/relics/fadens_orb.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "orb"
+    "stages": [
+      {
+        "img": "images/relics/fadens_orb.png",
+        "codes": "orb"
+      },
+      {
+        "img": "images/relics/fadens_orb.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "orb0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/fadens_orb.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "orb1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/fadens_orb.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "orb2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/fadens_orb.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "orb3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/fadens_orb.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "orb4",
+        "inherit_codes": true
+      }
+    ]
   }, 
   {
     "name": "Heiml's Pride (UNUSED)",
-    "type": "toggle",
-    "img": "images/relics/heimls_pride.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "heiml"
+    "stages": [
+      {
+        "img": "images/relics/heimls_pride.png",
+        "codes": "heiml"
+      },
+      {
+        "img": "images/relics/heimls_pride.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "heiml0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/heimls_pride.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "heiml1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/heimls_pride.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "heiml2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/heimls_pride.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "heiml3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/heimls_pride.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "heiml4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Miriel's Ring (UNUSED)",
-    "type": "toggle",
-    "img": "images/relics/miriels_ring.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "miriel"
+    "stages": [
+      {
+        "img": "images/relics/miriels_ring.png",
+        "codes": "miriel"
+      },
+      {
+        "img": "images/relics/miriels_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "miriel0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/miriels_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "miriel1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/miriels_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "miriel2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/miriels_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "miriel3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/relics/miriels_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "miriel4",
+        "inherit_codes": true
+      }
+    ]
   },
   {
     "name": "Groa's Ring (UNUSED)",
-    "type": "toggle",
-    "img": "images/relics/groas_ring.png",
+    "type": "progressive_toggle",
     "loop": false,
-    "codes": "groa"
+    "stages": [
+       {
+        "img": "images/relics/groas_ring.png",
+        "codes": "groa"
+       },
+       {
+        "img": "images/relics/groas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_0.png",
+        "codes": "groa0",
+        "inherit_codes": true
+       },
+       {
+        "img": "images/relics/groas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_1.png",
+        "codes": "groa1",
+        "inherit_codes": true
+       },
+       {
+        "img": "images/relics/groas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_2.png",
+        "codes": "groa2",
+        "inherit_codes": true
+       },
+       {
+        "img": "images/relics/groas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_3.png",
+        "codes": "groa3",
+        "inherit_codes": true
+       },
+       {
+        "img": "images/relics/groas_ring.png",
+        "img_mods": "overlay|images/overlays/overlay_4.png",
+        "codes": "groa4",
+        "inherit_codes": true
+       }
+    ]
   } 
 ]
