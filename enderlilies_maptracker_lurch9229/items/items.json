@@ -26,12 +26,17 @@
     "allow_disabled": false,
     "loop": false,
     "stages": [
-     
+
+      {
+        "name": "No Chapter",
+        "inherit_codes": true,
+        "codes": "ch"
+      },
       {
         "name": "Chapter 1",
         "img": "images/items/chapter/ch1.png",
         "inherit_codes": true,
-        "codes": "ch1" 
+        "codes": "ch1"
       },
       {
         "name": "Chapter 2",
