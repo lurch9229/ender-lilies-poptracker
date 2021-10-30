@@ -236,12 +236,12 @@
   {
     "name": "Umbral Knight",
 	"type": "consumable",
-  "max_quantity": 6,
-  "increment": 1,
+	"max_quantity": 6,
+	"increment": 1,
+    "loop": "false",
 	"min_quantity": 1,
-	"allow_disabled": false,
 	"img": "images/spirits/umbral_knight.png",
-  "overlay_background": "#000",
+	"overlay_background": "#000",
     "codes": "umbral"
   },
   {
