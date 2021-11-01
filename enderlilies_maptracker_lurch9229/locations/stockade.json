@@ -19,6 +19,7 @@
                         "name": "F1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -44,6 +45,7 @@
                         "name": "F2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -71,6 +73,7 @@
                         "name": "F2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -96,6 +99,7 @@
                         "name": "F3",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -121,6 +125,7 @@
                         "name": "Amulet Gem (+20HP)",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -135,6 +140,7 @@
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -162,6 +168,7 @@
                         "name": "F4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -187,6 +194,7 @@
                         "name": "F4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -212,6 +220,7 @@
                         "name": "F4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -236,6 +245,7 @@
                         "name": "F5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -261,6 +271,7 @@
                         "name": "F6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -287,6 +298,7 @@
                         "name": "F6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -312,6 +324,7 @@
                         "name": "F8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -341,6 +354,7 @@
                         "name": "F8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -368,6 +382,7 @@
                         "name": "F9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -402,6 +417,7 @@
                         "name": "F9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -428,6 +444,7 @@
                         "name": "F9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -456,6 +473,7 @@
                         "name": "F9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -484,6 +502,7 @@
                         "name": "F10",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -511,6 +530,7 @@
                         "name": "F11",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -536,6 +556,7 @@
                         "name": "F12",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits",
                             "setting_wishes",
                             "setting_blight" 
@@ -564,11 +585,15 @@
                         "name": "F13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
                         [
-                            "$F13ACCESS,defeatHoenir"
+                            "$F13ACCESS,hook,defeatHoenir",
+                            "$F13ACCESS,silva,djump,$HORIZONTAL,claws,defeatHoenir",
+                            "$F13ACCESS,silva,djump,ulv,claws,defeatHoenir",
+                            "$F13ACCESS,$FULLSILVA,defeatHoenir"
                         ],
                         "item_count": 1
                     }
@@ -588,6 +613,7 @@
                         "name": "F13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_wishes"
                         ],
                         "access_rules": 
@@ -615,6 +641,7 @@
                         "name": "F14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -639,6 +666,7 @@
                         "name": "F14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -663,6 +691,7 @@
                         "name": "F14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -688,6 +717,7 @@
                         "name": "F15",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -715,6 +745,7 @@
                         "name": "F16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -741,6 +772,7 @@
                         "name": "F17",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -766,6 +798,7 @@
                         "name": "F18",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -791,6 +824,7 @@
                         "name": "F19",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -815,6 +849,7 @@
                         "name": "F20",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -839,6 +874,7 @@
                         "name": "F21",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -865,6 +901,7 @@
                         "name": "F22",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -889,6 +926,7 @@
                         "name": "F23",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -913,6 +951,7 @@
                         "name": "F24",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -937,6 +976,7 @@
                         "name": "F25",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -961,6 +1001,7 @@
                         "name": "F27",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_c_end"
                         ],
                         "access_rules": 

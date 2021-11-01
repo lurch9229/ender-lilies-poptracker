@@ -26,17 +26,12 @@
     "allow_disabled": false,
     "loop": false,
     "stages": [
-
-      {
-        "name": "No Chapter",
-        "inherit_codes": true,
-        "codes": "ch"
-      },
+     
       {
         "name": "Chapter 1",
         "img": "images/items/chapter/ch1.png",
         "inherit_codes": true,
-        "codes": "ch1"
+        "codes": "ch1" 
       },
       {
         "name": "Chapter 2",
@@ -133,7 +128,7 @@
     "img": "images/items/Chain_of_Sorcery.png",
     "overlay_background": "#000",
     "codes": "relicslot",
-    "min_quantity": 2,
+    "min_quantity": 0,
     "max_quantity": 20,
     "initial_quantity": 2,
     "increment": 1,

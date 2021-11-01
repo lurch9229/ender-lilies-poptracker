@@ -20,11 +20,16 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_c_end"
                         ],
                         "access_rules":
-                         [
+                        [
                             "unlock,tablet:7"
+                        ],
+                        "hosted_item:": 
+                        [
+                            "luminantcurio"
                         ]
                     }
                 ]
@@ -44,6 +49,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -68,6 +74,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -92,6 +99,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -115,6 +123,7 @@
                         "name": "A3 Inside Barrel",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules":
@@ -141,6 +150,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -165,6 +175,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -188,6 +199,7 @@
                         "name": "A5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -214,6 +226,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -237,6 +250,7 @@
                         "name": "A6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules":
@@ -288,6 +302,7 @@
                         "name": "A8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules":
@@ -313,6 +328,7 @@
                         "name": "A8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules":
@@ -337,6 +353,7 @@
                         "name": "A8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules":
@@ -361,6 +378,7 @@
                         "name": "A9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_wishes"
                         ],
                         "access_rules":
@@ -386,6 +404,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":

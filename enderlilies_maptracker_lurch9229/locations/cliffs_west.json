@@ -19,6 +19,7 @@
                         "name": "C1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules":
@@ -47,6 +48,7 @@
                         "name": "C1 Inside Crate",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules":
@@ -71,6 +73,7 @@
                         "name": "C1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules":
@@ -97,6 +100,7 @@
                         "name": "C2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules":
@@ -121,6 +125,7 @@
                         "name": "C2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -145,6 +150,7 @@
                         "name": "C2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -169,6 +175,7 @@
                         "name": "C2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -199,6 +206,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -223,6 +231,7 @@
                         "name": "C4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules":
@@ -247,6 +256,7 @@
                         "name": "C4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -274,6 +284,7 @@
                         "name": "C4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules":
@@ -298,6 +309,7 @@
                         "name": "C4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -324,6 +336,7 @@
                         "name": "C4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -356,6 +369,7 @@
                         "name": "C5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules":
@@ -385,6 +399,7 @@
                         "name": "C5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -409,6 +424,7 @@
                         "name": "C5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -434,6 +450,7 @@
                         "name": "C6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -458,6 +475,7 @@
                         "name": "C6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -482,6 +500,7 @@
                         "name": "C6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -507,6 +526,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -531,6 +551,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -554,6 +575,7 @@
                         "name": "C9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules":
@@ -578,6 +600,7 @@
                         "name": "C9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -602,6 +625,7 @@
                         "name": "C9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -626,6 +650,7 @@
                         "name": "C9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -652,6 +677,7 @@
                         "name": "C10",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -676,6 +702,7 @@
                         "name": "C11",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -706,6 +733,7 @@
                         "name": "C11",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules":
@@ -737,6 +765,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -760,6 +789,7 @@
                         "name": "C12",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_c_end"
                         ],
                         "access_rules": 
@@ -784,6 +814,7 @@
                         "name": "C13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -812,6 +843,7 @@
                         "name": "C13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -836,6 +868,7 @@
                         "name": "C13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -860,6 +893,7 @@
                         "name": "C14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -884,6 +918,7 @@
                         "name": "C15",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -910,6 +945,7 @@
                         "name": "C15",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -951,6 +987,7 @@
                         "name": "C15",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 

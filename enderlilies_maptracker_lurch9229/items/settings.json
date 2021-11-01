@@ -169,5 +169,24 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Shuffle All",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/shuffle_all_on.png",
+                "codes": "setting_all",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/shuffle_all_off.png",
+                "codes": "setting_all_off,$hasAllShuffles",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

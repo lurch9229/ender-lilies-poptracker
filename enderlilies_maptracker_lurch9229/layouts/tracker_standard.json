@@ -44,6 +44,17 @@
     "content": [
       {
         "type": "group",
+        "header": "Randomizations",
+        "content": [
+          {
+            "type": "item",
+            "item": "setting_all_off",
+            "margin":"0, 0"
+          }
+        ]
+      },
+      {
+        "type": "group",
         "header": "Settings",
         "content": [
           {
@@ -52,42 +63,42 @@
           },
           {
             "type": "item",
-            "margin": "0, 30, 0, 0",
+            "margin": "0,0",
             "item": "setting_relics"
           },
           {
             "type": "item",
-            "margin": "0, 60, 0, 0",
+            "margin": "0, 0",
             "item": "setting_amulets"
           },
           {
             "type": "item",
-            "margin":"165, 0, 0, 0",
+            "margin":"0, 0",
             "item": "setting_chains"
           },
           {
             "type": "item",
-            "margin":"165, 30, 0, 0",
+            "margin":"0, 30",
             "item": "setting_blight"
           },
           {
             "type": "item",
-            "margin":"165, 60, 0, 0",
+            "margin":"0, 60",
             "item": "setting_wishes"
           },
           {
             "type": "item",
-            "margin":"330, 0, 0, 0",
+            "margin":"0, 0",
             "item": "setting_findings"
           },
           {
             "type": "item",
-            "margin":"330, 30, 0, 0",
+            "margin":"0, 30",
             "item": "setting_c_end"
           },
           {
-            "type": "item",
-            "margin":"330, 60, 0, 0",
+            "type": "0",
+            "margin":"0, 60",
             "item": "setting_costs"
           }
         ]
@@ -101,7 +112,7 @@
     "content": 
     {
       "type": "dock",
-      "dropshadow": true,
+      "dropshadow": false,
       "content": 
       [
         {

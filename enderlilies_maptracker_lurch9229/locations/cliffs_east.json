@@ -19,7 +19,7 @@
                         "name": "C8",
                         "visibility_rules": 
                         [
-                            ""
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [
@@ -44,6 +44,7 @@
                         "name": "C16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -68,6 +69,7 @@
                         "name": "C16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -101,6 +103,7 @@
                         "name": "C16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -148,6 +151,7 @@
                         "name": "C17",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -174,6 +178,7 @@
                         "name": "C17",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -208,6 +213,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -234,6 +240,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -259,6 +266,7 @@
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -283,6 +291,7 @@
                         "name": "C19",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -308,6 +317,7 @@
                         "name": "C20",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -333,6 +343,7 @@
                         "name": "C20",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules":
@@ -358,6 +369,7 @@
                         "name": "C20",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -383,6 +395,7 @@
                         "name": "C20",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -412,6 +425,7 @@
                         "name": "C20",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -436,6 +450,7 @@
                         "name": "C21",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_wishes"
                         ],
                         "access_rules": 
