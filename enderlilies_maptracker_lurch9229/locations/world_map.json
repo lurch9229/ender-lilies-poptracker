@@ -4,49 +4,21 @@
         "chest_unopened_img": "images/items/chest_x.png",
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
-        "children": [
-            {
-                "name": "All Settings Toggle",
-                "map_locations": 
-                [
-                    {
-                        "map": "WorldMap",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "All Settings",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "hosted_item":
-                        [
-                            "setting_spirits,setting_relics,setting_amulets,setting_chains,setting_blight,setting_wishes,setting_findings,setting_c_end,setting_costs"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
+        "children": 
+        [
             {
                 "name": "A1",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 445,
                         "y": 2750
                     }
                 ],
-                "sections": [
+                "sections": 
+                
+                [
                     {
                         "name": "Finding - Statue Inscription",
                         "item_count": 1,
@@ -77,14 +49,16 @@
             },
             {
                 "name": "A3",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 975,
                         "y": 2850
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP) (In Barrel)",
                         "visibility_rules": 
@@ -116,14 +90,16 @@
             },
             {
                 "name": "A4",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 1280,
                         "y": 2860
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - On the Blighted I",
                         "item_count": 1,
@@ -154,14 +130,16 @@
             },
             {
                 "name": "A5",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 1625,
                         "y": 2850
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -193,14 +171,16 @@
             },
             {
                 "name": "A6",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 1715,
                         "y": 2660
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Soiled Prayer Beads",
                         "visibility_rules": 
@@ -219,14 +199,16 @@
             },
             {
                 "name": "A7",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 2120,
                         "y": 2660
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Guardian Siegrid Fight",
                         "visibility_rules": 
@@ -244,14 +226,16 @@
             },
             {
                 "name": "A8",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 1300,
                         "y": 2435
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chief Guardian Fight",
                         "visibility_rules": 
@@ -296,14 +280,16 @@
             },
             {
                 "name": "A9",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 1300,
                         "y": 2290
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
                         "visibility_rules": 
@@ -334,14 +320,16 @@
             },
             {
                 "name": "A10",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 455,
                         "y": 3165
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Luminant Aegis Curio",
                         "visibility_rules": 
@@ -376,14 +364,16 @@
             },
             {
                 "name": "B1",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 2525,
                         "y": 2665
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Groa's Letter",
                         "item_count": 1,
@@ -401,14 +391,16 @@
             },
             {
                 "name": "B3",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 3415,
                         "y": 2665
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
@@ -437,14 +429,16 @@
             },
             {
                 "name": "B4",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 3830,
                         "y": 2660
                     }
                 ],
-                    "sections": [
+                    "sections": 
+                    [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -475,14 +469,16 @@
             },
             {
                 "name": "C1",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 4545,
                         "y": 2230
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -532,14 +528,16 @@
             },
             {
                 "name": "C2",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5000,
                         "y": 2075
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
@@ -601,14 +599,16 @@
             },
             {
                 "name": "C3",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5460,
                         "y": 2050
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - True Believer's Note",
                         "item_count": 1,
@@ -626,14 +626,16 @@
             },
             {
                 "name": "C4",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5850,
                         "y": 2040
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -716,14 +718,16 @@
             },
             {
                 "name": "C5",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6510,
                         "y": 1880
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
@@ -773,14 +777,16 @@
             },
             {
                 "name": "C6",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6510,
                         "y": 2060
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -824,14 +830,16 @@
             },
             {
                 "name": "C7",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6972,
                         "y": 1910
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Hamlet Request I",
                         "item_count": 1,
@@ -862,14 +870,16 @@
             },
             {
                 "name": "C9",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5000,
                         "y": 2400
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -928,14 +938,16 @@
             },
             {
                 "name": "C10",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5880,
                         "y": 2350
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -953,14 +965,16 @@
             },
             {
                 "name": "C11",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6570,
                         "y": 2400
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Fretia's Ring",
                         "visibility_rules": 
@@ -1003,14 +1017,16 @@
             },
             {
                 "name": "C12",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5515,
                         "y": 2550
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stone Tablet Fragment",
                         "visibility_rules": 
@@ -1041,14 +1057,16 @@
             },
             {
                 "name": "C13",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5170,
                         "y": 1860
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Bloodstained Ribbon",
                         "visibility_rules": 
@@ -1096,14 +1114,16 @@
             },
             {
                 "name": "C14",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5110,
                         "y": 1710
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Western Merchant Fight",
                         "visibility_rules": 
@@ -1121,14 +1141,16 @@
             },
             {
                 "name": "C15",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6808,
                         "y": 1685
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x30",
                         "visibility_rules": 
@@ -1194,14 +1216,16 @@
             },
             {
                 "name": "C8",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7380,
                         "y": 1890
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Gerrod, The Elder Warrior Fight",
                         "visibility_rules": 
@@ -1219,14 +1243,16 @@
             },
             {
                 "name": "C16",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 8540,
                         "y": 2090
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x30",
                         "visibility_rules": 
@@ -1302,14 +1328,16 @@
             },
             {
                 "name": "C17",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 10230,
                         "y": 1940
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x30",
                         "visibility_rules": 
@@ -1346,14 +1374,16 @@
             },
             {
                 "name": "C18",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 10770,
                         "y": 2115
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Bloodied Note I",
                         "item_count": 1,
@@ -1373,14 +1403,16 @@
             },
             {
                 "name": "C19",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7870,
                         "y": 1890
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Hamlet Scrawl",
                         "item_count": 1,
@@ -1427,14 +1459,16 @@
             },
             {
                 "name": "C20",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 8380,
                         "y": 1815
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x100",
                         "visibility_rules": 
@@ -1514,14 +1548,16 @@
             },
             {
                 "name": "C21",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7805,
                         "y": 1700
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
                         "visibility_rules": 
@@ -1540,14 +1576,16 @@
             },
             {
                 "name": "D1",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 4540,
                         "y": 3005
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -1565,14 +1603,16 @@
             },
             {
                 "name": "D2",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5155,
                         "y": 2955
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Rusted Blue Ornament",
                         "visibility_rules": 
@@ -1630,14 +1670,16 @@
             },
             {
                 "name": "D3",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5070,
                         "y": 3130
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
@@ -1668,14 +1710,16 @@
             },
             {
                 "name": "D4",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5560,
                         "y": 3190
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Coven Handbook",
                         "item_count": 1,
@@ -1693,14 +1737,16 @@
             },
             {
                 "name": "D5",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6130,
                         "y": 3310
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
@@ -1751,14 +1797,16 @@
             },
             {
                 "name": "D6",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6225,
                         "y": 3630
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
@@ -1817,14 +1865,16 @@
             },
             {
                 "name": "D7",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6742,
                         "y": 3640
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Sorcerer's Note",
                         "item_count": 1,
@@ -1842,14 +1892,16 @@
             },
             {
                 "name": "D8",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6888,
                         "y": 4080
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -1948,14 +2000,16 @@
             },
             {
                 "name": "D9",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7295,
                         "y": 3630
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -1991,14 +2045,16 @@
             },
             {
                 "name": "D10",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7300,
                         "y": 3910
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -2017,14 +2073,16 @@
             },
             {
                 "name": "D11",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7292,
                         "y": 4165
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - The Parish Way III",
                         "item_count": 1,
@@ -2043,14 +2101,16 @@
             },
             {
                 "name": "D12",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7267,
                         "y": 4350
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Dark witch Eleine Fight",
                         "visibility_rules": 
@@ -2068,14 +2128,16 @@
             },
             {
                 "name": "D13",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7590,
                         "y": 3400
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -2105,14 +2167,16 @@
             },
             {
                 "name": "D14",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6570,
                         "y": 4040
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
                         "visibility_rules": 
@@ -2161,14 +2225,16 @@
             },
             {
                 "name": "D15",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6315,
                         "y": 4450
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x30",
                         "visibility_rules": 
@@ -2200,14 +2266,16 @@
             },
             {
                 "name": "D16",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 8000,
                         "y": 4560
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Faden's Archives III",
                         "item_count": 1,
@@ -2227,14 +2295,16 @@
             },
             {
                 "name": "D17",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7625,
                         "y": 3620
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Gem (+20 HP)",
                         "visibility_rules": 
@@ -2294,14 +2364,16 @@
             },
             {
                 "name": "D18",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 5882,
                         "y": 2980
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Fungal Sorcerer Fight",
                         "visibility_rules": 
@@ -2348,14 +2420,16 @@
             },
             {
                 "name": "D19",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7570,
                         "y": 3905
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x800",
                         "visibility_rules": 
@@ -2386,14 +2460,16 @@
             },
             {
                 "name": "E1",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6710,
                         "y": 2558
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -2426,14 +2502,16 @@
             },
             {
                 "name": "E2",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 6710,
                         "y": 3060
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Elder Crypt Keeper Fight",
                         "visibility_rules": 
@@ -2464,14 +2542,16 @@
             },
             {
                 "name": "E3",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 7310,
                         "y": 3060
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Defense of the Twin Spires II",
                         "visibility_rules": 
@@ -2503,14 +2583,16 @@
             },
             {
                 "name": "E4",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7323,
                         "y": 2815
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Fretia's Memoirs I",
                         "visibility_rules": 
@@ -2554,14 +2636,16 @@
             },
             {
                 "name": "E5",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7335,
                         "y": 2558
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
@@ -2585,14 +2669,16 @@
             },
             {
                 "name": "E6",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7395,
                         "y": 2373
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -2610,14 +2696,16 @@
             },
             {
                 "name": "E7",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7877,
                         "y": 2373
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -2652,14 +2740,16 @@
             },
             {
                 "name": "E8",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8335,
                         "y": 2370
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -2720,14 +2810,16 @@
             },
             {
                 "name": "E9",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8850,
                         "y": 2320
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -2754,14 +2846,16 @@
             },
             {
                 "name": "E10",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8850,
                         "y": 2558
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x30",
                         "visibility_rules": 
@@ -2825,14 +2919,16 @@
             },
             {
                 "name": "E11",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8750,
                         "y": 3060
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
@@ -2883,14 +2979,16 @@
             },
             {
                 "name": "E12",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7840,
                         "y": 3060
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -2908,14 +3006,16 @@
             },
             {
                 "name": "E13",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7890,
                         "y": 2800
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
@@ -2950,14 +3050,16 @@
             },
             {
                 "name": "E14",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7890,
                         "y": 2558
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
@@ -2995,14 +3097,16 @@
             },
             {
                 "name": "E15",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8350,
                         "y": 2558
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Unfinished Note",
                         "visibility_rules": 
@@ -3035,14 +3139,16 @@
             },
             {
                 "name": "E16",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9325,
                         "y": 2500
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - The Heirloom of Land's End",
                         "visibility_rules": 
@@ -3091,14 +3197,16 @@
             },
             {
                 "name": "E17",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9420,
                         "y": 2235
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Fretia's Memoirs III",
                         "visibility_rules": 
@@ -3127,14 +3235,16 @@
             },
             {
                 "name": "E18",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 10100,
                         "y": 2185
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -3165,14 +3275,16 @@
             },
             {
                 "name": "E19",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9185,
                         "y": 2800
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot) (In Pot)",
                         "visibility_rules": 
@@ -3221,14 +3333,16 @@
             },
             {
                 "name": "E20",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8405,
                         "y": 2800
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Priestess Statue",
                         "visibility_rules": 
@@ -3246,14 +3360,16 @@
             },
             {
                 "name": "E21",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9215,
                         "y": 3050
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Holy Spring Water",
                         "visibility_rules": 
@@ -3271,14 +3387,16 @@
             },
             {
                 "name": "E22",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7775,
                         "y": 3205
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Ancient Soul x2",
                         "visibility_rules": 
@@ -3296,14 +3414,16 @@
             },
             {
                 "name": "E23",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7010,
                         "y": 2360
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stone Tablet Fragment",
                         "visibility_rules": 
@@ -3321,14 +3441,16 @@
             },
             {
                 "name": "F1",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8447,
                         "y": 3470
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Executioner's Vow",
                         "visibility_rules": 
@@ -3346,14 +3468,16 @@
             },
             {
                 "name": "F2",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8790,
                         "y": 3650
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -3386,14 +3510,16 @@
             },
             {
                 "name": "F3",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 9165,
                         "y": 3380
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x100",
                         "visibility_rules": 
@@ -3427,14 +3553,16 @@
             },
             {
                 "name": "F4",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9290,
                         "y": 3700
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -3478,14 +3606,16 @@
             },
             {
                 "name": "F5",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9660,
                         "y": 3792
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Executioner's Missive",
                         "visibility_rules": 
@@ -3503,14 +3633,16 @@
             },
             {
                 "name": "F6",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 10117,
                         "y": 3792
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "2 Amulet Fragments (+5 HP x2)",
                         "visibility_rules": 
@@ -3543,14 +3675,16 @@
             },
             {
                 "name": "F8",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 10655,
                         "y": 3720
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x30",
                         "visibility_rules": 
@@ -3589,14 +3723,16 @@
             },
             {
                 "name": "F9",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 10690,
                         "y": 3472
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
@@ -3678,14 +3814,16 @@
             },
             {
                 "name": "F10",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11190,
                         "y": 3620
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
@@ -3706,7 +3844,8 @@
             },
             {
                 "name": "F11",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11530,
@@ -3714,6 +3853,7 @@
                     }
                 ],
                 "sections":[
+                    
                     {
                         "name": "Finding - Hoenir's Diary II",
                         "visibility_rules": 
@@ -3732,14 +3872,16 @@
             },
             {
                 "name": "F12",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11920,
                         "y": 3710
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Hoenir, Keeper Of The Abyss Fight",
                         "visibility_rules": 
@@ -3761,14 +3903,16 @@
             },
             {
                 "name": "F13",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 12348,
                         "y": 3615
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -3805,14 +3949,16 @@
             },
             {
                 "name": "F14",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9665,
                         "y": 3435
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -3857,14 +4003,16 @@
             },
             {
                 "name": "F15",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11675,
                         "y": 3510
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Dark Executioner Fight",
                         "visibility_rules": 
@@ -3885,14 +4033,16 @@
             },
             {
                 "name": "F16",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11225,
                         "y": 3905
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Ancient Soul",
                         "visibility_rules": 
@@ -3912,14 +4062,16 @@
             },
             {
                 "name": "F17",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 10420,
                         "y": 3300
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Hoenir's Diary I",
                         "visibility_rules": 
@@ -3938,14 +4090,16 @@
             },
             {
                 "name": "F18",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9910,
                         "y": 3210
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
@@ -3964,14 +4118,16 @@
             },
             {
                 "name": "F19",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 10270,
                         "y": 3570
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Executioner's Gloves",
                         "visibility_rules": 
@@ -3989,14 +4145,16 @@
             },
             {
                 "name": "F20",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9280,
                         "y": 3240
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Hidden Test Subject Fight",
                         "visibility_rules": 
@@ -4014,14 +4172,16 @@
             },
             {
                 "name": "F21",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9100,
                         "y": 3240
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -4041,14 +4201,16 @@
             },
             {
                 "name": "F22",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8930,
                         "y": 3250
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
@@ -4066,14 +4228,16 @@
             },
             {
                 "name": "F23",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8865,
                         "y": 3498
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Forbidden Text Scrap",
                         "visibility_rules": 
@@ -4091,14 +4255,16 @@
             },
             {
                 "name": "F24",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9075,
                         "y": 3498
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
@@ -4116,14 +4282,16 @@
             },
             {
                 "name": "F25",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11130,
                         "y": 3280
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Aura's Ring",
                         "visibility_rules": 
@@ -4141,14 +4309,16 @@
             },
             {
                 "name": "F27",
-                "map_locations": [
+                "map_locations":
+                [
                     {
                         "map": "WorldMap",
                         "x": 10250,
                         "y": 3100
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stone Tablet Fragment",
                         "visibility_rules": 
@@ -4166,14 +4336,16 @@
             },
             {
                 "name": "G1",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11080,
                         "y": 2060
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x100",
                         "visibility_rules": 
@@ -4191,14 +4363,16 @@
             },
             {
                 "name": "G2",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11030,
                         "y": 1650
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -4246,14 +4420,16 @@
             },
             {
                 "name": "G3",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11430,
                         "y": 1650
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -4272,14 +4448,16 @@
             },
             {
                 "name": "G4",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11430,
                         "y": 2110
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -4313,14 +4491,16 @@
             },
             {
                 "name": "G5",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11820,
                         "y": 2020
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Note on the Castle Wall",
                         "visibility_rules": 
@@ -4378,14 +4558,16 @@
             },
             {
                 "name": "G6",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11820,
                         "y": 1650
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -4403,14 +4585,16 @@
             },
             {
                 "name": "G7",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 12120,
                         "y": 1650
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Hoenir's Diary III",
                         "visibility_rules": 
@@ -4428,14 +4612,16 @@
             },
             {
                 "name": "G8",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11860,
                         "y": 1360
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Ricorus' Ring",
                         "visibility_rules": 
@@ -4478,14 +4664,16 @@
             },
             {
                 "name": "G9",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11465,
                         "y": 1300
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -4521,14 +4709,16 @@
             },
             {
                 "name": "G10",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11200,
                         "y": 1220
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Monument Engraving",
                         "visibility_rules": 
@@ -4546,14 +4736,16 @@
             },
             {
                 "name": "G11",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11800,
                         "y": 1010
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot) (In Barrel)",
                         "visibility_rules": 
@@ -4584,14 +4776,16 @@
             },
             {
                 "name": "G12",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11420,
                         "y": 1060
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x100",
                         "visibility_rules": 
@@ -4637,14 +4831,16 @@
             },
             {
                 "name": "G13",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 10970,
                         "y": 1150
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -4704,14 +4900,16 @@
             },
             {
                 "name": "G14",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11000,
                         "y": 735
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -4729,14 +4927,16 @@
             },
             {
                 "name": "G15",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11375,
                         "y": 655
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot) (In Crate)",
                         "visibility_rules": 
@@ -4769,14 +4969,16 @@
             },
             {
                 "name": "G16",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11790,
                         "y": 655
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Ancient Dragon Claw",
                         "visibility_rules": 
@@ -4828,27 +5030,31 @@
             },
             {
                 "name": "G18 Ulv",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11710,
                         "y": 280
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
             
                 ]
             },
             {
                 "name": "G18",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 11840,
                         "y": 280
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Ulv, The Mad Knight",
                         "visibility_rules": 
@@ -4899,14 +5105,16 @@
             },
             {
                 "name": "G19",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 12348,
                         "y": 2535
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -4937,14 +5145,16 @@
             },
             {
                 "name": "H1",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9890,
                         "y": 1650
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Proof of Founding",
                         "visibility_rules": 
@@ -4963,14 +5173,16 @@
             },
             {
                 "name": "H2",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9605,
                         "y": 1605
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Royal Aegis Crest",
                         "visibility_rules": 
@@ -5003,14 +5215,16 @@
             },
             {
                 "name": "H3",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9605,
                         "y": 1300
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -5077,14 +5291,16 @@
             },
             {
                 "name": "H5",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8760,
                         "y": 1515
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Blightwreathed Blade",
                         "visibility_rules": 
@@ -5163,14 +5379,16 @@
             },
             {
                 "name": "H6",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8785,
                         "y": 1230
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x30",
                         "visibility_rules": 
@@ -5194,14 +5412,16 @@
             },
             {
                 "name": "H7",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8470,
                         "y": 1230
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -5234,14 +5454,16 @@
             },
             {
                 "name": "H9",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9240,
                         "y": 1010
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Gem (+20 HP)",
                         "visibility_rules": 
@@ -5262,14 +5484,16 @@
             },
             {
                 "name": "H10",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8785,
                         "y": 1010
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -5288,14 +5512,16 @@
             },
             {
                 "name": "H11",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8785,
                         "y": 830
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -5360,14 +5586,16 @@
             },
             {
                 "name": "H12",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9100,
                         "y": 800
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - King's Note I",
                         "visibility_rules": 
@@ -5387,14 +5615,16 @@
             },
             {
                 "name": "H13",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9360,
                         "y": 810
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Knight Captain Julius Fight",
                         "visibility_rules": 
@@ -5413,14 +5643,16 @@
                 ]
             },{
                 "name": "H14",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9637,
                         "y": 935
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x100",
                         "visibility_rules": 
@@ -5476,14 +5708,16 @@
             },
             {
                 "name": "H15",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9535,
                         "y": 655
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Priestess' Castle Memo",
                         "visibility_rules": 
@@ -5516,14 +5750,16 @@
             },
             {
                 "name": "H16",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9050,
                         "y": 640
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "One-Eyed Royal Aegis Fight",
                         "visibility_rules": 
@@ -5572,14 +5808,16 @@
             },
             {
                 "name": "H17",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9220,
                         "y": 1425
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -5614,14 +5852,16 @@
             },
             {
                 "name": "H18",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9010,
                         "y": 1815
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -5656,14 +5896,16 @@
             },
             {
                 "name": "H19",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9105,
                         "y": 1965
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Report from a Verboten Mage",
                         "visibility_rules": 
@@ -5682,14 +5924,16 @@
             },
             {
                 "name": "H20",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 9850,
                         "y": 1347
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - King of the First Age's Diary III",
                         "visibility_rules": 
@@ -5736,14 +5980,16 @@
             },
             {
                 "name": "J1",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8150,
                         "y": 4800
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -5775,14 +6021,16 @@
             },
             {
                 "name": "J2",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8540,
                         "y": 4900
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Chain Of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
@@ -5816,14 +6064,16 @@
             },
             {
                 "name": "J3",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8560,
                         "y": 5320
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -5856,14 +6106,16 @@
             },
             {
                 "name": "J4",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8980,
                         "y": 5215
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Heretic's Mask",
                         "visibility_rules": 
@@ -5912,14 +6164,16 @@
             },
             {
                 "name": "J5",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7770,
                         "y": 5015
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Weathered Necklace",
                         "visibility_rules": 
@@ -5954,14 +6208,16 @@
             },
             {
                 "name": "J6",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7725,
                         "y": 5385
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -6010,14 +6266,16 @@
             },
             {
                 "name": "J7",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7355,
                         "y": 5375
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -6048,14 +6306,16 @@
             },
             {
                 "name": "J8",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7780,
                         "y": 5750
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x100",
                         "visibility_rules": 
@@ -6086,14 +6346,16 @@
             },
             {
                 "name": "J9",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7790,
                         "y": 6110
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x100",
                         "visibility_rules": 
@@ -6137,14 +6399,16 @@
             },
             {
                 "name": "J10",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8535,
                         "y": 5765
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Blighted Appendage",
                         "visibility_rules": 
@@ -6180,14 +6444,16 @@
             },
             {
                 "name": "J11",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8535,
                         "y": 6175
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -6218,14 +6484,16 @@
             },
             {
                 "name": "J12",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8930,
                         "y": 6175
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
                         "visibility_rules": 
@@ -6256,14 +6524,16 @@
             },
             {
                 "name": "J13",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8180,
                         "y": 5515
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
@@ -6296,14 +6566,16 @@
             },
             {
                 "name": "J14",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8185,
                         "y": 6435
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Finding - Faden's Archives I",
                         "visibility_rules": 
@@ -6321,14 +6593,16 @@
             },
             {
                 "name": "J16",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7450,
                         "y": 6455
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x800",
                         "visibility_rules": 
@@ -6387,14 +6661,16 @@
             },
             {
                 "name": "K1",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7450,
                         "y": 6760
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Furious Blight x100",
                         "visibility_rules": 
@@ -6425,14 +6701,16 @@
             },
             {
                 "name": "K2",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 7495,
                         "y": 7097
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "White Priestess' Earrings",
                         "visibility_rules": 
@@ -6519,14 +6797,16 @@
             },
             {
                 "name": "K4",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8950,
                         "y": 6655
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Stagnant Blight x100",
                         "visibility_rules": 
@@ -6557,14 +6837,16 @@
             },
             {
                 "name": "K5",
-                "map_locations": [
+                "map_locations": 
+                [
                     {
                         "map": "WorldMap",
                         "x": 8955,
                         "y": 7097
                     }
                 ],
-                "sections": [
+                "sections": 
+                [
                     {
                         "name": "Ancient Soul x2",
                         "visibility_rules": 

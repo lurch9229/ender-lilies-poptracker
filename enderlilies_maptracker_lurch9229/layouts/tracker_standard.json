@@ -1,43 +1,64 @@
 ﻿{
-  "lily_spirit_grid": {
+  "lily_spirit_grid": 
+  {
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
     "item_size": "40,40",
-    "rows": [
+    "rows": 
+    [
       ["umbral","gerrod","silva","julius","ulv","eleine","hoenir"],
       ["faden","siegrid","cliffyouth","headless","merchant","maiden","archer"],
       ["elderkeeper","fungal","floral","sentinel","testsubject","executioner","sinner"],
       ["","verboten","cliffelder","chief","royalaegis","fellwyrm",""]
     ]
   },
-  "lily_relic_grid": {
+  "lily_relic_grid":
+  {
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
     "item_size": "40,40",
-    "rows": [
+    "rows": 
+    [
       [ "prayerbeads", "royalcrest", "music", "familiar", "snowdrop", "appendage", "giant"],
       [ "dragonclaw", "ornament", "executionergloves", "crown", "weatherneck", "immortal",  "manisa"],
       [ "aura", "kilteus", "caliva", "statue", "doll", "earrings", "holywater"],
       [ "nymphilia", "spellbound", "plume", "witchbook", "ribbon", "blightblade", "heretic"],
-      [ "eldred","ricorus", "luminantcurio", "heirloom", "phantom", "fretia"]
+      [ "eldred","ricorus", "luminantcurio", "heirloom", "phantom", "fretia", "iris"]
+      
     ]
   },
-  "lily_ability_grid": {
+
+  "lily_ability_grid": 
+  {
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
     "item_size": "40,40",
-    "rows": [
-	  [ "pray", "jump", "dodge", "paddle", "switch"],
+    "rows": 
+    [
+	    [ "pray", "jump", "dodge", "paddle", "switch"],
       [ "djump", "hammer", "aquatic", "dodge2", "rites"],
       [ "hook", "claws", "dash", "lance", "unlock"],
-      [ "ch1", "Bend", "gem", "fragment", "relicslot", "wish"],
-	    [ "iris", "hood", "orb", "heiml", "gift", "miriel", "groa"],
-      ["tabletch", "tabletwt", "tabletcc", "tabletsa", "tabletts", "tabletrc", "tabletvd"]
+      [ "jewel", "gem", "fragment", "relicslot", "wish"]
     ]
   },
+
+  "lily_goal_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment":"center",
+    "item_margin": "1,2",
+    "item_size": "40,40",
+    "rows":
+    [
+      [ "tabletch", "tabletwt", "tabletcc"],
+      [ "tabletsa", "tabletts", "tabletrc"],
+      [ "ch1", "tabletvd", "Bend"]
+    ]
+  },
+
   "settings_popup": {
     "type": "array",
     "margin": 5,
@@ -112,7 +133,7 @@
     "content": 
     {
       "type": "dock",
-      "dropshadow": false,
+      "dropshadow": true,
       "content": 
       [
         {
@@ -180,15 +201,19 @@
             },
             {
               "type": "group",
-              "header": "Pinned Locations",
+              "header": "Goal",
               "content": 
               {
-                "type": "recentpins",
-                "style": "wrap",
-                "h_alignment": "stretch",
-                "v_alignment": "stretch",
-                "orientation": "horizontal",
-                "compact": true
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content":
+                [
+                  {
+                    "type": "layout",
+                    "key": "lily_goal_grid"
+                  }
+                ]
               }
             }
           ]

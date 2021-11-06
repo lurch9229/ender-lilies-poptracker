@@ -33,9 +33,22 @@
       ["pray", "jump", "dodge", "paddle", "switch"],
       [ "djump", "hammer", "aquatic", "dodge2", "rites"],
       [ "hook", "claws", "dash", "lance", "unlock"],
-      [ "ch1", "Bend", "gem", "fragment", "relicslot", "wish"],
-      [ "iris", "hood", "orb", "heiml", "gift", "miriel", "groa"],
-      ["tabletch", "tabletwt", "tabletcc", "tabletsa", "tabletts", "tabletrc", "tabletvd"]
+      [ "jewel", "gem", "fragment", "relicslot", "wish"],
+      [ "iris", "hood", "orb", "heiml", "gift", "miriel", "groa"]
+    ]
+  },
+
+  "lily_goal_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment":"center",
+    "item_margin": "1,2",
+    "item_size": "40,40",
+    "rows":
+    [
+      [ "tabletch", "tabletwt", "tabletcc"],
+      [ "tabletsa", "tabletts", "tabletrc"],
+      [ "ch1", "tabletvd", "Bend"]
     ]
   },
 
@@ -64,42 +77,42 @@
           },
           {
             "type": "item",
-            "margin": "0, 30",
+            "margin": "0,0",
             "item": "setting_relics"
           },
           {
             "type": "item",
-            "margin": "0, 60",
+            "margin": "0, 0",
             "item": "setting_amulets"
           },
           {
             "type": "item",
-            "margin":"165, 0",
+            "margin":"0, 0",
             "item": "setting_chains"
           },
           {
             "type": "item",
-            "margin":"165, 30",
+            "margin":"0, 30",
             "item": "setting_blight"
           },
           {
             "type": "item",
-            "margin":"165, 60",
+            "margin":"0, 60",
             "item": "setting_wishes"
           },
           {
             "type": "item",
-            "margin":"330, 0",
+            "margin":"0, 0",
             "item": "setting_findings"
           },
           {
             "type": "item",
-            "margin":"330, 30",
+            "margin":"0, 30",
             "item": "setting_c_end"
           },
           {
-            "type": "item",
-            "margin":"360, 60",
+            "type": "0",
+            "margin":"0, 60",
             "item": "setting_costs"
           }
         ]
@@ -126,8 +139,7 @@
           {
             "type": "group",
             "header": "Spirits",
-            "header_content":
-            {
+            "header_content": {
               "type": "button_popup",
               "style": "settings",
               "popup_background": "#55212121",
@@ -204,25 +216,21 @@
         "v_alignment": "stretch",
         "h_alignment": "stretch",
         "margin": "0, 0, 0, 0",
-        "content":
-        [
-          {
-            "type": "tabbed",
-            "dock": "top",
-            "tabs": 
-            [
+        "content": [
+            {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
               {
                 "title": "World Map",
-                "content": 
-                {
+                "content": {
                   "type":"map",
                   "maps": ["WorldMap"]
                 }
               },
               {
                 "title": "Credits",
-                "content": 
-                {
+                "content": {
                   "type": "map",
                   "maps": ["Credits"]
                 }

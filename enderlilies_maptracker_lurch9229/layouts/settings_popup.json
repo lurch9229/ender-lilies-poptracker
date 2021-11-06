@@ -13,54 +13,43 @@
           },
           {
             "type": "item",
-            "margin": "0, 30",
+            "margin": "0, 30, 0, 0",
             "item": "setting_relics"
           },
           {
             "type": "item",
-            "margin": "0, 60",
+            "margin": "0, 60, 0, 0",
             "item": "setting_amulets"
           },
           {
             "type": "item",
-            "margin":"165, 0",
+            "margin":"165, 0, 0, 0",
             "item": "setting_chains"
           },
           {
             "type": "item",
-            "margin":"165, 30",
+            "margin":"165, 30, 0, 0",
             "item": "setting_blight"
           },
           {
             "type": "item",
-            "margin":"165, 60",
+            "margin":"165, 60, 0, 0",
             "item": "setting_wishes"
           },
           {
             "type": "item",
-            "margin":"330, 0",
+            "margin":"330, 0, 0, 0",
             "item": "setting_findings"
           },
           {
             "type": "item",
-            "margin":"330, 30",
+            "margin":"330, 30, 0, 0",
             "item": "setting_c_end"
           },
           {
             "type": "item",
-            "margin":"330, 60",
+            "margin":"330, 60, 0, 0",
             "item": "setting_costs"
-          }
-        ]
-      },
-      {
-        "type": "group",
-        "header": "Randomizations",
-        "content": [
-          {
-            "type": "item",
-            "item": "setting_all_off",
-            "margin":"400, 0, 0, 0"
           }
         ]
       }
