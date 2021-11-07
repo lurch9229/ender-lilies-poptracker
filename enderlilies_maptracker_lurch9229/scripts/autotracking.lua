@@ -50,12 +50,13 @@ trackedToggles = {
     ["Generic.i_FinalPassivePart_Fort"] = "tabletts",
     ["Generic.i_FinalPassivePart_Castle"] = "tabletrc",
     ["Generic.i_FinalPassivePart_Swamp"] = "tabletvd",
+	
+    ["Parameter.i_maxHPUp_03"] = "jewel",
 }
 
 trackedConsumables = {
     ["Parameter.i_maxHPUp_01"] = "fragment",
     ["Parameter.i_maxHPUp_02"] = "gem",
-    -- ["Parameter.i_maxHPUp_03"] = "jewel",
     -- ["Generic.i_FinalPassivePart_Up"] = "tablet",
     ["Generic.i_PassiveSlot_Up"] = "relicslot",
     ["Generic.i_HealPower_Up"] = "wish",
