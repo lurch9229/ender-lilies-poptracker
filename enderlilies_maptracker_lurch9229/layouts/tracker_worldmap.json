@@ -21,7 +21,7 @@
       [ "dragonclaw", "ornament", "executionergloves", "crown", "weatherneck", "immortal",  "manisa"],
       [ "aura", "kilteus", "caliva", "statue", "doll", "earrings", "holywater"],
       [ "nymphilia", "spellbound", "plume", "witchbook", "ribbon", "blightblade", "heretic"],
-      [ "eldred","ricorus", "luminantcurio", "heirloom", "phantom", "fretia"]
+      [ "eldred","ricorus", "luminantcurio", "heirloom", "phantom", "fretia", "iris"]
     ]
   },
 "lily_ability_grid": {
@@ -33,8 +33,7 @@
       ["pray", "jump", "dodge", "paddle", "switch"],
       [ "djump", "hammer", "aquatic", "dodge2", "rites"],
       [ "hook", "claws", "dash", "lance", "unlock"],
-      [ "jewel", "gem", "fragment", "relicslot", "wish"],
-      [ "iris", "hood", "orb", "heiml", "gift", "miriel", "groa"]
+      [ "jewel", "gem", "fragment", "relicslot", "wish"]
     ]
   },
 
@@ -120,126 +119,126 @@
     ]
   },
 
-"tracker_horizontal": 
-{
-  "type": "container",
-  "content": 
+  "tracker_horizontal": 
   {
-    "type": "dock",
-    "dropshadow": true,
+    "type": "container",
     "content": 
-    [
-      {
-        "type": "array",
-        "dock": "bottom",
-		    "orientation": "horizontal",
-        "h_alginment": "center",
-        "content": 
-        [
-          {
-            "type": "group",
-            "header": "Spirits",
-            "header_content": {
-              "type": "button_popup",
-              "style": "settings",
-              "popup_background": "#55212121",
-              "layout": "settings_popup"
-            },
-            "content": 
+    {
+      "type": "dock",
+      "dropshadow": true,
+      "content": 
+      [
+        {
+          "type": "array",
+          "dock": "bottom",
+          "orientation": "horizontal",
+          "content": 
+          [
             {
-              "type": "array",
-              "orientation": "vertical",
-              "h_alignment": "center",
-              "margin": "0,0",
-              "content": 
-              [
-                {
-                  "type": "layout",
-                  "key": "lily_spirit_grid"
-                }
-              ]
-            }
-          },
-          {
-            "type": "group",
-            "header": "Relics",
-            "content":
-            {
-              "type": "array",
-              "orientation": "vertical",
-              "h_alignment": "center",
-              "margin": "0,0",
-              "content":
-              [
-                {
-                  "type": "layout",
-                  "key": "lily_relic_grid"
-                }
-              ]
-            }
-          },
-          {
-            "type": "group",
-            "header": "Abilities",
-            "content":
-            {
-              "type": "array",
-              "orientation": "vertical",
-              "h_alignment": "center",
-              "margin": "0,0",
-              "content":
-              [
-                {
-                  "type": "layout",
-                  "key": "lily_ability_grid"
-                }
-              ]
-            }
-          },
-          {
-            "type": "group",
-            "header": "Pinned Locations",
-            "content": 
-            {
-              "type": "recentpins",
-              "style": "wrap",
-              "h_alignment": "stretch",
-              "v_alignment": "stretch",
-              "orientation": "horizontal",
-              "compact": true
-            }
-          }
-        ]
-      },
-      {
-        "type": "dock",
-        "v_alignment": "stretch",
-        "h_alignment": "stretch",
-        "margin": "0, 0, 0, 0",
-        "content": [
-            {
-                "type": "tabbed",
-                "dock": "top",
-                "tabs": [
-              {
-                "title": "World Map",
-                "content": {
-                  "type":"map",
-                  "maps": ["WorldMap"]
-                }
+              "type": "group",
+              "header": "Spirits",
+              "header_content": {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#55212121",
+                "layout": "settings_popup"
               },
+              "content": 
               {
-                "title": "Credits",
-                "content": {
-                  "type": "map",
-                  "maps": ["Credits"]
-                }
-              } 
-            ]
-          }
-        ]
-      }
-    ]
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": 
+                [
+                  {
+                    "type": "layout",
+                    "key": "lily_spirit_grid"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Relics",
+              "content":
+              {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content":
+                [
+                  {
+                    "type": "layout",
+                    "key": "lily_relic_grid"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Abilities",
+              "content":
+              {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content":
+                [
+                  {
+                    "type": "layout",
+                    "key": "lily_ability_grid"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Goal",
+              "content": 
+              {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content":
+                [
+                  {
+                    "type": "layout",
+                    "key": "lily_goal_grid"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "v_alignment": "stretch",
+          "margin": "0, 0, 0, 0",
+          "content": [
+              {
+                  "type": "tabbed",
+                  "dock": "top",
+                  "tabs": [
+                {
+                  "title": "World Map",
+                  "content": {
+                    "type":"map",
+                    "maps": ["WorldMap"]
+                  }
+                },   	            
+					      
+                {
+                  "title": "Credits",
+                  "content": {
+                    "type": "map",
+                    "maps": ["Credits"]
+                  }
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
-}
 }

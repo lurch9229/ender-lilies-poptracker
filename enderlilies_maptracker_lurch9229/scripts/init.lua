@@ -18,7 +18,7 @@ if (string.find(Tracker.ActiveVariantUID, "minimal_items")) then
     Tracker:AddLayouts("minimal_layout/broadcast_minimal.json")
 else if (string.find(Tracker.ActiveVariantUID, "items_only")) then
     Tracker:AddLayouts("layouts/items_only.json")
-    Tracker:AddLayouts("layouts/broadcast_vertical.json")
+    Tracker:AddLayouts("layouts/broadcast_horizontal.json")
 else if (string.find(Tracker.ActiveVariantUID, "world_map")) then
     Tracker:AddMaps("maps/world_map.json")
     Tracker:AddLayouts("layouts/tracker_worldmap.json")
