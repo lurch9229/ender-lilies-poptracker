@@ -1,5 +1,6 @@
 # EnderLiliesTracker
 PopTracker Package for Ender Lilies: Quietus of the Knights Randomizer, which can be downloaded here https://github.com/Trexounay/EnderLilies.Randomizer/releases
+PopTracker Program: https://github.com/black-sliver/PopTracker/releases
 
 NOW WITH AUTO-TRACKING!!!!
 
