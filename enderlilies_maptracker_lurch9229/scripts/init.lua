@@ -32,7 +32,7 @@ else if (string.find(Tracker.ActiveVariantUID,"map_tracker")) then
     Tracker:AddLocations("locations/white_parish.json")
     Tracker:AddLocations("locations/cliffs_west.json")
     Tracker:AddLocations("locations/cliffs_east.json")
-    Tracker:AddLocations("locations/witchs_thicket.json")
+    Tracker:AddLocations("locations/witches_thicket.json")
     Tracker:AddLocations("locations/catacombs.json")
     Tracker:AddLocations("locations/twin_spires.json")
     Tracker:AddLocations("locations/stockade.json")

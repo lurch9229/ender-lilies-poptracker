@@ -5,7 +5,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 2,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/spirits_on.png",
                 "codes": "setting_spirits",
@@ -24,7 +25,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 2,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/relics_on.png",
                 "codes": "setting_relics",
@@ -43,7 +45,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 1,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/amulets_on.png",
                 "codes": "setting_amulets",
@@ -62,7 +65,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 1,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/chains_on.png",
                 "codes": "setting_chains",
@@ -81,7 +85,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 1,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/blight_on.png",
                 "codes": "setting_blight",
@@ -100,7 +105,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 1,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/wishes_on.png",
                 "codes": "setting_wishes",
@@ -119,7 +125,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 1,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/findings_on.png",
                 "codes": "setting_findings",
@@ -138,7 +145,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 1,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/c_end_on.png",
                 "codes": "setting_c_end",
@@ -157,7 +165,8 @@
         "allow_disabled": false,
         "loop": true,
         "initial_stage_idx": 1,
-        "stages": [
+        "stages": 
+		[
             {
                 "img": "images/settings/costs_on.png",
                 "codes": "setting_costs",
@@ -166,6 +175,26 @@
             {
                 "img": "images/settings/costs_off.png",
                 "codes": "setting_costs_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+	{
+        "name": "Shuffle All",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/shuffle_all_on.png",
+                "codes": "setting_all",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/shuffle_all_off.png",
+                "codes": "setting_all_off,$hasAllShuffles",
                 "inherit_codes": false
             }
         ]

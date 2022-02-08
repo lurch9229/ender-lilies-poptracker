@@ -24,10 +24,10 @@
     "img": "images/maps/Cliffside_Hamlet_E.png"
   },
   {
-    "name": "WitchesThicket",
-    "location_size": 60,
-    "location_border_thickness": 5,
-    "img": "images/maps/Witches_Thicket.png"
+	"name": "WitchesThicket",
+	"location_size": 60,
+	"location_border_thickness": 5,
+	"img": "images/maps/Witches_Thicket.png"
   },
   {
     "name": "Catacombs",

@@ -4,17 +4,20 @@
         "chest_unopened_img": "images/items/chest_x.png",
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
-        "children": [
+        "children": 
+		[
             {
                 "name": "Finding - Proof of Founding",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4665,
                         "y": 2170
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H1",
                         "visibility_rules": 
@@ -32,14 +35,16 @@
             },
             {
                 "name": "Royal Aegis Crest",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 3295,
                         "y": 2075
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H2",
                         "visibility_rules": 
@@ -57,14 +62,16 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4080,
                         "y": 2075
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H2",
                         "visibility_rules": 
@@ -82,14 +89,16 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 3600,
                         "y": 1485
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H3",
                         "visibility_rules": 
@@ -110,14 +119,16 @@
             },
             {
                 "name": "Finding - King of the First Age's Diary I",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 3580,
                         "y": 1440
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H3",
                         "visibility_rules": 
@@ -135,14 +146,16 @@
             },
             {
                 "name": "Finding - King of the FIrst Age's Diary II",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4150,
                         "y": 1440
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H3",
                         "visibility_rules": 
@@ -160,14 +173,16 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 3750,
                         "y": 1380
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H3",
                         "visibility_rules": 
@@ -188,14 +203,16 @@
             },
             {
                 "name": "Blightwreathed Blade",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1480,
                         "y": 2030
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H5",
                         "visibility_rules": 
@@ -213,14 +230,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1020,
                         "y": 2170
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H5",
                         "visibility_rules": 
@@ -238,14 +257,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 900,
                         "y": 2120
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H5",
                         "visibility_rules": 
@@ -263,14 +284,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 840,
                         "y": 1970
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H5",
                         "visibility_rules": 
@@ -288,14 +311,16 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1300,
                         "y": 1970
                     }
                 ],
-                "sections": [
+                "sections":
+				[
                     {
                         "name": "H5",
                         "visibility_rules": 
@@ -317,14 +342,16 @@
             },
             {
                 "name": "Furious Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1900,
                         "y": 1450
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H6",
                         "visibility_rules": 
@@ -347,14 +374,16 @@
             },
             {
                 "name": "Finding - Julius' Book",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 450,
                         "y": 1500
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H7",
                         "visibility_rules": 
@@ -372,14 +401,16 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 450,
                         "y": 1600
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H7",
                         "visibility_rules": 
@@ -397,14 +428,16 @@
             },
             {
                 "name": "Amulet Gem (+20 HP)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 2700,
                         "y": 1090
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H9",
                         "visibility_rules": 
@@ -424,14 +457,16 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1600,
                         "y": 1120
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H10",
                         "visibility_rules": 
@@ -449,14 +484,16 @@
             },
             {
                 "name": "Amulet Fragment (+5HP)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1780,
                         "y": 800
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H11",
                         "visibility_rules": 
@@ -475,14 +512,16 @@
             },
             {
                 "name": "Finding - King's Note II",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1620,
                         "y": 730
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H11",
                         "visibility_rules": 
@@ -501,14 +540,16 @@
             },
             {
                 "name": "Furious Blight x100",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 2050,
                         "y": 730
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H11",
                         "visibility_rules": 
@@ -527,14 +568,16 @@
             },
             {
                 "name": "Eldred's Ring",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1560,
                         "y": 730
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H11",
                         "visibility_rules": 
@@ -553,14 +596,16 @@
             },
             {
                 "name": "Finding - King's Note I",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 2625,
                         "y": 800
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H12",
                         "visibility_rules": 
@@ -579,14 +624,16 @@
             },
             {
                 "name": "Knight Captain Julius Fight",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 3210,
                         "y": 780
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H13",
                         "visibility_rules": 
@@ -605,14 +652,16 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4140,
                         "y": 1190
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H14",
                         "visibility_rules": 
@@ -635,14 +684,16 @@
             },
             {
                 "name": "Amulet Fragment (+5HP) ",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4140,
                         "y": 850
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H14",
                         "visibility_rules": 
@@ -661,14 +712,16 @@
             },
             {
                 "name": "Furious Blight x800",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4070,
                         "y": 720
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H14",
                         "visibility_rules": 
@@ -689,14 +742,16 @@
             },
             {
                 "name": "Priestess' Wish (Prayer Upgrade)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 3440,
                         "y": 470
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H15",
                         "visibility_rules": 
@@ -714,14 +769,16 @@
             },
             {
                 "name": "Finding - Priestess' Castle Memo",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 3495,
                         "y": 470
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H15",
                         "visibility_rules": 
@@ -739,14 +796,16 @@
             },
             {
                 "name": "Castle Roof",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1980,
                         "y": 430
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "One-Eyed Royal Aegis Fight",
                         "visibility_rules": 
@@ -881,14 +940,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1540,
                         "y": 380
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H16",
                         "visibility_rules": 
@@ -908,14 +969,16 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": [
+                "map_locations":
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 2682,
                         "y": 1950
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H17",
                         "visibility_rules": 
@@ -935,14 +998,16 @@
             },
             {
                 "name": "Amulet Fragment (+5HP) ",
-                "map_locations": [
+                "map_locations":
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 2682,
                         "y": 1800
                     }
                 ],
-                "sections": [
+                "sections":
+				[
                     {
                         "name": "H17",
                         "visibility_rules": 
@@ -960,14 +1025,16 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 2990,
                         "y": 2430
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H18",
                         "visibility_rules": 
@@ -987,14 +1054,16 @@
             },
             {
                 "name": "Amulet Fragment (+5HP) ",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 1875,
                         "y": 2445
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H18",
                         "visibility_rules": 
@@ -1012,14 +1081,16 @@
             },
             {
                 "name": "Finding - Report from a Verboten Mage",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 2512,
                         "y": 2700
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H19",
                         "visibility_rules": 
@@ -1037,14 +1108,16 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4570,
                         "y": 1590
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H20",
                         "visibility_rules": 
@@ -1062,14 +1135,16 @@
             },
             {
                 "name": "Stone Tablet Fragment",
-                "map_locations": [
+                "map_locations":
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4810,
                         "y": 1620
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H20",
                         "visibility_rules": 
@@ -1087,14 +1162,16 @@
             },
             {
                 "name": "Finding - King of the First Age's Diary III",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "RuinedCastle",
                         "x": 4648,
                         "y": 1500
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "H20",
                         "visibility_rules": 

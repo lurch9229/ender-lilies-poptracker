@@ -4,17 +4,20 @@
         "chest_unopened_img": "images/items/chest_x.png",
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
-        "children": [
+        "children": 
+		[
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 520,
                         "y": 1700
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C1",
                         "visibility_rules": 
@@ -35,14 +38,16 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 700,
                         "y": 1800
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C1 Inside Crate",
                         "visibility_rules": 
@@ -59,14 +64,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 1250,
                         "y": 1650
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C1",
                         "visibility_rules": 
@@ -85,14 +92,16 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 1740,
                         "y": 1320
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C2",
                         "visibility_rules": 
@@ -109,14 +118,16 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP) (In Barrel)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 1800,
                         "y": 1320
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C2",
                         "visibility_rules": 
@@ -133,14 +144,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 1900,
                         "y": 1320
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C2",
                         "visibility_rules": 
@@ -157,14 +170,16 @@
             },
             {
                 "name": "Broken Music Box",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 2440,
                         "y": 1305
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C2",
                         "visibility_rules": 
@@ -186,14 +201,16 @@
             },
             {
                 "name": "Finding - True Believer's Note",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 3035,
                         "y": 1315
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C3",
                         "item_count": 1,
@@ -210,7 +227,8 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                        
@@ -218,7 +236,8 @@
                         "y": 1150
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C4",
                         "visibility_rules": 
@@ -235,14 +254,16 @@
             },
             {
                 "name": "2 Stagnant Blights x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 3680,
                         "y": 1330
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C4",
                         "visibility_rules": 
@@ -262,14 +283,16 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 4340,
                         "y": 1330
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C4",
                         "visibility_rules": 
@@ -286,14 +309,16 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 4170,
                         "y": 1180
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C4",
                         "visibility_rules": 
@@ -312,14 +337,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations":
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 4410,
                         "y": 1150
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C4",
                         "visibility_rules": 
@@ -344,14 +371,16 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations": [
+                "map_locations":
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 4780,
                         "y": 780
                     }
                 ],
-                "sections": [
+                "sections":
+				[
                     {
                         "name": "C5",
                         "visibility_rules": 
@@ -373,14 +402,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5070,
                         "y": 780
                     }
                 ],
-                "sections": [
+                "sections":
+				[
                     {
                         "name": "C5",
                         "visibility_rules": 
@@ -397,14 +428,16 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5290,
                         "y": 772
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C5",
                         "visibility_rules": 
@@ -422,14 +455,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 4840,
                         "y": 1360
                     }
                 ],
-                "sections": [
+                "sections":
+				[
                     {
                         "name": "C6",
                         "visibility_rules": 
@@ -446,14 +481,16 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 4950,
                         "y": 1300
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C6",
                         "visibility_rules": 
@@ -470,14 +507,16 @@
             },
             {
                 "name": "Headless Defender Fight",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5160,
                         "y": 1240
                     }
                 ],
-                "sections": [
+                "sections":
+				[
                     {
                         "name": "C6",
                         "visibility_rules": 
@@ -494,14 +533,16 @@
             },
             {
                 "name": "Finding - Hamlet Request I",
-                "map_locations": [
+                "map_locations":
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5740,
                         "y": 1150
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C7",
                         "item_count": 1,
@@ -518,14 +559,16 @@
             },
             {
                 "name": "Finding - Adherent's Letter",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5900,
                         "y": 1090
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C7",
                         "item_count": 1,
@@ -542,14 +585,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 1990,
                         "y": 2300
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C9",
                         "visibility_rules": 
@@ -566,14 +611,16 @@
             },
             {
                 "name": "Giant's Ring",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 2050,
                         "y": 2430
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C9",
                         "visibility_rules": 
@@ -590,14 +637,16 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot) (In Barrel)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 2300,
                         "y": 2320
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C9",
                         "visibility_rules": 
@@ -614,14 +663,16 @@
             },
             {
                 "name": "Amulet Gem (+20 HP)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 2180,
                         "y": 2230
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C9",
                         "visibility_rules": 
@@ -640,14 +691,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 3680,
                         "y": 2500
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C10",
                         "visibility_rules": 
@@ -664,14 +717,16 @@
             },
             {
                 "name": "Fretia's Ring",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 4780,
                         "y": 2480
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C11",
                         "visibility_rules": 
@@ -694,14 +749,16 @@
             },
             {
                 "name": "Furious Blight x800",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5330,
                         "y": 2490
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C11",
                         "visibility_rules": 
@@ -724,14 +781,16 @@
             },
             {
                 "name": "Finding - True Believer's Note",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 3210,
                         "y": 2810
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C12",
                         "item_count": 1,
@@ -748,14 +807,16 @@
             },
             {
                 "name": "Stone Tablet Fragment",
-                "map_locations": [
+                "map_locations":
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 3150,
                         "y": 2810
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C12",
                         "visibility_rules": 
@@ -772,14 +833,16 @@
             },
             {
                 "name": "Bloodstained Ribbon",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 2330,
                         "y": 700
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C13",
                         "visibility_rules": 
@@ -800,14 +863,16 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 2250,
                         "y": 850
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C13",
                         "visibility_rules": 
@@ -824,14 +889,16 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 1923,
                         "y": 680
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C13",
                         "visibility_rules": 
@@ -848,14 +915,16 @@
             },
             {
                 "name": "Western Merchant Fight",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 2210,
                         "y": 350
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C14",
                         "visibility_rules": 
@@ -872,14 +941,16 @@
             },
             {
                 "name": "Furious Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5500,
                         "y": 500
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C15",
                         "visibility_rules": 
@@ -898,14 +969,16 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5940,
                         "y": 480
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C15",
                         "visibility_rules": 
@@ -939,14 +1012,16 @@
             },
             {
                 "name": "Cliffside Hamlet Elder Fight",
-                "map_locations": [
+                "map_locations": 
+				[
                     {
                         "map": "CliffsideHamletWest",
                         "x": 5720,
                         "y": 300
                     }
                 ],
-                "sections": [
+                "sections": 
+				[
                     {
                         "name": "C15",
                         "visibility_rules": 

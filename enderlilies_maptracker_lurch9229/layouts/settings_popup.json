@@ -1,59 +1,56 @@
 ﻿{
-  "settings_popout": {
-    "type": "array",
-    "margin": 5,
-    "content": [
-      {
-        "type": "group",
-        "header": "Settings",
-        "content": [
-          {
-            "type": "item",
-            "item": "setting_spirits"
-          },
-          {
-            "type": "item",
-            "margin": "0, 30, 0, 0",
-            "item": "setting_relics"
-          },
-          {
-            "type": "item",
-            "margin": "0, 60, 0, 0",
-            "item": "setting_amulets"
-          },
-          {
-            "type": "item",
-            "margin":"165, 0, 0, 0",
-            "item": "setting_chains"
-          },
-          {
-            "type": "item",
-            "margin":"165, 30, 0, 0",
-            "item": "setting_blight"
-          },
-          {
-            "type": "item",
-            "margin":"165, 60, 0, 0",
-            "item": "setting_wishes"
-          },
-          {
-            "type": "item",
-            "margin":"330, 0, 0, 0",
-            "item": "setting_findings"
-          },
-          {
-            "type": "item",
-            "margin":"330, 30, 0, 0",
-            "item": "setting_c_end"
-          },
-          {
-            "type": "item",
-            "margin":"330, 60, 0, 0",
-            "item": "setting_costs"
-          }
-        ]
-      }
-    ]
-  }
-}			
-  
+	"settings_popout":
+	{
+		"type": "group",
+		"margin": 5,
+		"orientation": "horizontal",
+		"content": 
+		[
+			{
+				"type": "array",
+				"header": "Randomizations",
+				"orientation": "vertical",
+				"content": 
+				[
+					{
+						"type": "itemgrid",
+						"rows": 
+						[
+							["setting_all_off"]
+						]	
+					},
+					{
+						"type": "itemgrid",
+						"rows": 
+						[
+							["setting_cost"]
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"header": "Settings",
+				"orientation": "vertical",
+				"content": 
+				[
+					{
+						"type": "itemgrid",
+						"rows": 
+						[
+							["setting_spirits", "setting_relics", "setting_amulets", "setting_chains"]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"orientation": "horizontal",
+						"rows":
+						[
+							["setting_blight", "setting_wishes", "setting_findings", "setting_c_end"]
+						]
+					}
+				]
+			}
+		]
+	}
+}
