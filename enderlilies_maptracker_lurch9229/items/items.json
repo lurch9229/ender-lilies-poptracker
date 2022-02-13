@@ -114,6 +114,14 @@
 	  "swap_actions": false
   },
   {
+    "name": "Amulet Jewel",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/Amulet_Jewel.png",
+    "codes": "jewel",
+	  "swap_actions": false
+  },
+  {
     "name": "Bloody Knight's Claws",
     "type": "toggle",
     "loop": "false",

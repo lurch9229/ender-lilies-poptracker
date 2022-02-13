@@ -4,24 +4,22 @@
         "chest_unopened_img": "images/items/chest_x.png",
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
-        "children": 
-		[
+        "children": [
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 2980,
                         "y": 350
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -35,20 +33,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP) (In Crate)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 2480,
                         "y": 470
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "J1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -61,20 +58,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4750,
                         "y": 740
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -88,20 +84,19 @@
             },
             {
                 "name": "Verboten Champion Fight",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4620,
                         "y": 1030
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -115,20 +110,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4330,
                         "y": 1800
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J3",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -142,20 +136,19 @@
             },
             {
                 "name": "Furious Blight x100",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 3850,
                         "y": 1850
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J3",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -169,20 +162,19 @@
             },
             {
                 "name": "Heretic's Mask",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4960,
                         "y": 1430
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -195,20 +187,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 5080,
                         "y": 1350
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -221,20 +212,19 @@
             },
             {
                 "name": "Finding - Verboten Domain Notice",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 5140,
                         "y": 1450
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "J4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -252,20 +242,19 @@
             },
             {
                 "name": "Weathered Necklace",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1080,
                         "y": 695
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "J5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -279,20 +268,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 700,
                         "y": 505
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "J5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -308,20 +296,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1100,
                         "y": 980
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "J6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -335,20 +322,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 680,
                         "y": 1240
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -362,20 +348,19 @@
             },
             {
                 "name": "Furious Blight x30",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1100,
                         "y": 1255
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -391,20 +376,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 210,
                         "y": 1410
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J7",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -417,20 +401,19 @@
             },
             {
                 "name": "Finding - Faden's Archives IV",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 260,
                         "y": 1330
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J7",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -443,20 +426,19 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1480,
                         "y": 1785
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -469,20 +451,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 765,
                         "y": 2055
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -495,20 +476,19 @@
             },
             {
                 "name": "Furious Blight x100",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1695,
                         "y": 2795
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -521,20 +501,19 @@
             },
             {
                 "name": "Amulet Gem (+20 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1425,
                         "y": 2810
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -547,20 +526,19 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1180,
                         "y": 2795
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -573,20 +551,19 @@
             },
             {
                 "name": "Blighted Appendage",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4270,
                         "y": 2270
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J10",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -599,20 +576,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 3850,
                         "y": 2220
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J10",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -630,20 +606,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 3700,
                         "y": 2700
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J11",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -656,20 +631,19 @@
             },
             {
                 "name": "Incompetent Sinner Fight",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 3920,
                         "y": 3180
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "J11",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -682,20 +656,19 @@
             },
             {
                 "name": "Priestess' Wish (Prayer Upgrade)",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4550,
                         "y": 2960
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J12",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_wishes"
                         ],
                         "access_rules": 
@@ -708,20 +681,19 @@
             },
             {
                 "name": "Finding - Faden's Archives II",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4675,
                         "y": 2885
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J12",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -734,20 +706,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 3020,
                         "y": 1755
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -760,25 +731,26 @@
             },
             {
                 "name": "Calivia's Ring",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 2620,
                         "y": 2040
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
                         [
-                            "$J13ACCESSW,$LEDGE,claws"
+                            "$J13ACCESSW,$LEDGE,claws",
+                            "$J13ACCESSW,$LEDGE,hook",
+                            "$J13ACCESSW,$FULLSILVA"
                         ],
                         "item_count": 1
                     }
@@ -786,20 +758,19 @@
             },
             {
                 "name": "Finding - Faden's Archives I",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 2800,
                         "y": 3275
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -812,20 +783,19 @@
             },
             {
                 "name": "Stagnant Blight x800",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1798,
                         "y": 3220
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "J16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -840,20 +810,19 @@
             },
             {
                 "name": "Miriel, The Beloved Prize",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1798,
                         "y": 3335
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Faden",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -866,6 +835,7 @@
                         "name": "Finding - Miriel's Blighted Letter",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -878,6 +848,7 @@
                         "name": "Finding - Faden's Archives V",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -890,20 +861,19 @@
             },
             {
                 "name": "Finding - Silva's Bloodstained Note I",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1758,
                         "y": 3630
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -916,20 +886,19 @@
             },
             {
                 "name": "Furious Blight x100",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1500,
                         "y": 4300
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -942,20 +911,19 @@
             },
             {
                 "name": "Finding - Silva's Bloodstained Note II",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1910,
                         "y": 4850
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -968,20 +936,19 @@
             },
             {
                 "name": "Finding - Fretia's Memoirs V",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1765,
                         "y": 4725
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -994,20 +961,19 @@
             },
             {
                 "name": "White Priestess' Earrings",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1645,
                         "y": 4850
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -1020,20 +986,19 @@
             },
             {
                 "name": "Mother",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1815,
                         "y": 4850
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Ending B",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_hidden"
                         ],
                         "access_rules": 
@@ -1046,6 +1011,7 @@
                         "name": "Ending C",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_hidden"
                         ],
                         "access_rules": 
@@ -1058,20 +1024,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1970,
                         "y": 4690
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -1088,20 +1053,19 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4830,
                         "y": 3540
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -1114,20 +1078,19 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4830,
                         "y": 3725
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -1140,20 +1103,19 @@
             },
             {
                 "name": "Ancient Soul x2",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4830,
                         "y": 4380
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -1166,20 +1128,19 @@
             },
             {
                 "name": "Stone Tablet Fragment",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 4750,
                         "y": 4380
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "K5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_c_end"
                         ],
                         "access_rules": 
@@ -1192,20 +1153,19 @@
             },
             {
             "name": "Finding - The Deathless Pact",
-            "map_locations": 
-			[
+            "map_locations": [
                 {
                     "map": "VerbotenDomain",
                     "x": 4680,
                     "y": 4380
                 }
             ],
-            "sections": 
-			[
+            "sections": [
                 {
                     "name": "K5",
                     "visibility_rules": 
                     [
+                        "setting_all",
                         "setting_findings"
                     ],
                     "access_rules": 

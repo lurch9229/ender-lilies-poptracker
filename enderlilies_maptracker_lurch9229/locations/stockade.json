@@ -4,24 +4,22 @@
         "chest_unopened_img": "images/items/chest_x.png",
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
-        "children": 
-		[
+        "children": [
             {
                 "name": "Finding - Executioner's Vow",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 440,
                         "y": 1258
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "F1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -34,8 +32,7 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 1008,
@@ -43,12 +40,12 @@
                     }
                 ],
 
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -63,8 +60,7 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 1475,
@@ -72,12 +68,12 @@
                     }
                 ],
 
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -90,8 +86,7 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 1530,
@@ -99,12 +94,12 @@
                     }
                 ],
 
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F3",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -117,8 +112,7 @@
             },
             {
                 "name": "Fall From Above",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 2280,
@@ -126,12 +120,12 @@
                     }
                 ],
 
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "Amulet Gem (+20HP)",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -146,6 +140,7 @@
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -160,8 +155,7 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 1850,
@@ -169,12 +163,12 @@
                     }
                 ],
 
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -187,8 +181,7 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 2310,
@@ -196,12 +189,12 @@
                     }
                 ],
 
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -214,20 +207,20 @@
             },
             {
                 "name": "Stagnant Blight x800",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 1940,
                         "y": 1550
                     }
                 ],
-                "sections":
-				[
+
+                "sections":[
                     {
                         "name": "F4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -240,20 +233,19 @@
             },
             {
                 "name": "Finding - Executioner's Missive",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 2915,
                         "y": 2130
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "F5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -266,8 +258,7 @@
             },
             {
                 "name": "2 Amulet Fragments (+5 HP x2)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 3280,
@@ -275,12 +266,12 @@
                     }
                 ],
 
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -294,8 +285,7 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 3660,
@@ -303,12 +293,12 @@
                     }
                 ],
 
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -322,20 +312,19 @@
             },
             {
                 "name": "Furious Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4200,
                         "y": 1740
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -353,20 +342,19 @@
             },
             {
                 "name": "Furious Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4465,
                         "y": 1595
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -382,20 +370,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4200,
                         "y": 1220
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -418,20 +405,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4050,
                         "y": 1120
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -446,20 +432,19 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4400,
                         "y": 930
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -476,20 +461,19 @@
             },
             {
                 "name": "Finding - Slip of Paper",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4405,
                         "y": 1090
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "F9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -506,20 +490,19 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4820,
                         "y": 1380
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F10",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -535,20 +518,19 @@
             },
             {
                 "name": "Finding - Hoenir's Diary II",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 5310,
                         "y": 1535
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F11",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -562,20 +544,19 @@
             },
             {
                 "name": "Hoenir, Keeper Of The Abyss Fight",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 5670,
                         "y": 1540
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F12",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits",
                             "setting_wishes",
                             "setting_blight" 
@@ -592,25 +573,27 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 6020,
                         "y": 1510
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
                         [
-                            "$F13ACCESS,defeatHoenir"
+                            "$F13ACCESS,hook,defeatHoenir",
+                            "$F13ACCESS,silva,djump,$HORIZONTAL,claws,defeatHoenir",
+                            "$F13ACCESS,silva,djump,ulv,claws,defeatHoenir",
+                            "$F13ACCESS,$FULLSILVA,defeatHoenir"
                         ],
                         "item_count": 1
                     }
@@ -618,20 +601,19 @@
             },
             {
                 "name": "Priestess' Wish (Prayer Upgrade)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 6160,
                         "y": 1280
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_wishes"
                         ],
                         "access_rules": 
@@ -647,20 +629,19 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 3080,
                         "y": 1160
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -673,20 +654,19 @@
             },
             {
                 "name": "Amulet Fragment (+5HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 2590,
                         "y": 1280
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -699,20 +679,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 2867,
                         "y": 980
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -726,20 +705,19 @@
             },
             {
                 "name": "Dark Executioner Fight",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 5670,
                         "y": 1250
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F15",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -755,20 +733,19 @@
             },
             {
                 "name": "Ancient Soul",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 5080,
                         "y": 1765
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -783,20 +760,19 @@
             },
             {
                 "name": "Finding - Hoenir's Diary I",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 3960,
                         "y": 710
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "F17",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -810,20 +786,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 3100,
                         "y": 350
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F18",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -837,20 +812,19 @@
             },
             {
                 "name": "Executioner's Gloves",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 3800,
                         "y": 1345
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F19",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -863,20 +837,19 @@
             },
             {
                 "name": "Hidden Test Subject Fight",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 2280,
                         "y": 630
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F20",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -889,20 +862,19 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 2020,
                         "y": 350
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F21",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -917,20 +889,19 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 1620,
                         "y": 630
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F22",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -943,20 +914,19 @@
             },
             {
                 "name": "Finding - Forbidden Text Scrap",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 1625,
                         "y": 1200
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "F23",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -969,20 +939,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 1830,
                         "y": 1215
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F24",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -995,20 +964,19 @@
             },
             {
                 "name": "Aura's Ring",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4820,
                         "y": 1020
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F25",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -1021,20 +989,19 @@
             },
             {
                 "name": "Stone Tablet Fragment",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 3600,
                         "y": 220
                     }
                 ],
-                "sections":
-				[
+                "sections":[
                     {
                         "name": "F27",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_c_end"
                         ],
                         "access_rules": 

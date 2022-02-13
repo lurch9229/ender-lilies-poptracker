@@ -4,25 +4,23 @@
         "chest_unopened_img": "images/items/chest_x.png",
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
-        "children": 
-		[
+        "children": [
 
             {
                 "name": "Stagnant Blight x100",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 940,
                         "y": 2210
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G1",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -35,20 +33,19 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 775,
                         "y": 2000
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G2",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -62,20 +59,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 850,
                         "y": 1800
                     }                    
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G2 In Pot",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -91,20 +87,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1200,
                         "y": 1910
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G2 In Pot",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -117,20 +112,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2100,
                         "y": 1890
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G3",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -144,20 +138,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1800,
                         "y": 2450
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -173,20 +166,19 @@
             },
             {
                 "name": "Finding - Bloodied Note II",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1820,
                         "y": 2510
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -199,20 +191,19 @@
             },
             {
                 "name": "Finding - Note on the Castle Wall",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2915,
                         "y": 2525
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -225,20 +216,19 @@
             },
             {
                 "name": "Snowdrop Bracelet",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 3090,
                         "y": 2580
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "G5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -251,20 +241,19 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 3200,
                         "y": 2450
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -277,20 +266,19 @@
             },
             {
                 "name": "Furious Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2960,
                         "y": 2300
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G5",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -304,20 +292,19 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 3070,
                         "y": 2030
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G6",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -330,20 +317,19 @@
             },
             {
                 "name": "Finding - Hoenir's Diary III",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 3455,
                         "y": 1920
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "G7",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -356,20 +342,19 @@
             },
             {
                 "name": "Ricorus' Ring",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 3240,
                         "y": 1720
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -387,20 +372,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2975,
                         "y": 1550
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G8",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -420,20 +404,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2150,
                         "y": 1540
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "G9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -448,20 +431,19 @@
             },
             {
                 "name": "Forsaken Fellwyrm Fight",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1850,
                         "y": 1565
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G9",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
                         "access_rules": 
@@ -477,20 +459,19 @@
             },
             {
                 "name": "Finding - Monument Engraving",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1540,
                         "y": 1565
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G10",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -503,20 +484,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2995,
                         "y": 1130
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "G11 In Barrel",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -529,20 +509,19 @@
             },
 			{
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2610,
                         "y": 1370
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G11",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -555,20 +534,19 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2165,
                         "y": 1345
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "G12",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -581,20 +559,19 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1920,
                         "y": 1345
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G12",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -607,20 +584,19 @@
             },
             {
                 "name": "Hanging Nest",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2040,
                         "y": 1035
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Stone Tablet Fragment",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_c_end"
                         ],
                         "access_rules": 
@@ -633,6 +609,7 @@
                         "name": "Stagnant Blight x800",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -645,6 +622,7 @@
                         "name": "Finding - Writing on the Wall",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -657,20 +635,19 @@
             },
             {
                 "name": "Stagnant Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 690,
                         "y": 1660
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -683,20 +660,19 @@
             },
             {
                 "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1090,
                         "y": 1310
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -709,20 +685,19 @@
             },
             {
                 "name": "Immortal Crest",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 810,
                         "y": 1220
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -738,20 +713,19 @@
             },
             {
                 "name": "Finding - Bloodied Note III",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1190,
                         "y": 1555
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G13",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -764,20 +738,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1110,
                         "y": 580
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G14",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -790,20 +763,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot) (In Crate)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1650,
                         "y": 550
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G15",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules": 
@@ -816,20 +788,19 @@
             },
             {
                 "name": "Amulet Gem (+20 HP)",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 1820,
                         "y": 575
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G15",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": 
@@ -844,20 +815,19 @@
             },
             {
                 "name": "Ancient Dragon Claw",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2785,
                         "y": 880
                     }
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "G16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 
@@ -874,20 +844,19 @@
             },
             {
                 "name": "Furious Blight x10",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2680,
                         "y": 730
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -900,20 +869,19 @@
             },
             {
                 "name": "Furious Blight x30",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2970,
                         "y": 480
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G16",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -930,20 +898,19 @@
             },
             {
                 "name": "Ulv, The Mad Knight Fight",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 2910,
                         "y": 180
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G18",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits",
                             "setting_wishes",
                             "setting_findings"
@@ -959,20 +926,19 @@
             },
             {
                 "name": "Priestess' Wish (Prayer Upgrade)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 3100,
                         "y": 180
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G18",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_wishes"
                         ],
                         "access_rules": 
@@ -987,20 +953,19 @@
             },
             {
                 "name": "Finding - White Priestess' Bastion Letter",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 3162,
                         "y": 180
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G18",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules": 
@@ -1015,20 +980,19 @@
             },
             {
                 "name": "Stagnant Blight x100",
-                "map_locations":
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 3600,
                         "y": 2450
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G19",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_blight"
                         ],
                         "access_rules": 
@@ -1041,20 +1005,19 @@
             },
             {
                 "name": "Nymphilia's Ring",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "TwinSpires",
                         "x": 4000,
                         "y": 2800
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "G19",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_relics"
                         ],
                         "access_rules": 

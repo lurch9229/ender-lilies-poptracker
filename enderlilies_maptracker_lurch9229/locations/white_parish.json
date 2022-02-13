@@ -4,25 +4,23 @@
        "chest_unopened_img": "images/items/chest_x.png",
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
-        "children": 
-		[
+        "children": [
             {
                 "name": "Finding - Groa's Letter",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "WhiteParish",
                         "x": 1790,
                         "y": 2760
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "B1",
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
@@ -34,20 +32,19 @@
             },
             {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "WhiteParish",
                         "x": 6320,
                         "y": 3100
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "B3",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_chains"
                         ],
                         "access_rules":[
@@ -59,24 +56,22 @@
             },
             {
                 "name": "Cliffside Hamlet Youth Fight",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "WhiteParish",
                         "x": 6620,
                         "y": 2800
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "B3",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-						[
+                        "access_rules": [
                             "$B3ACCESS"
                         ],
                         "item_count": 1
@@ -85,20 +80,19 @@
             },
             {
                 "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "WhiteParish",
                         "x": 7785,
                         "y": 3200
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "B4",
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_amulets"
                         ],
                         "access_rules": [
@@ -110,21 +104,20 @@
             },
             {
                 "name": "Finding - The Parish Way II",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "WhiteParish",
                         "x": 8535,
                         "y": 2680
                     }
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "B4",
                         "item_count": 1,
                         "visibility_rules": 
                         [
+                            "setting_all",
                             "setting_findings"
                         ],
                         "access_rules":
