@@ -2,6 +2,10 @@ local variant = Tracker.ActiveVariantUID
 
 --LOADED SCRIPTS
 ScriptHost:LoadScript("scripts/logic.lua")
+if AutoTracker.readVariable then
+    ScriptHost:LoadScripts("scripts/autotracking.lua")
+end
+
 
 --LOAD ITEMS
 Tracker:AddItems("items/relics.json")
