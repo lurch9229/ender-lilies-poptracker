@@ -1,30 +1,4 @@
 trackedToggles = {
-    ["Spirit.s5000"] = "umbral",
-    ["Spirit.s5050"] = "gerrod",
-    ["Spirit.s5020"] = "silva",
-    ["Spirit.s5030"] = "julius",
-    ["Spirit.s5070"] = "ulv",
-    ["Spirit.s5040"] = "eleine",
-    ["Spirit.s5060"] = "hoenir",
-    ["Spirit.s5080"] = "faden",
-    ["Spirit.s5010"] = "siegrid",
-    ["Spirit.s2012"] = "cliffyouth",
-    ["Spirit.s2002"] = "headless",
-    ["Spirit.s2102"] = "merchant",
-    ["Spirit.s2082"] = "maiden",
-    ["Spirit.s2022"] = "archer",
-    ["Spirit.s2162"] = "elderkeeper",
-    ["Spirit.s2122"] = "fungal",
-    ["Spirit.s2132"] = "floral",
-    ["Spirit.s2192"] = "sentinel",
-    ["Spirit.s2072"] = "testsubject",
-    ["Spirit.s2182"] = "executioner",
-    ["Spirit.s2052"] = "sinner",
-    ["Spirit.s2172"] = "verboten",
-    ["Spirit.s2112"] = "cliffelder",
-    ["Spirit.s2092"] = "chief",
-    ["Spirit.s2032"] = "royalaegis",
-    ["Spirit.s2232"] = "fellwyrm",
 
     ["Aptitude.Heal"] = "pray",
     ["Aptitude.Jump"] = "jump",
@@ -54,6 +28,32 @@ trackedToggles = {
 }
 
 trackedConsumables = {
+    ["Spirit.s5000"] = "umbral",
+    ["Spirit.s5050"] = "gerrod",
+    ["Spirit.s5020"] = "silva",
+    ["Spirit.s5030"] = "julius",
+    ["Spirit.s5070"] = "ulv",
+    ["Spirit.s5040"] = "eleine",
+    ["Spirit.s5060"] = "hoenir",
+    ["Spirit.s5080"] = "faden",
+    ["Spirit.s5010"] = "siegrid",
+    ["Spirit.s2012"] = "cliffyouth",
+    ["Spirit.s2002"] = "headless",
+    ["Spirit.s2102"] = "merchant",
+    ["Spirit.s2082"] = "maiden",
+    ["Spirit.s2022"] = "archer",
+    ["Spirit.s2162"] = "elderkeeper",
+    ["Spirit.s2122"] = "fungal",
+    ["Spirit.s2132"] = "floral",
+    ["Spirit.s2192"] = "sentinel",
+    ["Spirit.s2072"] = "testsubject",
+    ["Spirit.s2182"] = "executioner",
+    ["Spirit.s2052"] = "sinner",
+    ["Spirit.s2172"] = "verboten",
+    ["Spirit.s2112"] = "cliffelder",
+    ["Spirit.s2092"] = "chief",
+    ["Spirit.s2032"] = "royalaegis",
+    ["Spirit.s2232"] = "fellwyrm",
     ["Parameter.i_maxHPUp_01"] = "fragment",
     ["Parameter.i_maxHPUp_02"] = "gem",
     -- ["Generic.i_FinalPassivePart_Up"] = "tablet",
@@ -109,6 +109,7 @@ trackedProgressives = {
 
 
 function updateToggles(store, vars)
+    print("updateToggles") 
     for _, var in ipairs(vars) do
         local o = Tracker:FindObjectForCode(trackedToggles[var])
         local val = store:ReadVariable(var)
@@ -116,7 +117,9 @@ function updateToggles(store, vars)
     end
 end
 
+
 function updateConsumables(store, vars)
+    print("updateConsumables") 
     for _, var in ipairs(vars) do
         local o = Tracker:FindObjectForCode(trackedConsumables[var])
         local val = store:ReadVariable(var)
@@ -128,7 +131,9 @@ function updateConsumables(store, vars)
     end
 end
 
+
 function updateProgressiveToggles(store, vars)
+    print("updateProgressiveToggles") 
     for _, var in ipairs(vars) do
         local o = Tracker:FindObjectForCode(trackedProgressives[var])
         local val = store:ReadVariable(var)
@@ -142,6 +147,7 @@ function updateProgressiveToggles(store, vars)
     end
 end
 
+
 for gameVar, trackerVar in pairs(trackedToggles) do
     ScriptHost:AddVariableWatch(gameVar, { gameVar }, updateToggles)
 end
@@ -151,3 +157,5 @@ end
 for gameVar, trackerVar in pairs(trackedProgressives) do
     ScriptHost:AddVariableWatch(gameVar, { gameVar }, updateProgressiveToggles)
 end
+
+print("added UAT callbacks")

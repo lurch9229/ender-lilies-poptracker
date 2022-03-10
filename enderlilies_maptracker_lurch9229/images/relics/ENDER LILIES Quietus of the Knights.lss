@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>ENDER LILIES: Quietus of the Knights</GameName>
+  <CategoryName>
+  </CategoryName>
+  <LayoutPath>
+  </LayoutPath>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>1</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="02/21/2022 00:36:06" isStartedSynced="True" ended="02/21/2022 00:37:32" isEndedSynced="True" />
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>
+      </Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings>
+    <Version>1.5</Version>
+    <ScriptPath>C:\Users\lurch\Documents\livesplit\Components\EnderLiliesAutoSplitter.asl</ScriptPath>
+    <Start>True</Start>
+    <Reset>True</Reset>
+    <Split>True</Split>
+    <CustomSettings>
+      <Setting id="load_remover" type="bool">True</Setting>
+      <Setting id="game_time" type="bool">True</Setting>
+      <Setting id="config_split" type="bool">True</Setting>
+      <Setting id="split_ending" type="bool">True</Setting>
+      <Setting id="split_boss_killed" type="bool">False</Setting>
+      <Setting id="boss_map_church_03" type="bool">True</Setting>
+      <Setting id="boss_map_village_10" type="bool">True</Setting>
+      <Setting id="boss_map_forest_15" type="bool">True</Setting>
+      <Setting id="boss_map_cave_23" type="bool">True</Setting>
+      <Setting id="boss_map_castle_20" type="bool">True</Setting>
+      <Setting id="boss_map_fort_21" type="bool">True</Setting>
+      <Setting id="boss_map_oubliette_15" type="bool">True</Setting>
+      <Setting id="boss_map_swamp_17" type="bool">True</Setting>
+      <Setting id="boss_map_abyss_03" type="bool">True</Setting>
+      <Setting id="split_miniboss_killed" type="bool">False</Setting>
+      <Setting id="boss_map_church_07" type="bool">True</Setting>
+      <Setting id="boss_map_village_08" type="bool">True</Setting>
+      <Setting id="boss_map_village_04_1" type="bool">True</Setting>
+      <Setting id="boss_map_castle_01" type="bool">True</Setting>
+      <Setting id="boss_map_cave_19" type="bool">True</Setting>
+      <Setting id="boss_map_cave_07" type="bool">True</Setting>
+      <Setting id="boss_map_forest_06" type="bool">True</Setting>
+      <Setting id="boss_map_forest_11" type="bool">True</Setting>
+      <Setting id="boss_map_fort_01" type="bool">True</Setting>
+      <Setting id="boss_map_oubliette_07_2" type="bool">True</Setting>
+      <Setting id="boss_map_oubliette_12" type="bool">True</Setting>
+      <Setting id="boss_map_swamp_15" type="bool">True</Setting>
+      <Setting id="boss_map_swamp_04" type="bool">True</Setting>
+      <Setting id="boss_map_village_14" type="bool">True</Setting>
+      <Setting id="boss_map_church_09" type="bool">True</Setting>
+      <Setting id="boss_map_fort_12" type="bool">True</Setting>
+      <Setting id="boss_map_castle_16" type="bool">True</Setting>
+      <Setting id="split_stone_tablet" type="bool">False</Setting>
+      <Setting id="split_stone_tablet_1" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_2" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_3" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_4" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_5" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_6" type="bool">True</Setting>
+      <Setting id="split_stone_tablet_7" type="bool">True</Setting>
+      <Setting id="split_area" type="bool">False</Setting>
+      <Setting id="map_church" type="bool">False</Setting>
+      <Setting id="map_village" type="bool">False</Setting>
+      <Setting id="map_castle" type="bool">False</Setting>
+      <Setting id="map_fort" type="bool">False</Setting>
+      <Setting id="map_forest" type="bool">False</Setting>
+      <Setting id="map_cave" type="bool">False</Setting>
+      <Setting id="map_oubliette" type="bool">False</Setting>
+      <Setting id="map_swamp" type="bool">False</Setting>
+      <Setting id="map_outside" type="bool">False</Setting>
+      <Setting id="map_abyss" type="bool">False</Setting>
+      <Setting id="split_respite" type="bool">False</Setting>
+      <Setting id="map_church_10" type="bool">False</Setting>
+      <Setting id="map_church_05" type="bool">False</Setting>
+      <Setting id="map_church_04" type="bool">False</Setting>
+      <Setting id="map_church_08" type="bool">False</Setting>
+      <Setting id="map_village_05" type="bool">False</Setting>
+      <Setting id="map_village_09" type="bool">False</Setting>
+      <Setting id="map_castle_04" type="bool">False</Setting>
+      <Setting id="map_castle_07" type="bool">False</Setting>
+      <Setting id="map_castle_10" type="bool">False</Setting>
+      <Setting id="map_castle_19" type="bool">False</Setting>
+      <Setting id="map_castle_15" type="bool">False</Setting>
+      <Setting id="map_fort_03" type="bool">False</Setting>
+      <Setting id="map_fort_10" type="bool">False</Setting>
+      <Setting id="map_fort_08" type="bool">False</Setting>
+      <Setting id="map_fort_16" type="bool">False</Setting>
+      <Setting id="map_fort_20" type="bool">False</Setting>
+      <Setting id="map_forest_05" type="bool">False</Setting>
+      <Setting id="map_forest_10" type="bool">False</Setting>
+      <Setting id="map_forest_14" type="bool">False</Setting>
+      <Setting id="map_cave_01" type="bool">False</Setting>
+      <Setting id="map_cave_03" type="bool">False</Setting>
+      <Setting id="map_cave_13" type="bool">False</Setting>
+      <Setting id="map_cave_16" type="bool">False</Setting>
+      <Setting id="map_oubliette_02" type="bool">False</Setting>
+      <Setting id="map_oubliette_06_1" type="bool">False</Setting>
+      <Setting id="map_oubliette_10" type="bool">False</Setting>
+      <Setting id="map_oubliette_14" type="bool">False</Setting>
+      <Setting id="map_outside_01" type="bool">False</Setting>
+      <Setting id="map_swamp_01" type="bool">False</Setting>
+      <Setting id="map_swamp_06" type="bool">False</Setting>
+      <Setting id="map_swamp_10" type="bool">False</Setting>
+      <Setting id="map_swamp_12" type="bool">False</Setting>
+      <Setting id="map_swamp_16" type="bool">False</Setting>
+      <Setting id="map_abyss_02" type="bool">False</Setting>
+      <Setting id="split_relics" type="bool">False</Setting>
+      <Setting id="Soiled Prayer Beads" type="bool">False</Setting>
+      <Setting id="Royal Aegis Crest" type="bool">False</Setting>
+      <Setting id="Broken Music Box" type="bool">False</Setting>
+      <Setting id="Cracked Familiar Stone" type="bool">False</Setting>
+      <Setting id="Snowdrop Bracelet" type="bool">False</Setting>
+      <Setting id="Blighted Appendage" type="bool">False</Setting>
+      <Setting id="Giant's Ring" type="bool">False</Setting>
+      <Setting id="Ancient Dragon Claw" type="bool">False</Setting>
+      <Setting id="Rusted Blue Ornament" type="bool">False</Setting>
+      <Setting id="Executioner's Gloves" type="bool">False</Setting>
+      <Setting id="Decayed Crown" type="bool">False</Setting>
+      <Setting id="Weathered Necklace" type="bool">False</Setting>
+      <Setting id="Immortal's Crest" type="bool">False</Setting>
+      <Setting id="Manisa's Ring" type="bool">False</Setting>
+      <Setting id="Aura's Ring" type="bool">False</Setting>
+      <Setting id="Kilteus' Ring" type="bool">False</Setting>
+      <Setting id="Calivia's Ring" type="bool">False</Setting>
+      <Setting id="White Priestess Statue" type="bool">False</Setting>
+      <Setting id="Priestess' Doll" type="bool">False</Setting>
+      <Setting id="White Priestess' Earrings" type="bool">False</Setting>
+      <Setting id="Holy Spring Water" type="bool">False</Setting>
+      <Setting id="Nymphilia's Ring" type="bool">False</Setting>
+      <Setting id="Spellbound Anklet" type="bool">False</Setting>
+      <Setting id="Vibrant Plume" type="bool">False</Setting>
+      <Setting id="Ruined Witch's Book" type="bool">False</Setting>
+      <Setting id="Bloodstained Ribbon" type="bool">False</Setting>
+      <Setting id="Blightwreathed Blade" type="bool">False</Setting>
+      <Setting id="Heretic's Mask" type="bool">False</Setting>
+      <Setting id="Eldred's Ring" type="bool">False</Setting>
+      <Setting id="Ricorus' Ring" type="bool">False</Setting>
+      <Setting id="Luminant Aegis Curio" type="bool">False</Setting>
+      <Setting id="Lost Heirloom" type="bool">False</Setting>
+      <Setting id="Blighted Phantom" type="bool">False</Setting>
+      <Setting id="Fretia's Ring" type="bool">False</Setting>
+    </CustomSettings>
+  </AutoSplitterSettings>
+</Run>

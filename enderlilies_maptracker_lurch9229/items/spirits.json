@@ -239,7 +239,7 @@
   "max_quantity": 6,
   "increment": 1,
 	"min_quantity": 1,
-	"allow_disabled": false,
+	"allow_disabled": true,
 	"img": "images/spirits/umbral_knight.png",
   "overlay_background": "#000",
     "codes": "umbral"
