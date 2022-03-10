@@ -240,6 +240,10 @@
 	"increment": 1,
     "loop": "false",
 	"min_quantity": 1,
+<<<<<<< Updated upstream
+=======
+	"allow_disabled": true,
+>>>>>>> Stashed changes
 	"img": "images/spirits/umbral_knight.png",
 	"overlay_background": "#000",
     "codes": "umbral"
