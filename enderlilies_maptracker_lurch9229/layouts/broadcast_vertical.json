@@ -23,7 +23,8 @@
 					["pray", "jump", "dodge", "paddle", "switch"],
 					["djump", "hammer", "aquatic", "dodge2", "rites"],
 					["hook", "claws", "dash", "lance", "unlock"],
-					["ch1", "Bend", "gem", "fragment", "relicslot", "wish"]
+					["ch0", "Bend", "gem", "fragment", "relicslot", "wish"],
+					["iris", "hood", "orb", "heiml", "gift", "miriel", "groa"]
 				]
         	}
     	]
