@@ -6,85 +6,6 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "Luminant Aegis Curio",
-                "map_locations": [
-                    {
-                        "map": "Cathedral",
-                        "x": 870,
-                        "y": 4410
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "A10",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_c_end"
-                        ],
-                        "access_rules":
-                        [
-                            "unlock,tablet:7"
-                        ],
-                        "hosted_item:": 
-                        [
-                            "luminantcurio"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Statue Inscription",
-                "map_locations": [
-                    {
-                        "map": "Cathedral",
-                        "x": 450,
-                        "y": 3120
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "A1",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Restoring the Aegis Curio",
-                "map_locations": [
-                    {
-                        "map": "Cathedral",
-                        "x": 430,
-                        "y": 4410
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "A10",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "unlock"
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "Finding - Eleine's Letter",
                 "map_locations": [
                     {
@@ -95,7 +16,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A3",
+                        "name": "Church_02",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -120,7 +41,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A3 Inside Barrel",
+                        "name": "Church_02 Inside Barrel",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -131,133 +52,6 @@
                             ""
                         ],
                         
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - On the Blighted I",
-                "map_locations": [
-                    {
-                        "map": "Cathedral",
-                        "x": 5315,
-                        "y": 3680
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "A4",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Finding - On the Blighted II",
-                "map_locations": [
-                    {
-                        "map": "Cathedral",
-                        "x": 5640,
-                        "y": 3680
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "A4",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ]
-                    }
-                ]
-            }, 
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
-                    {
-                        "map": "Cathedral",
-                        "x": 8480,
-                        "y": 3680
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "A5",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - The Parish Way",
-                "map_locations": [
-                    {
-                        "map": "Cathedral",
-                        "x": 8410,
-                        "y": 3270
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "A5",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Soiled Prayer Beads",
-                "map_locations": [
-                    {
-                        "map": "Cathedral",
-                        "x": 8270,
-                        "y": 2620
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "A6",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules":
-                        [
-                            "$LEDGE",
-                            "claws"
-                        ],
                         "item_count": 1
                     }
                 ]
@@ -273,7 +67,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A7",
+                        "name": "Church_03",
                         "visibility_rules": 
                         [
                             ""
@@ -283,6 +77,32 @@
                             ""
                         ],
                         "hosted_item": "defeatSiegrid",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Soiled Prayer Beads",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 8270,
+                        "y": 2620
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Church_05",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules":
+                        [
+                            "$LEDGE",
+                            "claws"
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -299,7 +119,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A8",
+                        "name": "Church_09",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -325,7 +145,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A8",
+                        "name": "Church_09",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -350,7 +170,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A8",
+                        "name": "Church_09",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -365,6 +185,186 @@
                 ]
             },
             {
+                "name": "Finding - On the Blighted I",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 5315,
+                        "y": 3680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Church_10",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - On the Blighted II",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 5640,
+                        "y": 3680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Church_10",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 8480,
+                        "y": 3680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Church_11",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - The Parish Way",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 8410,
+                        "y": 3270
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Church_11",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Statue Inscription",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 450,
+                        "y": 3120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Church_12",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Luminant Aegis Curio",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 870,
+                        "y": 4410
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Church_13",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_c_end"
+                        ],
+                        "access_rules":
+                        [
+                            "unlock,tabletch,tabletwt,tabletcc,tabletsa,tabletrc,tabletts,tabletvd"
+                        ],
+                        "hosted_item:": 
+                        [
+                            "luminantcurio"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Restoring the Aegis Curio",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 430,
+                        "y": 4410
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Church_13",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "unlock,tabletch,tabletwt,tabletcc,tabletsa,tabletrc,tabletts,tabletvd"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Priestess' Wish (Prayer Upgrade)",
                 "map_locations": [
                     {
@@ -375,7 +375,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A9",
+                        "name": "Church_14",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -400,7 +400,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A9",
+                        "name": "Church_14",
                         "item_count": 1,
                         "visibility_rules": 
                         [

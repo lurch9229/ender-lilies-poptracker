@@ -74,7 +74,7 @@
             },
             {
                 "img": "images/settings/chains_off.png",
-                "codes": "setting_relics_off",
+                "codes": "setting_chains_off",
                 "inherit_codes": false
             }
         ]
@@ -195,6 +195,546 @@
             {
                 "img": "images/settings/shuffle_all_off.png",
                 "codes": "setting_all_off,$hasAllShuffles",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Lily's Chamber",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Start_On.png",
+                "codes": "start_lily_chamber_On",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Start_Off.png",
+                "codes": "start_lily_chamber_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cellar",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Cellar_On.png",
+                "codes": "start_cellar_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Cellar_Off.png",
+                "codes": "start_cellar_off,",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cathedral Cloister",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Cloister_On.png",
+                "codes": "start_cloister_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Cloister_Off.png",
+                "codes": "start_cloister_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Saint's Passage",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Saint_Passage_On.png",
+                "codes": "start_saint_passage_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Saint_Passage_Off.png",
+                "codes": "start_saint_passage_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Crossroads",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Crossroads_On.png",
+                "codes": "start_crossroads_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Crossroads_Off.png",
+                "codes": "start_crossroads_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Collapsed Shack",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Shack_On.png",
+                "codes": "start_shack_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Shack_Off.png",
+                "codes": "start_shack_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bridgehead",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Bridgehead_On.png",
+                "codes": "start_bridgehead_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Bridgehead_Off.png",
+                "codes": "start_bridgehead_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Ruined Castle Cellar",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Castle_Cellar_On.png",
+                "codes": "start_castle_cellar_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Castle_Cellar_Off.png",
+                "codes": "start_castle_cellar_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Guest Chambers",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Guest_Chamber_On.png",
+                "codes": "start_guest_chambers_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Guest_Chamber_Off.png",
+                "codes": "start_guest_chambers_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Maelstrom Ramparts",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Ramparts_On.png",
+                "codes": "start_ramparts_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Ramparts_Off.png",
+                "codes": "start_ramparts_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bastion Gates",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Bastion_On.png",
+                "codes": "start_bastion_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Bastion_Off.png",
+                "codes": "start_bastion_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Courtyard",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Courtyard_On.png",
+                "codes": "start_courtyard_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Courtyard_Off.png",
+                "codes": "start_courtyard_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Second Spire Chamber",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Second_Spire_On.png",
+                "codes": "start_second_spire_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Second_Spire_Off.png",
+                "codes": "start_second_spire_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mourning Hall",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Mourning_Hall_On.png",
+                "codes": "start_mourning_hall_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Mourning_Hall_Off.png",
+                "codes": "start_mourning_hall_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dryad Lake",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Dryad_Lake_On.png",
+                "codes": "start_dryad_lake_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Dryad_Lake_Off.png",
+                "codes": "start_dryad_lake_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Witch's Hermitage",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Hermitage_On.png",
+                "codes": "start_witchs_hermitage_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Hermitage_Off.png",
+                "codes": "start_witchs_hermitage_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Coven Halls",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Coven_Halls_On.png",
+                "codes": "start_coven_halls_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Coven_Halls_Off.png",
+                "codes": "start_coven_halls_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bottom of the Well",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Well_On.png",
+                "codes": "start_botw_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Well_Off.png",
+                "codes": "start_botw_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Charnel",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Charnel_On.png",
+                "codes": "start_charnel_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Charnel_Off.png",
+                "codes": "start_charnel_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Ossuary",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Ossuary_On.png",
+                "codes": "start_ossuary_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Ossuary_Off.png",
+                "codes": "start_ossuary_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Great Hall",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Great_Hall_On.png",
+                "codes": "start_great_hall_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Great_Hall_Off.png",
+                "codes": "start_great_hall_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Aqueduct",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Aqueduct_On.png",
+                "codes": "start_aqueduct_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Aqueduct_Off.png",
+                "codes": "start_aqueduct_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cells",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Cells_On.png",
+                "codes": "start_cells_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Cells_Off.png",
+                "codes": "start_cells_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Chamber",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Dark_Chamber_On.png",
+                "codes": "start_dark_chamber_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Dark_Chamber_Off.png",
+                "codes": "start_dark_chamber_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Execution Grounds",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Execution_Grounds.png",
+                "codes": "start_execution_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Execution_Grounds_Off.png",
+                "codes": "start_execution_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Subterranean Lab B1",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Labs1_On.png",
+                "codes": "start_labs1_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Labs1_Off.png",
+                "codes": "start_labs1_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Subterranean Lab B2",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": 
+		[
+            {
+                "img": "images/settings/Labs2.png",
+                "codes": "start_labs2_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Labs2_Off.png",
+                "codes": "start_labs2_off",
                 "inherit_codes": false
             }
         ]

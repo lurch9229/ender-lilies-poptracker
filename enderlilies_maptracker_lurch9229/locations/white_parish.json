@@ -16,7 +16,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "B1",
+                        "name": "Church_06",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -41,7 +41,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "B3",
+                        "name": "Church_07",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -65,7 +65,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "B3",
+                        "name": "Church_07",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -89,7 +89,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "B4",
+                        "name": "Church_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -113,7 +113,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "B4",
+                        "name": "Church_08",
                         "item_count": 1,
                         "visibility_rules": 
                         [

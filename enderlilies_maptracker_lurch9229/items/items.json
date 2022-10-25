@@ -266,14 +266,6 @@
 	  "swap_actions": false
   },
   {
-    "name": "Witch's Bubble",
-    "type": "toggle",
-    "loop": "false",
-    "img": "images/items/witchs_bubble.png",
-    "codes": "aquatic",
-	  "swap_actions": false
-  },
-  {
     "name": "Health (dummy)",
     "type": "toggle",
     "loop": "false",

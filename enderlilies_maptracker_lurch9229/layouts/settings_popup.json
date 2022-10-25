@@ -1,52 +1,189 @@
 ﻿{
-	"settings_popout":
+	"settings_popup":
 	{
-		"type": "group",
+		"type": "array",
 		"margin": 5,
 		"orientation": "horizontal",
+		"background": "#000000",
 		"content": 
 		[
 			{
-				"type": "array",
+				"type": "group",
 				"header": "Randomizations",
-				"orientation": "vertical",
-				"content": 
+				"content":
 				[
 					{
-						"type": "itemgrid",
-						"rows": 
+						"type": "array",						
+						"orientation": "vertical",
+						"content":
 						[
-							["setting_all_off"]
-						]	
-					},
-					{
-						"type": "itemgrid",
-						"rows": 
-						[
-							["setting_cost"]
+							{
+								"type": "item",
+								"item": "setting_all_off"
+							},
+							{
+								"type": "item",
+								"item": "setting_spirits_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_relics_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_amulets_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_chains_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_blight_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_wishes_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_findings_off"
+							}
 						]
 					}
 				]
 			},
 			{
-				"type": "array",
-				"header": "Settings",
-				"orientation": "vertical",
-				"content": 
+				"type": "group",
+				"header": "Starting Location",
+				"content":
 				[
 					{
-						"type": "itemgrid",
-						"rows": 
+						"type": "array",						
+						"orientation": "vertical",
+						"content":
 						[
-							["setting_spirits", "setting_relics", "setting_amulets", "setting_chains"]
+							{
+								"type": "item",
+								"item": "start_lily_chamber_off"
+							},
+							{
+								"type": "item",
+								"item": "start_cellar_off"
+							},
+							{
+								"type": "item",
+								"item":"start_cloister_off"
+							},
+							{
+								"type": "item",
+								"item":"start_saint_passage_off"
+							},
+							{
+								"type": "item",
+								"item":"start_crossroads_off"
+							},
+							{
+								"type": "item",
+								"item":"start_shack_off"
+							},
+							{
+								"type": "item",
+								"item":"start_bridgehead_off"
+							},
+							{
+								"type": "item",
+								"item":"start_castle_cellar_off"
+							},
+							{
+								"type": "item",
+								"item":"start_guest_chambers_off"
+							},
+							{
+								"type": "item",
+								"item":"start_ramparts_off"
+							},
+							{
+								"type": "item",
+								"item":"start_bastion_off"
+							},
+							{
+								"type": "item",
+								"item":"start_courtyard_off"
+							},
+							{
+								"type": "item",
+								"item":"start_second_spire_off"
+							},
+							{
+								"type": "item",
+								"item":"start_mourning_hall_off"
+							}
 						]
-					},
+					}
+				]
+			},
+			{
+				"type": "group",
+				"content":
+				[
 					{
-						"type": "itemgrid",
-						"orientation": "horizontal",
-						"rows":
+						"type": "array",						
+						"orientation": "vertical",
+						"content":
 						[
-							["setting_blight", "setting_wishes", "setting_findings", "setting_c_end"]
+							{
+								"type": "item",
+								"item": "start_dryad_lake_off"
+							},
+							{
+								"type": "item",
+								"item": "start_witchs_hermitage_off"
+							},
+							{
+								"type": "item",
+								"item":"start_coven_halls_off"
+							},
+							{
+								"type": "item",
+								"item":"start_botw_off"
+							},
+							{
+								"type": "item",
+								"item":"start_charnel_off"
+							},
+							{
+								"type": "item",
+								"item":"start_ossuary_off"
+							},
+							{
+								"type": "item",
+								"item":"start_great_hall_off"
+							},
+							{
+								"type": "item",
+								"item":"start_aqueduct_off"
+							},
+							{
+								"type": "item",
+								"item":"start_cells_off"
+							},
+							{
+								"type": "item",
+								"item":"start_dark_chamber_off"
+							},
+							{
+								"type": "item",
+								"item":"start_execution_off"
+							},
+							{
+								"type": "item",
+								"item":"start_labs1_off"
+							},
+							{
+								"type": "item",
+								"item":"start_labs2_off"
+							}
 						]
 					}
 				]

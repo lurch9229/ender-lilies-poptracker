@@ -16,7 +16,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C1",
+                        "name": "Village_02",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -45,7 +45,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C1 Inside Crate",
+                        "name": "Village_02 Inside Crate",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -70,7 +70,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C1",
+                        "name": "Village_02",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -97,7 +97,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C2",
+                        "name": "Village_03",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -122,7 +122,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C2",
+                        "name": "Village_03",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -147,7 +147,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C2",
+                        "name": "Village_03",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -172,7 +172,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C2",
+                        "name": "Village_03",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -192,6 +192,110 @@
                 ]
             },
             {
+                "name": "Bloodstained Ribbon",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2330,
+                        "y": 700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Village_04",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS,$LEDGE2",
+                            "$C13ACCESS,hook,djump",
+                            "$C13ACCESS,hook,$HORIZONTAL",
+                            "$C13ACCESS,hook,dash",
+                            "$C13ACCESS,djump,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2250,
+                        "y": 850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Village_04",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 1923,
+                        "y": 680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Village_04",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Western Merchant Fight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2210,
+                        "y": 350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Village_04_1",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Finding - True Believer's Note",
                 "map_locations": [
                     {
@@ -202,7 +306,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C3",
+                        "name": "Village_05",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -228,7 +332,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Village_06",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -253,7 +357,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Village_06",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -281,7 +385,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Village_06",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -306,7 +410,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Village_06",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -333,7 +437,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Village_06",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -366,7 +470,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C5",
+                        "name": "Village_07",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -396,7 +500,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C5",
+                        "name": "Village_07",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -421,7 +525,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C5",
+                        "name": "Village_07",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -447,7 +551,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C6",
+                        "name": "Village_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -472,7 +576,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C6",
+                        "name": "Village_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -497,7 +601,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C6",
+                        "name": "Village_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -522,7 +626,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C7",
+                        "name": "Village_09",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -547,7 +651,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C7",
+                        "name": "Village_09",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -566,13 +670,38 @@
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
+                        "x": 3680,
+                        "y": 2500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Village_12",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C10ACCESS9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
                         "x": 1990,
                         "y": 2300
                     }
                 ],
                 "sections": [
                     {
-                        "name": "C9",
+                        "name": "Village_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -597,7 +726,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C9",
+                        "name": "Village_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -612,7 +741,7 @@
                 ]
             },
             {
-                "name": "Chain Of Sorcery (+1 Relic Slot) (In Barrel)",
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -622,7 +751,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C9",
+                        "name": "Village_13 Inside Barrel",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -647,7 +776,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C9",
+                        "name": "Village_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -664,247 +793,6 @@
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 3680,
-                        "y": 2500
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C10",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C10ACCESS9"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Fretia's Ring",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 4780,
-                        "y": 2480
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C11",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C11ACCESS",
-                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x800",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 5330,
-                        "y": 2490
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C11",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules":
-                        [
-                            "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump",
-                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - True Believer's Note",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 3210,
-                        "y": 2810
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C12",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$C10ACCESS9,dash,lance"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Stone Tablet Fragment",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 3150,
-                        "y": 2810
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C12",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_c_end"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C10ACCESS9,dash,lance"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bloodstained Ribbon",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2330,
-                        "y": 700
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS,$LEDGE2",
-                            "$C13ACCESS,hook,djump",
-                            "$C13ACCESS,hook,$HORIZONTAL",
-                            "$C13ACCESS,hook,dash",
-                            "$C13ACCESS,djump,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2250,
-                        "y": 850
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 1923,
-                        "y": 680
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Western Merchant Fight",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2210,
-                        "y": 350
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C14",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
                 "name": "Furious Blight x30",
                 "map_locations": [
                     {
@@ -915,7 +803,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C15",
+                        "name": "Village_14",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -942,7 +830,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C15",
+                        "name": "Village_14",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -984,7 +872,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C15",
+                        "name": "Village_14",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -996,6 +884,118 @@
                             "$C15ACCESS,$LEDGE",
                             "$C15ACCESS,hook,$HORIZONTAL",
                             "$C15ACCESS,hook,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - True Believer's Note",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3210,
+                        "y": 2810
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Village_16",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C10ACCESS9,dash,lance"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Stone Tablet Fragment",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3150,
+                        "y": 2810
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Village_16",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C10ACCESS9,dash,lance"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fretia's Ring",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 4780,
+                        "y": 2480
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cave_01",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C11ACCESS",
+                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
+                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x800",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5330,
+                        "y": 2490
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cave_01",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump",
+                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
+                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
                         ],
                         "item_count": 1
                     }

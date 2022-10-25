@@ -19,7 +19,7 @@
                 "sections":
 				[
                     {
-                        "name": "D1",
+                        "name": "Forest_02",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -28,6 +28,60 @@
                         "access_rules": 
                         [
                             "$D1ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "map_locations": 
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 2290,
+                        "y": 660
+                    }
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Forest_03",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D3ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": 
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 1720,
+                        "y": 660
+                    }
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Forest_03",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D3ACCESS,aquatic"
                         ],
                         "item_count": 1
                     }
@@ -46,7 +100,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D2",
+                        "name": "Forest_04",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -80,7 +134,7 @@
                 "sections":
 				[
                     {
-                        "name": "D2",
+                        "name": "Forest_04",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -114,7 +168,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D2 In Pot",
+                        "name": "Forest_04 In Pot",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -123,60 +177,6 @@
                         "access_rules": 
                         [
                             "$D2ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 2290,
-                        "y": 660
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "D3",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D3ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 1720,
-                        "y": 660
-                    }
-                ],
-                "sections":
-				[
-                    {
-                        "name": "D3",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D3ACCESS,aquatic"
                         ],
                         "item_count": 1
                     }
@@ -195,7 +195,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D4",
+                        "name": "Forest_05",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -206,6 +206,90 @@
                         [
                             "$D4ACCESS"
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Fungal Sorcerer Fight",
+                "map_locations": 
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 3220,
+                        "y": 240
+                    }
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Forest_06",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules":
+                        [
+                            "$D18ACCESS"
+                            
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Lover's Letter",
+                "map_locations": 
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 3340,
+                        "y": 240
+                    }
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Forest_06",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D18ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x10",
+                "map_locations": 
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 3375,
+                        "y": 400
+                    }
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Forest_06",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D18ACCESS,hammer",
+                            "$D18ACCESS,$LEDGE2",
+                            "$D18ACCESS,hook"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -222,7 +306,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D5 (In Pot)",
+                        "name": "Forest_07 In Pot",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -254,7 +338,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D5",
+                        "name": "Forest_07",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -282,7 +366,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D5",
+                        "name": "Forest_07",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -310,7 +394,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D6",
+                        "name": "Forest_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -339,7 +423,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D6",
+                        "name": "Forest_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -373,7 +457,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D6",
+                        "name": "Forest_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -394,6 +478,92 @@
                 ]
             },
             {
+                "name": "Priestess' Wish (Prayer Upgrade)",
+                "map_locations": 
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 3970,
+                        "y": 2250
+                    }
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Forest_09",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D14ACCESS,aquatic,verboten",
+                            "$D14ACCESS,aquatic,djump",
+                            "$D14ACCESS,aquatic,claws,silva",
+                            "$D14ACCESS,aquatic,silva,plume",
+                            "$D14ACCESS,aquatic,silva,dodge2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Tarnished Picture",
+                "map_locations":
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 4390,
+                        "y": 2210
+                    }
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Forest_09",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D14ACCESS,aquatic,$LEDGE",
+                            "$D14ACCESS,aquatic,claws"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x10",
+                "map_locations": 
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 4600,
+                        "y": 2420
+                    }
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Forest_09",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D14ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Finding - Sorcerer's Note",
                 "map_locations":
 				[
@@ -406,7 +576,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D7",
+                        "name": "Forest_10",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -433,7 +603,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D8",
+                        "name": "Forest_11",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -461,7 +631,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D8",
+                        "name": "Forest_11",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -489,7 +659,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D8 In Pot",
+                        "name": "Forest_11 In Pot",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -517,7 +687,7 @@
                 "sections":
 				[
                     {
-                        "name": "D8",
+                        "name": "Forest_11",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -550,7 +720,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D8",
+                        "name": "Forest_11",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -578,7 +748,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D8",
+                        "name": "Forest_11",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -611,7 +781,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D9",
+                        "name": "Forest_12",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -642,7 +812,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D9 in Pot",
+                        "name": "Forest_12 in Pot",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -670,7 +840,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D10",
+                        "name": "Forest_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -698,7 +868,7 @@
                 "sections":
 				[
                     {
-                        "name": "D11",
+                        "name": "Forest_14",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -726,7 +896,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D12",
+                        "name": "Forest_15",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -741,230 +911,83 @@
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
-                "map_locations":
+                "name": "Finding - Eleines Diary III",
+                "map_locations": 
 				[
                     {
                         "map": "WitchesThicket",
-                        "x": 5530,
-                        "y": 880
+                        "x": 6800,
+                        "y": 2200
                     }
                 ],
                 "sections": 
 				[
                     {
-                        "name": "D13",
+                        "name": "Forest_16",
                         "visibility_rules": 
                         [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": [
-                            "$D13ACCESS5,aquatic"
+                        "access_rules": 
+                        [
+                            "$D19ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "Stagnant Blight x800",
                 "map_locations": 
 				[
                     {
                         "map": "WitchesThicket",
-                        "x": 5480,
-                        "y": 1000
+                        "x": 6856,
+                        "y": 2200
                     }
                 ],
                 "sections": 
 				[
                     {
-                        "name": "D13",
+                        "name": "Forest_16",
                         "visibility_rules": 
                         [
                             "setting_all",
-                            "setting_amulets"
+                            "setting_blight"
                         ],
-                        "access_rules":
+                        "access_rules": 
                         [
-                            "$D13ACCESS5,aquatic"
+                            "$D19ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Priestess' Wish (Prayer Upgrade)",
+                "name": "Stone Tablet Fragment",
                 "map_locations": 
 				[
                     {
                         "map": "WitchesThicket",
-                        "x": 3970,
-                        "y": 2250
+                        "x": 6928,
+                        "y": 2200
                     }
                 ],
                 "sections":
 				[
                     {
-                        "name": "D14",
+                        "name": "Forest_16",
                         "visibility_rules": 
                         [
                             "setting_all",
-                            "setting_wishes"
+                            "setting_c_end"
                         ],
                         "access_rules": 
                         [
-                            "$D14ACCESS,aquatic,verboten",
-                            "$D14ACCESS,aquatic,djump",
-                            "$D14ACCESS,aquatic,claws,silva",
-                            "$D14ACCESS,aquatic,silva,plume",
-                            "$D14ACCESS,aquatic,silva,dodge2"
+                            "$D19ACCESS"
                         ],
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Tarnished Picture",
-                "map_locations":
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 4390,
-                        "y": 2210
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "D14",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$D14ACCESS,aquatic,$LEDGE",
-                            "$D14ACCESS,aquatic,claws"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 4600,
-                        "y": 2420
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "D14",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D14ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x30",
-                "map_locations":
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 3050,
-                        "y": 2720
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "D15",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D15ACCESS,hook",
-                            "$D15ACCESS,claws"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 3120,
-                        "y": 2950
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "D15",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D15ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Faden's Archives III",
-                "map_locations": 
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 4970,
-                        "y": 3070
-                    },
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 2445,
-                        "y": 120
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "D16",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$D16ACCESS",
-                            "$F26ACCESS,hammer,hook,dash,lance,mask",
-                            "$F26ACCESS,hammer,hook,dash,lance,$verbotenMath,$LEDGE"
-                        ]
                     }
                 ]
             },
@@ -981,7 +1004,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D17",
+                        "name": "Forest_17",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -1008,7 +1031,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D17",
+                        "name": "Forest_17",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1036,7 +1059,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D17",
+                        "name": "Forest_17",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1064,7 +1087,7 @@
                 "sections": 
 				[
                     {
-                        "name": "D17",
+                        "name": "Forest_17",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -1080,47 +1103,77 @@
                 ]
             },
             {
-                "name": "Fungal Sorcerer Fight",
-                "map_locations": 
+                "name": "Stagnant Blight x10",
+                "map_locations":
 				[
                     {
                         "map": "WitchesThicket",
-                        "x": 3220,
-                        "y": 240
+                        "x": 5530,
+                        "y": 880
                     }
                 ],
                 "sections": 
 				[
                     {
-                        "name": "D18",
+                        "name": "Oubliette_01",
                         "visibility_rules": 
                         [
                             "setting_all",
-                            "setting_spirits"
+                            "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            "$D18ACCESS"
-                            
+                        "access_rules": [
+                            "$D13ACCESS5,aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Lover's Letter",
+                "name": "Amulet Fragment (+5 HP)",
                 "map_locations": 
 				[
                     {
                         "map": "WitchesThicket",
-                        "x": 3340,
-                        "y": 240
+                        "x": 5480,
+                        "y": 1000
                     }
                 ],
                 "sections": 
 				[
                     {
-                        "name": "D18",
+                        "name": "Oubliette_01",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules":
+                        [
+                            "$D13ACCESS5,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Faden's Archives III",
+                "map_locations": 
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 3950,
+                        "y": 3070
+                    },
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 2300,
+                        "y": 120
+                    }
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Swamp_01",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -1129,8 +1182,38 @@
                         ],
                         "access_rules":
                         [
-                            "$D18ACCESS"
+                            "$D16ACCESS",
+                            "$F26ACCESS,hammer,hook,dash,lance,mask",
+                            "$F26ACCESS,hammer,hook,dash,lance,$verbotenMath,$LEDGE"
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x30",
+                "map_locations":
+				[
+                    {
+                        "map": "WitchesThicket",
+                        "x": 3050,
+                        "y": 2720
+                    }
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Swamp_02",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D15ACCESS,hook",
+                            "$D15ACCESS,claws"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -1140,14 +1223,14 @@
 				[
                     {
                         "map": "WitchesThicket",
-                        "x": 3375,
-                        "y": 400
+                        "x": 3120,
+                        "y": 2950
                     }
                 ],
                 "sections": 
 				[
                     {
-                        "name": "D18",
+                        "name": "Swamp_02",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1155,70 +1238,12 @@
                         ],
                         "access_rules": 
                         [
-                            "$D18ACCESS,hammer",
-                            "$D18ACCESS,$LEDGE2",
-                            "$D18ACCESS,hook"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x800",
-                "map_locations": 
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 6850,
-                        "y": 2200
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "D19",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D19ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stone Tablet Fragment",
-                "map_locations": 
-				[
-                    {
-                        "map": "WitchesThicket",
-                        "x": 6920,
-                        "y": 2200
-                    }
-                ],
-                "sections":
-				[
-                    {
-                        "name": "D19",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_c_end"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D19ACCESS"
+                            "$D15ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             }
-            
-
         ]
     }
 ]

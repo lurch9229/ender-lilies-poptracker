@@ -17,7 +17,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G1",
+                        "name": "Fort_04",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -42,7 +42,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G2",
+                        "name": "Fort_05",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -68,7 +68,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G2 In Pot",
+                        "name": "Fort_05 In Pot Upper",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -96,7 +96,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G2 In Pot",
+                        "name": "Fort_05 In Pot Right",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -121,7 +121,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G3",
+                        "name": "Fort_06",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -131,6 +131,157 @@
                         [
                             "$G3ACCESS,$LEDGE2,claws",
                             "$G3ACCESS,$LEDGE,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 3070,
+                        "y": 2030
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fort_07",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Hoenir's Diary III",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 3455,
+                        "y": 1920
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fort_08",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Note on the Castle Wall",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 2915,
+                        "y": 2525
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fort_09",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Snowdrop Bracelet",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 3090,
+                        "y": 2580
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fort_09",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G5ACCESS,lance,dash"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 3200,
+                        "y": 2450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fort_09",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x30",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 2960,
+                        "y": 2300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fort_09",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G6ACCESS,claws",
+                            "$G6ACCESS,$FULLSILVA,dodge2"
                         ],
                         "item_count": 1
                     }
@@ -147,7 +298,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G4",
+                        "name": "Fort_10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -175,7 +326,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G4",
+                        "name": "Fort_10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -184,157 +335,6 @@
                         "access_rules": 
                         [
                             "$G3ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Note on the Castle Wall",
-                "map_locations": [
-                    {
-                        "map": "TwinSpires",
-                        "x": 2915,
-                        "y": 2525
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "G5",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$G5ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Snowdrop Bracelet",
-                "map_locations": [
-                    {
-                        "map": "TwinSpires",
-                        "x": 3090,
-                        "y": 2580
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "G5",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$G5ACCESS,lance,dash"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": [
-                    {
-                        "map": "TwinSpires",
-                        "x": 3200,
-                        "y": 2450
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "G5",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$G5ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x30",
-                "map_locations": [
-                    {
-                        "map": "TwinSpires",
-                        "x": 2960,
-                        "y": 2300
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "G5",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$G6ACCESS,claws",
-                            "$G6ACCESS,$FULLSILVA,dodge2"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": [
-                    {
-                        "map": "TwinSpires",
-                        "x": 3070,
-                        "y": 2030
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "G6",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$G6ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Hoenir's Diary III",
-                "map_locations": [
-                    {
-                        "map": "TwinSpires",
-                        "x": 3455,
-                        "y": 1920
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "G7",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$G6ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -351,7 +351,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G8",
+                        "name": "Fort_11",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -381,7 +381,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G8",
+                        "name": "Fort_11",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -413,7 +413,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G9",
+                        "name": "Fort_12",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -440,7 +440,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G9",
+                        "name": "Fort_12",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -458,31 +458,6 @@
                 ]
             },
             {
-                "name": "Finding - Monument Engraving",
-                "map_locations": [
-                    {
-                        "map": "TwinSpires",
-                        "x": 1540,
-                        "y": 1565
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "G10",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$G13ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
                 "map_locations": [
                     {
@@ -493,7 +468,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G11 In Barrel",
+                        "name": "Fort_13 In Barrel",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -518,7 +493,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G11",
+                        "name": "Fort_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -543,7 +518,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G12",
+                        "name": "Fort_14",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -568,7 +543,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G12",
+                        "name": "Fort_14",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -583,7 +558,7 @@
                 ]
             },
             {
-                "name": "Hanging Nest",
+                "name": "Hanging Nest Fort_14",
                 "map_locations": [
                     {
                         "map": "TwinSpires",
@@ -644,7 +619,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G13",
+                        "name": "Fort_15",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -669,7 +644,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G13",
+                        "name": "Fort_15",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -694,7 +669,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G13",
+                        "name": "Fort_15",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -722,7 +697,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G13",
+                        "name": "Fort_15",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -731,6 +706,31 @@
                         "access_rules": 
                         [
                             "$G3ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Monument Engraving",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 1540,
+                        "y": 1565
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fort_16",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G13ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -747,7 +747,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G14",
+                        "name": "Fort_17",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -772,7 +772,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G15",
+                        "name": "Fort_18",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -797,7 +797,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G15",
+                        "name": "Fort_18",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -824,7 +824,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G16",
+                        "name": "Fort_19",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -853,7 +853,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G16",
+                        "name": "Fort_19",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -878,7 +878,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G16",
+                        "name": "Fort_19",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -907,7 +907,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G18",
+                        "name": "Fort_21",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -935,7 +935,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G18",
+                        "name": "Fort_21",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -962,7 +962,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G18",
+                        "name": "Fort_21",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -989,7 +989,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G19",
+                        "name": "Outside_03",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1014,7 +1014,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G19",
+                        "name": "Outside_03",
                         "visibility_rules": 
                         [
                             "setting_all",

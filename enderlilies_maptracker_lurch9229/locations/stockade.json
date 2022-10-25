@@ -16,7 +16,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "F1",
+                        "name": "Oubliette_02",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -25,6 +25,84 @@
                         "access_rules": 
                         [
                             "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 1850,
+                        "y": 1800
+                    }
+                ],
+
+                "sections":[
+                    {
+                        "name": "Oubliette_03",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x10",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 2310,
+                        "y": 1870
+                    }
+                ],
+
+                "sections":[
+                    {
+                        "name": "Oubliette_03",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x800",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 1940,
+                        "y": 1550
+                    }
+                ],
+
+                "sections":[
+                    {
+                        "name": "Oubliette_03",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,dash,lance"
                         ],
                         "item_count": 1
                     }
@@ -42,7 +120,7 @@
 
                 "sections":[
                     {
-                        "name": "F2",
+                        "name": "Oubliette_04",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -70,7 +148,7 @@
 
                 "sections":[
                     {
-                        "name": "F2",
+                        "name": "Oubliette_04",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -96,7 +174,7 @@
 
                 "sections":[
                     {
-                        "name": "F3",
+                        "name": "Oubliette_05",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -111,7 +189,7 @@
                 ]
             },
             {
-                "name": "Fall From Above",
+                "name": "Fall From Above Oubliette_05",
                 "map_locations": [
                     {
                         "map": "Stockade",
@@ -154,18 +232,42 @@
                 ]
             },
             {
+                "name": "Furious Blight x10",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 1620,
+                        "y": 630
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_05_1",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Stagnant Blight x10",
                 "map_locations": [
                     {
                         "map": "Stockade",
-                        "x": 1850,
-                        "y": 1800
+                        "x": 2020,
+                        "y": 350
                     }
                 ],
-
                 "sections":[
                     {
-                        "name": "F4",
+                        "name": "Oubliette_05_2",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -173,7 +275,34 @@
                         ],
                         "access_rules": 
                         [
-                            "$StockadeACCESS,aquatic"
+                            "$StockadeACCESS,$LEDGE,claws,hook",
+                            "$StockadeACCESS,$FULLSILVA,hook",
+                            "$StockadeACCESS,silva,djump,dodge2,hook,plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 1830,
+                        "y": 1215
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_05_3",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
                         ],
                         "item_count": 1
                     }
@@ -184,14 +313,13 @@
                 "map_locations": [
                     {
                         "map": "Stockade",
-                        "x": 2310,
-                        "y": 1870
+                        "x": 3080,
+                        "y": 1160
                     }
                 ],
-
                 "sections":[
                     {
-                        "name": "F4",
+                        "name": "Oubliette_06",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -199,76 +327,24 @@
                         ],
                         "access_rules": 
                         [
-                            "$StockadeACCESS,aquatic"
+                            "$F14ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x800",
+                "name": "Amulet Fragment (+5HP)",
                 "map_locations": [
                     {
                         "map": "Stockade",
-                        "x": 1940,
-                        "y": 1550
+                        "x": 2590,
+                        "y": 1280
                     }
                 ],
-
                 "sections":[
                     {
-                        "name": "F4",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,dash,lance"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Executioner's Missive",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 2915,
-                        "y": 2130
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "F5",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F5ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "2 Amulet Fragments (+5 HP x2)",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 3280,
-                        "y": 1575
-                    }
-                ],
-
-                "sections":[
-                    {
-                        "name": "F6",
+                        "name": "Oubliette_06",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -276,35 +352,185 @@
                         ],
                         "access_rules": 
                         [
-                            "$F6ACCESS,claws",
-                            "$F6ACCESS,silva,ulv,djump,dodge2"
+                            "$F14ACCESS"
                         ],
-                        "item_count": 2
+                        "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
                 "map_locations": [
                     {
                         "map": "Stockade",
-                        "x": 3660,
-                        "y": 1540
+                        "x": 2867,
+                        "y": 980
                     }
                 ],
-
                 "sections":[
                     {
-                        "name": "F6",
+                        "name": "Oubliette_06",
                         "visibility_rules": 
                         [
                             "setting_all",
-                            "setting_blight"
+                            "setting_chains"
                         ],
                         "access_rules": 
                         [
-                            "$F6ACCESS,$LEDGE",
-                            "$F6ACCESS"
+                            "$F14ACCESS,hook,$LEDGE"
+
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Hoenir's Diary I",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 3960,
+                        "y": 710
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Oubliette_06_1",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,silva,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Executioner's Gloves",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 3800,
+                        "y": 1345
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_06_2",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 3100,
+                        "y": 350
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_06_3",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,silva,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stone Tablet Fragment",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 3600,
+                        "y": 220
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_06_4",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook,unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Forbidden Text Scrap",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 1625,
+                        "y": 1200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Oubliette_07_1",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Test Subject Fight",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 2280,
+                        "y": 630
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_07_2",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE"
                         ],
                         "item_count": 1
                     }
@@ -321,7 +547,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F8",
+                        "name": "Oubliette_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -351,7 +577,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F8",
+                        "name": "Oubliette_08",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -369,6 +595,139 @@
                 ]
             },
             {
+                "name": "2 Amulet Fragments (+5 HP x2)",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 3280,
+                        "y": 1575
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_09",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F6ACCESS,claws",
+                            "$F6ACCESS,silva,ulv,djump,dodge2"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Stagnant Blight x30",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 3660,
+                        "y": 1540
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_09",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F6ACCESS,$LEDGE",
+                            "$F6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Executioner's Missive",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 2915,
+                        "y": 2130
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Oubliette_10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight x10",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 4820,
+                        "y": 1380
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_11",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,$LEDGE",
+                            "$F7ACCESS,$HORIZONTAL",
+                            "$F10ACCESS8,hook",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dark Executioner Fight",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 5670,
+                        "y": 1250
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_12",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,$LEDGE",
+                            "$F10ACCESS8,hook",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
                 "map_locations": [
                     {
@@ -379,7 +738,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F9",
+                        "name": "Oubliette_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -414,7 +773,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F9",
+                        "name": "Oubliette_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -441,7 +800,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F9",
+                        "name": "Oubliette_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -470,7 +829,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "F9",
+                        "name": "Oubliette_13",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -489,17 +848,42 @@
                 ]
             },
             {
-                "name": "Furious Blight x10",
+                "name": "Aura's Ring",
                 "map_locations": [
                     {
                         "map": "Stockade",
                         "x": 4820,
-                        "y": 1380
+                        "y": 1020
                     }
                 ],
                 "sections":[
                     {
-                        "name": "F10",
+                        "name": "Oubliette_13_1",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F25ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Soul",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 5080,
+                        "y": 1765
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Oubliette_13_2",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -507,10 +891,9 @@
                         ],
                         "access_rules": 
                         [
-                            "$F7ACCESS,$LEDGE",
-                            "$F7ACCESS,$HORIZONTAL",
-                            "$F10ACCESS8,hook",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
+                            "$F7ACCESS,hammer",
+                            "$F10ACCESS8,hook,hammer",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,hammer"
                         ],
                         "item_count": 1
                     }
@@ -527,7 +910,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F11",
+                        "name": "Oubliette_14",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -553,7 +936,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F12",
+                        "name": "Oubliette_15",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -582,7 +965,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F13",
+                        "name": "Oubliette_16",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -610,7 +993,7 @@
                 ],
                 "sections":[
                     {
-                        "name": "F13",
+                        "name": "Oubliette_16",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -626,393 +1009,7 @@
                         "item_count": 1
                     }
                 ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 3080,
-                        "y": 1160
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F14",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5HP)",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 2590,
-                        "y": 1280
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F14",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 2867,
-                        "y": 980
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F14",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F14ACCESS,hook,$LEDGE"
-
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Dark Executioner Fight",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 5670,
-                        "y": 1250
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F15",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hook",
-                            "$F7ACCESS,$LEDGE",
-                            "$F10ACCESS8,hook",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Ancient Soul",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 5080,
-                        "y": 1765
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F16",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hammer",
-                            "$F10ACCESS8,hook,hammer",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,hammer"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Hoenir's Diary I",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 3960,
-                        "y": 710
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "F17",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hook",
-                            "$F7ACCESS,silva,djump"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 3100,
-                        "y": 350
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F18",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hook",
-                            "$F7ACCESS,silva,djump"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Executioner's Gloves",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 3800,
-                        "y": 1345
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F19",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Hidden Test Subject Fight",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 2280,
-                        "y": 630
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F20",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,$LEDGE"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 2020,
-                        "y": 350
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F21",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,$LEDGE,claws,hook",
-                            "$StockadeACCESS,$FULLSILVA,hook",
-                            "$StockadeACCESS,silva,djump,dodge2,hook,plume"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x10",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 1620,
-                        "y": 630
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F22",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,$LEDGE"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Forbidden Text Scrap",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 1625,
-                        "y": 1200
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "F23",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 1830,
-                        "y": 1215
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F24",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Aura's Ring",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 4820,
-                        "y": 1020
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F25",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F25ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stone Tablet Fragment",
-                "map_locations": [
-                    {
-                        "map": "Stockade",
-                        "x": 3600,
-                        "y": 220
-                    }
-                ],
-                "sections":[
-                    {
-                        "name": "F27",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_c_end"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hook,unlock"
-                        ],
-                        "item_count": 1
-                    }
-                ]
             }
-
         ]
     }
 ]

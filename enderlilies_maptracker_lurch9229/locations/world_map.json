@@ -6,45 +6,7 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "A1",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 445,
-                        "y": 2750
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Statue Inscription",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "Umbral Knight",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_health"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "A3",
+                "name": "Church_02",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -83,69 +45,42 @@
                 ]
             },
             {
-                "name": "A4",
+                "name": "Church_03",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 1280,
-                        "y": 2860
+                        "x": 2120,
+                        "y": 2660
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Finding - On the Blighted I",
-                        "item_count": 1,
+                        "name": "Guardian Siegrid Fight",
                         "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
+                        [ 
                             ""
-                        ]
-                    },
-                    {
-                        "name": "Finding - On the Blighted II",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "A5",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 1625,
-                        "y": 2850
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
                         ],
                         "access_rules": 
                         [
                             ""
                         ],
-                        
-                        "item_count": 1
-                    },
+                        "item_count": 1,
+                        "hosted_item": "defeatSiegrid"
+                    }
+                ]
+            },
+            {
+                "name": "Church_04",
+                "map_locations": [
                     {
-                        "name": "Finding - The Parish Way",
+                        "map": "WorldMap",
+                        "x": 2525,
+                        "y": 2665
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Groa's Letter",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -154,13 +89,13 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$B1ACCESS"
                         ]
                     }
                 ]
             },
             {
-                "name": "A6",
+                "name": "Church_05",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -186,32 +121,81 @@
                 ]
             },
             {
-                "name": "A7",
+                "name": "Church_07",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 2120,
-                        "y": 2660
+                        "x": 3415,
+                        "y": 2665
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Guardian Siegrid Fight",
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
-                        [ 
-                            ""
-                        ],
-                        "access_rules": 
                         [
-                            ""
+                            
+                            "setting_all", "setting_chains"
                         ],
-                        "item_count": 1,
-                        "hosted_item": "defeatSiegrid"
+                        "access_rules":[
+                            "$B3ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cliffside Hamlet Youth Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules": [
+                            "$B3ACCESS"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
             {
-                "name": "A8",
+                "name": "Church_08",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 3830,
+                        "y": 2660
+                    }
+                ],
+                    "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$B4ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - The Parish Way II",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$B4ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Church_09",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -263,30 +247,17 @@
                 ]
             },
             {
-                "name": "A9",
+                "name": "Church_10",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 1300,
-                        "y": 2290
+                        "x": 1280,
+                        "y": 2860
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_wishes"
-                        ],
-                        "access_rules":
-                        [
-                            "claws,hook"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - Lily's Note",
+                        "name": "Finding - On the Blighted I",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -295,13 +266,103 @@
                         ],
                         "access_rules":
                         [
-                            "claws,hook"
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Finding - On the Blighted II",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
                         ]
                     }
                 ]
             },
             {
-                "name": "A10",
+                "name": "Church_11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 1625,
+                        "y": 2850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - The Parish Way",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Church_12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 445,
+                        "y": 2750
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Statue Inscription",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Umbral Knight",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_health"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Church_13",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -343,17 +404,30 @@
                 ]
             },
             {
-                "name": "B1",
+                "name": "Church_14",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 2525,
-                        "y": 2665
+                        "x": 1300,
+                        "y": 2290
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Finding - Groa's Letter",
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_wishes"
+                        ],
+                        "access_rules":
+                        [
+                            "claws,hook"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Lily's Note",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -362,87 +436,13 @@
                         ],
                         "access_rules":
                         [
-                            "$B1ACCESS"
+                            "claws,hook"
                         ]
                     }
                 ]
             },
             {
-                "name": "B3",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 3415,
-                        "y": 2665
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_chains"
-                        ],
-                        "access_rules":[
-                            "$B3ACCESS,hammer"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cliffside Hamlet Youth Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules": [
-                            "$B3ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "B4",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 3830,
-                        "y": 2660
-                    }
-                ],
-                    "sections": [
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$B4ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - The Parish Way II",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$B4ACCESS"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "C1",
+                "name": "Village_02",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -499,7 +499,7 @@
                 ]
             },
             {
-                "name": "C2",
+                "name": "Village_03",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -568,7 +568,87 @@
                 ]
             },
             {
-                "name": "C3",
+                "name": "Village_04",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5170,
+                        "y": 1860
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bloodstained Ribbon",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS,$LEDGE2",
+                            "$C13ACCESS,hook,djump",
+                            "$C13ACCESS,hook,$HORIZONTAL",
+                            "$C13ACCESS,hook,dash",
+                            "$C13ACCESS,djump,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Village_04_1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5110,
+                        "y": 1710
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Western Merchant Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Village_05",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -593,7 +673,7 @@
                 ]
             },
             {
-                "name": "C4",
+                "name": "Village_06",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -683,7 +763,7 @@
                 ]
             },
             {
-                "name": "C5",
+                "name": "Village_07",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -740,7 +820,7 @@
                 ]
             },
             {
-                "name": "C6",
+                "name": "Village_08",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -791,7 +871,7 @@
                 ]
             },
             {
-                "name": "C7",
+                "name": "Village_09",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -829,7 +909,133 @@
                 ]
             },
             {
-                "name": "C9",
+                "name": "Village_10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7380,
+                        "y": 1890
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gerrod, The Elder Warrior Fight",
+                        "access_rules": 
+                        [
+                            "$C8ACCESS"
+                        ],
+                        "item_count": 1,
+                        "hosted_item": "defeatGerrod"
+                    }
+                ]
+            },
+            {
+                "name": "Village_11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7870,
+                        "y": 1890
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Hamlet Scrawl",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
+                        ]
+                    },
+                    {
+                        "name": "Finding - Hamlet Request II",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
+                        ]
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Village_11_1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7805,
+                        "y": 1700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_wishes"
+                        ],
+                        "access_rules":
+                        [
+                            "$C19ACCESS,hammer",
+                            "$C19ACCESSC20,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Village_12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5880,
+                        "y": 2350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C10ACCESS9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Village_13",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -895,200 +1101,7 @@
                 ]
             },
             {
-                "name": "C10",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 5880,
-                        "y": 2350
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C10ACCESS9"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "C11",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 6570,
-                        "y": 2400
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Fretia's Ring",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C11ACCESS",
-                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Furious Blight x800",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules":
-                        [
-                            "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump,claws",
-                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "C12",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 5515,
-                        "y": 2550
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stone Tablet Fragment",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_c_end"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C10ACCESS9,dash,lance"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - True Believer's Note",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$C10ACCESS9,dash,lance"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "C13",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 5170,
-                        "y": 1860
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Bloodstained Ribbon",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS,$LEDGE2",
-                            "$C13ACCESS,hook,djump",
-                            "$C13ACCESS,hook,$HORIZONTAL",
-                            "$C13ACCESS,hook,dash",
-                            "$C13ACCESS,djump,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "C14",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 5110,
-                        "y": 1710
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Western Merchant Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "C15",
+                "name": "Village_14",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1161,32 +1174,7 @@
                 ]
             },
             {
-                "name": "C8",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 7380,
-                        "y": 1890
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gerrod, The Elder Warrior Fight",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$C8ACCESS"
-                        ],
-                        "item_count": 1,
-                        "hosted_item": "defeatGerrod"
-                    }
-                ]
-            },
-            {
-                "name": "C16",
+                "name": "Village_15",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1269,61 +1257,30 @@
                 ]
             },
             {
-                "name": "C17",
+                "name": "Village_16",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 10230,
-                        "y": 1940
+                        "x": 5515,
+                        "y": 2550
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Furious Blight x30",
+                        "name": "Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_blight"
+                            "setting_all", "setting_c_end"
                         ],
                         "access_rules": 
                         [
-                            "$C17ACCESSC16,hook",
-                            "$C17ACCESSC18,hook",
-                            "$C17ACCESSH18"
+                            "$C10ACCESS9,dash,lance"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Fallen Sentinel Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C17ACCESSC16,hook",
-                            "$C17ACCESSC16,$LEDGE",
-                            "$C17ACCESSC18,hook",
-                            "$C17ACCESSC18,$LEDGE",
-                            "$C17ACCESSH18"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "C18",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 10770,
-                        "y": 2115
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Bloodied Note I",
+                        "name": "Finding - True Believer's Note",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -1332,182 +1289,13 @@
                         ],
                         "access_rules":
                         [
-                            "$C18ACCESSE18",
-                            "$C18ACCESSC16",
-                            "$C18ACCESSH18"
+                            "$C10ACCESS9,dash,lance"
                         ]
                     }
                 ]
             },
             {
-                "name": "C19",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 7870,
-                        "y": 1890
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Hamlet Scrawl",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$C19ACCESS",
-                            "$C19ACCESSC20"
-                        ]
-                    },
-                    {
-                        "name": "Finding - Hamlet Request II",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$C19ACCESS",
-                            "$C19ACCESSC20"
-                        ]
-                    },
-                    {
-                        "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C19ACCESS",
-                            "$C19ACCESSC20"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "C20",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8380,
-                        "y": 1815
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C20ACCESS,dash,lance",
-                            "C20ACCESSH1,dash,lance"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castle Town Maiden Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules":
-                        [
-                            "$C20ACCESS",
-                            "C20ACCESSH1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Furious Blight x100",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C20ACCESS,dash,lance",
-                            "C20ACCESSH1,dash,lance"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Priestess' Doll",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C20ACCESS,$LEDGE",
-                            "$C20ACCESS,plume",
-                            "$C20ACCESS,$HORIZONTAL",
-                            "$C20ACCESSH1,$LEDGE",
-                            "$C20ACCESSH1,plume",
-                            "$C20ACCESSH1,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Decayed Crown",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C20ACCESS,$LEDGE2,claws",
-                            "$RuinedCastleACCESS"
-                        ],
-                        "item_count": 1
-                    }
-
-                ]
-            },
-            {
-                "name": "C21",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 7805,
-                        "y": 1700
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_wishes"
-                        ],
-                        "access_rules":
-                        [
-                            "$C19ACCESS,hammer",
-                            "$C19ACCESSC20,hammer"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "D1",
+                "name": "Forest_02",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1532,7 +1320,45 @@
                 ]
             },
             {
-                "name": "D2",
+                "name": "Forest_03",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5070,
+                        "y": 3130
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D3ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D3ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Forest_04",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1597,45 +1423,7 @@
                 ]
             },
             {
-                "name": "D3",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 5070,
-                        "y": 3130
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D3ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D3ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "D4",
+                "name": "Forest_05",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1660,7 +1448,61 @@
                 ]
             },
             {
-                "name": "D5",
+                "name": "Forest_06",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5882,
+                        "y": 2980
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fungal Sorcerer Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules":
+                        [
+                            "$D18ACCESS"
+                            
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D18ACCESS,hammer",
+                            "$D18ACCESS,$LEDGE2",
+                            "$D18ACCESS,hook"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Lover's Letter",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D18ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Forest_07",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1681,7 +1523,7 @@
                             "$D5ACCESS,djump",
                             "$D5ACCESS,hook",
                             "$D5ACCESS,$HORIZONTAL,faeden",
-							"$D5ACCESS,$HORIZONTAL,gerrod",
+							"$D5ACCESS,$HORIZONTAL,hammer",
                             "$D5ACCESS,silva",
                             "$D5ACCESS,ulv,fretia"
                         ],
@@ -1718,7 +1560,7 @@
                 ]
             },
             {
-                "name": "D6",
+                "name": "Forest_08",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1784,7 +1626,63 @@
                 ]
             },
             {
-                "name": "D7",
+                "name": "Forest_09",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6570,
+                        "y": 4040
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D14ACCESS,aquatic,verboten",
+                            "$D14ACCESS,aquatic,djump",
+                            "$D14ACCESS,aquatic,claws,silva",
+                            "$D14ACCESS,aquatic,silva,plume",
+                            "$D14ACCESS,aquatic,silva,dodge2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D14ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Tarnished Picture",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D14ACCESS,aquatic,$LEDGE",
+                            "$D14ACCESS,aquatic,claws"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Forest_10",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1809,7 +1707,7 @@
                 ]
             },
             {
-                "name": "D8",
+                "name": "Forest_11",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1915,7 +1813,7 @@
                 ]
             },
             {
-                "name": "D9",
+                "name": "Forest_12",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1936,7 +1834,7 @@
                             "$D9ACCESS,$LEDGE",
                             "$D9ACCESS,ulv,fretia",
                             "$D9ACCESS,ulv,$HORIZONTAL",
-                            "$D9ACCESS,gerrod,$HORIZONTAL",
+                            "$D9ACCESS,hammer,$HORIZONTAL",
                             "$D9ACCESS,ult,umbral"
                         ],
                         "item_count": 1
@@ -1958,7 +1856,7 @@
                 ]
             },
             {
-                "name": "D10",
+                "name": "Forest_13",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -1984,7 +1882,7 @@
                 ]
             },
             {
-                "name": "D11",
+                "name": "Forest_14",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -2010,7 +1908,7 @@
                 ]
             },
             {
-                "name": "D12",
+                "name": "Forest_15",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -2035,71 +1933,17 @@
                 ]
             },
             {
-                "name": "D13",
+                "name": "Forest_16",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 7590,
-                        "y": 3400
+                        "x": 7570,
+                        "y": 3905
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": [
-                            "$D13ACCESS5,aquatic"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules":
-                        [
-                            "$D13ACCESS5,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "D14",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 6570,
-                        "y": 4040
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_wishes"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D14ACCESS,aquatic,verboten",
-                            "$D14ACCESS,aquatic,djump",
-                            "$D14ACCESS,aquatic,claws,silva",
-                            "$D14ACCESS,aquatic,silva,plume",
-                            "$D14ACCESS,aquatic,silva,dodge2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Furious Blight x10",
+                        "name": "Finding - Eleines Diary III",
                         "visibility_rules": 
                         [
                             
@@ -2107,38 +1951,12 @@
                         ],
                         "access_rules": 
                         [
-                            "$D14ACCESS,aquatic"
+                            "$D19ACCESS"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Finding - Tarnished Picture",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$D14ACCESS,aquatic,$LEDGE",
-                            "$D14ACCESS,aquatic,claws"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "D15",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 6315,
-                        "y": 4450
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Furious Blight x30",
+                        "name": "Stagnant Blight x800",
                         "visibility_rules": 
                         [
                             
@@ -2146,55 +1964,27 @@
                         ],
                         "access_rules": 
                         [
-                            "$D15ACCESS,hook",
-                            "$D15ACCESS,claws"
+                            "$D19ACCESS"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Furious Blight x10",
+                        "name": "Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_blight"
+                            "setting_all", "setting_c_end"
                         ],
                         "access_rules": 
                         [
-                            "$D15ACCESS"
+                            "$D19ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "D16",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8000,
-                        "y": 4560
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Faden's Archives III",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$D16ACCESS",
-                            "$F26ACCESS,hammer,hook,dash,lance,mask",
-                            "$F26ACCESS,hammer,hook,dash,lance,$verbotenMath,$LEDGE"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "D17",
+                "name": "Forest_17",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -2261,99 +2051,57 @@
                 ]
             },
             {
-                "name": "D18",
+                "name": "Cave_01",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 5882,
-                        "y": 2980
+                        "x": 6570,
+                        "y": 2400
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Fungal Sorcerer Fight",
+                        "name": "Fretia's Ring",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_spirits"
+                            "setting_all", "setting_relics"
                         ],
-                        "access_rules":
+                        "access_rules": 
                         [
-                            "$D18ACCESS"
-                            
+                            "$C11ACCESS",
+                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
+                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Furious Blight x10",
+                        "name": "Furious Blight x800",
                         "visibility_rules": 
                         [
                             
                             "setting_all", "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$D18ACCESS,hammer",
-                            "$D18ACCESS,$LEDGE2",
-                            "$D18ACCESS,hook"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - Lover's Letter",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
                         "access_rules":
                         [
-                            "$D18ACCESS"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "D19",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 7570,
-                        "y": 3905
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stagnant Blight x800",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D19ACCESS"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stone Tablet Fragment",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_c_end"
-                        ],
-                        "access_rules": 
-                        [
-                            "$D19ACCESS"
+                            "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump,claws",
+                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
+                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "E1",
+                "name": "Cave_02",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -2393,45 +2141,7 @@
                 ]
             },
             {
-                "name": "E2",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 6710,
-                        "y": 3060
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Elder Crypt Keeper Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E2ACCESS"
-                        ],
-                        "item_count":  1
-                    },
-                    {
-                        "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E2ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "E3",
+                "name": "Cave_03",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -2470,7 +2180,63 @@
                 ]
             },
             {
-                "name": "E4",
+                "name": "Cave_04",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7395,
+                        "y": 2373
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cave_05",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7335,
+                        "y": 2558
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS,hook",
+                            "$CatacombsACCESS,$HORIZONTAL",
+                            "$CatacombsACCESS,verboten",
+                            "$CatacombsACCESS,djump",
+                            "$CatacombsACCESS,silva,ulv",
+                            "$CatacombsACCESS,ulv,fretia",
+                            "$CatacombsACCESS,plume,silva,$AIRSTALL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cave_06",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -2521,17 +2287,30 @@
                 ]
             },
             {
-                "name": "E5",
+                "name": "Cave_07",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 7335,
-                        "y": 2558
+                        "x": 6710,
+                        "y": 3060
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Furious Blight x10",
+                        "name": "Elder Crypt Keeper Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E2ACCESS"
+                        ],
+                        "item_count":  1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             
@@ -2539,25 +2318,19 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS,hook",
-                            "$CatacombsACCESS,$HORIZONTAL",
-                            "$CatacombsACCESS,verboten",
-                            "$CatacombsACCESS,djump",
-                            "$CatacombsACCESS,silva,ulv",
-                            "$CatacombsACCESS,ulv,fretia",
-                            "$CatacombsACCESS,plume,silva,$AIRSTALL"
+                            "$E2ACCESS,aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "E6",
+                "name": "Cave_08",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 7395,
-                        "y": 2373
+                        "x": 7840,
+                        "y": 3060
                     }
                 ],
                 "sections": [
@@ -2570,64 +2343,84 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS"
+                            "$E10ACCESS,hammer"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "E7",
+                "name": "Cave_09",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 7877,
-                        "y": 2373
+                        "x": 7890,
+                        "y": 2800
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Stagnant Blight x30",
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_blight"
+                            "setting_all", "setting_amulets"
                         ],
-                        "access_rules": 
+                        "access_rules":
                         [
-                            "$CatacombsACCESS,hook",
-                            "$CatacombsACCESS,claws,silva,$HORIZONTAL",
-                            "$CatacombsACCESS,claws,verboten,$HORIZONTAL",
-                            "$CatacombsACCESS,claws,silva,djump",
-                            "$CatacombsACCESS,silva,dodge2,djump,verboten,plume"
+                            "$E10ACCESS,claws",
+                            "$E10ACCESS,verboten",
+                            "$E10ACCESS,djump",
+                            "$E10ACCESS,silva,ulv",
+                            "$E10ACCESS,$HORIZONTAL"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Finding - The Next White Priestess",
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_findings"
+                            "setting_all", "setting_chains"
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS"
+                            "$E10ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "E8",
+                "name": "Cave_10",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 8335,
-                        "y": 2370
+                        "x": 7890,
+                        "y": 2558
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E14ACCESS,hook",
+                            "$E14ACCESS,dodge2,silva",
+                            "$E14ACCESS,dodge2,ulv",
+                            "$E14ACCESS,sinner",
+                            "$E14ACCESS,djump,dodge2",
+                            "$E14ACCESS,djump,ulv,fretia",
+                            "$E14ACCESS,ulv,fretia,dash",
+                            "$E14ACCESS,$FULLSILVA"
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -2637,49 +2430,6 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS,$LEDGE",
-                            "$CatacombsACCESS,$HORIZONTAL",
-                            "$CatacombsACCESS,ulv",
-                            "$CatacombsACCESS,claws"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS,aquatic,hammer,claws",
-                            "$CatacombsACCESS,aquatic,hammer,$LEDGE",
-                            "$CatacombsACCESS,aquatic,hammer,plume",
-                            "$C18ACCESSH18,hammer"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - Defense of the Twin Spires I",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C11ACCESS,swim",
-                            "$C18ACCESSC16,silva,verboten,ulv,fretia",
-                            "$C18ACCESSC16,djump,dodge2",
-                            "$C18ACCESSC16,djump,ulv,verboten",
-                            "$C18ACCESSC16,sinner",
-                            "$C18ACCESSC16,djump,silva",
-                            "$C18ACCESSH18,djump,silva",
-                            "$C18ACCESSH18,sinner",
-                            "$C18ACCESSH18,djump,ulv,verboten",
-                            "$C18ACCESSH18,djump,dodge2",
-                            "$C18ACCESSH18,silva,verboten,ulv,fretia",
                             "$E14ACCESS"
                         ],
                         "item_count": 1
@@ -2687,15 +2437,28 @@
                 ]
             },
             {
-                "name": "E9",
+                "name": "Cave_11",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 8850,
-                        "y": 2320
+                        "x": 8750,
+                        "y": 3060
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E10ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
@@ -2703,25 +2466,61 @@
                             
                             "setting_all", "setting_blight"
                         ],
-                        "access_rules":
+                        "access_rules": 
                         [
-                            "$E9ACCESS8,$LEDGE,hook",
-                            "$E9ACCESS8,$LEDGE,HORIZONTAL2",
-                            "$E9ACCESS8,silva,djump",
-                            "$E9ACCESS8,djump,verboten",
-                            "$E9ACCESS8,$LEDGE,claws",
                             "$E10ACCESS,hook",
-                            "$E10ACCESS,claws",
-                            "$E10ACCESS,silva,djump",
-                            "$E10ACCESS,djump,verboten",
-                            "$E10ACCESS,$HORIZONTAL2"
+                            "$E10ACCESS,$HORIZONTAL",
+                            "$E10ACCESS,djump",
+                            "$E10ACCESS,verboten,ulv",
+                            "$E10ACCESS,silva,verboten",
+                            "$E10ACCESS,silva,ulv"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Silva's Note II",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E10ACCESS",
+                            "$E18ACCESSRev",
+                            "$E14ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "E10",
+                "name": "Cave_12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7010,
+                        "y": 2360
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS,unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cave_13",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -2792,157 +2591,62 @@
                 ]
             },
             {
-                "name": "E11",
+                "name": "Cave_14",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 8750,
-                        "y": 3060
+                        "x": 8850,
+                        "y": 2320
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    },
                     {
                         "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             
                             "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,hook",
-                            "$E10ACCESS,$HORIZONTAL",
-                            "$E10ACCESS,djump",
-                            "$E10ACCESS,verboten,ulv",
-                            "$E10ACCESS,silva,verboten",
-                            "$E10ACCESS,silva,ulv"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - Silva's Note II",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS",
-                            "$E18ACCESSRev",
-                            "$E14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "E12",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 7840,
-                        "y": 3060
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,hammer"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "E13",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 7890,
-                        "y": 2800
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Amulet Fragment (+5 HP) (In Pot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
                         ],
                         "access_rules":
                         [
+                            "$E9ACCESS8,$LEDGE,hook",
+                            "$E9ACCESS8,$LEDGE,HORIZONTAL2",
+                            "$E9ACCESS8,silva,djump",
+                            "$E9ACCESS8,djump,verboten",
+                            "$E9ACCESS8,$LEDGE,claws",
+                            "$E10ACCESS,hook",
                             "$E10ACCESS,claws",
-                            "$E10ACCESS,verboten",
-                            "$E10ACCESS,djump",
-                            "$E10ACCESS,silva,ulv",
-                            "$E10ACCESS,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS"
+                            "$E10ACCESS,silva,djump",
+                            "$E10ACCESS,djump,verboten",
+                            "$E10ACCESS,$HORIZONTAL2"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "E14",
+                "name": "Cave_15",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 7890,
-                        "y": 2558
+                        "x": 8335,
+                        "y": 2370
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Amulet Fragment (+5 HP) (In Pot)",
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_amulets"
+                            "setting_all", "setting_blight"
                         ],
                         "access_rules": 
                         [
-                            "$E14ACCESS,hook",
-                            "$E14ACCESS,dodge2,silva",
-                            "$E14ACCESS,dodge2,ulv",
-                            "$E14ACCESS,sinner",
-                            "$E14ACCESS,djump,dodge2",
-                            "$E14ACCESS,djump,ulv,fretia",
-                            "$E14ACCESS,ulv,fretia,dash",
-                            "$E14ACCESS,$FULLSILVA"
+                            "$CatacombsACCESS,$LEDGE",
+                            "$CatacombsACCESS,$HORIZONTAL",
+                            "$CatacombsACCESS,ulv",
+                            "$CatacombsACCESS,claws"
                         ],
                         "item_count": 1
                     },
@@ -2955,120 +2659,15 @@
                         ],
                         "access_rules": 
                         [
-                            "$E14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "E15",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8350,
-                        "y": 2558
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Unfinished Note",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS",
-                            "$E18ACCESSRev",
-                            "$E14ACCESS"
+                            "$CatacombsACCESS,aquatic,hammer,claws",
+                            "$CatacombsACCESS,aquatic,hammer,$LEDGE",
+                            "$CatacombsACCESS,aquatic,hammer,plume",
+                            "$C18ACCESSH18,hammer"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Guardian Silva Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E15ACCESS"
-                        ],
-                        "item_count": 3
-                    } 
-                ]
-            },
-            {
-                "name": "E16",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9325,
-                        "y": 2500
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - The Heirloom of Land's End",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E16ACCESS",
-                            "$E18ACCESSRev"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amulet Fragment (+5 HP) (In Pot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E16ACCESS,hook",
-                            "$E16ACCESS,$LEDGE"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E16ACCESS,hook",
-                            "$E16ACCESS,djump",
-                            "$E16ACCESS,silva,claws",
-                            "$E16ACCESS,silva,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "E17",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9420,
-                        "y": 2235
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Fretia's Memoirs III",
+                        "name": "Finding - Defense of the Twin Spires I",
                         "visibility_rules": 
                         [
                             
@@ -3094,17 +2693,17 @@
                 ]
             },
             {
-                "name": "E18",
+                "name": "Cave_16",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 10100,
-                        "y": 2185
+                        "x": 7877,
+                        "y": 2373
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Stagnant Blight x10",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             
@@ -3112,16 +2711,20 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS"
+                            "$CatacombsACCESS,hook",
+                            "$CatacombsACCESS,claws,silva,$HORIZONTAL",
+                            "$CatacombsACCESS,claws,verboten,$HORIZONTAL",
+                            "$CatacombsACCESS,claws,silva,djump",
+                            "$CatacombsACCESS,silva,dodge2,djump,verboten,plume"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Furious Blight x10",
+                        "name": "Finding - The Next White Priestess",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_blight"
+                            "setting_all", "setting_findings"
                         ],
                         "access_rules": 
                         [
@@ -3132,7 +2735,57 @@
                 ]
             },
             {
-                "name": "E19",
+                "name": "Cave_17",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7775,
+                        "y": 3205
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Soul x2",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E22ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cave_18",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9215,
+                        "y": 3050
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Holy Spring Water",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E21ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cave_19",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3188,7 +2841,63 @@
                 ]
             },
             {
-                "name": "E20",
+                "name": "Cave_20",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9325,
+                        "y": 2500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - The Heirloom of Land's End",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E16ACCESS",
+                            "$E18ACCESSRev"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E16ACCESS,hook",
+                            "$E16ACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E16ACCESS,hook",
+                            "$E16ACCESS,djump",
+                            "$E16ACCESS,silva,claws",
+                            "$E16ACCESS,silva,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cave_21",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3213,82 +2922,120 @@
                 ]
             },
             {
-                "name": "E21",
+                "name": "Cave_22",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9215,
-                        "y": 3050
+                        "x": 9420,
+                        "y": 2235
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Holy Spring Water",
+                        "name": "Finding - Fretia's Memoirs III",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_relics"
+                            "setting_all", "setting_findings"
                         ],
                         "access_rules": 
                         [
-                            "$E21ACCESS"
+                            "$C11ACCESS,swim",
+                            "$C18ACCESSC16,silva,verboten,ulv,fretia",
+                            "$C18ACCESSC16,djump,dodge2",
+                            "$C18ACCESSC16,djump,ulv,verboten",
+                            "$C18ACCESSC16,sinner",
+                            "$C18ACCESSC16,djump,silva",
+                            "$C18ACCESSH18,djump,silva",
+                            "$C18ACCESSH18,sinner",
+                            "$C18ACCESSH18,djump,ulv,verboten",
+                            "$C18ACCESSH18,djump,dodge2",
+                            "$C18ACCESSH18,silva,verboten,ulv,fretia",
+                            "$E14ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "E22",
+                "name": "Cave_23",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 7775,
-                        "y": 3205
+                        "x": 8350,
+                        "y": 2558
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Ancient Soul x2",
+                        "name": "Finding - Unfinished Note",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E10ACCESS",
+                            "$E18ACCESSRev",
+                            "$E14ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Guardian Silva Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E15ACCESS"
+                        ],
+                        "item_count": 3
+                    } 
+                ]
+            },
+            {
+                "name": "Oubliette_01",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7590,
+                        "y": 3400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             
                             "setting_all", "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$E22ACCESS"
+                        "access_rules": [
+                            "$D13ACCESS5,aquatic"
                         ],
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "E23",
-                "map_locations": [
+                    },
                     {
-                        "map": "WorldMap",
-                        "x": 7010,
-                        "y": 2360
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stone Tablet Fragment",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_c_end"
+                            "setting_all", "setting_amulets"
                         ],
-                        "access_rules": 
+                        "access_rules":
                         [
-                            "$CatacombsACCESS,unlock"
+                            "$D13ACCESS5,aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "F1",
+                "name": "Oubliette_02",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3313,88 +3060,7 @@
                 ]
             },
             {
-                "name": "F2",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8790,
-                        "y": 3650
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,hook",
-                            "$StockadeACCESS,djump,silva",
-                            "$StockadeACCESS,$HORIZONTAL,djump,verboten"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F3",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9165,
-                        "y": 3380
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,dash,lance"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fall From Above (Gem and Stagnant x30)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,$LEDGE,claws,hook",
-                            "$StockadeACCESS,$FULLSILVA,hook",
-                            "$StockadeACCESS,silva,djump,dodge2,hook,plume"
-                        ],
-                        "item_count": 2
-                    }
-                ]
-            },
-            {
-                "name": "F4",
+                "name": "Oubliette_03",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3445,54 +3111,15 @@
                 ]
             },
             {
-                "name": "F5",
+                "name": "Oubliette_04",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9660,
-                        "y": 3792
+                        "x": 8790,
+                        "y": 3650
                     }
                 ],
                 "sections": [
-                    {
-                        "name": "Finding - Executioner's Missive",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F5ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F6",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 10117,
-                        "y": 3792
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "2 Amulet Fragments (+5 HP x2)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F6ACCESS,claws",
-                            "$F6ACCESS,silva,ulv,djump,dodge2"
-                        ],
-                        "item_count": 2
-                    },
                     {
                         "name": "Stagnant Blight x30",
                         "visibility_rules": 
@@ -3502,15 +3129,351 @@
                         ],
                         "access_rules": 
                         [
-                            "$F6ACCESS,$LEDGE",
-                            "$F6ACCESS"
+                            "$StockadeACCESS,hook",
+                            "$StockadeACCESS,djump,silva",
+                            "$StockadeACCESS,$HORIZONTAL,djump,verboten"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "F8",
+                "name": "Oubliette_05",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9165,
+                        "y": 3380
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,dash,lance"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fall From Above (Gem and Stagnant x30)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE,claws,hook",
+                            "$StockadeACCESS,$FULLSILVA,hook",
+                            "$StockadeACCESS,silva,djump,dodge2,hook,plume"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_05_1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8930,
+                        "y": 3250
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_05_2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9100,
+                        "y": 3240
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE,claws,hook",
+                            "$StockadeACCESS,$FULLSILVA,hook",
+                            "$StockadeACCESS,silva,djump,dodge2,hook,plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_05_3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9075,
+                        "y": 3498
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_06",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9665,
+                        "y": 3435
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F14ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F14ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F14ACCESS,hook,$LEDGE"
+
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_06_1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10420,
+                        "y": 3300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Hoenir's Diary I",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,silva,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_06_2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10270,
+                        "y": 3570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Executioner's Gloves",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_06_3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9910,
+                        "y": 3210
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,silva,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_06_4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10250,
+                        "y": 3100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook,unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_07_1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8865,
+                        "y": 3498
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Forbidden Text Scrap",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_07_2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9280,
+                        "y": 3240
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Test Subject Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_08",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3556,7 +3519,128 @@
                 ]
             },
             {
-                "name": "F9",
+                "name": "Oubliette_09",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10117,
+                        "y": 3792
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2 Amulet Fragments (+5 HP x2)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F6ACCESS,claws",
+                            "$F6ACCESS,silva,ulv,djump,dodge2"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F6ACCESS,$LEDGE",
+                            "$F6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9660,
+                        "y": 3792
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Executioner's Missive",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11190,
+                        "y": 3620
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,$LEDGE",
+                            "$F7ACCESS,$HORIZONTAL",
+                            "$F10ACCESS8,hook",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11675,
+                        "y": 3510
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dark Executioner Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,$LEDGE",
+                            "$F10ACCESS8,hook",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_13",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3645,17 +3729,42 @@
                 ]
             },
             {
-                "name": "F10",
+                "name": "Oubliette_13_1",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 11190,
-                        "y": 3620
+                        "x": 11130,
+                        "y": 3280
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Furious Blight x10",
+                        "name": "Aura's Ring",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F25ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oubliette_13_2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11225,
+                        "y": 3905
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Soul",
                         "visibility_rules": 
                         [
                             
@@ -3663,17 +3772,16 @@
                         ],
                         "access_rules": 
                         [
-                            "$F7ACCESS,$LEDGE",
-                            "$F7ACCESS,$HORIZONTAL",
-                            "$F10ACCESS8,hook",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
+                            "$F7ACCESS,hammer",
+                            "$F10ACCESS8,hook,hammer",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,hammer"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "F11",
+                "name": "Oubliette_14",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3699,7 +3807,7 @@
                 ]
             },
             {
-                "name": "F12",
+                "name": "Oubliette_15",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3728,7 +3836,7 @@
                 ]
             },
             {
-                "name": "F13",
+                "name": "Oubliette_16",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -3772,12 +3880,56 @@
                 ]
             },
             {
-                "name": "F14",
+                "name": "Fort_01",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9665,
-                        "y": 3435
+                        "x": 10230,
+                        "y": 1940
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C17ACCESSC16,hook",
+                            "$C17ACCESSC18,hook",
+                            "$C17ACCESSH18"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fallen Sentinel Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C17ACCESSC16,hook",
+                            "$C17ACCESSC16,$LEDGE",
+                            "$C17ACCESSC18,hook",
+                            "$C17ACCESSC18,$LEDGE",
+                            "$C17ACCESSH18"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fort_02",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10100,
+                        "y": 2185
                     }
                 ],
                 "sections": [
@@ -3790,233 +3942,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$F14ACCESS"
+                            "$CatacombsACCESS"
                         ],
                         "item_count": 1
                     },
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F14ACCESS"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F14ACCESS,hook,$LEDGE"
-
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F15",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 11675,
-                        "y": 3510
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Dark Executioner Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hook",
-                            "$F7ACCESS,$LEDGE",
-                            "$F10ACCESS8,hook",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F16",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 11225,
-                        "y": 3905
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Ancient Soul",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hammer",
-                            "$F10ACCESS8,hook,hammer",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,hammer"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F17",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 10420,
-                        "y": 3300
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Hoenir's Diary I",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hook",
-                            "$F7ACCESS,silva,djump"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F18",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9910,
-                        "y": 3210
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hook",
-                            "$F7ACCESS,silva,djump"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F19",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 10270,
-                        "y": 3570
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Executioner's Gloves",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F20",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9280,
-                        "y": 3240
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Hidden Test Subject Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,$LEDGE"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F21",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9100,
-                        "y": 3240
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS,$LEDGE,claws,hook",
-                            "$StockadeACCESS,$FULLSILVA,hook",
-                            "$StockadeACCESS,silva,djump,dodge2,hook,plume"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F22",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8930,
-                        "y": 3250
-                    }
-                ],
-                "sections": [
                     {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
@@ -4026,114 +3955,41 @@
                         ],
                         "access_rules": 
                         [
-                            "$StockadeACCESS,$LEDGE"
+                            "$CatacombsACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "F23",
+                "name": "Fort_03",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 8865,
-                        "y": 3498
+                        "x": 10770,
+                        "y": 2115
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Finding - Forbidden Text Scrap",
+                        "name": "Finding - Bloodied Note I",
+                        "item_count": 1,
                         "visibility_rules": 
                         [
                             
                             "setting_all", "setting_findings"
                         ],
-                        "access_rules": 
+                        "access_rules":
                         [
-                            "$StockadeACCESS"
-                        ],
-                        "item_count": 1
+                            "$C18ACCESSE18",
+                            "$C18ACCESSC16",
+                            "$C18ACCESSH18"
+                        ]
                     }
                 ]
             },
             {
-                "name": "F24",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9075,
-                        "y": 3498
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$StockadeACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F25",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 11130,
-                        "y": 3280
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Aura's Ring",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F25ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "F27",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 10250,
-                        "y": 3100
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stone Tablet Fragment",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_c_end"
-                        ],
-                        "access_rules": 
-                        [
-                            "$F7ACCESS,hook,unlock"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "G1",
+                "name": "Fort_04",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4158,7 +4014,7 @@
                 ]
             },
             {
-                "name": "G2",
+                "name": "Fort_05",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4213,7 +4069,7 @@
                 ]
             },
             {
-                "name": "G3",
+                "name": "Fort_06",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4239,33 +4095,42 @@
                 ]
             },
             {
-                "name": "G4",
+                "name": "Fort_07",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 11430,
-                        "y": 2110
+                        "x": 11820,
+                        "y": 1650
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_amulets"
+                            "setting_all", "setting_blight"
                         ],
                         "access_rules": 
                         [
-                            "$G3ACCESS,claws",
-                            "$G3ACCESS,$FULLSILVA,dodge2",
-                            "$G3ACCESS,silva,dodge2,djump,plume",
-                            "$G3ACCESS,silva,dodge2,djump,dash"
+                            "$G6ACCESS"
                         ],
                         "item_count": 1
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Fort_08",
+                "map_locations": [
                     {
-                        "name": "Finding - Bloodied Note II",
+                        "map": "WorldMap",
+                        "x": 12120,
+                        "y": 1650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Hoenir's Diary III",
                         "visibility_rules": 
                         [
                             
@@ -4273,14 +4138,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$G3ACCESS"
+                            "$G6ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "G5",
+                "name": "Fort_09",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4345,42 +4210,33 @@
                 ]
             },
             {
-                "name": "G6",
+                "name": "Fort_10",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 11820,
-                        "y": 1650
+                        "x": 11430,
+                        "y": 2110
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Stagnant Blight x10",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             
-                            "setting_all", "setting_blight"
+                            "setting_all", "setting_amulets"
                         ],
                         "access_rules": 
                         [
-                            "$G6ACCESS"
+                            "$G3ACCESS,claws",
+                            "$G3ACCESS,$FULLSILVA,dodge2",
+                            "$G3ACCESS,silva,dodge2,djump,plume",
+                            "$G3ACCESS,silva,dodge2,djump,dash"
                         ],
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "G7",
-                "map_locations": [
+                    },
                     {
-                        "map": "WorldMap",
-                        "x": 12120,
-                        "y": 1650
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Hoenir's Diary III",
+                        "name": "Finding - Bloodied Note II",
                         "visibility_rules": 
                         [
                             
@@ -4388,14 +4244,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$G6ACCESS"
+                            "$G3ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "G8",
+                "name": "Fort_11",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4416,7 +4272,7 @@
                             "$G8ACCESS,aquatic,hammer",
                             "$G8ACCESS,silva",
                             "$G8ACCESS,julius",
-                            "$G8ACCESS,gerrod",
+                            "$G8ACCESS,hammer",
                             "$G8ACCESS,ulv"
                         ],
                         "item_count": 1
@@ -4432,7 +4288,7 @@
                         [
                             "$G8ACCESS,silva,aquatic,hook",
                             "$G8ACCESS,julius,aquatic,hook",
-                            "$G8ACCESS,gerrod,aquatic,hook",
+                            "$G8ACCESS,hammer,aquatic,hook",
                             "$G8ACCESS,ulv,aquatic,hook",
                             "$G8ACCESS,silva,djump",
                             "$G8ACCESS,verboten,$HORIZONTAL2,claws",
@@ -4445,7 +4301,7 @@
                 ]
             },
             {
-                "name": "G9",
+                "name": "Fort_12",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4488,32 +4344,7 @@
                 ]
             },
             {
-                "name": "G10",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 11200,
-                        "y": 1220
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Monument Engraving",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$G13ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "G11",
+                "name": "Fort_13",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4551,7 +4382,7 @@
                 ]
             },
             {
-                "name": "G12",
+                "name": "Fort_14",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4604,7 +4435,7 @@
                 ]
             },
             {
-                "name": "G13",
+                "name": "Fort_15",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4671,7 +4502,32 @@
                 ]
             },
             {
-                "name": "G14",
+                "name": "Fort_16",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11200,
+                        "y": 1220
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Monument Engraving",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fort_17",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4696,7 +4552,7 @@
                 ]
             },
             {
-                "name": "G15",
+                "name": "Fort_18",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4736,7 +4592,7 @@
                 ]
             },
             {
-                "name": "G16",
+                "name": "Fort_19",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4795,7 +4651,7 @@
                 ]
             },
             {
-                "name": "G18 Ulv",
+                "name": "Ulv, The Mad Knight Fort_21",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4808,7 +4664,7 @@
                 ]
             },
             {
-                "name": "G18",
+                "name": "Fort_21",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4818,7 +4674,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ulv, The Mad Knight",
+                        "name": "After Ulv Fight",
                         "visibility_rules": 
                         [
                             
@@ -4866,7 +4722,7 @@
                 ]
             },
             {
-                "name": "G19",
+                "name": "Outside_03",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4904,17 +4760,188 @@
                 ]
             },
             {
-                "name": "H1",
+                "name": "Castle_01",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9890,
-                        "y": 1650
+                        "x": 8380,
+                        "y": 1815
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Finding - Proof of Founding",
+                        "name": "Stagnant Blight x100",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C20ACCESS,dash,lance",
+                            "C20ACCESSH1,dash,lance"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Castle Town Maiden Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules":
+                        [
+                            "$C20ACCESS",
+                            "C20ACCESSH1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x100",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C20ACCESS,dash,lance",
+                            "C20ACCESSH1,dash,lance"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Priestess' Doll",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C20ACCESS,$LEDGE",
+                            "$C20ACCESS,plume",
+                            "$C20ACCESS,$HORIZONTAL",
+                            "$C20ACCESSH1,$LEDGE",
+                            "$C20ACCESSH1,plume",
+                            "$C20ACCESSH1,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Decayed Crown",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C20ACCESS,$LEDGE2,claws",
+                            "$RuinedCastleACCESS"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Castle_02",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9010,
+                        "y": 1815
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,$FULLSILVA",
+                            "$RuinedCastleACCESS,silva,djump,dodge2"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Castle_03",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9220,
+                        "y": 1425
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,$HORIZONTAL",
+                            "$RuinedCastleACCESS,claws,$LEDGE",
+                            "$RuinedCastleACCESS,hook"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Castle_04",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9105,
+                        "y": 1965
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Report from a Verboten Mage",
                         "visibility_rules": 
                         [
                             
@@ -4930,7 +4957,7 @@
                 ]
             },
             {
-                "name": "H2",
+                "name": "Castle_06",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -4970,65 +4997,17 @@
                 ]
             },
             {
-                "name": "H3",
+                "name": "Castle_07",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9605,
-                        "y": 1300
+                        "x": 9890,
+                        "y": 1650
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$RuinedCastleACCESS,hook",
-                            "$RuinedCastleACCESS,$AIRSTALL",
-                            "$RuinedCastleACCESS,$LEDGE",
-                            "$RuinedCastleACCESS,$HORIZONTAL"
-                        ],
-                        
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_chains"
-                        ],
-                        "access_rules":
-                        [
-                            "$RuinedCastleACCESS,hook",
-                            "$RuinedCastleACCESS,claws,silva,djump,dodge2",
-                            "$RuinedCastleACCESS,claws,$FULLSILVA",
-                            "$RuinedCastleACCESS,claws,silva,dodge2,verboten"
-                        ],
-                        
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - King of the First Age's Diary I",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$RuinedCastleACCESS"
-                        ],
-                        
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - King of the FIrst Age's Diary II",
+                        "name": "Finding - Proof of Founding",
                         "visibility_rules": 
                         [
                             
@@ -5044,7 +5023,7 @@
                 ]
             },
             {
-                "name": "H5",
+                "name": "Castle_08",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5130,7 +5109,7 @@
                 ]
             },
             {
-                "name": "H6",
+                "name": "Castle_09",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5161,7 +5140,7 @@
                 ]
             },
             {
-                "name": "H7",
+                "name": "Castle_10",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5201,7 +5180,81 @@
                 ]
             },
             {
-                "name": "H9",
+                "name": "Castle_12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9605,
+                        "y": 1300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,$AIRSTALL",
+                            "$RuinedCastleACCESS,$LEDGE",
+                            "$RuinedCastleACCESS,$HORIZONTAL"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_chains"
+                        ],
+                        "access_rules":
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,claws,silva,djump,dodge2",
+                            "$RuinedCastleACCESS,claws,$FULLSILVA",
+                            "$RuinedCastleACCESS,claws,silva,dodge2,verboten"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - King of the First Age's Diary I",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - King of the FIrst Age's Diary II",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Castle_13",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5229,33 +5282,7 @@
                 ]
             },
             {
-                "name": "H10",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8785,
-                        "y": 1010
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$RuinedCastleACCESS"
-                        ],
-                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "H11",
+                "name": "Castle_16",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5327,60 +5354,7 @@
                 ]
             },
             {
-                "name": "H12",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9100,
-                        "y": 800
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - King's Note I",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$H11ACCESS10",
-                            "$H16ACCESS"
-                        ],
-                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "H13",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9360,
-                        "y": 810
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Knight Captain Julius Fight",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_spirits"
-                        ],
-                        "access_rules":
-                        [
-                            "$H11ACCESS10",
-                            "$H16ACCESS"
-                        ],
-                        
-                        "item_count": 1
-                    }
-                ]
-            },{
-                "name": "H14",
+                "name": "Castle_14",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5443,7 +5417,7 @@
                 ]
             },
             {
-                "name": "H15",
+                "name": "Castle_15",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5483,7 +5457,7 @@
                 ]
             },
             {
-                "name": "H16",
+                "name": "Castle_16",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5539,12 +5513,12 @@
                 ]
             },
             {
-                "name": "H17",
+                "name": "Castle_17",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9220,
-                        "y": 1425
+                        "x": 8785,
+                        "y": 1010
                     }
                 ],
                 "sections": [
@@ -5557,22 +5531,6 @@
                         ],
                         "access_rules": 
                         [
-                            "$RuinedCastleACCESS,claws,$HORIZONTAL",
-                            "$RuinedCastleACCESS,claws,$LEDGE",
-                            "$RuinedCastleACCESS,hook"
-                        ],
-                        
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
                             "$RuinedCastleACCESS"
                         ],
                         
@@ -5581,59 +5539,17 @@
                 ]
             },
             {
-                "name": "H18",
+                "name": "Castle_19",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9010,
-                        "y": 1815
+                        "x": 9100,
+                        "y": 800
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$RuinedCastleACCESS,hook",
-                            "$RuinedCastleACCESS,$FULLSILVA",
-                            "$RuinedCastleACCESS,silva,djump,dodge2"
-                        ],
-                        
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$RuinedCastleACCESS"
-                        ],
-                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "H19",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 9105,
-                        "y": 1965
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Finding - Report from a Verboten Mage",
+                        "name": "Finding - King's Note I",
                         "visibility_rules": 
                         [
                             
@@ -5641,7 +5557,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$RuinedCastleACCESS"
+                            "$H11ACCESS10",
+                            "$H16ACCESS"
                         ],
                         
                         "item_count": 1
@@ -5649,7 +5566,34 @@
                 ]
             },
             {
-                "name": "H20",
+                "name": "Castle_20",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9360,
+                        "y": 810
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knight Captain Julius Fight",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_spirits"
+                        ],
+                        "access_rules":
+                        [
+                            "$H11ACCESS10",
+                            "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Castle_21",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5703,7 +5647,73 @@
                 ]
             },
             {
-                "name": "J1",
+                "name": "Swamp_01",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8000,
+                        "y": 4560
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Faden's Archives III",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D16ACCESS",
+                            "$F26ACCESS,hammer,hook,dash,lance,mask",
+                            "$F26ACCESS,hammer,hook,dash,lance,$verbotenMath,$LEDGE"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Swamp_02",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6315,
+                        "y": 4450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D15ACCESS,hook",
+                            "$D15ACCESS,claws"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$D15ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Swamp_03",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5742,7 +5752,7 @@
                 ]
             },
             {
-                "name": "J2",
+                "name": "Swamp_04",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5783,7 +5793,7 @@
                 ]
             },
             {
-                "name": "J3",
+                "name": "Swamp_05",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5823,7 +5833,7 @@
                 ]
             },
             {
-                "name": "J4",
+                "name": "Swamp_06",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5879,7 +5889,98 @@
                 ]
             },
             {
-                "name": "J5",
+                "name": "Swamp_07",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8180,
+                        "y": 5515
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J13ACCESSE,claws"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Calivia's Ring",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J13ACCESSW,$LEDGE,claws",
+                            "$J13ACCESSW,$LEDGE,hook",
+                            "$J13ACCESSW,$FULLSILVA"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Swamp_08",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7790,
+                        "y": 6110
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x100",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Gem (+20 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x100",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Swamp_09",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5921,7 +6022,126 @@
                 ]
             },
             {
-                "name": "J6",
+                "name": "Swamp_10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7355,
+                        "y": 5375
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J7ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Faden's Archives IV",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J7ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Swamp_11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8535,
+                        "y": 5765
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Blighted Appendage",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J10ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J10ACCESS,djump,$HORIZONTAL",
+                            "$J10ACCESS,silva,$HORIZONTAL",
+                            "$J10ACCESS,claws,verboten,$HORIZONTAL",
+                            "$J10ACCESS,claws,verboten,djump",
+                            "$J10ACCESS,silva,djump,claws",
+                            "$J10ACCESS,silva,djump,plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Swamp_12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8930,
+                        "y": 6175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J11ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Faden's Archives II",
+                        "visibility_rules": 
+                        [
+                            
+                            "setting_all", "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J11ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Swamp_13",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -5977,45 +6197,7 @@
                 ]
             },
             {
-                "name": "J7",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 7355,
-                        "y": 5375
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J7ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - Faden's Archives IV",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J7ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "J8",
+                "name": "Swamp_14",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -6053,101 +6235,7 @@
                 ]
             },
             {
-                "name": "J9",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 7790,
-                        "y": 6110
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Furious Blight x100",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J9ACCESS,aquatic,mask"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amulet Gem (+20 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J9ACCESS,aquatic,mask"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J9ACCESS,aquatic,mask"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "J10",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8535,
-                        "y": 5765
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Blighted Appendage",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J10ACCESS"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J10ACCESS,djump,$HORIZONTAL",
-                            "$J10ACCESS,silva,$HORIZONTAL",
-                            "$J10ACCESS,claws,verboten,$HORIZONTAL",
-                            "$J10ACCESS,claws,verboten,djump",
-                            "$J10ACCESS,silva,djump,claws",
-                            "$J10ACCESS,silva,djump,plume"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "J11",
+                "name": "Swamp_15",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -6185,85 +6273,7 @@
                 ]
             },
             {
-                "name": "J12",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8930,
-                        "y": 6175
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_wishes"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J11ACCESS,hammer"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finding - Faden's Archives II",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J11ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "J13",
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 8180,
-                        "y": 5515
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J13ACCESSE,claws"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Calivia's Ring",
-                        "visibility_rules": 
-                        [
-                            
-                            "setting_all", "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J13ACCESSW,$LEDGE,claws",
-                            "$J13ACCESSW,$LEDGE,hook",
-                            "$J13ACCESSW,$FULLSILVA"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "J14",
+                "name": "Swamp_16",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -6288,7 +6298,7 @@
                 ]
             },
             {
-                "name": "J16",
+                "name": "Swamp_18",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -6354,7 +6364,7 @@
                 ]
             },
             {
-                "name": "K1",
+                "name": "Abyss_02",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -6392,7 +6402,7 @@
                 ]
             },
             {
-                "name": "K2",
+                "name": "Abyss_02",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -6486,7 +6496,7 @@
                 ]
             },
             {
-                "name": "K4",
+                "name": "Abyss_04",
                 "map_locations": [
                     {
                         "map": "WorldMap",
@@ -6524,7 +6534,7 @@
                 ]
             },
             {
-                "name": "K5",
+                "name": "Abyss_05",
                 "map_locations": [
                     {
                         "map": "WorldMap",
