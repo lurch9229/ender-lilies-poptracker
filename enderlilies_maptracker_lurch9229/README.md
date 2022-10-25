@@ -46,7 +46,7 @@ Here is a step by step giude on how each layout differs and how to change items 
     The 1st couple of lines you may want to take interest in is item_margin and item_size. Margin is used to tell how much of a gap to put between each item, while Size can be used to change the display size of displayed icons
 5. The rows are the most important part you want to change in this file. The name codes used for each item can be found in enderlilies_maptracker\items inside the json for each item type. So if we wanted to change the position of Silva to the bottom left we would go to row 9 and place "silva" at the start replacing "eldred". That is all well and good but what if you want gaps between items. Well we can just use an empty item to simulate an item being in that place. Using "" will act as said empty item. So let us place 3 rows with 6 items in different locations. (ex3)
 
-So we now have a broadcast view that will be in a 3x6 layout. From here we can simply save the .json, restart poptracker and see out results https://i.imgur.com/gza5h6T.png 
+So we now have a broadcast view that will be in a 3x6 layout. From here we can simply save the .json, restart poptracker and see out results https://i.imgur.com/fHjE2Jw.png 
 If you have any other questions about layouts feel free to message me.
 
 ex1
@@ -153,7 +153,7 @@ ex3
         [
           ["", "", "djump", "", "hammer", ""],
           ["umbral", "", "", "hook", "", ""],
-          ["", "fretia", "", "", "", "champion"]
+          ["", "fretia", "", "", "", "verboten"]
         ]
       }
     ]
