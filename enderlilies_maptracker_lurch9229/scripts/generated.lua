@@ -157,7 +157,7 @@ function village04_1ACCESS()
 end
 
 function village05ACCESS()
-  return village04ACCESS()  
+  return village03ACCESS()  
 end
 
 function village06LeftACCESS()
@@ -270,7 +270,7 @@ function forest02ACCESS()
 end
 
 function forest03ACCESS()
-  return forestACCESS02()  
+  return forest02ACCESS()  
 end
 
 function forest04ACCESS()
@@ -497,7 +497,7 @@ function fort20ACCESS()
 end
 
 function oubliette01ACCESS()
-  return forest07Right() and has ("aquatic")  
+  return forest07RightACCESS() and has ("aquatic")  
 end
 
 function oubliette02ACCESS()
@@ -674,8 +674,8 @@ function swamp01ACCESS()
 end
 
 function swamp06TopACCESS()
-  return oubilette17ACCESS() and has ("hammer") and has ("hook") 
-  or oubilette17ACCESS() and has ("hammer") and has ("claws")  
+  return oubliette17ACCESS() and has ("hammer") and has ("hook") 
+  or oubliette17ACCESS() and has ("hammer") and has ("claws")  
 end
 
 function swamp13ACCESS()

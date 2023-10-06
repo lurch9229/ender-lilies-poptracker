@@ -637,7 +637,7 @@
                         ],
                         "access_rules":
                         [
-                            "$D7ACCESS"
+                            ""
                         ]
                     }
                 ]
