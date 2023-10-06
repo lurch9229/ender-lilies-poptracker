@@ -1,0 +1,92 @@
+﻿{
+  "minimal_grid": 
+  {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,5,5,5",
+    "item_size": "40,40",
+    "rows": [
+      ["silva", "verboten", "ulv", "sinner", "mask"],
+      ["djump", "hammer", "aquatic", "dodge2", "rites"],
+      ["hook", "claws", "dash", "lance", "unlock"],
+      ["ch0", "Bend", "plume", "fretia", "tabletch"],
+      ["gem", "fragment", "relicslot", "wish", "tabletwt"],
+      ["tabletcc", "tabletsa", "tabletts", "tabletrc", "tabletvd"]
+    ]
+  },
+
+  "tracker_horizontal": 
+  {
+    "type": "container",
+    "content": 
+    {
+      "type": "dock",
+      "dropshadow": true,
+      "content": 
+      [
+        {
+          "type": "array",
+          "dock": "bottom",
+          "orientation": "horizontal",
+          "content": 
+          [
+            {
+              "type": "group",
+              "header": "Items",
+              "header_content": {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#55212121",
+                "layout": "settings_popup"
+              },
+              "content": 
+              {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": 
+                [
+                  {
+                    "type": "layout",
+                    "key": "minimal_grid"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "v_alignment": "stretch",
+          "margin": "0, 0, 0, 0",
+          "content": 
+		      [
+            {
+              "type": "tabbed",
+              "dock": "top",
+              "tabs": 
+              [
+                {
+                  "title": "World Map",
+                  "content": 
+                  {
+                    "type":"map",
+                    "maps": ["WorldMap"]
+                  }
+                },   	            
+                {
+                  "title": "Credits",
+                  "content": 
+				          {
+                    "type": "map",
+                    "maps": ["Credits"]
+                  }
+                } 
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

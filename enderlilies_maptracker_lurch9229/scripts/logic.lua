@@ -8,7 +8,6 @@ function has(item, amount)
   end
 end
 
-
 --------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------ABILITY+CUSTOM LOGIC----------------------------------------------------
@@ -37,7 +36,7 @@ function LEDGE2()
   end
 end
 
-function FULLSILVA()
+function FULLJUMP()
   if (has ("silva") and has ("djump") and has ("verboten"))
   then
     return 1
@@ -45,6 +44,16 @@ function FULLSILVA()
     return 0
   end
 end
+
+function FULLSILVA()
+  if has ("dodge2") and has ("djump") and has ("silva")
+  then
+    return 1
+  else
+    return 0
+  end
+end
+
 
 function HORIZONTAL()
   if has ("dodge2")
@@ -70,6 +79,7 @@ function AIRSTALL()
   or has ("fretia")
   or has ("testsubject")
   or has ("headless")
+  or has ("gerrod")
   then
     return 1
   else
@@ -158,11 +168,11 @@ end
 --------------------------------------------------AREA LOGIC------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------
-function B1ACCESS()
+function B1ACCESS() -- church04
   return Tracker:ProviderCountForCode("defeatSiegrid")
 end
 
-function B3ACCESS()
+function B3ACCESS() -- church07
   if (has ("$B1ACCESS") and has ("$LEDGE"))
   or (has ("$B1ACCESS") and has ("claws"))
   then
@@ -172,7 +182,7 @@ function B3ACCESS()
   end
 end
 
-function B4ACCESS()
+function B4ACCESS() --church08/crossroads
   if has ("$B3ACCESS")
   then
     return 1
@@ -181,7 +191,7 @@ function B4ACCESS()
   end
 end
 
-function B5ACCESS()
+function B5ACCESS() --village01
   if has ("$B4ACCESS")
   then
     return 1
@@ -190,7 +200,7 @@ function B5ACCESS()
   end
 end
 
-function B6ACCESS()
+function B6ACCESS()--forest01
   if has ("$B4ACCESS")
   then
     return 1
@@ -203,7 +213,7 @@ end
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-function C1ACCESS()
+function C1ACCESS() -- village02
   if has ("$B5ACCESS")
   then
     return 1
@@ -212,7 +222,7 @@ function C1ACCESS()
   end
 end
 
-function C2ACCESS()
+function C2ACCESS() --village03
   if (has ("$C1ACCESS") and has ("$LEDGE"))
   or (has ("$C1ACCESS") and has ("claws"))
   then
@@ -222,7 +232,7 @@ function C2ACCESS()
   end
 end
 
-function C3ACCESS()
+function C3ACCESS() --village05/shack
   if has ("$C2ACCESS")
   then
     return 1
@@ -231,7 +241,7 @@ function C3ACCESS()
   end
 end
 
-function C4ACCESS()
+function C4ACCESS() --village05
   if has ("$C3ACCESS")
   then
     return 1
@@ -240,7 +250,7 @@ function C4ACCESS()
   end
 end
 
-function C5ACCESS()
+function C5ACCESS() --village06
   if (has ("$C4ACCESS") and has ("$LEDGE"))
   then
     return 1
@@ -249,7 +259,7 @@ function C5ACCESS()
   end
 end
 
-function C6ACCESS()
+function C6ACCESS() --village07
   if (has ("$C4ACCESS") and has ("$LEDGE"))
   then
     return 1
@@ -323,24 +333,7 @@ function C11ACCESS()
     return 0
   end 
 end
-  
-function C13ACCESS()
-  if has ("$C3ACCESS")
-  then
-    return 1
-  else
-    return 0
-  end
-end
 
-function C14ACCESS()
-  if has ("$C13ACCESS")
-  then
-    return 1
-  else
-    return 0
-  end
-end
 
 function C15ACCESS()
   if (has ("$C5ACCESS") and has ("$HORIZONTAL2"))
@@ -390,6 +383,7 @@ function C17ACCESSC16()
   or (has ("$C16ACCESS") and has ("silva") and has ("djump") and has ("dodge2") and has ("hook"))
   or (has ("$C16ACCESS") and has ("$FULLSILVA") and has ("hook"))
   or (has ("$C16ACCESS") and has ("silva") and has ("verboten") and has ("dodge2") and has ("hook"))
+  or (has ("$C16ACCESS") and has ("claws") and has ("dodge") and has ("silva"))
   then
     return 1
   else
@@ -409,7 +403,7 @@ end
 
 function C18ACCESSC16()
   if (has ("$C16ACCESS") and has ("claws") and has ("$HORIZONTAL2"))
-  or (has ("$C16ACCESS") and has ("claws") and has ("$FULLSILVA") and has ("#HORIZONTAL"))
+  or (has ("$C16ACCESS") and has ("claws") and has ("$FULLSILVA") and has ("$HORIZONTAL"))
   or (has ("$C16ACCESS") and has ("claws") and has ("$HORIZONTAL2") and has ("verboten"))
   or (has ("$C16ACCESS") and has ("claws") and has ("dodge2") and has ("dash") and has ("verboten") and has ("silva"))
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("$HORIZONTAL"))
@@ -563,7 +557,7 @@ function D8ACCESS7() -- Witches Thicket from D7
 end
 
 function D8ACCESS11()
-  if (has ("D11ACCESS10") and has ("aquatic"))
+  if (has ("$D11ACCESS10") and has ("aquatic"))
   then
     return 1
   else
@@ -1380,4 +1374,22 @@ function K5ACCESS()
   else
     return 0
   end
+end
+
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------START AREA LOGIC------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+
+function churchFromCrossroads()
+  if Tracker:ProviderCountForCode("start_crossroads_on") == true
+  then 
+    return has ("claws")
+    or LEDGE()
+  end
+end
+
+function churchInnerFromCrossroads()
+  return churchFromCrossroads() and has ("claws")
 end

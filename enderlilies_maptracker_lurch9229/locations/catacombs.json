@@ -7,7 +7,7 @@
         "children": 
 		[
             {
-                "name": "Stagnant Blight x10",
+                "name": "Catacombs - Cave_02 - Stagnant Blight Lower Left",
                 "map_locations": 
 				[
                     {
@@ -16,10 +16,13 @@
                         "y": 1520
                     }
                 ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
                 "sections": 
 				[
                     {
-                        "name": "E1",
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -27,14 +30,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
+                "name": "Catacombs - Cave_02 - Stagnant Blight Upper Right",
                 "map_locations": 
 				[
                     {
@@ -43,10 +46,13 @@
                         "y": 1375
                     }
                 ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
                 "sections": 
 				[
                     {
-                        "name": "E1",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -54,70 +60,16 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS,hook",
-                            "$CatacombsACCESS,silva,djump",
-                            "$CatacombsACCESS,$HORIZONTAL2,$LEDGE"
+                            "hook",
+                            "silva, djump",
+                            "$HORIZONTAL2, $LEDGE"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Elder Crypt Keeper Fight",
-                "map_locations":
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 140,
-                        "y": 2550
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E2",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E2ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 365,
-                        "y": 2580
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E2",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E2ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Defense of the Twin Spires II",
+                "name": "Catacombs - Cave_03 - Finding Left",
                 "map_locations": 
 				[
                     {
@@ -126,10 +78,13 @@
                         "y": 2550
                     }
                 ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
                 "sections": 
 				[
                     {
-                        "name": "E3",
+                        "name": "Defense of the Twin Spires II",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -137,14 +92,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Fretia's Memoirs IV",
+                "name": "Catacombs - Cave_03 - Finding Right",
                 "map_locations": 
 				[
                     {
@@ -153,10 +108,13 @@
                         "y": 2550
                     }
                 ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
                 "sections": 
 				[
                     {
-                        "name": "E3",
+                        "name": "Fretia's Memoirs IV",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -164,129 +122,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$E10ACCESS",
-                            "$E18ACCESSRev"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Fretia's Memoirs II",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 1695,
-                        "y": 2250
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E4",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Kilteus' Ring",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 1210,
-                        "y": 2145
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E4",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Fretia's Memoirs I",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 1745,
-                        "y": 1890
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E4",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 1225,
-                        "y": 1430
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E5",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS,hook",
-                            "$CatacombsACCESS,$HORIZONTAL",
-                            "$CatacombsACCESS,verboten",
-                            "$CatacombsACCESS,djump",
-                            "$CatacombsACCESS,silva,ulv",
-                            "$CatacombsACCESS,ulv,fretia",
-                            "$CatacombsACCESS,plume,silva,$AIRSTALL"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "Catacombs - Cave_04 - Amulet Fragment",
                 "map_locations":
 				[
                     {
@@ -295,10 +138,13 @@
                         "y": 900
                     }
                 ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
                 "sections":
 				[
                     {
-                        "name": "E6",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -306,14 +152,713 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - The Next White Priestess",
+                "name": "Catacombs - Cave_05 - Furious Blight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 1225,
+                        "y": 1430
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "hook",
+                            "$HORIZONTAL",
+                            "verboten",
+                            "djump",
+                            ["silva, ulv"],
+                            ["ulv, fretia"],
+                            ["plume, silva, $AIRSTALL"]
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_06 - Finding Lower",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 1695,
+                        "y": 2250
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Fretia's Memoirs II",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_06 - Relic",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 1210,
+                        "y": 2145
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Kilteus' Ring",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_06 - Finding Upper",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 1745,
+                        "y": 1890
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Fretia's Memoirs I",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_07 - Sub-Spirit Fight",
+                "map_locations":
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 140,
+                        "y": 2550
+                    }
+                ],
+                "access_rules": [
+                    "$cave07ACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Elder Crypt Keeper Fight",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_07 - Stagnant Blight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 365,
+                        "y": 2580
+                    }
+                ],
+                "access_rules": [
+                    "$cave07ACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_08 - Amulet Fragment",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 2700,
+                        "y": 2650
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_09 - Amulet Fragment (In Pot)",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 2400,
+                        "y": 1940
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules":
+                        [
+                            "claws",
+                            "verboten",
+                            "djump",
+                            ["silva, ulv"],
+                            "$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_09 - Chain Of Sorcery (In Pot)",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 2685,
+                        "y": 1750
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chain of Sorcery (+1 Relic Slot)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_10 - Amulet Fragment (In Pot)",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 2410,
+                        "y": 1390
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "hook",
+                            "dodge2, silva",
+                            ["dodge2, ulv"],
+                            "sinner",
+                            "djump, dodge2",
+                            ["djump, ulv, fretia"],
+                            ["ulv, fretia, dash"],
+                            "$FULLJUMP"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_10 - Stagnant Blight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 2850,
+                        "y": 1390
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_11 - Furious Blight",
+                "map_locations":
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4620,
+                        "y": 2685
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_11 - Finding",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4425,
+                        "y": 2595
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Silva's Note II",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_11 - Stagnant Blight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4100,
+                        "y": 2515
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "hook",
+                            "$HORIZONTAL",
+                            "djump",
+                            ["verboten, ulv"],
+                            "silva, verboten",
+                            ["silva, ulv"]
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_12 - Screw This Blob",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 888,
+                        "y": 915
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_13 - Finding",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4315,
+                        "y": 1475
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Silva's Note I",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_13 - Furious Blight Lower",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4430,
+                        "y": 1550
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Furious Blight x30",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "hook",
+                            "silva, djump, $HORIZONTAL2",
+                            "claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_13 - Furious Blight Left",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4170,
+                        "y": 1460
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "claws, dodge2",
+                            "djump, $HORIZONTAL",
+                            "$LEDGE2",
+                            "$LEDGE, $HORIZONTAL",
+                            "silva, djump",
+                            "verboten, djump",
+                            "sinner",
+                            "dodge2, dash",
+                            "claws, $LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_14 - Stagnant Blight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4490,
+                        "y": 830
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            "$LEDGE, hook",
+                            "$LEDGE, $HORIZONTAL",
+                            "$LEDGE2",
+                            "claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_15 - Stagnant Blight Left",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 3075,
+                        "y": 950
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LEDGE",
+                            "$HORIZONTAL",
+                            ["ulv"],
+                            "claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_15 - Stagnant Blight Right",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 3500,
+                        "y": 1020
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_15 - Finding",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 3535,
+                        "y": 920
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Defense of the Twin Spires I",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_16 - Finding",
                 "map_locations": 
 				[
                     {
@@ -323,10 +868,13 @@
                         "y": 980
                     }
                 ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
                 "sections": 
 				[
                     {
-                        "name": "E7",
+                        "name": "The Next White Priestess",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -334,14 +882,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS"
+                            "$catacombsACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
+                "name": "Catacombs - Cave_16 - Stagnant Blight",
                 "map_locations": 
 				[
                     {
@@ -350,10 +898,13 @@
                         "y": 865
                     }
                 ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
                 "sections": 
 				[
                     {
-                        "name": "E7",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -361,866 +912,16 @@
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS,hook",
-                            "$CatacombsACCESS,claws,silva,$HORIZONTAL",
-                            "$CatacombsACCESS,claws,verboten,$HORIZONTAL",
-                            "$CatacombsACCESS,claws,silva,djump",
-                            "$CatacombsACCESS,silva,djump,dodge2,verboten,plume"
+                            "hook",
+                            "claws, $LEDGE2",
+                            "claws,$LEDGE, $HORIZONTAL"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 3075,
-                        "y": 950
-                    }
-                ],
-                "sections":
-				[
-                    {
-                        "name": "E8",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS,$LEDGE",
-                            "$CatacombsACCESS,$HORIZONTAL",
-                            "$CatacombsACCESS,ulv",
-                            "$CatacombsACCESS,claws"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 3500,
-                        "y": 1020
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E8",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS,aquatic,hammer,claws",
-                            "$CatacombsACCESS,aquatic,hammer,$LEDGE",
-                            "$CatacombsACCESS,aquatic,hammer,plume",
-                            "$C18ACCESSH18,hammer"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Defense of the Twin Spires I",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 3535,
-                        "y": 920
-                    }
-                ],
-                "sections":
-				[
-                    {
-                        "name": "E8",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C11ACCESS,swim",
-                            "$C18ACCESSC16,silva,verboten,ulv,fretia",
-                            "$C18ACCESSC16,djump,dodge2",
-                            "$C18ACCESSC16,djump,ulv,verboten",
-                            "$C18ACCESSC16,sinner",
-                            "$C18ACCESSC16,djump,silva",
-                            "$C18ACCESSH18,djump,silva",
-                            "$C18ACCESSH18,sinner",
-                            "$C18ACCESSH18,djump,ulv,verboten",
-                            "$C18ACCESSH18,djump,dodge2",
-                            "$C18ACCESSH18,silva,verboten,ulv,fretia",
-                            "$E14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4490,
-                        "y": 830
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E9",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules":
-                        [
-                            "$E9ACCESS8,$LEDGE,hook",
-                            "$E9ACCESS8,$LEDGE,HORIZONTAL2",
-                            "$E9ACCESS8,silva,djump",
-                            "$E9ACCESS8,djump,verboten",
-                            "$E9ACCESS8,$LEDGE,claws",
-                            "$E10ACCESS,hook",
-                            "$E10ACCESS,claws",
-                            "$E10ACCESS,silva,djump",
-                            "$E10ACCESS,djump,verboten",
-                            "$E10ACCESS,$HORIZONTAL2"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x30",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4430,
-                        "y": 1550
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E10",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,hook",
-                            "$E10ACCESS,silva,djump,$HORIZONTAL2",
-                            "$E10ACCESS,claws,$LEDGE",
-                            "$E10ACCESS,claws,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4170,
-                        "y": 1460
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E10",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,claws,dodge2",
-                            "$E10ACCESS,djump,$HORIZONTAL",
-                            "$E10ACCESS,silva,djump",
-                            "$E10ACCESS,verboten,djump",
-                            "$E10ACCESS,sinner",
-                            "$E10ACCESS,dodge2,dash",
-                            "$E10ACCESS,$LEDGE,claws",
-                            "$E10ACCESS,claws,ulv,fretia,plume",
-                            "$E10ACCESS,claws,ulv,fretia,spellbound"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Silva's Note I",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4315,
-                        "y": 1475
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E10",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS",
-                            "$E18ACCESSRev",
-                            "$E14ACCESS,sinner",
-                            "$E14ACCESS,$LEDGE,dodge2",
-                            "$E14ACCESS,silva,dash",
-                            "$E14ACCESS,silva,djump",
-                            "$E14ACCESS,djump,verboten",
-                            "$E14ACCESS,verboten,silva,ulv,fretia",
-                            "$E14ACCESS,dodge2,ulv",
-                            "$E14ACCESS,$LEDGE,claws"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x10",
-                "map_locations":
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4620,
-                        "y": 2685
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E11",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Silva's Note II",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4425,
-                        "y": 2595
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E11",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS",
-                            "$E18ACCESSRev",
-                            "$E14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4100,
-                        "y": 2515
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E11",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,hook",
-                            "$E10ACCESS,$HORIZONTAL",
-                            "$E10ACCESS,djump",
-                            "$E10ACCESS,verboten,ulv",
-                            "$E10ACCESS,silva,verboten",
-                            "$E10ACCESS,silva,ulv"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 2700,
-                        "y": 2650
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E12",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,hammer"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 2400,
-                        "y": 1940
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E13 In Pot",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules":
-                        [
-                            "$E10ACCESS,claws",
-                            "$E10ACCESS,verboten",
-                            "$E10ACCESS,djump",
-                            "$E10ACCESS,silva,ulv",
-                            "$E10ACCESS,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 2685,
-                        "y": 1750
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 2410,
-                        "y": 1390
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E14 In Pot",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E14ACCESS,hook",
-                            "$E14ACCESS,dodge2,silva",
-                            "$E14ACCESS,dodge2,ulv",
-                            "$E14ACCESS,sinner",
-                            "$E14ACCESS,djump,dodge2",
-                            "$E14ACCESS,djump,ulv,fretia",
-                            "$E14ACCESS,ulv,fretia,dash",
-                            "$E14ACCESS,$FULLSILVA"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 2850,
-                        "y": 1390
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E14",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Guardian Silva Fight",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 3300,
-                        "y": 1450
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E15",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E15ACCESS",
-                            "$E10ACCESS,claws",
-                            "$E10ACCESS,$LEDGE2"
-                        ],
-                        "item_count": 3
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Unfinished Note",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 3180,
-                        "y": 1450
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E15",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS",
-                            "$E18ACCESSRev",
-                            "$E14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 5020,
-                        "y": 1350
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E16 In Pot",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E16ACCESS,hook",
-                            "$E16ACCESS,$LEDGE",
-                            "$E18ACCESSRev"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 5110,
-                        "y": 1190
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E16",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E16ACCESS,hook",
-                            "$E16ACCESS,djump",
-                            "$E16ACCESS,silva,claws",
-                            "$E16ACCESS,silva,$HORIZONTAL",
-                            "$E18ACCESSRev"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - The Heirloom of Land's End",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 5050,
-                        "y": 1280
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E16",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E16ACCESS",
-                            "$E18ACCESSRev"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Fretia's Memoirs III",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 5045,
-                        "y": 860
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E17",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C11ACCESS,swim",
-                            "$C18ACCESSC16,silva,verboten,ulv,fretia",
-                            "$C18ACCESSC16,djump,dodge2",
-                            "$C18ACCESSC16,djump,ulv,verboten",
-                            "$C18ACCESSC16,sinner",
-                            "$C18ACCESSC16,djump,silva",
-                            "$C18ACCESSH18,djump,silva",
-                            "$C18ACCESSH18,sinner",
-                            "$C18ACCESSH18,djump,ulv,verboten",
-                            "$C18ACCESSH18,djump,dodge2",
-                            "$C18ACCESSH18,silva,verboten,ulv,fretia",
-                            "$E14ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 5620,
-                        "y": 950
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E18",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x10",
-                "map_locations":
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 5740,
-                        "y": 950
-                    }
-                ],
-                "sections":
-				[
-                    {
-                        "name": "E18",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CatacombsACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
-                "map_locations":
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4900,
-                        "y": 2000
-                    }
-                ],
-                "sections": 
-				[
-                    {
-
-                        "name": "E19 In Pot",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS,$LEDGE",
-                            "$E10ACCESS,hook",
-                            "$E20ACCESS,$LEDGE",
-                            "$E20ACCESS,hook"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Fallen Archer Fight",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4520,
-                        "y": 2060
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E19",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS",
-                            "$E20ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Priestess' Wish (Prayer Upgrade)",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 4450,
-                        "y": 2060
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E19",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_wishes"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E10ACCESS",
-                            "$E20ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Priestess Statue",
-                "map_locations": 
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 3540,
-                        "y": 1910
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E20",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E20ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Holy Spring Water",
-                "map_locations":
-				[
-                    {
-                        "map": "Catacombs",
-                        "x": 5225,
-                        "y": 2630
-                    }
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "E21",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$E21ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Ancient Soul x2",
+                "name": "Catacombs - Cave_17 - Ancient Soul",
                 "map_locations": 
 				[
                     {
@@ -1229,10 +930,13 @@
                         "y": 2810
                     }
                 ],
+                "access_rules": [
+                    "$cave17ACCESS"
+                ],
                 "sections": 
 				[
                     {
-                        "name": "E22",
+                        "name": "Ancient Soul x2",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1247,33 +951,829 @@
                 ]
             },
             {
-                "name": "Stone Tablet Fragment",
-                "map_locations": 
+                "name": "Catacombs - Cave_18 - Relic",
+                "map_locations":
 				[
                     {
                         "map": "Catacombs",
-                        "x": 888,
-                        "y": 915
+                        "x": 5225,
+                        "y": 2630
                     }
+                ],
+                "access_rules": [
+                    "$cave18ACCESS"
                 ],
                 "sections": 
 				[
                     {
-                        "name": "E23",
+                        "name": "Holy Spring Water",
                         "visibility_rules": 
                         [
                             "setting_all",
-                            "setting_c_end"
+                            "setting_relics"
                         ],
                         "access_rules": 
                         [
-                            "$CatacombsACCESS,unlock"
+                            "$E21ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave 19 - Chain of Sorcery (In Pot)",
+                "map_locations":
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4900,
+                        "y": 2000
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+
+                        "name": "Chain of Sorcery (+1 Relic Slot)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LEDGE",
+                            "hook",
+                            "$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_19 - Sub-Spirit Fight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4520,
+                        "y": 2060
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Fallen Archer Fight",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_19 - Priestess' Wish",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 4450,
+                        "y": 2060
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_20 - Amulet Fragment (In Pot)",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 5020,
+                        "y": 1350
+                    }
+                ],
+                "access_rules": [
+                    "$cave20ACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_20 - Stagnant Blight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 5110,
+                        "y": 1190
+                    }
+                ],
+                "access_rules": [
+                    "$cave20ACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_20 - Finding",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 5050,
+                        "y": 1280
+                    }
+                ],
+                "access_rules": [
+                    "$cave20ACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "The Heirloom of Land's End",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_21 - Relic",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 3540,
+                        "y": 1910
+                    }
+                ],
+                "access_rules": [
+                    "$cave21ACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Priestess Statue",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E20ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_22 - Finding",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 5045,
+                        "y": 860
+                    }
+                ],
+                "access_rules": [
+                    "$cave22ACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Fretia's Memoirs III",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_23 - Main Spirit Fight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 3300,
+                        "y": 1450
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Guardian Silva Fight",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_23 - Finding",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 3180,
+                        "y": 1450
+                    }
+                ],
+                "access_rules": [
+                    "$catacombsACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Unfinished Note",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Twin Spires - Fort_02 - Stagnant Blight",
+                "map_locations": 
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 5620,
+                        "y": 950
+                    }
+                ],
+                "access_rules": [
+                    "$cave22ACCESS"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$catacombsACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Twin Spires - Fort_02 - Furious Blight",
+                "map_locations":
+				[
+                    {
+                        "map": "Catacombs",
+                        "x": 5740,
+                        "y": 950
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$fort03ACCESS"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             }
-
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_02 - Stagnant Blight Lower Left/Stagnant Blight x10",
+                        "name": "Cave 02 - Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_02 - Stagnant Blight Upper Right/Stagnant Blight x30",
+                        "name": "Cave 02 - Stagnant Blight x30"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6710,
+                        "y": 2558
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_03 - Finding Left/Defense of the Twin Spires II",
+                        "name": "Cave 03 Charnel - Defense of the Twin Spires II"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_03 - Finding Right/Fretia's Memoirs IV",
+                        "name": "Cave 03 Charnel - Fretia's Memoirs IV"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7310,
+                        "y": 3060
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_04 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Cave 04 - Amulet Fragment"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7395,
+                        "y": 2373
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_05 - Furious Blight/Furious Blight x10",
+                        "name": "Cave 05 - Furious Blight x10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7335,
+                        "y": 2558
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_06 - Finding Upper/Fretia's Memoirs I",
+                        "name": "Cave 06 - Fretia's Memoirs I"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_06 - Finding Lower/Fretia's Memoirs II",
+                        "name": "Cave 06 - Fretia's Memoirs II"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_06 - Relic/Kilteus' Ring",
+                        "name": "Cave 06 - Kilteus' Ring"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7323,
+                        "y": 2815
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_07 - Sub-Spirit Fight/Elder Crypt Keeper Fight",
+                        "name": "Cave 07 - Elder Crypt Keeper Fight"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_07 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Cave 07 - Stagnant Blight x10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6710,
+                        "y": 3060
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_08 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Cave 08 - Amulet Fragment"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7840,
+                        "y": 3060
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_09 - Amulet Fragment (In Pot)/Amulet Fragment (+5 HP)",
+                        "name": "Cave 09 - Amulet Fragment (In Pot)"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_09 - Chain of Sorcery (In Pot)/Chain of Sorcery (+1 Relic Slot)",
+                        "name": "Cave 09 - Chain of Sorcery (In Pot)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7890,
+                        "y": 2800
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_10 - Amulet Fragment (In Pot)/Amulet Fragment (+5 HP)",
+                        "name": "Cave 10 - Amulet Fragment (In Pot)"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs  - Cave_10  - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Cave 10 - Stagnant Blight x10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7890,
+                        "y": 2558
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_11 - Furious Blight/Furious Blight x10",
+                        "name": "Cave 11 - Furious Blight x10"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_11 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Cave 11 - Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_11 - Finding/Silva's Note II",
+                        "name": "Cave 11 - Silva's Note II"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8750,
+                        "y": 3060
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_12 - Screw This Blob/Stone Tablet Fragment",
+                        "name": "Cave 12 - Stone Tablet Fragment"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7010,
+                        "y": 2360
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_13 - Furious Blight Lower/Furious Blight x30",
+                        "name": "Cave 13 Ossuary - Furious Blight x30"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_13 - Furious Blight Left/Furious Blight x10",
+                        "name": "Cave 13 Ossuary - Furious Blight x10"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_13 - Finding/Silva's Note I",
+                        "name": "Cave 13 Ossuary - Silva's Note I"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8850,
+                        "y": 2558
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_14 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Cave 14 - Stagnant Blight x10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8850,
+                        "y": 2320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_15 - Stagnant Blight Left/Stagnant Blight x10",
+                        "name": "Cave 15 - Stagnant Blight x10 Left"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_15 - Stagnant Blight Right/Stagant Blight x10",
+                        "name": "Cave 15 - Stagnant Blight x10 Right"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_15 - Finding/Defense of the Twin Spires I",
+                        "name": "Cave 15 - Defense of the Twin Spires I"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8335,
+                        "y": 2370
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_16 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Cave 16 Great Hall - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_16 - Finding/The Next White Priestess",
+                        "name": "Cave 16 Great Hall - The Next White Priestess"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7877,
+                        "y": 2373
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_17 - Ancient Soul/Ancient Soul x2",
+                        "name": "Cave 17 - Ancient Soul x2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7775,
+                        "y": 3205
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_18 - Relic/Holy Spring Water",
+                        "name": "Cave 18 - Holy Spring Water"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9215,
+                        "y": 3050
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_19 - Chain of Sorcery (In Pot)/Chain of Sorcery (+1 Relic Slot)",
+                        "name": "Cave 19 - Chain of Sorcery (In Pot)"
+                    },
+                    {
+                        "ref":"Catacombs/Catacombs - Cave_19 - Sub-Spirit Fight/Fallen Archer Fight",
+                        "name": "Cave 19 - Fallen Archer Fight"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_19 - Priestess' Wish/Priestess' Wish (Prayer Upgrade)",
+                        "name": "Cave 19 - Priestess' Wish"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9185,
+                        "y": 2800
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_20 - Finding/The Heirloom of Land's End",
+                        "name": "Cave 20 - The Heirloom of Land's End"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_20 - Amulet Fragment (In Pot)/Amulet Fragment (+5 HP)",
+                        "name": "Cave 20 - Amulet Fragment (In Pot)"
+                    },
+                    {
+                        "ref":"Catacombs/Catacombs - Cave_20 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Cave 20 - Stagnant Blight x10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9325,
+                        "y": 2500
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_21 - Relic/Priestess Statue",
+                        "name": "Cave 21 - Priestess Statue"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8405,
+                        "y": 2800
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_22 - Finding/Fretia's Memoirs III",
+                        "name": "Cave 22 - Fretia's Memoirs III"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9420,
+                        "y": 2235
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_23 - Finding/Unfinished Note",
+                        "name": "Cave 23 - Unfinished Note"
+                    },
+                    {
+                        "ref": "Catacombs/Catacombs - Cave_23 - Main Spirit Fight/Guardian Silva Fight",
+                        "name": "Cave 23 - Guardian Silva Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8350,
+                        "y": 2558
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Catacombs/Twin Spires - Fort_02 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Fort 02 - Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Catacombs/Twin Spires - Fort_02 - Furious Blight/Furious Blight x10",
+                        "name": "Fort 02 - Furious Blight x10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10100,
+                        "y": 2185
+                    }
+                ]
+            }
         ]
     }
 ]

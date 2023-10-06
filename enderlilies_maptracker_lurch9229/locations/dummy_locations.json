@@ -11,7 +11,7 @@
                 "map_locations": 
                 [
                     {
-                        "map": "ExampleMap defined my the maps.json",
+                        "map": "ExampleMap defined by the maps.json",
                         "x": 0,
                         "y": 0
                     }
@@ -28,7 +28,7 @@
                         "access_rules": 
                         [
                             "ExampleItem, what is needed to get the item",
-                            "use [] for seqence breaks and {} for visable not reachable"
+                            "use [] for sequence breaks and {} for visable not reachable"
                         ],
                         "hosted_item":
                         [

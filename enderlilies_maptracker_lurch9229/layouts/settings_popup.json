@@ -1,52 +1,54 @@
 ﻿{
-	"settings_popout":
+	"settings_popup":
 	{
-		"type": "group",
+		"type": "array",
 		"margin": 5,
 		"orientation": "horizontal",
+		"background": "#000000",
 		"content": 
 		[
 			{
-				"type": "array",
+				"type": "group",
 				"header": "Randomizations",
-				"orientation": "vertical",
-				"content": 
+				"content":
 				[
 					{
-						"type": "itemgrid",
-						"rows": 
+						"type": "array",						
+						"orientation": "vertical",
+						"content":
 						[
-							["setting_all_off"]
-						]	
-					},
-					{
-						"type": "itemgrid",
-						"rows": 
-						[
-							["setting_cost"]
-						]
-					}
-				]
-			},
-			{
-				"type": "array",
-				"header": "Settings",
-				"orientation": "vertical",
-				"content": 
-				[
-					{
-						"type": "itemgrid",
-						"rows": 
-						[
-							["setting_spirits", "setting_relics", "setting_amulets", "setting_chains"]
-						]
-					},
-					{
-						"type": "itemgrid",
-						"orientation": "horizontal",
-						"rows":
-						[
-							["setting_blight", "setting_wishes", "setting_findings", "setting_c_end"]
+							{
+								"type": "item",
+								"item": "setting_all_off"
+							},
+							{
+								"type": "item",
+								"item": "setting_spirits_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_relics_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_amulets_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_chains_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_blight_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_wishes_off"
+							},
+							{
+								"type": "item",
+								"item":"setting_findings_off"
+							}
 						]
 					}
 				]
