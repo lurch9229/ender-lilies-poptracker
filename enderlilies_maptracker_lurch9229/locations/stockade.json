@@ -55,7 +55,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$StockadeACCESS,aquatic"
+                            "aquatic"
                         ],
                         "item_count": 1
                     }
@@ -82,7 +82,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$StockadeACCESS,aquatic"
+                            "aquatic"
                         ],
                         "item_count": 1
                     }
@@ -167,7 +167,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$StockadeACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -351,6 +351,9 @@
                         "y": 1280
                     }
                 ],
+                "access_rules": [
+                    "$oubliette06ACCESS"
+                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
@@ -361,7 +364,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$F14ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -494,7 +497,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Stone Tablet Fragment",
+                        "name": "Stockade Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -640,7 +643,7 @@
                 ],
                 "access_rules": [
                     "$oubliette09ACCESS",
-                    "$oubliette09ACEESSFrom07"
+                    "$oubliette09ACCESSFrom07"
                 ],
                 "sections": [
                     {
@@ -672,7 +675,7 @@
                 ],
                 "access_rules": [
                     "$oubliette09ACCESS",
-                    "$oubliette09ACEESSFrom07, aquatic"
+                    "$oubliette09ACCESSFrom07, aquatic"
                 ],
                 "sections": [
                     {
@@ -770,17 +773,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$F7ACCESS,hook",
-                            "$F7ACCESS,$LEDGE",
-                            "$F10ACCESS8,hook",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stockade - Oubliette_13 - Chain Of Sorcery",
+                "name": "Stockade - Oubliette_13 - Chain of Sorcery",
                 "map_locations": [
                     {
                         "map": "Stockade",
@@ -793,7 +793,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "name": "Chain of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1001,8 +1001,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$F7ACCESS",
-                            "$F10ACCESS8"
+                            ""
                         ],
                         "hosted_item": "defeatHoenir",
                         "item_count": 1
@@ -1064,22 +1063,6 @@
                         "item_count": 1
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "ref": "Stockade/Stockade - Oubliette_02 - Finding/Executioner's Vow",
-                "name": "Oubliette 02 Aqueduct - Executioner's Vow"
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "WorldMap",
-                "x": 8447,
-                "y": 3470
             }
         ]
     },
@@ -1233,7 +1216,7 @@
             {
                 "sections": [
                     {
-                        "ref":"Stockade/Stockade - Oubliette_06_1 - Finding/Hoenir's Diary I",
+                        "ref": "Stockade/Stockade - Oubliette_06_1 - Finding/Hoenir's Diary I",
                         "name": "Oubliette 06_1 Cells - Hoenir's Diary I"
                     }
                 ],
@@ -1263,7 +1246,7 @@
             {
                 "sections": [
                     {
-                        "ref":"Stockade/Stockade - Oubliette_06_3 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
+                        "ref": "Stockade/Stockade - Oubliette_06_3 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
                         "name": "Oubliette 06_3 - Chain of Sorcery"
                     }
                 ],
@@ -1278,7 +1261,7 @@
             {
                 "sections": [
                     {
-                        "ref": "Stockade/Stockade - Oubliette_06_4 - Tablet/Stone Tablet Fragment",
+                        "ref": "Stockade/Stockade - Oubliette_06_4 - Tablet/Stockade Stone Tablet Fragment",
                         "name": "Oubliette 06_4 - Stone Tablet Fragment"
                     }
                 ],
@@ -1406,7 +1389,7 @@
             {
                 "sections": [
                     {
-                        "ref": "Stockade/Stockade - Oubliette_13 - Chain Of Sorcery/Chain of Sorcery (+1 Relic Slot)",
+                        "ref": "Stockade/Stockade - Oubliette_13 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
                         "name": "Oubliette 13 - Chain of Sorcery"
                     },
                     {

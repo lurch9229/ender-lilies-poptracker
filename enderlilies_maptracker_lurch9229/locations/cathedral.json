@@ -269,7 +269,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Parish Way",
+                        "name": "The Parish Way I",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -429,7 +429,7 @@
                         "name": "Church 02 - Eleine's Letter"
                     },
                     {
-                        "ref": "Cathedral/Cathedral - Church_02 - Amulet Fragment (In Barrel)/Amulet Fragement (+5 HP)",
+                        "ref": "Cathedral/Cathedral - Church_02 - Amulet Fragment (In Barrel)/Amulet Fragment (+5 HP)",
                         "name": "Church 02 - Amulet Fragment (In Barrel)"
                     }
                 ],
@@ -517,11 +517,11 @@
             {
                 "sections": [
                     {
-                        "ref": "Cathedral/Cathedral - Church_11 - Amulet Fragment (+5 HP)",
+                        "ref": "Cathedral/Cathedral - Church_11 - Amulet Fragment/Amulet Fragment (+5 HP)",
                         "name": "Church 11 - Amulet Fragment"
                     },
                     {
-                        "ref": "Cathedral/Cathedral - Church_11 - Finding/The Parish Way",
+                        "ref": "Cathedral/Cathedral - Church_11 - Finding/The Parish Way I",
                         "name": "Church 11 - The Parish Way"
                     }
                 ],

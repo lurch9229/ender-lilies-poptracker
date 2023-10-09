@@ -15,7 +15,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -46,7 +46,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -75,7 +75,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -106,7 +106,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -135,7 +135,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -164,7 +164,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -202,7 +202,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RuinedCastleACCESS,claws"
+                            "$ruinedCastleACCESS,claws"
                         ],
                         
                         "item_count": 1
@@ -219,7 +219,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -248,7 +248,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -277,7 +277,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -306,7 +306,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -335,7 +335,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -364,7 +364,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -397,7 +397,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -432,7 +432,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -461,7 +461,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -490,7 +490,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -504,8 +504,8 @@
                         [
                             "hook",
                             "$AIRSTALL",
-                            "$RuinedCastleACCESS,$LEDGE",
-                            "$RuinedCastleACCESS,$HORIZONTAL"
+                            "$ruinedCastleACCESS,$LEDGE",
+                            "$ruinedCastleACCESS,$HORIZONTAL"
                         ],
                         
                         "item_count": 1
@@ -522,7 +522,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -551,7 +551,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -580,7 +580,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -597,7 +597,6 @@
                             "claws, $FULLSILVA",
                             "claws, silva, dodge2, verboten"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -612,7 +611,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -648,7 +647,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS, $CHARGE"
+                    "$ruinedCastleACCESS, $CHARGE"
                 ],
                 "sections": [
                     {
@@ -682,7 +681,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -712,7 +711,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS, claws"
+                    "$ruinedCastleACCESS, claws"
                 ],
                 "sections": [
                     {
@@ -747,7 +746,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -776,7 +775,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -817,7 +816,7 @@
                         ],
                         "access_rules": 
                         [
-                           "$H16ACCESS"
+                           ""
                         ],
                         
                         "item_count": 1
@@ -990,7 +989,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -1002,7 +1001,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RuinedCastleACCESS"
+                            "$ruinedCastleACCESS"
                         ],
                         
                         "item_count": 1
@@ -1193,7 +1192,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -1222,11 +1221,11 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
-                        "name": "Stone Tablet Fragment",
+                        "name": "Castle Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1251,7 +1250,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$RuinedCastleACCESS"
+                    "$ruinedCastleACCESS"
                 ],
                 "sections": [
                     {
@@ -1317,7 +1316,7 @@
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_04 - Finding/Report from a Verboten Mage",
-                        "name":  "Castle 04 Cellar - Report from a Verboten Mage"
+                        "name": "Castle 04 Cellar - Report from a Verboten Mage"
                     }
                 ],
                 "map_locations": [
@@ -1553,7 +1552,7 @@
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_18 - Amulet Fragment/Amulet Fragment (+5 HP)",
-                        "name":  "Castle 18 - Amulet Fragment"
+                        "name": "Castle 18 - Amulet Fragment"
                     },
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_18 - Finding/King's Note II",
@@ -1613,7 +1612,7 @@
                         "name": "Castle 21 - Stagnant Blight x100"
                     },
                     {
-                        "ref": "Ruined Castle/Ruined Castle - Castle_21 - Tablet/Stone Tablet Fragment",
+                        "ref": "Ruined Castle/Ruined Castle - Castle_21 - Tablet/Castle Stone Tablet Fragment",
                         "name": "Castle 21 - Stone Tablet Fragment"
                     },
                     {

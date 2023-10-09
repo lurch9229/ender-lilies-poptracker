@@ -370,7 +370,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$village06ACCESS"
+                    "$village06LeftACCESS"
                 ],
                 "sections": [
                     {
@@ -398,7 +398,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$village06ACCESS, hammer"
+                    "$village06LeftACCESS, hammer"
                 ],
                 "sections": [
                     {
@@ -456,7 +456,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$village06ACCESS"
+                    "$village06RightACCESS"
                 ],
                 "sections": [
                     {
@@ -498,15 +498,11 @@
                         ],
                         "access_rules": 
                         [
-                            "claws,$LEDGE",
+                            "claws, $LEDGE",
                             "$LEDGE2",
-                            "plume,verboten",
-                            "plume,djump",
-                            "plume,sinner",
-                            "sinner,silva",
-                            "$HORIZONTAL,verboten",
-                            "$HORIZONTAL2,hook",
-                            "djump,$HORIZONTAL"
+                            "$HORIZONTAL, silva",
+                            "$HORIZONTAL, djump",
+                            "sinner, verboten"
                         ],
                         "item_count": 1
                     }
@@ -737,7 +733,7 @@
                         ],
                         "access_rules":
                         [
-                            "$C7ACCESS"
+                            ""
                         ]
                     }
                 ]
@@ -1033,7 +1029,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Stone Tablet Fragment",
+                        "name": "Hamlet Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1067,12 +1063,12 @@
                         "access_rules": 
                         [
                             "$cave01ACCESS",
-                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
+                            "$catacombsREV, claws, $FULLSILVA, dash",
+                            "$catacombsREV, $FULLJUMP",
+                            "$catacombsREV, claws, $LEDGE2, $HORIZONTAL2",
+                            "$catacombsREV, claws, silva, $HORIZONTAL2",
+                            "$catacombsREV, claws, silva, sinner, djump, dash",
+                            "$catacombsREV, claws, dash, djump, verboten, sinner"
                         ],
                         "item_count": 1
                     }
@@ -1097,14 +1093,10 @@
                         ],
                         "access_rules":
                         [
-                            "$cave01ACCESS,plume,verboten,silva,dodge2,dash,djump",
-                            "$cave01ACCESS, $FULLSILVA, ulv, fretia",
-                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
+                            "$cave01ACCESS, $FULLJUMP, $HORIZONTAL2",
+                            "$catacombsREV, claws, $FULLSILVA",
+                            "$catacombsREV, claws, djump, $HORIZONTAL2",
+                            "$catacombsREV, $LEDGE2. $HORIZONTAL"
                         ],
                         "item_count": 1
                     }
@@ -1237,7 +1229,7 @@
                         "name": "Village 06 - Furious Blight x10 Upper"
                     },
                     {
-                        "ref":"Cliffside Hamlet West/Cliffside Hamlet - Village_06 - Stagnant Blight/Stagnant Blight x30",
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_06 - Stagnant Blight/Stagnant Blight x30",
                         "name": "Village 06 - Stagnant Blight x30"
                     }
                 ],
@@ -1340,7 +1332,7 @@
                         "name": "Village 13 - Giant's Ring"
                     },
                     {
-                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_13 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_13 - Chain of Sorcery (In Crate)/Chain of Sorcery (+1 Relic Slot)",
                         "name": "Village 13 - Chain of Sorcery (In Crate)"
                     },
                     {
@@ -1386,7 +1378,7 @@
                         "name": "Village 16 - Faden's Letter"
                     },
                     {
-                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_16 - Tablet/Stone Tablet Fragment",
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_16 - Tablet/Hamlet Stone Tablet Fragment",
                         "name": "Village 16 - Stone Tablet Fragment"
                     }
                 ],

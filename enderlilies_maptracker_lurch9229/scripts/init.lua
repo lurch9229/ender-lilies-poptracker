@@ -4,7 +4,8 @@ local variant = Tracker.ActiveVariantUID
 ScriptHost:LoadScript("scripts/logic.lua")
 ScriptHost:LoadScript("scripts/generated.lua")
 if AutoTracker.ReadVariable then
-    ScriptHost:LoadScript("scripts/autotracking.lua")
+    ScriptHost:LoadScript("scripts/autotracking(uat).lua")
+    ScriptHost:LoadScript("scripts/autotracking(ap).lua")
 end
 
 --LOAD ITEMS

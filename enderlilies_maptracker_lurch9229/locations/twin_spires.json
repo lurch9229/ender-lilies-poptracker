@@ -52,7 +52,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$SpiresACCESS, hammer",
+                            "$spiresACCESS, hammer",
                             "$fort03ACCESS, $LEDGE, claws"
                         ],
                         "item_count": 1
@@ -740,6 +740,9 @@
                         "y": 1555
                     }
                 ],
+                "access_rules": [
+                    "$spiresACCESS"
+                ],
                 "sections": [
                     {
                         "name": "Bloodied Note III",
@@ -750,7 +753,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$G3ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -778,7 +781,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$G13ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1166,22 +1169,6 @@
                         "item_count": 1
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "ref": "Twin Spires/Twin Spires - Fort_04 - Stagnant Blight/Stagnant Blight x100",
-                "name": "Fort 04 - Stagnant Blight x100"
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "WorldMap",
-                "x": 11080,
-                "y": 2060
             }
         ]
     },

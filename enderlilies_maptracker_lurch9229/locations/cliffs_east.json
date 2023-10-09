@@ -288,7 +288,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$village11ACCESS",
+                    "$village11ACCESS, claws",
                     "$castle01ACCESSFromCastle02"
                 ],
                 "sections": [
@@ -317,7 +317,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$village11ACCESS",
+                    "$village11ACCESS, claws",
                     "$castle01ACCESSFromCastle02"
                 ],
                 "sections": [
@@ -346,7 +346,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$village11ACCESS",
+                    "$village11ACCESS, claws",
                     "$castle01ACCESSFromCastle02"
                 ],
                 "sections": [

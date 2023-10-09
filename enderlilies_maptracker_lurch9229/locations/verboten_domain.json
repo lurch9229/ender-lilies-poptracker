@@ -6,7 +6,7 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "Verboten Domain - Swamp_03 - Stagnant Blight",
+                "name": "Verboten Domain - Swamp_3 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -15,8 +15,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$DomainACCESS, $domainMath",
-                    "$DomainACCESS, mask"
+                    "$domainACCESS, $domainMath",
+                    "$domainACCESS, mask"
                 ],
                 "sections": [
                     {
@@ -35,7 +35,7 @@
                 ]
             },
             {
-                "name": "Verboten Domain - Swamp_03 - Amulet Fragment",
+                "name": "Verboten Domain - Swamp_3 - Amulet Fragment (In Crate)",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -44,12 +44,12 @@
                     }
                 ],
                 "access_rules": [
-                    "$DomainACCESS, $domainMath",
-                    "$DomainACCESS, mask"
+                    "$domainACCESS, $domainMath",
+                    "$domainACCESS, mask"
                 ],
                 "sections": [
                     {
-                        "name": "Amulet Fragment (+5 HP) (In Crate)",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -73,8 +73,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$DomainACCESS, $domainMath",
-                    "$DomainACCESS, mask"
+                    "$domainACCESS, $domainMath",
+                    "$domainACCESS, mask"
                 ],
                 "sections": [
                     {
@@ -102,8 +102,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$DomainACCESS, $domainMath",
-                    "$DomainACCESS, mask"
+                    "$domainACCESS, $domainMath",
+                    "$domainACCESS, mask"
                 ],
                 "sections": [
                     {
@@ -131,8 +131,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$DomainACCESS, $domainMath",
-                    "$DomainACCESS, mask"
+                    "$domainACCESS, $domainMath",
+                    "$domainACCESS, mask"
                 ],
                 "sections": [
                     {
@@ -241,7 +241,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$DomainACCESS"
+                    "$domainACCESS",
+                    "$swamp06TopACCESS, hammer"
                 ],
                 "sections": [
                     {
@@ -270,8 +271,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$Swamp07RightACCESS, $domainMath",
-                    "$Swamp07RightACCESS, mask"
+                    "claws"
                 ],
                 "sections": [
                     {
@@ -283,7 +283,9 @@
                         ],
                         "access_rules": 
                         [
-                            "claws"
+                            "$swamp07RightACCESS, mask",
+                            "$swamp07RightACCESS, $domainMath"
+                            
                         ],
                         "item_count": 1
                     }
@@ -300,7 +302,7 @@
                 ],
                 "access_rules": [
                     "$swamp07LeftACCESS, $domainMath",
-                    "$Swamp07LeftACCESS, mask"
+                    "$swamp07LeftACCESS, mask"
                 ],
                 "sections": [
                     {
@@ -341,7 +343,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$J9ACCESS, aquatic"
+                            "aquatic"
                         ],
                         "item_count": 1
                     }
@@ -662,8 +664,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath",
-                            "$VerbotenDomainACCESS,mask"
+                            "$domainACCESS, $domainMath",
+                            "$domainACCESS, mask"
                         ],
                         "item_count": 1
                     }
@@ -866,7 +868,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$swamp16ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -926,7 +928,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$J14ACCESS"
+                            ""
                         ],
                         "item_count": 2
                     },
@@ -939,7 +941,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$J14ACCESS"
+                            ""
                         ],
                         "item_count": 2
                     },
@@ -952,7 +954,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$J14ACCESS"
+                            ""
                         ],
                         "item_count": 2
                     }
@@ -1228,7 +1230,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Stone Tablet Fragment",
+                        "name": "Domain Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1278,11 +1280,11 @@
             {
                 "sections": [
                     {
-                        "ref": "Verboten Domain/Verboten Domain - Swamp_03 - Stagnant Blight/Stagnant Blight x30",
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_3 - Stagnant Blight/Stagnant Blight x30",
                         "name": "Swamp 03 - Stagnant Blight x30"
                     },
                     {
-                        "ref": "Verboten Domain/Verboten Domain - Swamp_03 - Amulet Fragment/Amulet Fragment (+5 HP) (In Crate)",
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_3 - Amulet Fragment(In Crate)/Amulet Fragment (+5 HP)",
                         "name": "Swamp 03 - Amulet Fragment (In Crate)"
                     }
                 ],
@@ -1583,7 +1585,7 @@
                         "name": "Abyss 01 - Furious Blight x100"
                     },
                     {
-                        "ref":"Verboten Domain/The Abyss - Abyss_01 - Finding/Silva's Bloodstained Note I",
+                        "ref": "Verboten Domain/The Abyss - Abyss_01 - Finding/Silva's Bloodstained Note I",
                         "name": "Abyss 01 - Silva's Bloodstained Note I"
                     }
                 ],
@@ -1648,7 +1650,7 @@
                         "name": "Abyss 05 - Ancient Soul x2"
                     },
                     {
-                        "ref": "Verboten Domain/The Abyss - Abyss_05 - Tablet/Stone Tablet Fragment",
+                        "ref": "Verboten Domain/The Abyss - Abyss_05 - Tablet/Domain Stone Tablet Fragment",
                         "name": "Abyss 05 - Stone Tablet Fragment"
                     },
                     {

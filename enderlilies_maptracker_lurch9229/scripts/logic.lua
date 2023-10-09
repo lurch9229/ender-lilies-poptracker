@@ -18,6 +18,11 @@ function gemValue()
   return gem
 end
 
+function jewelValue()
+  jewel=Tracker:ProviderCountForCode("jewel")*50
+  return jewel
+end
+
 function haveBeads()
   beads=Tracker:ProviderCountForCode("prayerbeads")*1
   return beads
@@ -47,7 +52,7 @@ function slotNum(amount)
 end
 
 function domainMath()
-  hp = 100 + amuletValue() + gemValue()
+  hp = 100 + amuletValue() + gemValue() + jewelValue()
   hp = beadsMath(hp)
   hp = aegisMath(hp)
   if (hp >= 150 and wishNum(3) and has ("spellbound") and slotNum(5) and has ("dodge2"))
@@ -64,7 +69,7 @@ function domainMath()
 end
 
 function abyssGauntlet()
-  hp = 100 + amuletValue() + gemValue()
+  hp = 100 + amuletValue() + gemValue() + jewelValue()
   hp = beadsMath(hp)
   hp = aegisMath(hp)
   if hp >= 300

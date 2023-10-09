@@ -191,7 +191,7 @@ function village11ACCESS()
 end
 
 function village11ACCESSFromCastle01()
-  return castle01ACCESS() and has ("claws")  
+  return castle01ACCESSFromCastle02() and has ("claws")  
 end
 
 function village11_1ACCESS()
@@ -228,7 +228,7 @@ end
 
 function village15ACCESSFromFort()
   return fort01ACCESSFromCastle() and has ("aquatic") 
-  or fort01ACCESSFromCatacombs() and has ("aquatic")  
+  or fort01ACCESSFromCatacombs() and has ("aquatic")
 end
 
 function ruinedCastleACCESS()
@@ -367,10 +367,10 @@ function forest16ACCESS()
   or forest13ACCESS() and has ("unlock") and has ("claws") and LEDGE2() 
   or forest13ACCESS() and has ("unlock") and has ("claws") and FULLJUMP() 
   or forest13ACCESS() and has ("unlock") and has ("claws") and FULLSILVA() 
-  or forest13FromForest14() and has ("unlock") and has ("claws") and LEDGE() and HORIZONTAL() 
-  or forest13FromForest14() and has ("unlock") and has ("claws") and LEDGE2() 
-  or forest13FromForest14() and has ("unlock") and has ("claws") and FULLJUMP() 
-  or forest13FromForest14() and has ("unlock") and has ("claws") and FULLSILVA()  
+  or forest13ACCESSFromForest14() and has ("unlock") and has ("claws") and LEDGE() and HORIZONTAL() 
+  or forest13ACCESSFromForest14() and has ("unlock") and has ("claws") and LEDGE2() 
+  or forest13ACCESSFromForest14() and has ("unlock") and has ("claws") and FULLJUMP() 
+  or forest13ACCESSFromForest14() and has ("unlock") and has ("claws") and FULLSILVA()  
 end
 
 function catacombsACCESS()
@@ -383,7 +383,7 @@ function catacombsREV()
 end
 
 function cave01ACCESS()
-  return village03ACCESS() and village06LeftACCESS() and has ("hammer") and has ("aquatic")  
+  return village06LeftACCESS() and has ("hammer") and has ("aquatic")  
 end
 
 function cave07ACCESS()
@@ -440,9 +440,9 @@ function fort01ACCESSFromCatacombs()
 end
 
 function fort01ACCESSFromCastle()
-  return ruinedCastleACCESS() and has ("hook") 
-  or ruinedCastleACCESS() and FULLJUMP() 
-  or ruinedCastleACCESS() and FULLSILVA()  
+  return castle01ACCESS() and has ("hook")
+  or castle01ACCESS() and FULLJUMP()
+  or castle01ACCESS() and FULLSILVA()
 end
 
 function fort01ACCESSFromVillage()
@@ -467,9 +467,11 @@ function fort02ACCESSFromFort03()
   return fort01ACCESSFromCastle() and has ("djump") and has ("dodge2") 
   or fort01ACCESSFromCastle() and has ("silva") and has ("djump") 
   or fort01ACCESSFromCastle() and has ("sinner") 
+  or fort01ACCESSFromCastle() and has ("verboten") and has ("dodge2")
   or fort01ACCESSFromVillage() and has ("djump") and has ("dodge2") 
-  or fort01ACCESSFromVillage() and has ("silva") and has ("djump") 
-  or fort01ACCESSFromVillage() and has ("sinner")  
+  or fort01ACCESSFromVillage() and has ("silva") and has ("djump")
+  or fort01ACCESSFromVillage() and has ("verboten") and has ("dodge2")
+  or fort01ACCESSFromVillage() and has ("sinner")
 end
 
 function fort03ACCESS()
@@ -488,7 +490,7 @@ end
 
 function fort17ACCESS()
   return fort15TopACCESS() 
-  or spiresLeftWallTopACCESSLeftWallTop()  
+  or spiresLeftWallTopACCESS()  
 end
 
 function fort20ACCESS()
@@ -508,7 +510,7 @@ function oubliette05ACCESS()
   return oubliette02ACCESS() and LEDGE()  
 end
 
-function oubliette05Top()
+function oubliette05TopACCESS()
   return oubliette05_2ACCESS() and has ("claws") and has ("hook") and LEDGE() 
   or oubliette05_2ACCESS() and has ("hook") and MAXJUMP()
 end
@@ -543,8 +545,8 @@ function oubliette03ACCESS()
 end
 
 function oubliette06ACCESS()
-  return oubliette05Top() 
-  or oubliette10()  
+  return oubliette05TopACCESS() 
+  or oubliette10ACCESS()  
 end
 
 function oubliette06_1ACCESS()
@@ -590,7 +592,7 @@ end
 
 function oubliette10ACCESS()
   return oubliette03ACCESS() 
-  or oubliette05Top()  
+  or oubliette05TopACCESS()  
 end
 
 function oubliette11UpperACCESS()
@@ -656,8 +658,10 @@ function outside03ACCESS()
 end
 
 function domainACCESS()
-  return swamp06TopACCESS() and has ("hammer") 
-  or swamp01ACCESS()  
+  return swamp06TopACCESS() and has ("hammer") and has ("mask")
+  or swamp06TopACCESS() and has ("hammer") and domainMath()
+  or swamp01ACCESS() and has ("mask")
+  or swamp01ACCESS() and domainMath()
 end
 
 function swamp02ACCESS()
@@ -683,33 +687,103 @@ function swamp13ACCESS()
 end
 
 function swamp07RightACCESS()
-  return domainACCESS() and CHARGE() and has ("aquatic") and domainMath() 
-  or domainACCESS() and CHARGE() and has ("aquatic") and has ("mask")  
+  return domainACCESS() and CHARGE() and has ("aquatic")
 end
 
 function swamp07LeftACCESS()
-  return swamp13ACCESS() and has ("hook") and has ("dash") and HORIZONTAL() 
-  or swamp13ACCESS() and has ("hook") and LEDGE() and HORIZONTAL() 
-  or swamp13ACCESS() and has ("hook") and has ("dash") and LEDGE() 
-  or swamp13ACCESS() and has ("hook") and HORIZONTAL2() 
-  or swamp13ACCESS() and has ("hook") and LEDGE2() 
-  or swamp13ACCESS() and has ("claws") and FULLJUMP() 
-  or swamp13ACCESS() and has ("claws") and FULLSILVA() 
+  return (swamp13ACCESS() and has ("hook") and has ("dash") and HORIZONTAL())
+  or (swamp13ACCESS() and has ("hook") and LEDGE() and HORIZONTAL()) 
+  or (swamp13ACCESS() and has ("hook") and has ("dash") and LEDGE()) 
+  or (swamp13ACCESS() and has ("hook") and HORIZONTAL2())
+  or (swamp13ACCESS() and has ("hook") and LEDGE2())
+  or (swamp13ACCESS() and has ("claws") and FULLJUMP())
+  or (swamp13ACCESS() and has ("claws") and FULLSILVA()) 
 end
 
 function swamp16ACCESS()
-  return swamp07LeftACCESS() and swamp07RightACCESS()  
+  return swamp07LeftACCESS() and swamp07RightACCESS()
 end
 
-function abyss01()
+function abyss01ACCESS()
   return swamp16ACCESS() and has ("unlock")  
 end
 
 function abyss04ACCESS()
-  return swamp13ACCESS() and has ("unlock") and has ("mask") and has ("hook") and has ("dodge2") and has ("aquatic") and abyssMath() and has ("dash")  
+  return swamp13ACCESS() and has ("unlock") and has ("mask") and has ("hook") and has ("dodge2") and has ("aquatic") and abyssGauntlet() and has ("dash")
 end
 
 function abyss05ACCESS()
   return abyss04ACCESS() and has ("aquatic")  
 end
 
+function amuletValue()
+  amulet=Tracker:ProviderCountForCode("fragment")*5
+  return amulet
+end
+
+function gemValue()
+  gem=Tracker:ProviderCountForCode("gem")*20
+  return gem
+end
+
+function jewelValue()
+  jewel=Tracker:ProviderCountForCode("jewel")*50
+  return jewel
+end
+
+function haveBeads()
+  beads=Tracker:ProviderCountForCode("prayerbeads")*1
+  return beads
+end
+
+function haveAegis()
+  aegis=Tracker:ProviderCountForCode("aegis")*1
+  return aegis
+end
+
+function beadsMath(hp)
+  return hp + (hp*haveBeads() /20)
+end
+
+function aegisMath(hp)
+  return hp + (hp*haveAegis() /10)
+end
+
+function wishNum(amount)
+  wish=Tracker:ProviderCountForCode("wish")*1
+  return (wish >= amount)
+end
+
+function slotNum(amount)
+  relicslot=Tracker:ProviderCountForCode("relicslot")*1
+  return (relicslot >= amount)
+end
+
+function domainMath()
+  hp = 100 + amuletValue() + gemValue() + jewelValue()
+  hp = beadsMath(hp)
+  hp = aegisMath(hp)
+  if (hp >= 150 and wishNum(3) and has ("spellbound") and slotNum(5) and has ("dodge2"))
+  or (hp >= 150 and has ("holywater") and has ("spellbound") and slotNum(6) and has ("dodge2"))
+  or (hp >= 120 and wishNum(3) and has ("dodge2") and has ("dash"))
+  or (hp >= 150 and has ("spellbound") and has ("shuffle_slots") and slotNum(12) and has ("dodge2"))
+  or (hp >= 150 and has ("spellbound") and has ("holywater") and has ("shuffle_slots") and slotNum(16) and has ("dodge2"))
+  or (hp >= 175 and has ("dodge2") and wishNum(3))
+  then
+    return 1
+  else
+    return 0
+  end
+end
+
+function abyssGauntlet()
+  hp = 100 + amuletValue() + gemValue() + jewelValue()
+  hp = beadsMath(hp)
+  hp = aegisMath(hp)
+  if hp >= 300
+  then
+    return 1
+  else
+    return 0
+  end
+end

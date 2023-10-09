@@ -8,31 +8,31 @@
 	"variants": {
 		"map_tracker": {
 			"display_name": "Map Tracker",
-			"flags": [ "uat" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"items_only": {
 			"display_name": "Items Only",
-			"flags": [ "uat" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"minimal_items": {
 			"display_name": "Items Only - Minimal",
-			"flags": [ "uat" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"maps_only": {
 			"display_name": "Maps Only",
-			"flags": [ "uat" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"minimal_maps": {
 			"display_name": "Map and Minimal Items",
-			"flags": [ "uat" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"world_map": {
 			"display_name": "World Map",
-			"flags": [ "uat" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"world_minimal": {
 			"display_name": "World Map and Minimal Items",
-			"flags": [ "uat" ]
+			"flags": [ "uat", "ap" ]
 		}
 	}
 }

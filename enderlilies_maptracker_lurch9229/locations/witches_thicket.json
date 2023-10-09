@@ -323,6 +323,9 @@
                         "y": 780
                     }
                 ],
+                "access_rules": [
+                    "$forest07ACCESS"
+                ],
                 "sections": 
 				[
                     {
@@ -622,8 +625,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$forest10ACCESS",
-                    ["$forest08ACCESS, $HORIZONTAL2, ulv"]
+                    "$forest10ACCESS"
                 ],
                 "sections": 
 				[
@@ -776,7 +778,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$forest11ACCESS"
+                    "$forest11ACCESS, aquatic"
                 ],
                 "sections": 
 				[
@@ -804,6 +806,9 @@
                         "x": 5790,
                         "y": 2510
                     }
+                ],
+                "access_rules": [
+                    "$forest11ACCESS, aquatic"
                 ],
                 "sections": 
 				[
@@ -979,7 +984,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$D12ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1061,7 +1066,7 @@
                 "sections":
 				[
                     {
-                        "name": "Stone Tablet Fragment",
+                        "name": "Thicket Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1069,7 +1074,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$D19ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1100,7 +1105,7 @@
                         ],
                         "access_rules":
                         [
-                            "$D17ACCESS"
+                            ""
                         ]
                     }
                 ]
@@ -1129,8 +1134,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$D17ACCESS,claws",
-                            "$D17ACCESS,$LEDGE"
+                            "claws",
+                            "$LEDGE"
                         ],
                         "item_count": 1
                     }
@@ -1160,8 +1165,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$D17ACCESS,claws",
-                            "$D17ACCESS,$LEDGE"
+                            "claws",
+                            "$LEDGE"
                         ],
                         "item_count": 1
                     }
@@ -1260,7 +1265,7 @@
                 ]
             },
             {
-                "name": "Verboten Domain - Swamp_01 - Finding",
+                "name": "Verboten Domain - Swamp_1 - Finding",
                 "map_locations": 
 				[
                     {
@@ -1295,7 +1300,7 @@
                 ]
             },
             {
-                "name": "Verboten Domain - Swamp_02 - Furious Blight Upper",
+                "name": "Verboten Domain - Swamp_2 - Furious Blight Upper",
                 "map_locations":
 				[
                     {
@@ -1328,7 +1333,7 @@
                 ]
             },
             {
-                "name": "Verboten Domain - Swamp_02 - Furious Blight Lower",
+                "name": "Verboten Domain - Swamp_2 - Furious Blight Lower",
                 "map_locations": 
 				[
                     {
@@ -1652,7 +1657,7 @@
                         "name": "Forest 16 - Stagnant Blight x800" 
                     },
                     {
-                        "ref": "Witches Thicket/Witches Thicket - Forest_16 - Tablet/Stone Tablet Fragment",
+                        "ref": "Witches Thicket/Witches Thicket - Forest_16 - Tablet/Thicket Stone Tablet Fragment",
                         "name": "Forest 16 - Stone Tablet Fragment"
                     }
                 ],
@@ -1713,7 +1718,7 @@
             {
                 "sections": [
                     {
-                        "ref": "Witches Thicket/Verboten Domain - Swamp_01 - Finding/Faden's Archives III",
+                        "ref": "Witches Thicket/Verboten Domain - Swamp_1 - Finding/Faden's Archives III",
                         "name": "Swamp 01 Lab 1 - Faden's Archieves III"
                     }
                 ],
@@ -1728,11 +1733,11 @@
             {
                 "sections": [
                     {
-                        "ref": "Witches Thicket/Verboten Domain - Swamp_02 - Furious Blight Upper/Furious Blight x30",
+                        "ref": "Witches Thicket/Verboten Domain - Swamp_2 - Furious Blight Upper/Furious Blight x30",
                         "name": "Swamp 02 - Furious Blight x30"
                     },
                     {
-                        "ref": "Witches Thicket/Verboten Domain - Swamp_02 - Furious Blight Lower/Furious Blight x10",
+                        "ref": "Witches Thicket/Verboten Domain - Swamp_2 - Furious Blight Lower/Furious Blight x10",
                         "name": "Swamp 02 - Furious Blight x10"
                     }
                 ],

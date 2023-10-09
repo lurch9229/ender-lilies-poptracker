@@ -409,7 +409,7 @@
                 ]
             },
             {
-                "name": "Catacombs - Cave_09 - Chain Of Sorcery (In Pot)",
+                "name": "Catacombs - Cave_09 - Chain of Sorcery (In Pot)",
                 "map_locations": 
 				[
                     {
@@ -601,7 +601,7 @@
                 ]
             },
             {
-                "name": "Catacombs - Cave_12 - Screw This Blob",
+                "name": "Catacombs - Cave_12 - Tablet",
                 "map_locations": 
 				[
                     {
@@ -616,7 +616,7 @@
                 "sections": 
 				[
                     {
-                        "name": "Stone Tablet Fragment",
+                        "name": "Catacombs Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -944,7 +944,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$E22ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -974,14 +974,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$E21ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Catacombs - Cave 19 - Chain of Sorcery (In Pot)",
+                "name": "Catacombs - Cave_19 - Chain of Sorcery (In Pot)",
                 "map_locations":
 				[
                     {
@@ -1187,7 +1187,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$E20ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1500,7 +1500,7 @@
                         "name": "Cave 10 - Amulet Fragment (In Pot)"
                     },
                     {
-                        "ref": "Catacombs/Catacombs  - Cave_10  - Stagnant Blight/Stagnant Blight x10",
+                        "ref": "Catacombs/Catacombs - Cave_10  - Stagnant Blight/Stagnant Blight x10",
                         "name": "Cave 10 - Stagnant Blight x10"
                     }
                 ],
@@ -1538,7 +1538,7 @@
             {
                 "sections": [
                     {
-                        "ref": "Catacombs/Catacombs - Cave_12 - Screw This Blob/Stone Tablet Fragment",
+                        "ref": "Catacombs/Catacombs - Cave_12 - Tablet/Catacombs Stone Tablet Fragment",
                         "name": "Cave 12 - Stone Tablet Fragment"
                     }
                 ],
@@ -1595,7 +1595,7 @@
                         "name": "Cave 15 - Stagnant Blight x10 Left"
                     },
                     {
-                        "ref": "Catacombs/Catacombs - Cave_15 - Stagnant Blight Right/Stagant Blight x10",
+                        "ref": "Catacombs/Catacombs - Cave_15 - Stagnant Blight Right/Stagnant Blight x10",
                         "name": "Cave 15 - Stagnant Blight x10 Right"
                     },
                     {
@@ -1667,7 +1667,7 @@
                         "name": "Cave 19 - Chain of Sorcery (In Pot)"
                     },
                     {
-                        "ref":"Catacombs/Catacombs - Cave_19 - Sub-Spirit Fight/Fallen Archer Fight",
+                        "ref": "Catacombs/Catacombs - Cave_19 - Sub-Spirit Fight/Fallen Archer Fight",
                         "name": "Cave 19 - Fallen Archer Fight"
                     },
                     {
@@ -1694,7 +1694,7 @@
                         "name": "Cave 20 - Amulet Fragment (In Pot)"
                     },
                     {
-                        "ref":"Catacombs/Catacombs - Cave_20 - Stagnant Blight/Stagnant Blight x10",
+                        "ref": "Catacombs/Catacombs - Cave_20 - Stagnant Blight/Stagnant Blight x10",
                         "name": "Cave 20 - Stagnant Blight x10"
                     }
                 ],

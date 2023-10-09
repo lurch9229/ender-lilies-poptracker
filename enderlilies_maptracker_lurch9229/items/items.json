@@ -275,7 +275,8 @@
   {
     "name": "Defeat Siegrid",
     "type": "toggle",
-    "codes": "defeatSiegrid"
+    "codes": "defeatSiegrid",
+    "img": "images/spirits/guardian_siegrid.png"
   },
   {
     "name": "Defeat Gerrod",
