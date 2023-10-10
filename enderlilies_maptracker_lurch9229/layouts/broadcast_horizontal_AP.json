@@ -1,0 +1,42 @@
+﻿{
+  "item_grid_broadcast": 
+  {
+    "type": "container",
+    "content": 
+    [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "5,5,5,5",
+		"item_size": "50,50",
+        "rows": 
+        [
+          [ "umbral", "gerrod", "silva", "julius", "ulv", "eleine", "hoenir", "", "", "pray", "jump", "dodge", "paddle", "switch"],
+          [ "faden", "siegrid", "cliffyouth", "headless", "merchant", "maiden", "archer", "", "", "djump", "hammer", "aquatic", "dodge2", "rites"],
+          [ "elderkeeper", "fungal", "floral", "sentinel", "testsubject", "executioner", "sinner", "", "", "hook", "claws", "dash", "lance", "unlock"],
+          [ "", "verboten", "cliffelder", "chief", "royalaegis", "fellwyrm", "", "", "", "jewel", "gem", "fragment", "relicslot", "wish"],
+          [ "prayerbeads", "royalcrest", "music", "familiar", "snowdrop", "appendage", "giant"],
+          [ "dragonclaw", "ornament", "executionergloves", "crown", "weatherneck", "immortal", "manisa", "", "", "", "ch0", "tabletAP", "Bend"],
+          [ "aura", "kilteus", "caliva", "statue", "doll", "earrings", "holywater", "", "", "", "", "", ""],
+          [ "nymphilia", "spellbound", "plume", "witchbook", "ribbon", "blightblade", "heretic", "", "", "", "", "", ""],
+          [ "eldred", "ricorus", "luminantcurio", "heirloom", "phantom", "fretia", "iris"]
+        ]
+      }
+    ]
+  },
+  
+  "tracker_broadcast": 
+  {
+    "type": "array",
+    "drop_shadow": true,
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content":
+    [
+      {
+        "type": "layout",
+        "key": "item_grid_broadcast"
+      }
+    ]
+  }
+}

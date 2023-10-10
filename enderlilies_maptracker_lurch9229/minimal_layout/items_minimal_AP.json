@@ -1,5 +1,5 @@
 {
-    "minimal_grid_AP": {
+    "minimal_grid": {
       "type": "itemgrid",
       "h_alignment": "center",
       "item_margin": "5,5,5,5",
@@ -8,8 +8,8 @@
         ["silva", "verboten", "ulv", "sinner", "mask"],
         ["djump", "hammer", "aquatic", "dodge2", "rites"],
         ["hook", "claws", "dash", "lance", "unlock"],
-        ["ch0", "Bend", "plume", "fretia", "tabletch"],
-        ["gem", "fragment", "relicslot", "wish", "tabletAP"]
+        ["ch0", "Bend", "plume", "fretia", "tabletAP"],
+        ["jewel", "gem", "fragment", "relicslot", "wish"]
       ]
     },
       "tracker_default": {
@@ -18,7 +18,7 @@
       "content": [
         {
           "type": "layout",
-          "key": "minimal_grid_AP"
+          "key": "minimal_grid"
       }
     ]
   }

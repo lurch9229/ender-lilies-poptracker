@@ -2,6 +2,8 @@
 
 2.0.0
 
+- Added a button in settings to change layouts between standalone and AP. Slot Data will read this and toggle upon AP connection
+
 - Changelog Format now using new layout
 
 - Huge Logic Refactor
