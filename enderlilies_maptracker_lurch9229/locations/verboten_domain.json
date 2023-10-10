@@ -15,8 +15,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$domainACCESS, $domainMath",
-                    "$domainACCESS, mask"
+                    "$domainACCESS"
                 ],
                 "sections": [
                     {
@@ -44,8 +43,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$domainACCESS, $domainMath",
-                    "$domainACCESS, mask"
+                    "$domainACCESS"
                 ],
                 "sections": [
                     {
@@ -73,8 +71,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$domainACCESS, $domainMath",
-                    "$domainACCESS, mask"
+                    "$domainACCESS"
                 ],
                 "sections": [
                     {
@@ -102,8 +99,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$domainACCESS, $domainMath",
-                    "$domainACCESS, mask"
+                    "$domainACCESS"
                 ],
                 "sections": [
                     {
@@ -131,8 +127,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$domainACCESS, $domainMath",
-                    "$domainACCESS, mask"
+                    "$domainACCESS"
                 ],
                 "sections": [
                     {
@@ -158,6 +153,9 @@
                         "x": 3850,
                         "y": 1850
                     }
+                ],
+                "access_rules": [
+                    "$domainACCESS"
                 ],
                 "sections": [
                     {
@@ -283,8 +281,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$swamp07RightACCESS, mask",
-                            "$swamp07RightACCESS, $domainMath"
+                            "$swamp07RightACCESS"
                             
                         ],
                         "item_count": 1
@@ -301,8 +298,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp07LeftACCESS, $domainMath",
-                    "$swamp07LeftACCESS, mask"
+                    "$swamp07LeftACCESS"
                 ],
                 "sections": [
                     {
@@ -330,8 +326,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -359,8 +354,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -388,8 +382,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -417,8 +410,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$domainACCESS, $domainMath",
-                    "$domainACCESS, mask"
+                    "$domainACCESS"
                 ],
                 "sections": [
                     {
@@ -446,8 +438,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$domainACCESS, $domainMath",
-                    "$domainACCESS, mask"
+                    "$domainACCESS"
                 ],
                 "sections": [
                     {
@@ -476,8 +467,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -505,8 +495,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -534,8 +523,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -563,8 +551,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -597,8 +584,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -626,8 +612,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -664,8 +649,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$domainACCESS, $domainMath",
-                            "$domainACCESS, mask"
+                            "$domainACCESS"
                         ],
                         "item_count": 1
                     }
@@ -681,8 +665,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -710,8 +693,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -740,8 +722,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -769,8 +750,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -798,8 +778,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
@@ -827,8 +806,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$swamp13ACCESS, $domainMath",
-                    "$swamp13ACCESS, mask"
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
