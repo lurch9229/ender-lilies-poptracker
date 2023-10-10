@@ -1,4 +1,5 @@
 # EnderLiliesTracker
+
 PopTracker Package for Ender Lilies: Quietus of the Knights Randomizer, which can be downloaded here https://github.com/Trexounay/EnderLilies.Randomizer/releases
 PopTracker Program: https://github.com/black-sliver/PopTracker/releases
 
@@ -6,7 +7,7 @@ NOW WITH AUTO-TRACKING!!!!
 
 This package contains a Map tracker, which features all the areas of the game, a world map variant, which has all locations on a single map, and 2 items only variants.
 
-Entrance Randomization variant coming in the future 
+Entrance Randomization variant coming in the future
 
 Logic for the Verboten Domain that involves going through blight is currently set to needing mask, or having 3 priestess' wishes, spellbound anklet, 150+hp (this includes health boosts from Soiled Prayer Beads and Royal Aegis Curio (not the unused health relic)) and 5 relic slots, or having 150+hp, holy water, spellbound anklet and 6 relic slots along with movement needed to each check or 120HP guardians wings (dodge upgrade) and dash (from Julius) with 3 wishes.
 
@@ -33,144 +34,4 @@ Map Tracker -  The full works. Contains all obtainable items and all maps in det
 World Map - Only contains the world map and all obtainable items.
 Map and Minimal Items - Contains all maps with the minimal item layout.
 World Map Minimal -  Contains only the world map and minimal items layout.
-Maps Only - Contains no items but displays larger maps (can still be used in conjuction with autotracker and broadcast view).
-
-Editing the Broadcast View
-Sometimes you may want to change the broadcast layout to better fit your stream/video layout. This can be achieved by editing the layouts found within the .zip.
-Here is a step by step giude on how each layout differs and how to change items shown and move them around. Please note that Poptracker has limitations of how layouts place items so experiment until you find the best fit
-1. Unzip the Ender Lilies Tracker into the poptracker\packs folder.
-1a. I recommend you first edit the manifest.json package_version to 1.x.x.dev so you will know which package is the one you are editing on poptracker
-2. Navigate to poptracker\packs\enderlilies_maptracker_lurch9229\layouts or poptracker\packs\enderlilies_maptracker_lurch9229\minimal_layout
-3. If you are using a variant that is not minimal then you want to edit the broadcast_horizontal.json. If you are editing a minimal layout then you want to change the broadcast_minimal.json
-4. This may look daunting but I assure you it is not. Here we have a block that tells the broadcast view what you show. Lets use the items_only.json as an example. (ex1)
-    The 1st couple of lines you may want to take interest in is item_margin and item_size. Margin is used to tell how much of a gap to put between each item, while Size can be used to change the display size of displayed icons
-5. The rows are the most important part you want to change in this file. The name codes used for each item can be found in enderlilies_maptracker\items inside the json for each item type. So if we wanted to change the position of Silva to the bottom left we would go to row 9 and place "silva" at the start replacing "eldred". That is all well and good but what if you want gaps between items. Well we can just use an empty item to simulate an item being in that place. Using "" will act as said empty item. So let us place 3 rows with 6 items in different locations. (ex3)
-
-So we now have a broadcast view that will be in a 3x6 layout. From here we can simply save the .json, restart poptracker and see out results https://i.imgur.com/fHjE2Jw.png 
-If you have any other questions about layouts feel free to message me.
-
-ex1
-{
-  "item_grid_broadcast": 
-  {
-    "type": "container",
-    "content": 
-    [
-      {
-        "type": "itemgrid",
-        "h_alignment": "left",
-        "item_margin": "5,5,5,5",
-		"item_size": "50,50",
-        "rows": 
-        [
-          [ "umbral", "gerrod", "silva", "julius", "ulv", "eleine", "hoenir", "", "", "pray", "jump", "dodge", "paddle", "switch"],
-          [ "faden", "siegrid", "cliffyouth", "headless", "merchant", "maiden", "archer", "", "", "djump", "hammer", "aquatic", "dodge2", "rites"],
-          [ "elderkeeper", "fungal", "floral", "sentinel", "testsubject", "executioner", "sinner", "", "", "hook", "claws", "dash", "lance", "unlock"],
-          [ "", "verboten", "cliffelder", "chief", "royalaegis", "fellwyrm", "", "", "", "jewel", "gem", "fragment", "relicslot", "wish"],
-          [ "prayerbeads", "royalcrest", "music", "familiar", "snowdrop", "appendage", "giant"],
-          [ "dragonclaw", "ornament", "executionergloves", "crown", "weatherneck", "immortal", "manisa", "", "", "", "tabletch", "tabletwt", "tabletcc"],
-          [ "aura", "kilteus", "caliva", "statue", "doll", "earrings", "holywater", "", "", "", "tabletsa", "tabletts", "tabletrc"],
-          [ "nymphilia", "spellbound", "plume", "witchbook", "ribbon", "blightblade", "heretic", "", "", "", "ch0", "tabletvd", "Bend"],
-          [ "eldred", "ricorus", "luminantcurio", "heirloom", "phantom", "fretia", "iris"]
-        ]
-      }
-    ]
-  },
-  
-  "tracker_broadcast": 
-  {
-    "type": "array",
-    "drop_shadow": true,
-    "orientation": "horizontal",
-    "margin": "0,0",
-    "content":
-    [
-      {
-        "type": "layout",
-        "key": "item_grid_broadcast"
-      }
-    ]
-  }
-}
-
-ex2
-{
-  "item_grid_broadcast": 
-  {
-    "type": "container",
-    "content": 
-    [
-      {
-        "type": "itemgrid",
-        "h_alignment": "left",
-        "item_margin": "5,5,5,5",
-		"item_size": "50,50",
-        "rows": 
-        [
-          [ "umbral", "gerrod", "eldred", "julius", "ulv", "eleine", "hoenir", "", "", "pray", "jump", "dodge", "paddle", "switch"],
-          [ "faden", "siegrid", "cliffyouth", "headless", "merchant", "maiden", "archer", "", "", "djump", "hammer", "aquatic", "dodge2", "rites"],
-          [ "elderkeeper", "fungal", "floral", "sentinel", "testsubject", "executioner", "sinner", "", "", "hook", "claws", "dash", "lance", "unlock"],
-          [ "", "verboten", "cliffelder", "chief", "royalaegis", "fellwyrm", "", "", "", "jewel", "gem", "fragment", "relicslot", "wish"],
-          [ "prayerbeads", "royalcrest", "music", "familiar", "snowdrop", "appendage", "giant"],
-          [ "dragonclaw", "ornament", "executionergloves", "crown", "weatherneck", "immortal", "manisa", "", "", "", "tabletch", "tabletwt", "tabletcc"],
-          [ "aura", "kilteus", "caliva", "statue", "doll", "earrings", "holywater", "", "", "", "tabletsa", "tabletts", "tabletrc"],
-          [ "nymphilia", "spellbound", "plume", "witchbook", "ribbon", "blightblade", "heretic", "", "", "", "ch0", "tabletvd", "Bend"],
-          [ "silva", "ricorus", "luminantcurio", "heirloom", "phantom", "fretia", "iris"]
-        ]
-      }
-    ]
-  },
-  
-  "tracker_broadcast": 
-  {
-    "type": "array",
-    "drop_shadow": true,
-    "orientation": "horizontal",
-    "margin": "0,0",
-    "content":
-    [
-      {
-        "type": "layout",
-        "key": "item_grid_broadcast"
-      }
-    ]
-  }
-}
-
-ex3
-{
-  "item_grid_broadcast": 
-  {
-    "type": "container",
-    "content": 
-    [
-      {
-        "type": "itemgrid",
-        "h_alignment": "left",
-        "item_margin": "5,5,5,5",
-		"item_size": "50,50",
-        "rows": 
-        [
-          ["", "", "djump", "", "hammer", ""],
-          ["umbral", "", "", "hook", "", ""],
-          ["", "fretia", "", "", "", "verboten"]
-        ]
-      }
-    ]
-  },
-  
-  "tracker_broadcast": 
-  {
-    "type": "array",
-    "drop_shadow": true,
-    "orientation": "horizontal",
-    "margin": "0,0",
-    "content":
-    [
-      {
-        "type": "layout",
-        "key": "item_grid_broadcast"
-      }
-    ]
-  }
-}
+Maps Only - Contains no items but displays larger maps (can still be used in conjuction with autotracker and broadcast view)

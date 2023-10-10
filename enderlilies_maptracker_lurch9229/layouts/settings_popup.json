@@ -52,6 +52,24 @@
 						]
 					}
 				]
+			},
+			{
+				"type": "group",
+				"header": "Layout",
+				"content":
+				[
+					{
+						"type": "array",						
+						"orientation": "vertical",
+						"content":
+						[
+							{
+								"type": "item",
+								"item": "apLayout"
+							}
+						]
+					}
+				]
 			}
 		]
 	}

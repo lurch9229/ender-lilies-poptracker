@@ -1,4 +1,56 @@
 ﻿{
+  "lily_spirit_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows": [
+      [ "umbral","gerrod","silva","julius","ulv","eleine","hoenir" ],
+      [ "faden","siegrid","cliffyouth","headless","merchant","maiden","archer" ],
+      [ "elderkeeper","fungal","floral","sentinel","testsubject","executioner","sinner" ],
+      [ "","verboten","cliffelder","chief","royalaegis","fellwyrm","" ]
+    ]
+  },
+"lily_relic_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows": [
+      [ "prayerbeads", "royalcrest", "music", "familiar", "snowdrop", "appendage", "giant" ],
+      [ "dragonclaw", "ornament", "executionergloves", "crown", "weatherneck", "immortal",  "manisa" ],
+      [ "aura", "kilteus", "caliva", "statue", "doll", "earrings", "holywater" ],
+      [ "nymphilia", "spellbound", "plume", "witchbook", "ribbon", "blightblade", "heretic" ],
+      [ "eldred","ricorus", "luminantcurio", "heirloom", "phantom", "fretia", "iris" ]
+    ]
+  },
+"lily_ability_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows": [
+      [ "pray", "jump", "dodge", "paddle", "switch" ],
+      [ "djump", "hammer", "aquatic", "dodge2", "rites" ],
+      [ "hook", "claws", "dash", "lance", "unlock" ],
+      [ "jewel", "gem", "fragment", "relicslot", "wish" ]
+    ]
+  },
+
+  "lily_goal_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment":"center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows":
+    [
+      [ "tabletch", "tabletwt", "tabletcc" ],
+      [ "tabletsa", "tabletts", "tabletrc" ],
+      [ "ch0", "tabletvd", "Bend" ]
+    ]
+  },
+
   "tracker_horizontal": 
   {
     "type": "container",
@@ -94,7 +146,8 @@
           "type": "dock",
           "v_alignment": "stretch",
           "margin": "0, 0, 0, 0",
-          "content": [
+          "content": 
+		  [
               {
                   "type": "tabbed",
                   "dock": "top",
@@ -106,79 +159,11 @@
                     "maps": ["WorldMap"]
                   }
                 },   	            
-					      {
-                  "title": "Cathedral",
-                  "content": {
-                    "type": "map",
-                    "maps": ["Cathedral"]
-                  }
-                },
-                {
-                  "title": "White Parish",
-                  "content": {
-                    "type": "map",
-                    "maps": ["WhiteParish"]
-                  }
-                },
-                {
-                  "title": "Cliffside Hamlet West",
-                  "content": {
-                    "type": "map",
-                    "maps": ["CliffsideHamletWest"]
-                  }
-                },
-                {
-                  "title": "Cliffside Hamlet East",
-                  "content": {
-                    "type": "map",
-                    "maps": ["CliffsideHamletEast"]
-                  }
-                },
-                {
-                  "title": "Witches Thicket",
-                  "content": {
-                    "type": "map",
-                    "maps": ["WitchesThicket"]
-                  }
-                },
-                {
-                  "title": "Catacombs",
-                  "content": {
-                    "type": "map",
-                    "maps": ["Catacombs"]
-                  }
-                },
-					      {
-                  "title": "Stockade",
-                  "content": {
-                    "type": "map",
-                    "maps": ["Stockade"]
-                  }
-                },
-                {
-                  "title": "Twin Spires",
-                  "content": {
-                    "type": "map",
-                    "maps": ["TwinSpires"]
-							    }
-                },
-					      {
-						      "title": "Ruined Castle",
-						      "content": {
-                  "type": "map",
-                  "maps": ["RuinedCastle"]
-                  }
-                },
-                {
-                  "title": "Verboten Domain",
-                  "content": {
-                    "type": "map",
-                    "maps": ["VerbotenDomain"]
-                  }
-                },
+					      
                 {
                   "title": "Credits",
-                  "content": {
+                  "content": 
+				  {
                     "type": "map",
                     "maps": ["Credits"]
                   }

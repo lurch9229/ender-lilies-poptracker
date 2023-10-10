@@ -1280,7 +1280,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$domainACCESS"
+                    "$swamp01ACCESS"
                 ],
                 "sections": 
 				[

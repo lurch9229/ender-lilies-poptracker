@@ -603,16 +603,16 @@ function oubliette11UpperACCESS()
 end
 
 function oubliette11LowerACCESS()
-  return oubliette08ACCESS() and LEDGE() 
-  or oubliette08ACCESS() and HORIZONTAL() 
-  or oubliette13ACCESS()  
+  return oubliette08ACCESS() and LEDGE()
+  or oubliette08ACCESS() and HORIZONTAL()
+  or oubliette13ACCESS()
 end
 
 function oubliette13ACCESS()
-  return oubliette08ACCESS() and has ("claws") and FULLSILVA() 
-  or oubliette08ACCESS() and has ("claws") and FULLJUMP() 
-  or oubliette08ACCESS() and has ("hook") 
-  or oubliette07ACCESS()  
+  return oubliette08ACCESS() and has ("claws") and FULLSILVA()
+  or oubliette08ACCESS() and has ("claws") and FULLJUMP()
+  or oubliette08ACCESS() and has ("hook")
+  or oubliette07ACCESS()
 end
 
 function oubliette13_1ACCESS()
@@ -658,10 +658,8 @@ function outside03ACCESS()
 end
 
 function domainACCESS()
-  return swamp06TopACCESS() and has ("hammer") and has ("mask")
-  or swamp06TopACCESS() and has ("hammer") and domainMath()
-  or swamp01ACCESS() and has ("mask")
-  or swamp01ACCESS() and domainMath()
+  return swamp06TopACCESS() and has ("hammer")
+  or swamp01ACCESS()
 end
 
 function swamp02ACCESS()
@@ -669,7 +667,7 @@ function swamp02ACCESS()
 end
 
 function swamp02FromSwamp06ACCESS()
-  return swamp06TopACCESS() and has ("hammer") and LEDGE() and domainMath()  
+  return swamp06TopACCESS() and has ("hammer") and LEDGE()  
 end
 
 function swamp01ACCESS()
@@ -683,7 +681,7 @@ function swamp06TopACCESS()
 end
 
 function swamp13ACCESS()
-  return domainACCESS() and CHARGE() and has ("hammer")  
+  return domainACCESS() and CHARGE() and has ("hammer")
 end
 
 function swamp07RightACCESS()
@@ -692,12 +690,12 @@ end
 
 function swamp07LeftACCESS()
   return (swamp13ACCESS() and has ("hook") and has ("dash") and HORIZONTAL())
-  or (swamp13ACCESS() and has ("hook") and LEDGE() and HORIZONTAL()) 
-  or (swamp13ACCESS() and has ("hook") and has ("dash") and LEDGE()) 
+  or (swamp13ACCESS() and has ("hook") and LEDGE() and HORIZONTAL())
+  or (swamp13ACCESS() and has ("hook") and has ("dash") and LEDGE())
   or (swamp13ACCESS() and has ("hook") and HORIZONTAL2())
   or (swamp13ACCESS() and has ("hook") and LEDGE2())
   or (swamp13ACCESS() and has ("claws") and FULLJUMP())
-  or (swamp13ACCESS() and has ("claws") and FULLSILVA()) 
+  or (swamp13ACCESS() and has ("claws") and FULLSILVA())
 end
 
 function swamp16ACCESS()

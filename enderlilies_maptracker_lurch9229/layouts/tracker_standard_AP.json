@@ -1,5 +1,65 @@
 ﻿{
-  "tracker_horizontal": 
+  "lily_spirit_grid_AP": 
+  {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows": 
+    [
+      [ "umbral","gerrod","silva","julius","ulv","eleine","hoenir" ],
+      [ "faden","siegrid","cliffyouth","headless","merchant","maiden","archer" ],
+      [ "elderkeeper","fungal","floral","sentinel","testsubject","executioner","sinner" ],
+      [ "","verboten","cliffelder","chief","royalaegis","fellwyrm","" ]
+    ]
+  },
+  "lily_relic_grid_AP":
+  {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows": 
+    [
+      [ "prayerbeads", "royalcrest", "music", "familiar", "snowdrop", "appendage", "giant" ],
+      [ "dragonclaw", "ornament", "executionergloves", "crown", "weatherneck", "immortal",  "manisa" ],
+      [ "aura", "kilteus", "caliva", "statue", "doll", "earrings", "holywater" ],
+      [ "nymphilia", "spellbound", "plume", "witchbook", "ribbon", "blightblade", "heretic" ],
+      [ "eldred","ricorus", "luminantcurio", "heirloom", "phantom", "fretia", "iris" ]
+      
+    ]
+  },
+
+  "lily_ability_grid_AP": 
+  {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows": 
+    [
+	    [ "pray", "jump", "dodge", "paddle", "switch" ],
+      [ "djump", "hammer", "aquatic", "dodge2", "rites" ],
+      [ "hook", "claws", "dash", "lance", "unlock" ],
+      [ "jewel", "gem", "fragment", "relicslot", "wish" ]
+    ]
+  },
+
+  "lily_goal_grid_AP":
+  {
+    "type": "itemgrid",
+    "h_alignment":"center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows":
+    [
+      [ "tabletch", "tabletwt", "tabletcc" ],
+      [ "tabletsa", "tabletts", "tabletrc" ],
+      [ "ch0", "tabletvd", "Bend" ]
+    ]
+  },
+
+"tracker_horizontal": 
   {
     "type": "container",
     "content": 
@@ -32,7 +92,7 @@
                 [
                   {
                     "type": "layout",
-                    "key": "lily_spirit_grid"
+                    "key": "lily_spirit_grid_AP"
                   }
                 ]
               }
@@ -49,7 +109,7 @@
                 [
                   {
                     "type": "layout",
-                    "key": "lily_relic_grid"
+                    "key": "lily_relic_grid_AP"
                   }
                 ]
               }
@@ -66,7 +126,7 @@
                 [
                   {
                     "type": "layout",
-                    "key": "lily_ability_grid"
+                    "key": "lily_ability_grid_AP"
                   }
                 ]
               }
@@ -83,7 +143,7 @@
                 [
                   {
                     "type": "layout",
-                    "key": "lily_goal_grid"
+                    "key": "lily_goal_grid_AP"
                   }
                 ]
               }

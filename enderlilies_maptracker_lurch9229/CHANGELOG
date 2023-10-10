@@ -1,8 +1,0 @@
-V 1.2.0
-- Fixed Catacombs and Thicket maps with newer versions of PopTracker
--Logic check against randomizer 2.1.4 coming in the future
-
-
-V 1.1.1
-- Fixed issues with resizing item icons
-- Added Default Values on all layouts

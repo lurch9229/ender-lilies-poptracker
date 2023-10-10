@@ -198,5 +198,13 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "AP Layout",
+        "type": "toggle",
+        "allow_disabled": true,
+        "loop": true,
+        "img": "images/settings/layoutAP.png",
+        "codes": "apLayout"
     }
 ]

@@ -18,20 +18,8 @@
 			"display_name": "Items Only - Minimal",
 			"flags": [ "uat", "ap" ]
 		},
-		"maps_only": {
-			"display_name": "Maps Only",
-			"flags": [ "uat", "ap" ]
-		},
-		"minimal_maps": {
-			"display_name": "Map and Minimal Items",
-			"flags": [ "uat", "ap" ]
-		},
 		"world_map": {
 			"display_name": "World Map",
-			"flags": [ "uat", "ap" ]
-		},
-		"world_minimal": {
-			"display_name": "World Map and Minimal Items",
 			"flags": [ "uat", "ap" ]
 		}
 	}
