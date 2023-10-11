@@ -74,7 +74,7 @@
             },
             {
                 "img": "images/settings/chains_off.png",
-                "codes": "setting_relics_off",
+                "codes": "setting_chains_off",
                 "inherit_codes": false
             }
         ]
@@ -184,7 +184,7 @@
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "stages": 
 		[
             {
@@ -198,5 +198,13 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "AP Layout",
+        "type": "toggle",
+        "allow_disabled": true,
+        "loop": true,
+        "img": "images/settings/layoutAP.png",
+        "codes": "apLayout"
     }
 ]

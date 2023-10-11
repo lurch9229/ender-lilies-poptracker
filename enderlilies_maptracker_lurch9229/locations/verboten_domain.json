@@ -6,7 +6,7 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "Stagnant Blight x30",
+                "name": "Verboten Domain - Swamp_3 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -14,9 +14,12 @@
                         "y": 350
                     }
                 ],
+                "access_rules": [
+                    "$domainACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J1",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -24,15 +27,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath",
-                            "$VerbotenDomainACCESS,mask"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP) (In Crate)",
+                "name": "Verboten Domain - Swamp_3 - Amulet Fragment (In Crate)",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -40,9 +42,12 @@
                         "y": 470
                     }
                 ],
+                "access_rules": [
+                    "$domainACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J1",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -50,14 +55,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$LEDGE"
+                            "$LEDGE"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "name": "Verboten Domain - Swamp_04 - Chain of Sorcery",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -65,9 +70,12 @@
                         "y": 740
                     }
                 ],
+                "access_rules": [
+                    "$domainACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J2",
+                        "name": "Chain of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -75,15 +83,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath",
-                            "$VerbotenDomainACCESS,mask"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Verboten Champion Fight",
+                "name": "Verboten Domain - Swamp_04 - Sub-Spirit Fight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -91,9 +98,12 @@
                         "y": 1030
                     }
                 ],
+                "access_rules": [
+                    "$domainACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J2",
+                        "name": "Verboten Champion Fight",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -101,15 +111,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath,unlock",
-                            "$VerbotenDomainACCESS,mask,unlock"
+                            "unlock"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
+                "name": "Verboten Domain - Swamp_05 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -117,9 +126,12 @@
                         "y": 1800
                     }
                 ],
+                "access_rules": [
+                    "$domainACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J3",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -127,15 +139,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath,aquatic",
-                            "$VerbotenDomainACCESS,mask,aquatic"
+                            "aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x100",
+                "name": "Verboten Domain - Swamp_05 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -143,9 +154,12 @@
                         "y": 1850
                     }
                 ],
+                "access_rules": [
+                    "$domainACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J3",
+                        "name": "Furious Blight x100",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -153,15 +167,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath,aquatic",
-                            "$VerbotenDomainACCESS,mask,aquatic"
+                            "aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Heretic's Mask",
+                "name": "Verboten Domain - Swamp_06 - Relic",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -169,9 +182,12 @@
                         "y": 1430
                     }
                 ],
+                "access_rules": [
+                    "$swamp06TopACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J4",
+                        "name": "Heretic's Mask",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -179,14 +195,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J4ACCESSF26"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
+                "name": "Verboten Domain - Swamp_06 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -194,9 +210,12 @@
                         "y": 1350
                     }
                 ],
+                "access_rules": [
+                    "$swamp06TopACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J4",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -204,14 +223,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J4ACCESSF26"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Verboten Domain Notice",
+                "name": "Verboten Domain - Swamp_06 - Finding",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -219,9 +238,13 @@
                         "y": 1450
                     }
                 ],
+                "access_rules": [
+                    "$domainACCESS",
+                    "$swamp06TopACCESS, hammer"
+                ],
                 "sections": [
                     {
-                        "name": "J4",
+                        "name": "Verboten Domain Notice",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -229,11 +252,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$J4ACCESSF26",
-                            "$D16ACCESS,dash,mask",
-                            "$D16ACCESS,dodge2,mask",
-                            "$D16ACCESS,dodge2,$domainMath",
-                            "$D16ACCESS,dash,$domainMath"
+                            ""
                             
                         ],
                         "item_count": 1
@@ -241,17 +260,49 @@
                 ]
             },
             {
-                "name": "Weathered Necklace",
+                "name": "Verboten Domain - Swamp_07 - Amulet Fragment",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
-                        "x": 1080,
-                        "y": 695
+                        "x": 3020,
+                        "y": 1755
                     }
+                ],
+                "access_rules": [
+                    "claws"
                 ],
                 "sections": [
                     {
-                        "name": "J5",
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$swamp07RightACCESS"
+                            
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_07 - Relic",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 2620,
+                        "y": 2040
+                    }
+                ],
+                "access_rules": [
+                    "$swamp07LeftACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Calivia's Ring",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -259,25 +310,27 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath,$LEDGE",
-                            "$VerbotenDomainACCESS,mask,$LEDGE"
+                            "claws"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
+                "name": "Verboten Domain - Swamp_08 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
-                        "x": 700,
-                        "y": 505
+                        "x": 1695,
+                        "y": 2795
                     }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
                 ],
                 "sections": [
                     {
-                        "name": "J5",
+                        "name": "Furious Blight x100",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -285,17 +338,300 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath,$LEDGE,$HORIZONTAL",
-                            "$VerbotenDomainACCESS,$domainMath,silva,djump",
-                            "$VerbotenDomainACCESS,mask,$LEDGE,$HORIZONTAL",
-                            "$VerbotenDomainACCESS,mask,silva,djump"
+                            "aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "Verboten Domain - Swamp_08 - Amulet Gem",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1425,
+                        "y": 2810
+                    }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Gem (+20 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_08 - Stagnant Blight",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1180,
+                        "y": 2795
+                    }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_09 - Relic",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1080,
+                        "y": 695
+                    }
+                ],
+                "access_rules": [
+                    "$domainACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Weathered Necklace",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_09 - Stagnant Blight",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 700,
+                        "y": 505
+                    }
+                ],
+                "access_rules": [
+                    "$domainACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LEDGE, $HORIZONTAL",
+                            "silva, djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_10 - Stagnant Blight",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 210,
+                        "y": 1410
+                    }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_10 - Finding",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 260,
+                        "y": 1330
+                    }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Faden's Archives IV",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_11 - Relic",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4270,
+                        "y": 2270
+                    }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Blighted Appendage",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_11 - Amulet Fragment",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 3850,
+                        "y": 2220
+                    }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "djump, $HORIZONTAL",
+                            "silva, $HORIZONTAL",
+                            "claws, verboten, $HORIZONTAL",
+                            "claws, verboten, djump",
+                            "silva, djump, claws",
+                            ["silva, djump, plume"]
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_12 - Priestess' Wish",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4550,
+                        "y": 2960
+                    }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            "hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_12 - Finding",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4675,
+                        "y": 2885
+                    }
+                ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Faden's Archives II",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verboten Domain - Swamp_13 - Amulet Fragment",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -305,7 +641,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "J6",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -313,15 +649,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath",
-                            "$VerbotenDomainACCESS,mask"
+                            "$domainACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
+                "name": "Verboten Domain - Swamp_13 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -329,9 +664,12 @@
                         "y": 1240
                     }
                 ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J6",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -339,15 +677,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J6ACCESS,$domainMath,hammer",
-                            "$J6ACCESS,mask,hammer"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x30",
+                "name": "Verboten Domain - Swamp_13 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -355,9 +692,12 @@
                         "y": 1255
                     }
                 ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J6",
+                        "name": "Furious Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -365,67 +705,15 @@
                         ],
                         "access_rules": 
                         [
-                            "$VerbotenDomainACCESS,$domainMath,hook,hammer",
-                            "$VerbotenDomainACCESS,$domainMath,claws,hammer",
-                            "$VerbotenDomainACCESS,mask,hook,hammer",
-                            "$VerbotenDomainACCESS,mask,claws,hammer"
+                            "hook",
+                            "claws"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 210,
-                        "y": 1410
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J7",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J7ACCESS,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Faden's Archives IV",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 260,
-                        "y": 1330
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J7",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J7ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x100",
+                "name": "Verboten Domain - Swamp_14 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -433,9 +721,12 @@
                         "y": 1785
                     }
                 ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J8",
+                        "name": "Stagnant Blight x100",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -443,14 +734,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J8ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "name": "Verboten Domain - Swamp_14 - Chain of Sorcery",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -458,9 +749,12 @@
                         "y": 2055
                     }
                 ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J8",
+                        "name": "Chain of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -468,144 +762,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J8ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x100",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 1695,
-                        "y": 2795
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J9",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J9ACCESS,aquatic,mask"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Gem (+20 HP)",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 1425,
-                        "y": 2810
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J9",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J9ACCESS,aquatic,mask"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x100",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 1180,
-                        "y": 2795
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J9",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J9ACCESS,aquatic,mask"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Blighted Appendage",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 4270,
-                        "y": 2270
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J10",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J10ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 3850,
-                        "y": 2220
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J10",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J10ACCESS,djump,$HORIZONTAL",
-                            "$J10ACCESS,silva,$HORIZONTAL",
-                            "$J10ACCESS,claws,verboten,$HORIZONTAL",
-                            "$J10ACCESS,claws,verboten,djump",
-                            "$J10ACCESS,silva,djump,claws",
-                            "$J10ACCESS,silva,djump,plume"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x30",
+                "name": "Verboten Domain - Swamp_15 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -613,9 +777,12 @@
                         "y": 2700
                     }
                 ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J11",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -623,14 +790,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J11ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Incompetent Sinner Fight",
+                "name": "Verboten Domain - Swamp_15 - Sub-Spirit Fight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -638,9 +805,12 @@
                         "y": 3180
                     }
                 ],
+                "access_rules": [
+                    "$swamp13ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J11",
+                        "name": "Incompetent Sinner Fight",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -648,116 +818,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J11ACCESS,mask,aquatic"
+                            "mask,aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Priestess' Wish (Prayer Upgrade)",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 4550,
-                        "y": 2960
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J12",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_wishes"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J11ACCESS,hammer"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Faden's Archives II",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 4675,
-                        "y": 2885
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J12",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J11ACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 3020,
-                        "y": 1755
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J13ACCESSE,claws"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Calivia's Ring",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 2620,
-                        "y": 2040
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "J13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$J13ACCESSW,$LEDGE,claws",
-                            "$J13ACCESSW,$LEDGE,hook",
-                            "$J13ACCESSW,$FULLSILVA"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Faden's Archives I",
+                "name": "Verboten Domain - Swamp_16 - Finding",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -765,9 +833,12 @@
                         "y": 3275
                     }
                 ],
+                "access_rules": [
+                    "$swamp16ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "J14",
+                        "name": "Faden's Archives I",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -775,14 +846,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J14ACCESS"
+                            "$swamp16ACCESS"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x800",
+                "name": "Verboten Domain - Swamp_18 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -790,9 +861,12 @@
                         "y": 3220
                     }
                 ],
+                "access_rules": [
+                    "$swamp16ACCESS, claws"
+                ],
                 "sections": [
                     {
-                        "name": "J16",
+                        "name": "Stagnant Blight x800",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -800,22 +874,27 @@
                         ],
                         "access_rules": 
                         [
-                            "$J14ACCESS,$LEDGE,claws,$HORIZONTAL2",
-                            "$J14ACCESS,$LEDGE2,dodge2,claws",
-                            "$J14ACCESS,$FULLSILVA,claws"
+                            "$FULLJUMP",
+                            "sinner, $LEDGE2",
+                            "$FULLSILVA",
+                            "dodge2, silva, verboten",
+                            "$HORIZONTAL2, verboten, djump"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Miriel, The Beloved Prize",
+                "name": "Verboten Domain - Swamp_18 - Post Miriel",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
                         "x": 1798,
                         "y": 3335
                     }
+                ],
+                "access_rules": [
+                    "$swamp16ACCESS"
                 ],
                 "sections": [
                     {
@@ -827,9 +906,9 @@
                         ],
                         "access_rules": 
                         [
-                            "$J14ACCESS"
+                            ""
                         ],
-                        "item_count": 2
+                        "item_count": 1
                     },
                     {
                         "name": "Finding - Miriel's Blighted Letter",
@@ -840,9 +919,9 @@
                         ],
                         "access_rules": 
                         [
-                            "$J14ACCESS"
+                            ""
                         ],
-                        "item_count": 2
+                        "item_count": 1
                     },
                     {
                         "name": "Finding - Faden's Archives V",
@@ -853,14 +932,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$J14ACCESS"
+                            ""
                         ],
-                        "item_count": 2
+                        "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Silva's Bloodstained Note I",
+                "name": "The Abyss - Abyss_01 - Finding",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -868,9 +947,12 @@
                         "y": 3630
                     }
                 ],
+                "access_rules": [
+                    "$abyss01ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K1",
+                        "name": "Silva's Bloodstained Note I",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -878,14 +960,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$K1ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x100",
+                "name": "The Abyss - Abyss_01 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -893,9 +975,12 @@
                         "y": 4300
                     }
                 ],
+                "access_rules": [
+                    "$abyss01ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K1",
+                        "name": "Furious Blight x100",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -903,14 +988,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$K1ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Silva's Bloodstained Note II",
+                "name": "The Abyss - Abyss_02 - Finding Lower",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -918,9 +1003,12 @@
                         "y": 4850
                     }
                 ],
+                "access_rules": [
+                    "$abyss01ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K2",
+                        "name": "Silva's Bloodstained Note II",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -928,14 +1016,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$K2ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Fretia's Memoirs V",
+                "name": "The Abyss - Abyss_02 - Finding Upper",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -943,9 +1031,12 @@
                         "y": 4725
                     }
                 ],
+                "access_rules": [
+                    "$abyss01ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K2",
+                        "name": "Fretia's Memoirs V",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -953,14 +1044,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$K2ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "White Priestess' Earrings",
+                "name": "The Abyss - Abyss_02 - Relic",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -968,9 +1059,12 @@
                         "y": 4850
                     }
                 ],
+                "access_rules": [
+                    "$abyss01ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K2",
+                        "name": "White Priestess' Earrings",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -978,52 +1072,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$K2ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Mother",
-                "map_locations": [
-                    {
-                        "map": "VerbotenDomain",
-                        "x": 1815,
-                        "y": 4850
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Ending B",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_hidden"
-                        ],
-                        "access_rules": 
-                        [
-                            "$K2ACCESS"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ending C",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_hidden"
-                        ],
-                        "access_rules": 
-                        [
-                            "$K2ACCESS,luminantcurio"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "The Abyss - Abyss_02 - Amulet Fragment",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -1031,9 +1087,12 @@
                         "y": 4690
                     }
                 ],
+                "access_rules": [
+                    "$abyss01ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K2",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1041,18 +1100,18 @@
                         ],
                         "access_rules": 
                         [
-                            "$K2ACCESS,claws,$LEDGE,$HORIZONTAL,",
-                            "$K2ACCESS,$HORIZONTAL2",
-                            "$K2ACCESS,silva,djump,dodge2,ulv",
-                            "$K2ACCESS,claws,$LEDGE2,dash",
-                            "$K2ACCESS,claws,silva,djump,dash"
+                            "claws, $LEDGE, $HORIZONTAL,",
+                            "$HORIZONTAL2",
+                            ["$FULLSILVA, ulv"],
+                            "claws, $LEDGE2, dash",
+                            "claws, silva, djump, dash"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x100",
+                "name": "The Abyss - Abyss_04 - Stagnant Blight Upper",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -1060,9 +1119,12 @@
                         "y": 3540
                     }
                 ],
+                "access_rules": [
+                    "$abyss04ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K4",
+                        "name": "Stagnant Blight x100",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1070,14 +1132,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$K5ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x100",
+                "name": "The Abyss - Abyss_04 - Stagnant Blight Lower",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -1085,9 +1147,12 @@
                         "y": 3725
                     }
                 ],
+                "access_rules": [
+                    "$abyss04ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K4",
+                        "name": "Stagnant Blight x100",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1095,14 +1160,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$K5ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Ancient Soul x2",
+                "name": "The Abyss - Abyss_05 - Ancient Soul",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -1110,9 +1175,12 @@
                         "y": 4380
                     }
                 ],
+                "access_rules": [
+                    "$abyss05ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K5",
+                        "name": "Ancient Soul x2",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1120,14 +1188,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$K5ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stone Tablet Fragment",
+                "name": "The Abyss - Abyss_05 - Tablet",
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
@@ -1135,9 +1203,12 @@
                         "y": 4380
                     }
                 ],
+                "access_rules": [
+                    "$abyss05ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "K5",
+                        "name": "Domain Stone Tablet Fragment",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -1145,37 +1216,434 @@
                         ],
                         "access_rules": 
                         [
-                            "$K5ACCESS"
+                            ""
                         ],
                         "item_count": 1 
                     }
                 ]
             },
             {
-            "name": "Finding - The Deathless Pact",
-            "map_locations": [
-                {
-                    "map": "VerbotenDomain",
-                    "x": 4680,
-                    "y": 4380
-                }
-            ],
-            "sections": [
-                {
-                    "name": "K5",
-                    "visibility_rules": 
-                    [
-                        "setting_all",
-                        "setting_findings"
-                    ],
-                    "access_rules": 
-                    [
-                        "$K5ACCESS"
-                    ],
-                    "item_count": 1 
-                }
-            ]
-        }
+                "name": "The Abyss - Abyss_05 - Finding",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4680,
+                        "y": 4380
+                    }
+                ],
+                "access_rules": [
+                    "$abyss05ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "The Deathless Pact",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1 
+                    }
+                ]
+            }
         ] 
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_3 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Swamp 03 - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_3 - Amulet Fragment(In Crate)/Amulet Fragment (+5 HP)",
+                        "name": "Swamp 03 - Amulet Fragment (In Crate)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8150,
+                        "y": 4800
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_04 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
+                        "name": "Swamp 04 - Chain of Sorcery"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_04 - Sub-Spirit Fight/Verboten Champion Fight",
+                        "name": "Swamp 04 - Verboten Champion Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8540,
+                        "y": 4900
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_05 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Swamp 05 - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_05 - Furious Blight/Furious Blight x100",
+                        "name": "Swamp 05 - Furious Blight x100"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8560,
+                        "y": 5320
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_06 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Swamp 06 Lab 2 - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_06 - Relic/Heretic's Mask",
+                        "name": "Swamp 06 Lab 2 - Heretic's Mask"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_06 - Finding/Verboten Domain Notice",
+                        "name": "Swamp 06 Lab 2 - Verboten Domain Notice"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8980,
+                        "y": 5215
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_07 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Swamp 07 - Amulet Fragment"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_07 - Relic/Calivia's Ring",
+                        "name": "Swamp 07 - Calivia's Ring"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8180,
+                        "y": 5515
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_08 - Furious Blight/Furious Blight x100",
+                        "name": "Swamp 08 - Furious Blight x100"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_08 - Stagnant Blight/Stagnant Blight x100",
+                        "name": "Swamp 08 - Stagnant Blight x100"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_08 - Amulet Gem/Amulet Gem (+20 HP)",
+                        "name": "Swamp 08 - Amulet Gem"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7790,
+                        "y": 6110
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_09 - Relic/Weathered Necklace",
+                        "name": "Swamp 09 - Weathered Necklace"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_09 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Swamp 09 - Stagnant Blight x30"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7770,
+                        "y": 5015
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_10 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Swamp 10 Lab 3 - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_10 - Finding/Faden's Archives IV",
+                        "name": "Swamp 10 Lab 3 - Faden's Archives IV"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7355,
+                        "y": 5375
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_11 - Relic/Blighted Appendage",
+                        "name": "Swamp 11 - Blighted Appendage"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_11 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Swamp 11 - Amulet Fragment"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8535,
+                        "y": 5765
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_12 - Priestess' Wish/Priestess' Wish (Prayer Upgrade)",
+                        "name": "Swamp 12 Lab 4 - Priestess' Wish"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_12 - Finding/Faden's Archives II",
+                        "name": "Swamp 12 Lab 4 - Faden's Archives II"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8930,
+                        "y": 6175
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_13 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Swamp 13 - Amulet Fragment"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_13 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Swamp 13 - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_13 - Furious Blight/Furious Blight x30",
+                        "name": "Swamp 13 - Furious Blight x30"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7725,
+                        "y": 5385
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_14 - Stagnant Blight/Stagnant Blight x100",
+                        "name": "Swamp 14 - Stagnant Blight x100"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_14 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
+                        "name": "Swamp 14 - Chain of Sorcery"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7780,
+                        "y": 5750
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_15 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Swamp 15 - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_15 - Sub-Spirit Fight/Incompetent Sinner Fight",
+                        "name": "Swamp 15 - Incompetent Sinner Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8535,
+                        "y": 6175
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_16 - Finding/Faden's Archives I",
+                        "name": "Swamp 16 Lab 5 - Faden's Archives I"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8185,
+                        "y": 6435
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_18 - Stagnant Blight/Stagnant Blight x800",
+                        "name": "Swamp 18 - Stagnant Blight x800"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_18 - Post Miriel/Faden",
+                        "name": "Swamp 18 - Miriel, The Beloved Prize"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_18 - Post Miriel/Finding - Miriel's Blighted Letter",
+                        "name": "Swamp 18 - Miriel's Blighted Letter"
+                    },
+                    {
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_18 - Post Miriel/Finding - Faden's Archives V",
+                        "name": "Swamp 18 - Faden's Archives V"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7450,
+                        "y": 6455
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_01 - Furious Blight/Furious Blight x100",
+                        "name": "Abyss 01 - Furious Blight x100"
+                    },
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_01 - Finding/Silva's Bloodstained Note I",
+                        "name": "Abyss 01 - Silva's Bloodstained Note I"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7450,
+                        "y": 6760
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_02 - Relic/White Priestess' Earrings",
+                        "name": "Abyss 02 - White Priestess' Earrings"
+                    },
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_02 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Abyss 02 - Amulet Fragment"
+                    },
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_02 - Finding Lower/Silva's Bloodstained Note II",
+                        "name": "Abyss 02 - Silva's Bloodstained Note II"
+                    },
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_02 - Finding Upper/Fretia's Memoirs V",
+                        "name": "Abyss 02 - Fretia's Memoirs V"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7495,
+                        "y": 7097
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_04 - Stagnant Blight Upper/Stagnant Blight x100",
+                        "name": "Abyss 04 - Stagnant Blight x100 Upper"
+                    },
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_04 - Stagnant Blight Lower/Stagnant Blight x100",
+                        "name": "Abyss 04 - Stagnant Blight x100 Lower"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8950,
+                        "y": 6655
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_05 - Ancient Soul/Ancient Soul x2",
+                        "name": "Abyss 05 - Ancient Soul x2"
+                    },
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_05 - Tablet/Domain Stone Tablet Fragment",
+                        "name": "Abyss 05 - Stone Tablet Fragment"
+                    },
+                    {
+                        "ref": "Verboten Domain/The Abyss - Abyss_05 - Finding/The Deathless Pact",
+                        "name": "Abyss 05 - The Deathless Pact"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8955,
+                        "y": 7097
+                    }
+                ]
+            }
+        ]
     }
 ]

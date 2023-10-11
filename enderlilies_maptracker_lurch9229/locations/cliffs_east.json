@@ -6,7 +6,7 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "Gerrod, The Elder Warrior Fight",
+                "name": "Cliffside Hamlet - Village_10 - Main Spirit Fight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletEast",
@@ -14,16 +14,15 @@
                         "y": 2730
                     }
                 ],
+                "access_rules": [
+                    "$village10ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C8",
-                        "visibility_rules": 
-                        [
-                            "setting_findings"
-                        ],
+                        "name": "Gerrod, The Elder Warrior Fight",
                         "access_rules": 
                         [
-                            "$C8ACCESS"
+                            ""
                         ],
                         "hosted_item": "defeatGerrod",
                         "item_count": 1
@@ -31,7 +30,122 @@
                 ]
             },
             {
-                "name": "Furious Blight x10",
+                "name": "Cliffside Hamlet - Village_11 - Finding Left",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 1140,
+                        "y": 2720
+                    }
+                ],
+                "access_rules": [
+                    "$village11ACCESS",
+                    "$village11ACCESSFromCastle01"
+                ],
+                "sections": [
+                    {
+                        "name": "Hamlet Scrawl",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_11 - Finding Right",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 1560,
+                        "y": 2720
+                    }
+                ],
+                "access_rules": [
+                    "$village11ACCESS",
+                    "$village11ACCESSFromCastle01"
+                ],
+                "sections": [
+                    {
+                        "name": "Hamlet Request II",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_11 - Furious Blight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 2030,
+                        "y": 2640
+                    }
+                ],
+                "access_rules": [
+                    "$village11ACCESS",
+                    "$village11ACCESSFromCastle01"
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_11_1 - Priestess' Wish",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 1580,
+                        "y": 1960
+                    }
+                ],
+                "access_rules": [
+                    "$village11_1ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            "hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_15 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletEast",
@@ -39,9 +153,13 @@
                         "y": 4100
                     }
                 ],
+                "access_rules": [
+                    "$village15ACCESS",
+                    "$village15ACCESSFromFort"
+                ],
                 "sections": [
                     {
-                        "name": "C16",
+                        "name": "Furious Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -49,14 +167,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C16ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
+                "name": "Cliffside Hamlet - Village_15 - Stagnant Blight Right",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletEast",
@@ -64,9 +182,22 @@
                         "y": 4100
                     }
                 ],
+                "access_rules": [
+                    "$village15ACCESS, claws, FULLSILVA, dodge2",
+                    "$village15ACCESS, claws, djump, $HORIZONTAL2",
+                    "$village15ACCESS, claws, $HORIZONTAL2, verboten",
+                    "$village15ACCESS, claws, dodge2, dash, verboten, silva",
+                    "$village15ACCESS, hook, claws, $HORIZONTAL",
+                    "$village15ACCESS, claws, djump, hook",
+					"$village15ACCESS, claws, hook, verboten",
+					"$village15ACCESS, silva, dodge2, hook",
+                    "$village15ACCESS, silva, djump, hook",
+                    "$village15ACCESS, silva, verboten, hook",
+                    "$village15ACCESSFromFort"
+                ],
                 "sections": [
                     {
-                        "name": "C16",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -74,23 +205,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C16ACCESS,claws,FULLSILVA,dodge2",
-                            "$C16ACCESS,claws,djump,$HORIZONTAL2",
-                            "$C16ACCESS,claws,$HORIZONTAL2,verboten",
-                            "$C16ACCESS,claws,dodge2,dash,verboten,silva",
-                            "$C16ACCESS,hook,claws,$HORIZONTAL",
-                            "$C16ACCESS,claws,djump,hook",
-							"$C16ACCESS,claws,hook,verboten",
-							"$C16ACCESS,silva,dodge2,djump,hook",
-                            "$C18ACCESSE18,aquatic",
-                            "$C18ACCESSH18,aquatic"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x800",
+                "name": "Cliffside Hamlet - Village_15 - Stagnant Blight Upper",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletEast",
@@ -98,9 +220,13 @@
                         "y": 3470
                     }
                 ],
+                "access_rules": [
+                    "$fort01ACCESSFromVillage",
+                    "$village15ACCESSFromFort"
+                ],
                 "sections": [
                     {
-                        "name": "C16",
+                        "name": "Stagnant Blight x800",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -108,37 +234,170 @@
                         ],
                         "access_rules": 
                         [
-                            "$C16ACCESS,claws,FULLSILVA,dodge2",
-                            "$C16ACCESS,claws,djump,$HORIZONTAL2",
-                            "$C16ACCESS,claws,$HORIZONTAL2,verboten",
-                            "$C16ACCESS,claws,dodge2,dash,verboten,silva",
-                            "$C16ACCESS,hook,claws,$HORIZONTAL",
-                            "$C16ACCESS,claws,djump,hook",
-							"$C16ACCESS,claws,hook,verboten",
-							"$C16ACCESS,silva,dodge2,djump,hook",
-                            "$C18ACCESSE18,aquatic,silva,djump,claws",
-                            "$C18ACCESSE18,aquatic,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSE18,aquatic,claws,$HORIZONTAL2,verboten",
-                            "$C18ACCESSE18,aquatic,claws,dodge2,dash,verboten,silva",
-                            "$C18ACCESSE18,aquatic,hook,claws,$HORIZONTAL",
-                            "$C18ACCESSE18,aquatic,claws,djump,hook",
-							"$C18ACCESSE18,aquatic,claws,hook,verboten",
-							"$C18ACCESSE18,aquatic,silva,dodge2,djump,hook",
-                            "$C18ACCESSH18,aquatic,silva,djump,claws",
-                            "$C18ACCESSH18,aquatic,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,aquatic,claws,$HORIZONTAL2,verboten",
-                            "$C18ACCESSH18,aquatic,claws,dodge2,dash,verboten,silva",
-                            "$C18ACCESSH18,aquatic,hook,claws,$HORIZONTAL",
-                            "$C18ACCESSH18,aquatic,claws,djump,hook",
-							"$C18ACCESSH18,aquatic,claws,hook,verboten",
-							"$C18ACCESSH18,aquatic,silva,dodge2,djump,hook"
+                            "claws,FULLSILVA,dodge2",
+                            "claws,djump,$HORIZONTAL2",
+                            "claws,$HORIZONTAL2,verboten",
+                            "claws,dodge2,dash,verboten,silva",
+                            "hook,claws,$HORIZONTAL",
+                            "claws,djump,hook",
+							"claws,hook,verboten",
+							"silva,dodge2,hook",
+                            "silva, djump, hook",
+                            "silva, verboten, hook"                            
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x30",
+                "name": "Cliffside Hamlet - Castle_01 - Stagnant Blight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 3280,
+                        "y": 2520
+                    }
+                ],
+                "access_rules": [
+                    "$village11ACCESS",
+                    "$castle01ACCESSFromCastle02"
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CHARGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Castle_01 - Sub-Spirit Fight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 3600,
+                        "y": 2520
+                    }
+                ],
+                "access_rules": [
+                    "$village11ACCESS, claws",
+                    "$castle01ACCESSFromCastle02"
+                ],
+                "sections": [
+                    {
+                        "name": "Castle Town Maiden Fight",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Castle_01 - Furious Blight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 4230,
+                        "y": 2560
+                    }
+                ],
+                "access_rules": [
+                    "$village11ACCESS, claws",
+                    "$castle01ACCESSFromCastle02"
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x100",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CHARGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Castle_01 - Relic Center",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 3850,
+                        "y": 2250
+                    }
+                ],
+                "access_rules": [
+                    "$village11ACCESS, claws",
+                    "$castle01ACCESSFromCastle02"
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Doll",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$HORIZONTAL",
+                            "$LEDGE",
+                            "plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Castle_01 - Relic Right",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 4550,
+                        "y": 2080
+                    }
+                ],
+                "access_rules": [
+                    "$ruinedCastleACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Decayed Crown",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LEDGE, claws",
+                            "silva, djump, $HORIZONTAL2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Twin Spires - Fort_01 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletEast",
@@ -146,9 +405,14 @@
                         "y": 2890
                     }
                 ],
+                "access_rules": [
+                    "$fort01ACCESSFromCastle",
+                    "$fort01ACCESSFromVillage, hook",
+                    "$fort01ACCESSFromCatacombs, hook"
+                ],
                 "sections": [
                     {
-                        "name": "C17",
+                        "name": "Furious Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -156,16 +420,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C17ACCESSC16,hook",
-                            "$C17ACCESSC18,hook",
-                            "$C17ACCESSH18"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Fallen Sentinel Fight",
+                "name": "Twin Spires - Fort_01 - Sub-Spirit Fight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletEast",
@@ -173,9 +435,14 @@
                         "y": 3210
                     }
                 ],
+                "access_rules": [
+                    "$fort01ACCESSFromCastle",
+                    "$fort01ACCESSFromVillage",
+                    "$fort01ACCESSFromCatacombs"
+                ],
                 "sections": [
                     {
-                        "name": "C17",
+                        "name": "Fallen Sentinel Fight",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -183,18 +450,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C17ACCESSH18",
-                            "$C17ACCESSC16,$LEDGE",
-                            "$C17ACCESSC16,hook",
-                            "$C17ACCESSC18,hook",
-                            "$C17ACCESSC18,$LEDGE"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Bloodied Note I",
+                "name": "Twin Spires - Fort_03 - Finding",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletEast",
@@ -207,9 +470,12 @@
                         "y": 2430
                     }
                 ],
+                "access_rules": [
+                    "$fort03ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C18",
+                        "name": "Bloodied Note I",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -218,252 +484,157 @@
                         ],
                         "access_rules":
                         [
-                            "$C18ACCESSE18",
-                            "$C18ACCESSC16",
-                            "$C18ACCESSH18"
+                            ""
                         ]
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Hamlet Scrawl",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 1140,
-                        "y": 2720
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C19",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$C19ACCESS",
-                            "$C19ACCESSC20"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Finding - Hamlet Request II",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 1560,
-                        "y": 2720
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C19",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$C19ACCESS",
-                            "$C19ACCESSC20"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x10",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 2030,
-                        "y": 2640
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C19",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C19ACCESS",
-                            "$C19ACCESSC20"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x100",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 3280,
-                        "y": 2520
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C20",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C20ACCESS,dash,lance",
-                            "$C20ACCESSH1,dash,lance"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Castle Town Maiden Fight",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 3600,
-                        "y": 2520
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C20",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules":
-                        [
-                            "$C20ACCESS",
-                            "$C20ACCESSH1"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Furious Blight x100",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 4230,
-                        "y": 2560
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C20",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C20ACCESS,dash,lance",
-                            "$C20ACCESSH1,dash,lance"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Priestess' Doll",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 3850,
-                        "y": 2250
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C20",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C20ACCESS,$LEDGE",
-                            "$C20ACCESS,plume",
-                            "$C20ACCESS,$HORIZONTAL",
-                            "$C20ACCESSH1,$LEDGE",
-                            "$C20ACCESSH1,plume",
-                            "$C20ACCESSH1,$HORIZONTAL"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Decayed Crown",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 4550,
-                        "y": 2080
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C20",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$RuinedCastleACCESS"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Priestess' Wish (Prayer Upgrade)",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletEast",
-                        "x": 1580,
-                        "y": 1960
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C21",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_wishes"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C19ACCESS,hammer",
-                            "$C19ACCESSC20,hammer"
-                        ],
-                        "item_count": 1
                     }
                 ]
             }
-            
-            
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_10 - Main Spirit Fight/Gerrod, The Elder Warrior Fight",
+                        "name": "Village 10 - Gerrod, The Elder Warrior Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7380,
+                        "y": 1890
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_11 - Finding Left/Hamlet Scrawl",
+                        "name": "Village 11 - Hamlet Scrawl"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_11 - Finding Right/Hamlet Request II",
+                        "name": "Village 11 - Hamlet Request II"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_11 - Furious Blight/Furious Blight x10",
+                        "name": "Village 11 - Furious Blight x10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7870,
+                        "y": 1890
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_11_1 - Priestess' Wish/Priestess' Wish (Prayer Upgrade)",
+                        "name": "Village 11_1 - Priestess' Wish"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7805,
+                        "y": 1700
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_15 - Furious Blight/Furious Blight x10",
+                        "name": "Village 15 - Furious Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_15 - Stagnant Blight Right/Stagnant Blight x30",
+                        "name": "Village 15 - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_15 - Stagnant Blight Upper/Stagnant Blight x800",
+                        "name": "Village 15 - Stagnant Blight x800"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8540,
+                        "y": 2090
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Castle_01 - Stagnant Blight/Stagnant Blight x100",
+                        "name": "Castle 01 - Stagnant Blight x100"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Castle_01 - Sub-Spirit Fight/Castle Town Maiden Fight",
+                        "name": "Castle 01 - Castle Town Maiden Fight"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Castle_01 - Furious Blight/Furious Blight x100",
+                        "name": "Castle 01 - Furious Blight x100"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Castle_01 - Relic Center/Priestess' Doll",
+                        "name": "Castle 01 - Priestess' Doll"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Cliffside Hamlet - Castle_01 - Relic Right/Decayed Crown",
+                        "name": "Castle 01 - Decayed Crown"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8380,
+                        "y": 1815
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet East/Twin Spires - Fort_01 - Furious Blight/Furious Blight x30",
+                        "name": "Fort 01 - Furious Blight x30"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet East/Twin Spires - Fort_01 - Sub-Spirit Fight/Fallen Sentinel Fight",
+                        "name": "Fort 01 - Fallen Sentinel Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10230,
+                        "y": 1940
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet East/Twin Spires - Fort_03 - Finding/Bloodied Note I",
+                        "name": "Fort 03 Bastion Gates - Bloodied Note I"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10770,
+                        "y": 2115
+                    }
+                ]
+            }
         ]
     }
 ]

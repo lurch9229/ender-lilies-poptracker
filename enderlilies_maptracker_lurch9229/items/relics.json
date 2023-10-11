@@ -791,31 +791,31 @@
       {
         "img": "images/relics/luminant_aegis_curio.png",
         "img_mods": "overlay|images/overlays/overlay_0.png",
-        "codes": "luminantcurio0",
+        "codes": "luminantcurio0, luminantcurio",
         "inherit_codes": true
       },
       {
         "img": "images/relics/luminant_aegis_curio.png",
         "img_mods": "overlay|images/overlays/overlay_1.png",
-        "codes": "luminantcurio1",
+        "codes": "luminantcurio1, luminantcurio",
         "inherit_codes": true
       },
       {
         "img": "images/relics/luminant_aegis_curio.png",
         "img_mods": "overlay|images/overlays/overlay_2.png",
-        "codes": "luminantcurio2",
+        "codes": "luminantcurio2, luminantcurio",
         "inherit_codes": true
       },
       {
         "img": "images/relics/luminant_aegis_curio.png",
         "img_mods": "overlay|images/overlays/overlay_3.png",
-        "codes": "luminantcurio3",
+        "codes": "luminantcurio3, luminantcurio",
         "inherit_codes": true
       },
       {
         "img": "images/relics/luminant_aegis_curio.png",
         "img_mods": "overlay|images/overlays/overlay_4.png",
-        "codes": "luminantcurio4",
+        "codes": "luminantcurio4, luminantcurio",
         "inherit_codes": true
       }
     ]

@@ -3,12 +3,12 @@
       "type": "itemgrid",
       "h_alignment": "center",
       "item_margin": "5,5,5,5",
-      "item_size": "50,50",
+      "item_size": "40,40",
       "rows": [
         ["silva", "verboten", "ulv", "sinner", "mask"],
         ["djump", "hammer", "aquatic", "dodge2", "rites"],
         ["hook", "claws", "dash", "lance", "unlock"],
-        ["ch0", "Bend", "plume", "fretia", "tabletch"],
+        ["ch0", "gomode", "plume", "fretia", "tabletch"],
         ["gem", "fragment", "relicslot", "wish", "tabletwt"],
         ["tabletcc", "tabletsa", "tabletts", "tabletrc", "tabletvd"]
       ]

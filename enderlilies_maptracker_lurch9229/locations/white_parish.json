@@ -6,7 +6,7 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "Finding - Groa's Letter",
+                "name": "White Parish - Church_04 - Finding",
                 "map_locations": [
                     {
                         "map": "WhiteParish",
@@ -14,9 +14,12 @@
                         "y": 2760
                     }
                 ],
+                "access_rules": [
+                    "$church04ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "B1",
+                        "name": "Groa's Letter",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -25,13 +28,13 @@
                         ],
                         "access_rules":
                         [
-                            "$B1ACCESS"
+                            ""
                         ]
                     }
                 ]
             },
             {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "name": "White Parish - Church_07 - Chain of Sorcery",
                 "map_locations": [
                     {
                         "map": "WhiteParish",
@@ -39,23 +42,27 @@
                         "y": 3100
                     }
                 ],
+                "access_rules": [
+                    "$church07ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "B3",
+                        "name": "Chain of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
                         [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules":[
-                            "$B3ACCESS,hammer"
+                        "access_rules":
+                        [
+                            "hammer"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Cliffside Hamlet Youth Fight",
+                "name": "White Parish - Church_07 - Sub-Spirit Fight",
                 "map_locations": [
                     {
                         "map": "WhiteParish",
@@ -63,23 +70,27 @@
                         "y": 2800
                     }
                 ],
+                "access_rules": [
+                    "$church07ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "B3",
+                        "name": "Cliffside Hamlet Youth Fight",
                         "visibility_rules": 
                         [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": [
-                            "$B3ACCESS"
+                        "access_rules": 
+                        [
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "White Parish - Church_08 - Amulet Fragment",
                 "map_locations": [
                     {
                         "map": "WhiteParish",
@@ -87,23 +98,27 @@
                         "y": 3200
                     }
                 ],
+                "access_rules": [
+                    "$church08ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "B4",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": [
-                            "$B4ACCESS,aquatic"
+                        "access_rules": 
+                        [
+                            "aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - The Parish Way II",
+                "name": "White Parish - Church_08 - Finding",
                 "map_locations": [
                     {
                         "map": "WhiteParish",
@@ -111,9 +126,12 @@
                         "y": 2680
                     }
                 ],
+                "access_rules": [
+                    "$church08ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "B4",
+                        "name": "The Parish Way II",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -122,8 +140,66 @@
                         ],
                         "access_rules":
                         [
-                            "$B4ACCESS"
+                            ""
                         ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "White Parish/White Parish - Church_04 - Finding/Groa's Letter",
+                        "name": "Church 04 Saint's Passage - Groa's Letter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 2525,
+                        "y": 2665
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "White Parish/White Parish - Church_07 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
+                        "name": "Church 07 - Chain of Sorcery"
+                    },
+                    {
+                        "ref": "White Parish/White Parish - Church_07 - Sub-Spirit Fight/Cliffside Hamlet Youth Fight",
+                        "name": "Church 07 - Cliffside Hamlet Youth Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 3415,
+                        "y": 2665
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "White Parish/White Parish - Church_08 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Church 08 Crossroads - Amulet Fragment"
+                    },
+                    {
+                        "ref": "White Parish/White Parish - Church_08 - Finding/The Parish Way II",
+                        "name": "Church 08 Crossroads - The Parish Way II"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 3830,
+                        "y": 2660
                     }
                 ]
             }

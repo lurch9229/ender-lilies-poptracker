@@ -6,7 +6,7 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "Stagnant Blight x30",
+                "name": "Cliffside Hamlet - Village_02 - Stagnant Blight Left",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -14,9 +14,12 @@
                         "y": 1700
                     }
                 ],
+                "access_rules": [
+                    "$village02ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C1",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -24,18 +27,18 @@
                         ],
                         "access_rules":
                         [
-                            "$C1ACCESS,hook",
-                            "$C15ACCESS,$LEDGE2",
-							"$C1ACCESS,djump,$HORIZONTAL",
-							"$C1ACCESS,sinner",
-							"$C1ACCESS,silva,ulv,fretia"
+                            "hook",
+                            "$LEDGE2",
+							"djump, $HORIZONTAL",
+							"sinner",
+							"silva, ulv, fretia"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "Cliffside Hamlet - Village_02 - Amulet Fragment (In Crate)",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -45,7 +48,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C1 Inside Crate",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -53,14 +56,15 @@
                         ],
                         "access_rules":
                         [
-                            "$C1ACCESS"
+                            "$church08ACCESS",
+                            "SL-CR"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
+                "name": "Cliffside Hamlet - Village_02 - Stagnant Blight Right",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -68,9 +72,12 @@
                         "y": 1650
                     }
                 ],
+                "access_rules": [
+                    "$village02ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C1",
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -78,16 +85,19 @@
                         ],
                         "access_rules":
                         [
-                            "$C2ACCESS,hook",
-                            "$C2ACCESS,djump,silva",
-                            "$C2ACCESS,verboten,silva"
+                            "hook",
+                            "djump,silva",
+                            "djump,verboten",
+                            "$HORIZONTAL, silva",
+                            "$HORIZONTAL, djump",
+                            "verboten,silva"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x10",
+                "name": "Cliffside Hamlet - Village_03 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -95,9 +105,12 @@
                         "y": 1320
                     }
                 ],
+                "access_rules": [
+                    "$village03ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C2",
+                        "name": "Furious Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -112,7 +125,7 @@
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP) (In Barrel)",
+                "name": "Cliffside Hamlet - Village_03 - Amulet Fragment (In Barrel)",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -120,9 +133,12 @@
                         "y": 1320
                     }
                 ],
+                "access_rules": [
+                    "$village03ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C2",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -137,7 +153,7 @@
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
+                "name": "Cliffside Hamlet - Village_03 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -145,9 +161,12 @@
                         "y": 1320
                     }
                 ],
+                "access_rules": [
+                    "$village03ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C2",
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -155,14 +174,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C2ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Broken Music Box",
+                "name": "Cliffside Hamlet - Village_03 - Relic",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -170,9 +189,12 @@
                         "y": 1305
                     }
                 ],
+                "access_rules": [
+                    "$village03ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C2",
+                        "name": "Broken Music Box",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -180,19 +202,137 @@
                         ],
                         "access_rules": 
                         [
-                            "$C2ACCESS,claws",
-                            "$C2ACCESS,silva",
-                            "$C2ACCESS,$HORIZONTAL",
-                            "$C2ACCESS,djump",
-                            "$C2ACCESS,$AIRSTALL",
-                            "$C2ACCESS,ulv"
+                            "claws",
+                            "silva",
+                            "$HORIZONTAL",
+                            "djump",
+                            "$AIRSTALL",
+                            "ulv"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - True Believer's Note",
+                "name": "Cliffside Hamlet - Village_04 - Relic",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2330,
+                        "y": 700
+                    }
+                ],
+                "access_rules": [
+                    "$village04ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Bloodstained Ribbon",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LEDGE2",
+                            "hook",
+                            "claws, $LEDGE",
+                            "verboten,$HORIZONTAL",
+                            "silva, $HORIZONTAL, $AIRSTALL",
+                            "djump, silva, $AIRSTALL",
+                            "dodge2, silva"                            
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_04 - Stagnant Blight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2250,
+                        "y": 850
+                    }
+                ],
+                "access_rules": [
+                    "$village04ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_04 - Amulet Fragment",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2043,
+                        "y": 680
+                    }
+                ],
+                "access_rules": [
+                    "$village04ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_04_1 - Sub-Spirit Fight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2210,
+                        "y": 350
+                    }
+                ],
+                "access_rules": [
+                    "$village04_1ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Western Merchant Fight",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_05 - Finding",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -200,9 +340,12 @@
                         "y": 1315
                     }
                 ],
+                "access_rules": [
+                    "$village05ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C3",
+                        "name": "True Believer's Note",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -211,13 +354,13 @@
                         ],
                         "access_rules":
                         [
-                            "$C3ACCESS"
+                            ""
                         ]
                     }
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "Cliffside Hamlet - Village_06 - Amulet Fragment",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -226,9 +369,12 @@
                         "y": 1150
                     }
                 ],
+                "access_rules": [
+                    "$village06LeftACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -236,14 +382,14 @@
                         ],
                         "access_rules":
                         [
-                            "$C4ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "2 Stagnant Blights x10",
+                "name": "Cliffside Hamlet - Village_06 - x2 Stagnant Blights",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -251,9 +397,12 @@
                         "y": 1330
                     }
                 ],
+                "access_rules": [
+                    "$village06LeftACCESS, hammer"
+                ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "x2 Stagnant Blights x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -261,17 +410,16 @@
                         ],
                         "access_rules": 
                         [
-                            "$C4ACCESS,hammer,claws",
-                            "$C4ACCESS,hammer,hook",
-                            "$C4ACCESS,hammer,verboten,djump",
-                            "$C4ACCESS,hammer,verboten,silva"
+                            "claws",
+                            "hook",
+                            "$LEDGE2"
                         ],
                         "item_count": 2
                     }
                 ]
             },
             {
-                "name": "Furious Blight x10",
+                "name": "Cliffside Hamlet - Village_06 - Furious Blight Lower",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -279,9 +427,12 @@
                         "y": 1330
                     }
                 ],
+                "access_rules": [
+                    "$village06RightACCESS, hammer"
+                ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Furious Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -289,14 +440,14 @@
                         ],
                         "access_rules":
                         [
-                            "$C4ACCESS,hammer"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x10",
+                "name": "Cliffside Hamlet - Village_06 - Furious Blight Upper",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -304,9 +455,12 @@
                         "y": 1180
                     }
                 ],
+                "access_rules": [
+                    "$village06RightACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Furious Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -314,16 +468,16 @@
                         ],
                         "access_rules": 
                         [
-                            "$C4ACCESS,hook",
-                            "$C4ACCESS,claws",
-                            "$C4ACCESS,$LEDGE"
+                            "hook",
+                            "claws",
+                            "$LEDGE"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
+                "name": "Cliffside Hamlet - Village_06 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -331,9 +485,12 @@
                         "y": 1150
                     }
                 ],
+                "access_rules": [
+                    "$village06RightACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C4",
+                        "name": "Stagnant Blight x30",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -341,22 +498,18 @@
                         ],
                         "access_rules": 
                         [
-                            "$C4ACCESS,claws,$LEDGE",
-                            "$C4ACCESS,$LEDGE2",
-                            "$C4ACCESS,plume,verboten",
-                            "$C4ACCESS,plume,djump",
-                            "$C4ACCESS,plume,sinner",
-                            "$C4ACCESS,sinner,silva",
-                            "$C4ACCESS,$HORIZONTAL,verboten",
-                            "$C4ACCESS,$HORIZONTAL2,hook",
-                            "$C4ACCESS,djump,$HORIZONTAL"
+                            "claws, $LEDGE",
+                            "$LEDGE2",
+                            "$HORIZONTAL, silva",
+                            "$HORIZONTAL, djump",
+                            "sinner, verboten"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x10",
+                "name": "Cliffside Hamlet - Village_07 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -364,9 +517,12 @@
                         "y": 780
                     }
                 ],
+                "access_rules": [
+                    "$village07ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C5",
+                        "name": "Furious Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -374,19 +530,17 @@
                         ],
                         "access_rules":
                         [
-                            "$C5ACCESS,hook,djump",
-                            "$C5ACCESS,hook,silva",
-                            "$C5ACCESS,hook,verboten",
-                            "$C5ACCESS,djump,silva",
-                            "$C5ACCESS,verboten,silva",
-                            "$C5ACCESS,djump,verboten"
+                            "hook",
+                            "djump,silva",
+                            "verboten,silva",
+                            "djump,verboten"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
+                "name": "Cliffside Hamlet - Village_07 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -394,9 +548,12 @@
                         "y": 780
                     }
                 ],
+                "access_rules": [
+                    "$village07ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C5",
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -404,14 +561,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C5ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "name": "Cliffside Hamlet - Village_07 - Chain of Sorcery",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -419,9 +576,12 @@
                         "y": 772
                     }
                 ],
+                "access_rules": [
+                    "$village07ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C5",
+                        "name": "Chain of Sorcery (+1 Relic Slot)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -437,7 +597,7 @@
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
+                "name": "Cliffside Hamlet - Village_08 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -445,9 +605,12 @@
                         "y": 1360
                     }
                 ],
+                "access_rules": [
+                    "$village08ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C6",
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -455,14 +618,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C6ACCESS,aquatic"
+                            "aquatic"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "Cliffside Hamlet - Village_08 - Amulet Fragment",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -470,9 +633,12 @@
                         "y": 1300
                     }
                 ],
+                "access_rules": [
+                    "$village08ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C6",
+                        "name": "Amulet Fragment (+5 HP)",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -480,14 +646,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C6ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Headless Defender Fight",
+                "name": "Cliffside Hamlet - Village_08 - Sub-Spirit Fight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -495,9 +661,12 @@
                         "y": 1240
                     }
                 ],
+                "access_rules": [
+                    "$village08ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C6",
+                        "name": "Headless Defender Fight",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -505,14 +674,14 @@
                         ],
                         "access_rules": 
                         [
-                            "$C6ACCESS"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Finding - Hamlet Request I",
+                "name": "Cliffside Hamlet - Village_09 - Finding Lower",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -520,9 +689,13 @@
                         "y": 1150
                     }
                 ],
+                "access_rules": [
+                    "$village08ACCESS",
+                    "$village07ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C7",
+                        "name": "Hamlet Request I",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -531,13 +704,13 @@
                         ],
                         "access_rules":
                         [
-                            "$C7ACCESS"
+                            ""
                         ]
                     }
                 ]
             },
             {
-                "name": "Finding - Adherent's Letter",
+                "name": "Cliffside Hamlet - Village_09 - Finding Upper",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -545,9 +718,13 @@
                         "y": 1090
                     }
                 ],
+                "access_rules": [
+                    "$village08ACCESS",
+                    "$village07ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C7",
+                        "name": "Adherent's Letter",
                         "item_count": 1,
                         "visibility_rules": 
                         [
@@ -556,115 +733,13 @@
                         ],
                         "access_rules":
                         [
-                            "$C7ACCESS"
+                            ""
                         ]
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 1990,
-                        "y": 2300
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C9",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules":
-                        [
-                            "$C9ACCESS1"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Giant's Ring",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2050,
-                        "y": 2430
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C9",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C9ACCESS1,aquatic"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Chain Of Sorcery (+1 Relic Slot) (In Barrel)",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2300,
-                        "y": 2320
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C9",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_chains"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C9ACCESS2"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Amulet Gem (+20 HP)",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2180,
-                        "y": 2230
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "C9",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C9ACCESS2,$LEDGE2",
-                            "$C9ACCESS2,$LEDGE,$HORIZONTAL",
-							"$C9ACCESS2,djump,ulv"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Stagnant Blight x10",
+                "name": "Cliffside Hamlet - Village_12 - Stagnant Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -672,9 +747,12 @@
                         "y": 2500
                     }
                 ],
+                "access_rules": [
+                    "$village12ACCESS"
+                ],
                 "sections": [
                     {
-                        "name": "C10",
+                        "name": "Stagnant Blight x10",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -682,14 +760,291 @@
                         ],
                         "access_rules": 
                         [
-                            "$C10ACCESS9"
+                            ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Fretia's Ring",
+                "name": "Cliffside Hamlet - Village_13 - Stagnant Blight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 1990,
+                        "y": 2300
+                    }
+                ],
+                "access_rules": [
+                    "$village13LeftACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_13 - Relic",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2050,
+                        "y": 2430
+                    }
+                ],
+                "access_rules": [
+                    "$village13LeftACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Giant's Ring",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_relics"
+                        ],
+                        "access_rules": 
+                        [
+                            "aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_13 - Chain of Sorcery (In Crate)",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2300,
+                        "y": 2320
+                    }
+                ],
+                "access_rules": [
+                    "$village13RightACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Chain of Sorcery (+1 Relic Slot)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_chains"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_13 - Amulet Gem",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 2180,
+                        "y": 2230
+                    }
+                ],
+                "access_rules": [
+                    "$village13RightACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Gem (+20 HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$LEDGE2",
+                            "$LEDGE,$HORIZONTAL",
+							"djump,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_14 - Furious Blight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5500,
+                        "y": 500
+                    }
+                ],
+                "access_rules": [
+                    "$village14ACCESS, hammer"
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "claws,$LEDGE",
+                            "$FULLSILVA",
+                            "hook"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_14 - Stagnant Blight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5940,
+                        "y": 480
+                    }
+                ],
+                "access_rules": [
+                    "$village14ACCESS, hammer"
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "djump,dodge2,claws",
+                            "djump,dodge2,dash",
+                            "djump,dodge2,ulv,plume",
+                            "djump,dodge2,ulv,fretia",
+                            "dodge2,verboten,claws",
+                            "dodge2,verboten,ulv,fretia",
+                            "sinner,verboten",
+                            "dodge2,silva,claws",
+                            "sinner,silva",
+                            "djump,sinner",
+                            "$HORIZONTAL2,plume",
+                            "hook",
+                            "silva,djump,claws",
+                            "djump,silva,ulv,fretia",
+                            "verboten,djump,ulv,fretia",
+                            "plume,silva,djump,ulv",
+                            "plume,verboten,silva,ulv,fretia",
+                            "$FULLSILVA"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_14 - Sub-Spirit Fight",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5720,
+                        "y": 300
+                    }
+                ],
+                "access_rules": [
+                    "$village14ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Cliffside Hamlet Elder Fight",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_spirits"
+                        ],
+                        "access_rules": 
+                        [
+                            "plume",
+                            "$LEDGE",
+                            "hook,$HORIZONTAL",
+                            "hook,ulv",
+                            "hook, $AIRSTALL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_16 - Finding",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3210,
+                        "y": 2810
+                    }
+                ],
+                "access_rules": [
+                    "$village12ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Faden's Letter",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$CHARGE"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cliffside Hamlet - Village_16 - Tablet",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3150,
+                        "y": 2810
+                    }
+                ],
+                "access_rules": [
+                    "$village12ACCESS"
+                ],
+                "sections": [
+                    {
+                        "name": "Hamlet Stone Tablet Fragment",
+                        "visibility_rules": 
+                        [
+                            "setting_all",
+                            "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CHARGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs - Cave_01 - Relic",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -699,7 +1054,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C11",
+                        "name": "Fretia's Ring",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -707,20 +1062,20 @@
                         ],
                         "access_rules": 
                         [
-                            "$C11ACCESS",
-                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
+                            "$cave01ACCESS",
+                            "$catacombsREV, claws, $FULLSILVA, dash",
+                            "$catacombsREV, $FULLJUMP",
+                            "$catacombsREV, claws, $LEDGE2, $HORIZONTAL2",
+                            "$catacombsREV, claws, silva, $HORIZONTAL2",
+                            "$catacombsREV, claws, silva, sinner, djump, dash",
+                            "$catacombsREV, claws, dash, djump, verboten, sinner"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Furious Blight x800",
+                "name": "Catacombs - Cave_01 - Furious Blight",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -730,7 +1085,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "C11",
+                        "name": "Furious Blight x800",
                         "visibility_rules": 
                         [
                             "setting_all",
@@ -738,266 +1093,319 @@
                         ],
                         "access_rules":
                         [
-                            "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump",
-                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
-                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
+                            "$cave01ACCESS, $FULLJUMP, $HORIZONTAL2",
+                            "$catacombsREV, claws, $FULLSILVA",
+                            "$catacombsREV, claws, djump, $HORIZONTAL2",
+                            "$catacombsREV, $LEDGE2, $HORIZONTAL"
                         ],
                         "item_count": 1
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
             {
-                "name": "Finding - True Believer's Note",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 3210,
-                        "y": 2810
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C12",
-                        "item_count": 1,
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_findings"
-                        ],
-                        "access_rules":
-                        [
-                            "$C10ACCESS9,dash,lance"
-                        ]
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_02 - Stagnant Blight Left/Stagnant Blight x30",
+                        "name": "Village 02 - Stagnant Blight x30 Left"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_02 - Amulet Fragment (In Crate)/Amulet Fragment (+5 HP)",
+                        "name": "Village 02 - Amulet Fragment (In Crate)"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_02 - Stagnant Blight Right/Stagnant Blight x10",
+                        "name": "Village 02 - Stagnant Blight x10 Right"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 4545,
+                        "y": 2230
                     }
                 ]
             },
             {
-                "name": "Stone Tablet Fragment",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 3150,
-                        "y": 2810
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C12",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_c_end"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C10ACCESS9,dash,lance"
-                        ],
-                        "item_count": 1
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_03 - Furious Blight/Furious Blight x10",
+                        "name": "Village 03 - Furious Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_03 - Amulet Fragment (In Barrel)/Amulet Fragment (+5 HP)",
+                        "name": "Village 03 - Amulet Fragment (In Crate)"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_03 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Village 03 - Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_03 - Relic/Broken Music Box",
+                        "name": "Village 03 - Broken Music Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5000,
+                        "y": 2075
                     }
                 ]
             },
             {
-                "name": "Bloodstained Ribbon",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2330,
-                        "y": 700
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_relics"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS,$LEDGE2",
-                            "$C13ACCESS,hook,djump",
-                            "$C13ACCESS,hook,$HORIZONTAL",
-                            "$C13ACCESS,hook,dash",
-                            "$C13ACCESS,djump,$HORIZONTAL"
-                        ],
-                        "item_count": 1
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_04 - Relic/Bloodstained Ribbon",
+                        "name": "Village 04 - Bloodstained Ribbon"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_04 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Village 04 - Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_04 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Village 04 - Amulet Fragment"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5170,
+                        "y": 1860
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x10",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2250,
-                        "y": 850
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_04_1 - Sub-Spirit Fight/Western Merchant Fight",
+                        "name": "Village 04_1 - Western Merchant Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5110,
+                        "y": 1710
                     }
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP)",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 1923,
-                        "y": 680
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C13",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_amulets"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_05 - Finding/True Believer's Note",
+                        "name": "Village 05 Collapsed Shack - True Believer's Note"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5460,
+                        "y": 2050
                     }
                 ]
             },
             {
-                "name": "Western Merchant Fight",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 2210,
-                        "y": 350
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C14",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C13ACCESS"
-                        ],
-                        "item_count": 1
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_06 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Village 06 - Amulet Fragment"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_06 - x2 Stagnant Blights/x2 Stagnant Blights x10",
+                        "name": "Village 06 - 2x Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_06 - Furious Blight Lower/Furious Blight x10",
+                        "name": "Village 06 - Furious Blight x10 Lower"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_06 - Furious Blight Upper/Furious Blight x10",
+                        "name": "Village 06 - Furious Blight x10 Upper"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_06 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Village 06 - Stagnant Blight x30"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5850,
+                        "y": 2040
                     }
                 ]
             },
             {
-                "name": "Furious Blight x30",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 5500,
-                        "y": 500
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C15",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C15ACCESS,hammer,claws,$LEDGE",
-                            "$C15ACCESS,hammer,$FULLSILVA",
-                            "$C15ACCESS,hammer,hook"
-                        ],
-                        "item_count": 1
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_07 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Village 07 - Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_07 - Furious Blight/Furious Blight x10",
+                        "name": "Village 07 - Furious Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_07 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
+                        "name": "Village 07 - Chain of Sorcery"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6510,
+                        "y": 1880
                     }
                 ]
             },
             {
-                "name": "Stagnant Blight x30",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 5940,
-                        "y": 480
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C15",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_blight"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C15ACCESS,hammer,djump,dodge2,claws",
-                            "$C15ACCESS,hammer,djump,dodge2,dash",
-                            "$C15ACCESS,hammer,djump,dodge2,ulv,plume",
-                            "$C15ACCESS,hammer,djump,dodge2,ulv,fretia",
-                            "$C15ACCESS,hammer,dodge2,verboten,claws",
-                            "$C15ACCESS,hammer,dodge2,verboten,ulv,fretia",
-                            "$C15ACCESS,hammer,sinner,verboten",
-                            "$C15ACCESS,hammer,dodge2,silva,claws",
-                            "$C15ACCESS,hammer,sinner,silva",
-                            "$C15ACCESS,hammer,djump,sinner",
-                            "$C15ACCESS,hammer,$HORIZONTAL2,plume",
-                            "$C15ACCESS,hammer,hook",
-                            "$C15ACCESS,hammer,silva,djump,claws",
-                            "$C15ACCESS,hammer,djump,silva,ulv,fretia",
-                            "$C15ACCESS,hammer,verboten,djump,ulv,fretia",
-                            "$C15ACCESS,hammer,plume,silva,djump,ulv",
-                            "$C15ACCESS,hammer,plume,verboten,silva,ulv,fretia",
-                            "$C15ACCESS,hammer,$FULLSILVA"
-                        ],
-                        "item_count": 1
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_08 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Village 08 - Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_08 - Amulet Fragment/Amulet Fragment (+5 HP)",
+                        "name": "Village 08 - Amulet Fragment"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_08 - Sub-Spirit Fight/Headless Defender Fight",
+                        "name": "Village 08 - Headless Defender Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6510,
+                        "y": 2060
                     }
                 ]
             },
             {
-                "name": "Cliffside Hamlet Elder Fight",
-                "map_locations": [
-                    {
-                        "map": "CliffsideHamletWest",
-                        "x": 5720,
-                        "y": 300
-                    }
-                ],
                 "sections": [
                     {
-                        "name": "C15",
-                        "visibility_rules": 
-                        [
-                            "setting_all",
-                            "setting_spirits"
-                        ],
-                        "access_rules": 
-                        [
-                            "$C15ACCESS,plume",
-                            "$C15ACCESS,$LEDGE",
-                            "$C15ACCESS,hook,$HORIZONTAL",
-                            "$C15ACCESS,hook,ulv"
-                        ],
-                        "item_count": 1
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_09 - Finding Lower/Hamlet Request I",
+                        "name": "Village 09 Bridgehead - Hamlet Request I"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_09 - Finding Upper/Adherent's Letter",
+                        "name": "Village 09 Bridgehead - Adherent's Letter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6972,
+                        "y": 1910
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_12 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Village 12 - Stagnant Blight x10"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5880,
+                        "y": 2350
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_13 - Stagnant Blight/Stagnant Blight x10",
+                        "name": "Village 13 - Stagnant Blight x10"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_13 - Relic/Giant's Ring",
+                        "name": "Village 13 - Giant's Ring"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_13 - Chain of Sorcery (In Crate)/Chain of Sorcery (+1 Relic Slot)",
+                        "name": "Village 13 - Chain of Sorcery (In Crate)"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_13 - Amulet Gem/Amulet Gem (+20 HP)",
+                        "name": "Village 13 - Amulet Gem"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5000,
+                        "y": 2400
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_14 - Furious Blight/Furious Blight x30",
+                        "name": "Village 14 - Furious Blight x30"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_14 - Stagnant Blight/Stagnant Blight x30",
+                        "name": "Village 14 - Stagnant Blight x30"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_14 - Sub-Spirit Fight/Cliffside Hamlet Elder Fight",
+                        "name": "Village 14 - Cliffside Hamlet Elder Fight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6808,
+                        "y": 1685
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_16 - Finding/Faden's Letter",
+                        "name": "Village 16 - Faden's Letter"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_16 - Tablet/Hamlet Stone Tablet Fragment",
+                        "name": "Village 16 - Stone Tablet Fragment"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5515,
+                        "y": 2550
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "ref": "Cliffside Hamlet West/Catacombs - Cave_01 - Relic/Fretia's Ring",
+                        "name": "Cave 01 Bottom of the Well - Fretia's Ring"
+                    },
+                    {
+                        "ref": "Cliffside Hamlet West/Catacombs - Cave_01 - Furious Blight/Furious Blight x800",
+                        "name": "Cave 01 Bottom of the Well - Furious Blight x800"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6570,
+                        "y": 2400
                     }
                 ]
             }

@@ -1,0 +1,25 @@
+{
+    "minimal_grid": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "5,5,5,5",
+      "item_size": "40,40",
+      "rows": [
+        ["silva", "verboten", "ulv", "sinner", "mask"],
+        ["djump", "hammer", "aquatic", "dodge2", "rites"],
+        ["hook", "claws", "dash", "lance", "unlock"],
+        ["ch0", "gomode", "plume", "fretia", "tabletAP"],
+        ["jewel", "gem", "fragment", "relicslot", "wish"]
+      ]
+    },
+      "tracker_default": {
+      "type": "array",
+      "margin": "1,1,1,1",
+      "content": [
+        {
+          "type": "layout",
+          "key": "minimal_grid"
+      }
+    ]
+  }
+}

@@ -4,21 +4,32 @@
     "type": "progressive",
     "allow_disabled": true,
     "loop": "true",
-    "v_alignment": "center",
+    "codes": "gomode",
     "stages": [
       {
-		    "name": "Journey's End",
-		    "img": "images/items/Journeys_End_edited.png",
-		    "codes": "Bend",
-		    "inherit_codes": false
-	    },
-	    {
-        "name": "Dawn Prayer",
-		    "img": "images/items/Dawn_Prayer_edited.png",
-		    "codes": "Cend",
-		    "inherit_codes": false
+            "name": "Journey's End",
+            "img": "images/items/Journeys_End_edited.png"
+        },
+        {
+            "name": "Dawn Prayer",
+            "img": "images/items/Dawn_Prayer_edited.png"
       }
     ]
+  },
+{
+    "name": "Journey's End (b-End)",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/Journeys_End_edited.png",
+    "overlay_background": "#000",
+    "codes": "Bend"
+  },
+  {
+    "name": "Dawn Prayer (c-End)",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/Dawn_Prayer_edited.png",
+    "codes": "Cend"
   },
   {
     "name": "Chapter",
@@ -266,14 +277,6 @@
 	  "swap_actions": false
   },
   {
-    "name": "Witch's Bubble",
-    "type": "toggle",
-    "loop": "false",
-    "img": "images/items/witchs_bubble.png",
-    "codes": "aquatic",
-	  "swap_actions": false
-  },
-  {
     "name": "Health (dummy)",
     "type": "toggle",
     "loop": "false",
@@ -283,7 +286,8 @@
   {
     "name": "Defeat Siegrid",
     "type": "toggle",
-    "codes": "defeatSiegrid"
+    "codes": "defeatSiegrid",
+    "img": "images/spirits/guardian_siegrid.png"
   },
   {
     "name": "Defeat Gerrod",
@@ -299,6 +303,16 @@
     "name": "Defeat Ulv",
     "type": "toggle",
     "codes": "defeatUlv"
+  },
+  {
+    "name": "Stone Tablet Fragment",
+    "type": "consumable",
+    "max_quantity": 7,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/items/stone_tablet.png",
+    "codes": "tabletAP",
+	"swap_actions": false
   },
   {
     "name": "Stone Tablet Cliffs",
