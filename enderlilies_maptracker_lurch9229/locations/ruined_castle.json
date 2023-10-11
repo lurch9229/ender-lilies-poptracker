@@ -628,7 +628,7 @@
                             "claws, dodge2, djump, hook",
                             "claws, $FULLSILVA",
                             "$FULLSILVA, hook",
-                            "$LEDGE3, hook",
+                            "$FULLJUMP, hook",
                             "$LEDGE2, hook, claws",
                             "$LEDGE, $HORIZONTAL, claws, hook"
                         ],
@@ -727,7 +727,7 @@
                             "$LEDGE2, $HORIZONTAL2",
                             "$LEDGE2, dodge2, dash",
                             "silva, $HORIZONTAL2",
-                            "$LEDGE3",
+                            "$FULLJUMP",
                             "sinner, $LEDGE2",
                             ["$MAXJUMP, plume"]
                         ],
@@ -972,7 +972,7 @@
                         [
                             "claws",
                             "$FULLSILVA",
-                            "$LEDGE3"
+                            "$FULLJUMP"
                         ],
                         
                         "item_count": 1

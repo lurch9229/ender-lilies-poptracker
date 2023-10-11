@@ -1062,7 +1062,7 @@
                     }
                 ],
                 "access_rules": [
-                    "outside03ACCESS, claws"
+                    "$outside03ACCESS, claws"
                 ],
                 "sections": [
                     {

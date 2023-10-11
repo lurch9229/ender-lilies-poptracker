@@ -32,6 +32,7 @@ function onClear(slot_data)
             end
         end
     end
+    Tracker:FindObjectForCode("apLayout").Active = true
 end
 
 --called when a location gets cleared

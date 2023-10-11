@@ -66,12 +66,14 @@ end
       Tracker:AddLayouts("minimal_layout/items_minimal.json")
     end
   end
+  finishCEnd()
 end
 
 ScriptHost:AddWatchForCode("useApLayout", "apLayout", apLayoutChange)
 
 
 function finishBEnd()
+  print("toggle b")
   if abyss01ACCESS() == true
   then
     Tracker:FindObjectForCode("Bend").Active = true
@@ -84,6 +86,7 @@ function finishBEnd()
 end
 
 function finishCEnd()
+  print("toggle c")
   if finishBEnd() == true and has ("luminantcurio")
   then
   Tracker:FindObjectForCode("Cend").Active = true

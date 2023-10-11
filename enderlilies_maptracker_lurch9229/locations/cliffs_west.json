@@ -1096,7 +1096,7 @@
                             "$cave01ACCESS, $FULLJUMP, $HORIZONTAL2",
                             "$catacombsREV, claws, $FULLSILVA",
                             "$catacombsREV, claws, djump, $HORIZONTAL2",
-                            "$catacombsREV, $LEDGE2. $HORIZONTAL"
+                            "$catacombsREV, $LEDGE2, $HORIZONTAL"
                         ],
                         "item_count": 1
                     }
