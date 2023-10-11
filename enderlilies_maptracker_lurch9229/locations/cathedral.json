@@ -319,7 +319,8 @@
                 ],
                 "access_rules":
                 [
-                    "$church13ACCESS, $curioACCESS"
+                    "$church13ACCESS, $curioACCESS",
+                    "$church13ACCESS, tabletAP:7"
                 ],
                 "sections": [
                     {

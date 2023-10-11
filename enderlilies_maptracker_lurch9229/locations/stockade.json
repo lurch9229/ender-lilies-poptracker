@@ -732,7 +732,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette11UpperACCESS"
+                    "$oubliette11UpperACCESS"
                 ],
                 "sections": [
                     {
@@ -761,7 +761,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette11UpperACCESS"
+                    "$oubliette11UpperACCESS"
                 ],
                 "sections": [
                     {
@@ -789,7 +789,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette13ACCESS"
+                    "$oubliette13ACCESS"
                 ],
                 "sections": [
                     {
@@ -819,7 +819,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette13ACCESS"
+                    "$oubliette13ACCESS"
                 ],
                 "sections": [
                     {
@@ -847,7 +847,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette13ACCESS, $CHARGE"
+                    "$oubliette13ACCESS, $CHARGE"
                 ],
                 "sections": [
                     {
@@ -875,7 +875,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette13ACCESS"
+                    "$oubliette13ACCESS"
                 ],
                 "sections": [
                     {
@@ -903,7 +903,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette13_1ACCESS"
+                    "$oubliette13_1ACCESS"
                 ],
                 "sections": [
                     {
@@ -931,7 +931,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette11UpperACCESS"
+                    "$oubliette11UpperACCESS"
                 ],
                 "sections": [
                     {
@@ -959,7 +959,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette14ACCESS"
+                    "$oubliette14ACCESS"
                 ],
                 "sections": [
                     {
@@ -987,7 +987,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette15ACCESS"
+                    "$oubliette15ACCESS"
                 ],
                 "sections": [
                     {
@@ -1018,7 +1018,7 @@
                     }
                 ],
                 "access_rules": [
-                    "oubliette16ACCESS"
+                    "$oubliette16ACCESS"
                 ],
                 "sections": [
                     {
@@ -1046,7 +1046,7 @@
                     }
                 ],
                 "access_rules": [
-                    "outside01ACCESS"
+                    "$outside01ACCESS"
                 ],
                 "sections": [
                     {
@@ -1073,7 +1073,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_02 - Finding/Executioner's Vow",
-                        "name": "Oubliette 02 Aqueduct - Executioner's Vow"
+                        "name": "oubliette 02 Aqueduct - Executioner's Vow"
                     }
                 ],
                 "map_locations": [
@@ -1088,15 +1088,15 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_03 - Stagnant Blight Left/Stagnant Blight x10",
-                        "name": "Oubliette 03 - Stagnant Blight x10 Left"
+                        "name": "oubliette 03 - Stagnant Blight x10 Left"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_03 - Stagnant Blight Right/Stagnant Blight x10",
-                        "name": "Oubliette 03 - Stagnant Blight x10 Right"
+                        "name": "oubliette 03 - Stagnant Blight x10 Right"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_03 - Stagnant Blight Center/Stagnant Blight x800",
-                        "name": "Oubliette 03 - Stagnant Blight x800"
+                        "name": "oubliette 03 - Stagnant Blight x800"
                     }
                 ],
                 "map_locations": [
@@ -1111,11 +1111,11 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_04 - Stagnant Blight/Stagnant Blight x30",
-                        "name": "Oubliette 04 - Stagnant Blight x30"
+                        "name": "oubliette 04 - Stagnant Blight x30"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_04 - Furious Blight/Furious Blight x10",
-                        "name": "Oubliette 04 - Furious Blight x10"
+                        "name": "oubliette 04 - Furious Blight x10"
                     }
                 ],
                 "map_locations": [
@@ -1130,11 +1130,11 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_05 - Stagnant Blight/Stagnant Blight x100",
-                        "name": "Oubliette 05 - Stagnant Blight x100"
+                        "name": "oubliette 05 - Stagnant Blight x100"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_05 - Fall From Above/Amulet Gem (+20 HP) + Stagnant Blight x30",
-                        "name": "Oubliette 05 - Fall From Above (Gem and Stagnant x30)"
+                        "name": "oubliette 05 - Fall From Above (Gem and Stagnant x30)"
                     }
                 ],
                 "map_locations": [
@@ -1149,7 +1149,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_05_1 - Furious Blight/Furious Blight x10",
-                        "name": "Oubliette 05_1 - Furious Blight x10"
+                        "name": "oubliette 05_1 - Furious Blight x10"
                     }
                 ],
                 "map_locations": [
@@ -1164,7 +1164,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_05_2 - Stagnant Blight/Stagnant Blight x10",
-                        "name": "Oubliette 05_2 - Stagnant Blight x10"
+                        "name": "oubliette 05_2 - Stagnant Blight x10"
                     }
                 ],
                 "map_locations": [
@@ -1179,7 +1179,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_05_3 - Chain of Sorcery (In Pot)/Chain of Sorcery (+1 Relic Slot)",
-                        "name": "Oubliette 05_3 - Chain of Sorcery (In Pot)"
+                        "name": "oubliette 05_3 - Chain of Sorcery (In Pot)"
                     }
                 ],
                 "map_locations": [
@@ -1194,7 +1194,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06 - Stagnant Blight/Stagnant Blight x10",
-                        "name": "Oubliette 06 - Stagnant Blight x10"
+                        "name": "oubliette 06 - Stagnant Blight x10"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_06 - Amulet Fragment (In Pot)/Amulet Fragment (+5 HP)",
@@ -1202,7 +1202,7 @@
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_06 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
-                        "name" : "Oubliette 06 - Chain of Sorcery"
+                        "name" : "oubliette 06 - Chain of Sorcery"
                     }
                 ],
                 "map_locations": [
@@ -1217,7 +1217,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06_1 - Finding/Hoenir's Diary I",
-                        "name": "Oubliette 06_1 Cells - Hoenir's Diary I"
+                        "name": "oubliette 06_1 Cells - Hoenir's Diary I"
                     }
                 ],
                 "map_locations": [
@@ -1232,7 +1232,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06_2 - Relic/Executioner's Gloves",
-                        "name": "Oubliette 06_2 - Executioner's Gloves"
+                        "name": "oubliette 06_2 - Executioner's Gloves"
                     }
                 ],
                 "map_locations": [
@@ -1247,7 +1247,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06_3 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
-                        "name": "Oubliette 06_3 - Chain of Sorcery"
+                        "name": "oubliette 06_3 - Chain of Sorcery"
                     }
                 ],
                 "map_locations": [
@@ -1262,7 +1262,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06_4 - Tablet/Stockade Stone Tablet Fragment",
-                        "name": "Oubliette 06_4 - Stone Tablet Fragment"
+                        "name": "oubliette 06_4 - Stone Tablet Fragment"
                     }
                 ],
                 "map_locations": [
@@ -1277,7 +1277,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_07_1 - Finding/Forbidden Text Scrap",
-                        "name": "Oubliette 07_1 - Forbidden Text Scrap"
+                        "name": "oubliette 07_1 - Forbidden Text Scrap"
                     }
                 ],
                 "map_locations": [
@@ -1292,7 +1292,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_07_2 - Sub-Spirit Fight/Hidden Test Subject Fight",
-                        "name": "Oubliette 07_2 - Hidden Test Subject Fight"
+                        "name": "oubliette 07_2 - Hidden Test Subject Fight"
                     }
                 ],
                 "map_locations": [
@@ -1307,11 +1307,11 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_08 - Furious Blight Lower/Furious Blight x30",
-                        "name": "Oubliette 08 - Furious Blight x30 Lower"
+                        "name": "oubliette 08 - Furious Blight x30 Lower"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_08 - Furious Blight Upper/Furious Blight x30",
-                        "name": "Oubliette 08 - Furious Blight x30 Upper"
+                        "name": "oubliette 08 - Furious Blight x30 Upper"
                     }
                 ],
                 "map_locations": [
@@ -1326,11 +1326,11 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_09 - x2 Amulet Fragments/x2 Amulet Fragments (+5 HP)",
-                        "name": "Oubliette 09 - x2 Amulet Fragment"
+                        "name": "oubliette 09 - x2 Amulet Fragment"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_09 - Stagnant Blight/Stagnant Blight x30",
-                        "name": "Oubliette 09 - Stagnant Blight x30"
+                        "name": "oubliette 09 - Stagnant Blight x30"
                     }
                 ],
                 "map_locations": [
@@ -1345,7 +1345,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_10 - Finding/Executioner's Missive",
-                        "name": "Oubliette 10 Dark Chamber - Executioner's Missive"
+                        "name": "oubliette 10 Dark Chamber - Executioner's Missive"
                     }
                 ],
                 "map_locations": [
@@ -1360,7 +1360,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_11 - Furious Blight/Furious Blight x10",
-                        "name": "Oubliette 11 - Furious Blight x10"
+                        "name": "oubliette 11 - Furious Blight x10"
                     }
                 ],
                 "map_locations": [
@@ -1375,7 +1375,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_12 - Sub-Spirit Fight/Dark Executioner Fight",
-                        "name": "Oubliette 12 - Dark Executioner Fight"
+                        "name": "oubliette 12 - Dark Executioner Fight"
                     }
                 ],
                 "map_locations": [
@@ -1390,19 +1390,19 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_13 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
-                        "name": "Oubliette 13 - Chain of Sorcery"
+                        "name": "oubliette 13 - Chain of Sorcery"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_13 - Stagnant Blight Left/Stagnant Blight x30",
-                        "name": "Oubliette 13 - Stagnant Blight x30"
+                        "name": "oubliette 13 - Stagnant Blight x30"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_13 - Stagnant Blight Right/Stagnant Blight x100",
-                        "name": "Oubliette 13 - Stagnant Blight x100"
+                        "name": "oubliette 13 - Stagnant Blight x100"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_13 - Finding/Slip of Paper",
-                        "name": "Oubliette 13 - Slip of Paper"
+                        "name": "oubliette 13 - Slip of Paper"
                     }
                 ],
                 "map_locations": [
@@ -1417,7 +1417,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_13_1 - Relic/Aura's Ring",
-                        "name": "Oubliette 13_1 - Aura's Ring"
+                        "name": "oubliette 13_1 - Aura's Ring"
                     }
                 ],
                 "map_locations": [
@@ -1432,7 +1432,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_13_2 - Ancient Soul/Ancient Soul",
-                        "name": "Oubliette 13_2 - Ancient Soul"
+                        "name": "oubliette 13_2 - Ancient Soul"
                     }
                 ],
                 "map_locations": [
@@ -1447,7 +1447,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_14 - Finding/Hoenir's Diary II",
-                        "name": "Oubliette 14 Execution Grounds - Hoenir's Diary II"
+                        "name": "oubliette 14 Execution Grounds - Hoenir's Diary II"
                     }
                 ],
                 "map_locations": [
@@ -1462,7 +1462,7 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_15 - Main Spirit Fight/Hoenir, Keeper Of The Abyss Fight",
-                        "name": "Oubliette 15 - Hoenir, Keeper Of The Abyss Fight"
+                        "name": "oubliette 15 - Hoenir, Keeper Of The Abyss Fight"
                     }
                 ],
                 "map_locations": [
@@ -1477,11 +1477,11 @@
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_16 - Stagnant Blight/Stagnant Blight x10",
-                        "name": "Oubliette 16 - Stagnant Blight x10"
+                        "name": "oubliette 16 - Stagnant Blight x10"
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_16 - Priestess' Wish/Priestess' Wish (Prayer Upgrade)",
-                        "name": "Oubliette 16 - Priestess' Wish"
+                        "name": "oubliette 16 - Priestess' Wish"
                     }
                 ],
                 "map_locations": [

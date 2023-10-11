@@ -69,3 +69,26 @@ end
 end
 
 ScriptHost:AddWatchForCode("useApLayout", "apLayout", apLayoutChange)
+
+
+function finishBEnd()
+  if abyss01ACCESS() == true
+  then
+    Tracker:FindObjectForCode("Bend").Active = true
+
+  end
+  if Tracker:FindObjectForCode("gomode").CurrentStage <1 then
+    Tracker:FindObjectForCode("gomode").CurrentStage = 1
+  end
+  return Tracker:FindObjectForCode("Bend").Active 
+end
+
+function finishCEnd()
+  if finishBEnd() == true and has ("luminantcurio")
+  then
+  Tracker:FindObjectForCode("Cend").Active = true
+  if Tracker:FindObjectForCode("gomode").CurrentStage <2 then
+    Tracker:FindObjectForCode("gomode").CurrentStage = 2
+  end
+  end
+end

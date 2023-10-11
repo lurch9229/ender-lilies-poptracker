@@ -120,7 +120,7 @@ function church09ACCESS()
 end
 
 function church13ACCESS()
-  return has ("unlock")  
+  return has ("unlock")
 end
 
 function church14ACCESS()
@@ -647,7 +647,7 @@ function outside01ACCESS()
   or oubliette16ACCESS() and has ("hook") and has ("djump") and has ("dodge2") and has ("verboten") 
   or oubliette16ACCESS() and has ("silva") and has ("djump") and has ("claws") 
   or oubliette16ACCESS() and has ("silva") and has ("djump") and has ("verboten") 
-  or oubliette16ACCESS() and FULLSILVA()  
+  or oubliette16ACCESS() and FULLSILVA()
 end
 
 function outside03ACCESS()

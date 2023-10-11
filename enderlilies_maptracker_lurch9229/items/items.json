@@ -4,21 +4,32 @@
     "type": "progressive",
     "allow_disabled": true,
     "loop": "true",
-    "v_alignment": "center",
+    "codes": "gomode",
     "stages": [
       {
-		    "name": "Journey's End",
-		    "img": "images/items/Journeys_End_edited.png",
-		    "codes": "Bend",
-		    "inherit_codes": false
-	    },
-	    {
-        "name": "Dawn Prayer",
-		    "img": "images/items/Dawn_Prayer_edited.png",
-		    "codes": "Cend",
-		    "inherit_codes": false
+            "name": "Journey's End",
+            "img": "images/items/Journeys_End_edited.png"
+        },
+        {
+            "name": "Dawn Prayer",
+            "img": "images/items/Dawn_Prayer_edited.png"
       }
     ]
+  },
+{
+    "name": "Journey's End (b-End)",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/Journeys_End_edited.png",
+    "overlay_background": "#000",
+    "codes": "Bend"
+  },
+  {
+    "name": "Dawn Prayer (c-End)",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/Dawn_Prayer_edited.png",
+    "codes": "Cend"
   },
   {
     "name": "Chapter",

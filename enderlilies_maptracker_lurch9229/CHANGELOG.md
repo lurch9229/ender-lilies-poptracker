@@ -2,9 +2,11 @@
 
 2.0.0
 
+- Changelog Format now using new layout
+
 - Added a button in settings to change layouts between standalone and AP. Slot Data will read this and toggle upon AP connection
 
-- Changelog Format now using new layout
+- AP Variant layout reworked due to tablets being progressive and not region locked in MW build
 
 - Huge Logic Refactor
 
@@ -16,13 +18,13 @@
 
 - World map now uses other map locations as a ref, so removing on one map will remove from both
 
-- AP Variant layout reworked due to tablets being progressive and not region locked in MW build
+- Removed unused variants until requested they are added back to reduce pack lag
 
 V 1.3.0
 
 - Added Starting Location setting
 - Fixed setting layout
-- FIxed logic for Aegis curio and the finding next to it
+- Fixed logic for Aegis curio and the finding next to it
 - Changed room IDs to match In-Game and Randomizer IDs
 - Made some connectors on maps more visible on smaller window sizes
 - Added a simple tutorial on how to use the poptracker program

@@ -36,5 +36,5 @@ elseif (string.find(Tracker.ActiveVariantUID,"map_tracker")) then
     Tracker:AddLocations("locations/ruined_castle.json")
     Tracker:AddLocations("locations/verboten_domain.json")
     Tracker:AddLayouts("layouts/broadcast_horizontal.json")
-    Tracker:AddLayouts("layouts/tracker_worldmap.json")
+    Tracker:AddLayouts("layouts/tracker_standard.json")
 end
