@@ -223,7 +223,7 @@ function village14ACCESS()
 end
 
 function village15ACCESS()
-  return village09ACCESS() and has ("aquatic")  
+  return village09ACCESS() and has ("aquatic")
 end
 
 function village15ACCESSFromFort()
@@ -446,17 +446,17 @@ function fort01ACCESSFromCastle()
 end
 
 function fort01ACCESSFromVillage()
-  return village15ACCESS() and has ("claws") and HORIZONTAL2() 
-  or village15ACCESS() and has ("claws") and FULLSILVA() and HORIZONTAL() 
-  or village15ACCESS() and has ("claws") and HORIZONTAL2() and has ("verboten") 
-  or village15ACCESS() and has ("claws") and has ("dodge2") and has ("dash") and has ("verboten") and has ("silva") 
+  return village15ACCESS() and has ("claws") and HORIZONTAL2()
+  or village15ACCESS() and has ("claws") and has ("sinner") and has ("verboten")
+  or village15ACCESS() and has ("claws") and has ("sinner") and has ("djump")
+  or village15ACCESS() and has ("claws") and has ("dodge2") and has ("silva")
+  or village15ACCESS() and has ("claws") and LEDGE2() and HORIZONTAL()
+  or village15ACCESS() and has ("claws") and has ("dodge2") and has ("verboten")
   or village15ACCESS() and has ("claws") and has ("hook") and HORIZONTAL() 
-  or village15ACCESS() and has ("claws") and has ("hook") and has ("djump") 
-  or village15ACCESS() and has ("claws") and has ("hook") and has ("verboten") 
-  or village15ACCESS() and has ("silva") and has ("djump") and has ("hook") 
-  or village15ACCESS() and has ("silva") and has ("dodge2") and has ("hook") 
-  or village15ACCESS() and has ("silva") and has ("verboten") and has ("dodge2") and has ("hook") 
-  or village15ACCESS() and has ("claws") and has ("dodge") and has ("silva")  
+  or village15ACCESS() and has ("claws") and has ("hook") and LEDGE()
+  or village15ACCESS() and has ("claws") and has ("hook") and has ("dash")
+  or village15ACCESS() and LEDGE2() and has ("hook")
+  
 end
 
 function fort02ACCESS()
