@@ -292,17 +292,20 @@
   {
     "name": "Defeat Gerrod",
     "type": "toggle",
-    "codes": "defeatGerrod"
+    "codes": "defeatGerrod",
+    "img": "images/spirits/gerrod.png"
   },
   {
     "name": "Defeat Hoenir",
     "type": "toggle",
-    "codes": "defeatHoenir"
+    "codes": "defeatHoenir",
+    "img": "images/spirits/hoenir.png"
   },
   {
     "name": "Defeat Ulv",
     "type": "toggle",
-    "codes": "defeatUlv"
+    "codes": "defeatUlv",
+    "img": "images/spirits/ulv.png"
   },
   {
     "name": "Stone Tablet Fragment",
