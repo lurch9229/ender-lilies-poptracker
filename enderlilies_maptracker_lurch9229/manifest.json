@@ -1,26 +1,26 @@
 {
 	"name": "Ender Lilies Randomizer PopTracker",
 	"game_name": "Ender Lilies",
-	"package_version": "1.3.0LayoutSwitch",
+	"package_version": "2.0.1-D",
 	"package_uid": "enderlilies_maptracker_lurch9229",
 	"author": "Lurch9229",
 	"platform": "PC",
 	"variants": {
 		"map_tracker": {
 			"display_name": "Map Tracker",
-			"flags": [  "ap" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"items_only": {
 			"display_name": "Items Only",
-			"flags": [  "ap" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"minimal_items": {
 			"display_name": "Items Only - Minimal",
-			"flags": [  "ap" ]
+			"flags": [ "uat", "ap" ]
 		},
 		"world_map": {
 			"display_name": "World Map",
-			"flags": [  "ap" ]
+			"flags": [ "uat", "ap" ]
 		}
 	}
 }
