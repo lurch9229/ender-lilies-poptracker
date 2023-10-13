@@ -2,6 +2,12 @@
 
 2.0.0
 
+- Fixed Hosted Items not clearing with AP
+
+- Fixed Village 15 -> Fort 01 ACCESS
+
+- Fixed UAT
+
 - Changelog Format now using new layout
 
 - Added a button in settings to change layouts between standalone and AP. Slot Data will read this and toggle upon AP connection
