@@ -326,6 +326,9 @@
                         "y": 2450
                     }
                 ],
+                "access_rules": [
+                    "$spiresACCESS"
+                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",

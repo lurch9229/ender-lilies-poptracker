@@ -410,11 +410,11 @@ function cave20ACCESS()
 end
 
 function cave21ACCESS()
-  return LEDGE2() 
-  or LEDGE() and HORIZONTAL() 
-  or has ("claws") 
-  or LEDGE2() and HORIZONTAL() 
-  or HORIZONTAL2()  
+  return catacombsACCESS() and LEDGE2() 
+  or catacombsACCESS() and LEDGE() and HORIZONTAL() 
+  or catacombsACCESS() and has ("claws") 
+  or catacombsACCESS() and LEDGE2() and HORIZONTAL() 
+  or catacombsACCESS() and HORIZONTAL2()  
 end
 
 function cave22ACCESS()
