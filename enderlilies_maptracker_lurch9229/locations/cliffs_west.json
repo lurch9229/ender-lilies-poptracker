@@ -590,7 +590,8 @@
                         "access_rules": 
                         [
                             "$LEDGE",
-                            "plume"
+                            ["plume"],
+                            ["$AIRSTALL"]
                         ],
                         "item_count": 1
                     }

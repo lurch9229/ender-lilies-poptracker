@@ -729,7 +729,7 @@
                             "silva, $HORIZONTAL2",
                             "$FULLJUMP",
                             "sinner, $LEDGE2",
-                            ["$MAXJUMP, plume"]
+                            "[$MAXJUMP, plume]"
                         ],
                         
                         "item_count": 1

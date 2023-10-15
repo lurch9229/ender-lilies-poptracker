@@ -1,5 +1,11 @@
 # Changelog
 
+2.0.0-D3
+
+- Fixed missing calls on some locations
+
+- AP tablets now autotrack
+
 2.0.0
 
 - Fixed Hosted Items not clearing with AP

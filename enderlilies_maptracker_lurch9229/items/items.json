@@ -312,7 +312,6 @@
     "type": "consumable",
     "max_quantity": 7,
     "increment": 1,
-    "loop": "false",
     "img": "images/items/stone_tablet.png",
     "codes": "tabletAP",
 	"swap_actions": false

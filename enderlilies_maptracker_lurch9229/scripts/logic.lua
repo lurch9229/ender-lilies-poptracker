@@ -73,16 +73,19 @@ ScriptHost:AddWatchForCode("useApLayout", "apLayout", apLayoutChange)
 
 
 function finishBEnd()
-  print("toggle b")
-  if abyss01ACCESS() == true
-  then
-    Tracker:FindObjectForCode("Bend").Active = true
+  print("can reach b")
+  return abyss01ACCESS()
+end
 
+function toggleBEnd()
+  local bEnd = Tracker:FindObjectForCode("gomode")
+  print("toggle B")
+  if finishBEnd() == true
+  then
+    print("b toggled on")
+    bEnd.Active = true
+    return Tracker:FindObjectForCode("Bend").Active
   end
-  if Tracker:FindObjectForCode("gomode").CurrentStage <1 then
-    Tracker:FindObjectForCode("gomode").CurrentStage = 1
-  end
-  return Tracker:FindObjectForCode("Bend").Active 
 end
 
 function finishCEnd()

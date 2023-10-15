@@ -298,8 +298,12 @@ function forest07RightACCESS()
   or forest07ACCESS() and has ("hook") 
   or forest07ACCESS() and LEDGE2() 
   or forest07ACCESS() and has ("sinner") 
-  or forest07ACCESS() and has ("dodge2") and has ("dash") 
-  or forest07ACCESS() and has ("djump") and has ("dash")  
+  or forest07ACCESS() and has ("dodge2") and has ("dash")
+  or forest07ACCESS() and has ("dodge2") and LEDGE() 
+  or forest07ACCESS() and has ("djump") and has ("dash")
+  or forest07ACCESS() and has ("verboten") and has ("dash")
+  or forest07ACCESS() and has ("silva") and has ("dash") and has ("claws")
+  or forest07ACCESS() and has ("silva") and has ("dash") and AIRSTALL()
 end
 
 function forest08ACCESS()
@@ -560,7 +564,7 @@ end
 
 function oubliette06_3ACCESS()
   return oubliette07ACCESS() and has ("hook") and LEDGE() 
-  or oubliette07ACCESS() and has ("hook") and HORZONTAL() 
+  or oubliette07ACCESS() and has ("hook") and HORIZONTAL() 
   or oubliette07ACCESS() and FULLJUMP() 
   or oubliette07ACCESS() and has ("silva") and has ("djump") 
   or oubliette07ACCESS() and has ("silva") and has ("dodge2")  

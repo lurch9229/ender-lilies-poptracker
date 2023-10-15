@@ -56,7 +56,7 @@ trackedConsumables = {
     ["Spirit.s2232"] = "fellwyrm",
     ["Parameter.i_maxHPUp_01"] = "fragment",
     ["Parameter.i_maxHPUp_02"] = "gem",
-    -- ["Generic.i_FinalPassivePart_Up"] = "tablet",
+    ["Generic.i_FinalPassivePart_Up"] = "tabletAP",
     ["Generic.i_PassiveSlot_Up"] = "relicslot",
     ["Generic.i_HealPower_Up"] = "wish",
 }

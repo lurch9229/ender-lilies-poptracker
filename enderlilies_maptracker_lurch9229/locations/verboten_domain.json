@@ -1102,7 +1102,7 @@
                         [
                             "claws, $LEDGE, $HORIZONTAL,",
                             "$HORIZONTAL2",
-                            ["$FULLSILVA, ulv"],
+                            "[$FULLSILVA, ulv]",
                             "claws, $LEDGE2, dash",
                             "claws, silva, djump, dash"
                         ],
