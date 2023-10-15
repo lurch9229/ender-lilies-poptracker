@@ -2,6 +2,8 @@
 
 2.0.0-D3
 
+- Logic Fixes
+
 - Fixed missing calls on some locations
 
 - AP tablets now autotrack
