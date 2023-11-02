@@ -223,7 +223,7 @@
                         ],
                         "access_rules": 
                         [
-                            ["$oubliette05_2ACCESS", "claws", "$MAXJUMP"]
+                            ""
                         ],
                         "item_count": 2,
                         "clear_as_group": true
@@ -268,7 +268,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$oubliette05TopACCESS"
+                    "$oubliette05TopACCESS",
+                    "[$oubliette05_2ACCESS, claws, $FULLSILVA, plume]"
                 ],
                 "sections": [
                     {
@@ -280,7 +281,7 @@
                         ],
                         "access_rules": 
                         [
-                            ["$oubliette05_2ACCESS", "claws", "$MAXJUMP"]
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -626,7 +627,7 @@
                             "$FULLJUMP, sinner",
                             "sinner, djump, verboten, dash",
                             "sinner, silva, djump, dash",
-                            ["silva, djump, ulv, fretia"]
+                            "[silva, djump, ulv, fretia]"
                         ],
                         "item_count": 1
                     }
@@ -658,7 +659,7 @@
                             "claws",
                             "$FULLJUMP, sinner",
                             "$MAXJUMP, dash",
-                            ["silva, ulv, djump ,dodge2"]
+                            "[silva, ulv, djump ,dodge2]"
                         ],
                         "item_count": 2
                     }

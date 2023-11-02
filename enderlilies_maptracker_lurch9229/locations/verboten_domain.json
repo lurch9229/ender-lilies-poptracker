@@ -568,7 +568,7 @@
                             "claws, verboten, $HORIZONTAL",
                             "claws, verboten, djump",
                             "silva, djump, claws",
-                            ["silva, djump, plume"]
+                            "[silva, djump, plume]"
                         ],
                         "item_count": 1
                     }
@@ -1262,7 +1262,7 @@
                         "name": "Swamp 03 - Stagnant Blight x30"
                     },
                     {
-                        "ref": "Verboten Domain/Verboten Domain - Swamp_3 - Amulet Fragment(In Crate)/Amulet Fragment (+5 HP)",
+                        "ref": "Verboten Domain/Verboten Domain - Swamp_3 - Amulet Fragment (In Crate)/Amulet Fragment (+5 HP)",
                         "name": "Swamp 03 - Amulet Fragment (In Crate)"
                     }
                 ],

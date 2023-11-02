@@ -340,7 +340,7 @@
                             "$LEDGE",
                             "hook",
                             "$HORIZONTAL",
-                            ["ulv"]
+                            "[ulv]"
                         ],
                         "item_count": 1
                     }
@@ -439,8 +439,8 @@
                             "$LEDGE",
                             "$HORIZONTAL",
 							"dash",
-                            ["$AIRSTALL2"],
-                            ["ulv"]
+                            "[$AIRSTALL2]",
+                            "[ulv]"
                         ],
                         "item_count": 1
                     }
@@ -473,7 +473,7 @@
                             "hook",
                             "$LEDGE",
                             "$HORIZONTAL",
-                            ["ulv, fretia"]
+                            "[ulv, fretia]"
                         ],
                         "item_count": 1
                     }
@@ -508,7 +508,7 @@
                             "claws, sinner",
                             "$LEDGE, $HORIZONTAL",
                             "dodge2,dash,claw",
-                            ["ulv, fretia"]
+                            "[ulv, fretia]"
                         ],
                         "item_count": 1
                     }
@@ -543,7 +543,7 @@
                             "claws",
                             "silva, $AIRSTALL",
                             "silva,dodge2",
-                            ["silva, plume"]
+                            "[silva, plume]"
                         ],
                         "item_count": 1
                     }
@@ -579,7 +579,7 @@
                             "verboten",
                             "silva, $AIRSTALL",
                             "silva,dodge2",
-                            ["silva, plume"]
+                            "[silva, plume]"
                         ]
                     }
                 ]
@@ -761,7 +761,7 @@
                             "$HORIZONTAL",
                             "$LEDGE",
                             "dash",
-                            ["$AIRSTALL2"]
+                            "[$AIRSTALL2]"
                         ],
                         "item_count": 1
                     }
@@ -826,8 +826,8 @@
                             "$LEDGE, claws",
                             "$LEDGE2, $HORIZONTAL",
                             "$FULLSILVA",
-                            ["silva, dodge2, ulv, fretia"],
-                            ["silva, djump, ulv, fretia"]
+                            "[silva, dodge2, ulv, fretia]",
+                            "[silva, djump, ulv, fretia]"
                         ],
                         "item_count": 1
                     }
@@ -1183,7 +1183,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$forest16ACCESS"
+                    "$forest17ACCESS"
                 ],
                 "sections": 
 				[
@@ -1197,7 +1197,7 @@
                         ],
                         "access_rules":
                         [
-                            "hook,$LEDGE",
+                            "hook, $LEDGE",
                             "claws",
                             "silva, djump",
                             "silva, dodge2, verboten"

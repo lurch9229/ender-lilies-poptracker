@@ -129,7 +129,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$spiresACCESS"
+                    "$spiresACCESS, claws"
                 ],
                 "sections": [
                     {
@@ -141,8 +141,9 @@
                         ],
                         "access_rules": 
                         [
-                            "$LEDGE2,claws",
-                            "$LEDGE,$HORIZONTAL"
+                            "verboten",
+                            "djump",
+                            "silva, $HORIZONTAL"
                         ],
                         "item_count": 1
                     }
@@ -342,8 +343,7 @@
                             "claws, $LEDGE",
                             "$MAXJUMP",
                             "$FULLSILVA, dash",
-                            "$FULLSILVA, sinner",
-                            ["$FULLSILVA"]
+                            "$FULLSILVA, sinner"
                         ],
                         "item_count": 1
                     }
@@ -638,8 +638,8 @@
                         "access_rules": 
                         [
                             "aquatic",
-                            ["plume"],
-                            ["LEDGE2"]
+                            "[plume]",
+                            "[LEDGE2]"
                         ],
                         "item_count": 3,
                         "clear_as_group": true

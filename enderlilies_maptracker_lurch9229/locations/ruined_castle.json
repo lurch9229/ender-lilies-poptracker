@@ -377,9 +377,9 @@
                         "access_rules": 
                         [
                             "claws",
-                            ["silva, ulv, djump, dodge2"],
+                            "[silva, ulv, djump, dodge2]",
                             "$FULLSILVA, dodge2",
-                            ["silva, dodge2, djump, plume"],
+                            "[silva, dodge2, djump, plume]",
                             "silva, djump, $HORIZONTAL2"
                         ],
                         
@@ -414,7 +414,7 @@
                             "$HORIZONTAL2",
                             "$FULLSILVA",
                             "sinner, djump",
-                            ["silva, djump, ulv"],
+                            "[silva, djump, ulv]",
                             "silva, djump, dash"
                         ],
                         
@@ -775,7 +775,9 @@
                     }
                 ],
                 "access_rules": [
-                    "$ruinedCastleACCESS"
+                    "$ruinedCastleACCESS",
+                    "[$ruinedCastleACCESS, hook, $FULLJUMP]",
+                    "[$ruinedCastleACCESS, hook, $FULLSILVA]"
                 ],
                 "sections": [
                     {

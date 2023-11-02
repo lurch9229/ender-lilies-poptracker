@@ -1,5 +1,11 @@
 # Changelog
 
+2.0.0-D4
+
+- A whole bunch of Logic Fixes. Thanks to everyone in the Discord for testing and reporting
+
+- Yellow checks (logic breaks) now using correct format and will show properly
+
 2.0.0-D3
 
 - Logic Fixes

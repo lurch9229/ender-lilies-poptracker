@@ -183,7 +183,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$village15ACCESS, claws, FULLSILVA, dodge2",
+                    "$village15ACCESS, claws, silva, dodge2",
                     "$village15ACCESS, claws, djump, $HORIZONTAL2",
                     "$village15ACCESS, claws, $HORIZONTAL2, verboten",
                     "$village15ACCESS, claws, dodge2, dash, verboten, silva",
@@ -193,7 +193,16 @@
 					"$village15ACCESS, silva, dodge2, hook",
                     "$village15ACCESS, silva, djump, hook",
                     "$village15ACCESS, silva, verboten, hook",
-                    "$village15ACCESSFromFort"
+                    "$village15ACCESSFromFort, claws, silva, dodge2",
+                    "$village15ACCESSFromFort, claws, djump, $HORIZONTAL2",
+                    "$village15ACCESSFromFort, claws, $HORIZONTAL2, verboten",
+                    "$village15ACCESSFromFort, claws, dodge2, dash, verboten, silva",
+                    "$village15ACCESSFromFort, hook, claws, $HORIZONTAL",
+                    "$village15ACCESSFromFort, claws, djump, hook",
+					"$village15ACCESSFromFort, claws, hook, verboten",
+					"$village15ACCESSFromFort, silva, dodge2, hook",
+                    "$village15ACCESSFromFort, silva, djump, hook",
+                    "$village15ACCESSFromFort, silva, verboten, hook"
                 ],
                 "sections": [
                     {

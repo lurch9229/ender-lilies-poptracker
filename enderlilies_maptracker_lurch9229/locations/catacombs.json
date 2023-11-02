@@ -186,9 +186,9 @@
                             "$HORIZONTAL",
                             "verboten",
                             "djump",
-                            ["silva, ulv"],
-                            ["ulv, fretia"],
-                            ["plume, silva, $AIRSTALL"]
+                            "[silva, ulv]",
+                            "[ulv, fretia]",
+                            "[plume, silva, $AIRSTALL]"
                         ],
                         "item_count": 1
                     }
@@ -401,7 +401,7 @@
                             "claws",
                             "verboten",
                             "djump",
-                            ["silva, ulv"],
+                            "[silva, ulv]",
                             "$HORIZONTAL"
                         ],
                         "item_count": 1
@@ -464,11 +464,11 @@
                         [
                             "hook",
                             "dodge2, silva",
-                            ["dodge2, ulv"],
+                            "[dodge2, ulv]",
                             "sinner",
                             "djump, dodge2",
-                            ["djump, ulv, fretia"],
-                            ["ulv, fretia, dash"],
+                            "[djump, ulv, fretia]",
+                            "[ulv, fretia, dash]",
                             "$FULLJUMP"
                         ],
                         "item_count": 1
@@ -592,9 +592,9 @@
                             "hook",
                             "$HORIZONTAL",
                             "djump",
-                            ["verboten, ulv"],
+                            "[verboten, ulv]",
                             "silva, verboten",
-                            ["silva, ulv"]
+                            "[silva, ulv]"
                         ],
                         "item_count": 1
                     }
@@ -790,7 +790,7 @@
                         [
                             "$LEDGE",
                             "$HORIZONTAL",
-                            ["ulv"],
+                            "[ulv]",
                             "claws"
                         ],
                         "item_count": 1
@@ -1500,7 +1500,7 @@
                         "name": "Cave 10 - Amulet Fragment (In Pot)"
                     },
                     {
-                        "ref": "Catacombs/Catacombs - Cave_10  - Stagnant Blight/Stagnant Blight x10",
+                        "ref": "Catacombs/Catacombs - Cave_10 - Stagnant Blight/Stagnant Blight x10",
                         "name": "Cave 10 - Stagnant Blight x10"
                     }
                 ],

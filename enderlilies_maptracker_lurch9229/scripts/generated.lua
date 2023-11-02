@@ -9,8 +9,7 @@ end
 function LEDGE2()
   return has ("verboten") and has ("silva") 
   or has ("verboten") and has ("djump") 
-  or has ("silva") and has ("djump") 
-  or has ("silva") and has ("dodge2")  
+  or has ("silva") and has ("djump")
 end
 
 function FULLSILVA()
@@ -251,11 +250,9 @@ end
 
 function castle16ACCESS()
   return ruinedCastleACCESS() and has ("hook") and has ("claws") 
-  or ruinedCastleACCESS() and has ("hook") and FULLSILVA() 
-  or ruinedCastleACCESS() and has ("hook") and FULLJUMP() 
   or ruinedCastleACCESS() and has ("claws") and FULLJUMP() 
-  or ruinedCastleACCESS() and FULLSILVA() and has ("sinner") 
-  or ruinedCastleACCESS() and has ("silva") and has ("sinner") and has ("verboten") and has ("dash")  
+  or ruinedCastleACCESS() and FULLSILVA() and has ("sinner") and has ("claws")
+  or ruinedCastleACCESS() and has ("silva") and has ("sinner") and has ("verboten") and has ("dash") and has ("claws")
 end
 
 function castle20ACCESS()
@@ -395,12 +392,14 @@ function cave07ACCESS()
 end
 
 function cave18ACCESS()
-  return catacombsACCESS() and LEDGE() and HORIZONTAL() 
-  or catacombsACCESS() and has ("silva") and has ("djump") 
-  or catacombsACCESS() and has ("verboten") and has ("djump") 
-  or catacombsACCESS() and has ("hook") 
-  or catacombsACCESS() and has ("sinner") and has ("claws") 
-  or catacombsACCESS() and has ("claws") and LEDGE()  
+  return catacombsACCESS() and LEDGE() and HORIZONTAL()
+  or catacombsACCESS() and has ("silva") and has ("djump")
+  or catacombsACCESS() and has ("verboten") and has ("djump")
+  or catacombsACCESS() and has ("hook")
+  or catacombsACCESS() and has ("sinner") and has ("claws")
+  or catacombsACCESS() and has ("claws") and LEDGE()
+  or catacombsACCESS() and has ("dodge2") and has ("dash")
+  or catacombsACCESS() and LEDGE() and has ("dash") and has ("claws")
 end
 
 function cave17ACCESS()
@@ -472,10 +471,12 @@ function fort02ACCESSFromFort03()
   or fort01ACCESSFromCastle() and has ("silva") and has ("djump") 
   or fort01ACCESSFromCastle() and has ("sinner") 
   or fort01ACCESSFromCastle() and has ("verboten") and has ("dodge2")
+  or fort01ACCESSFromCastle() and LEDGE() and has ("dash")
   or fort01ACCESSFromVillage() and has ("djump") and has ("dodge2") 
   or fort01ACCESSFromVillage() and has ("silva") and has ("djump")
   or fort01ACCESSFromVillage() and has ("verboten") and has ("dodge2")
   or fort01ACCESSFromVillage() and has ("sinner")
+  or fort01ACCESSFromVillage() and LEDGE() and has ("dash")
 end
 
 function fort03ACCESS()
@@ -517,6 +518,7 @@ end
 function oubliette05TopACCESS()
   return oubliette05_2ACCESS() and has ("claws") and has ("hook") and LEDGE() 
   or oubliette05_2ACCESS() and has ("hook") and MAXJUMP()
+  or oubliette05_2ACCESS() and has ("claws") and MAXJUMP()
 end
 
 function oubliette05_1ACCESS()

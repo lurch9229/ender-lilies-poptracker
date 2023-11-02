@@ -86,11 +86,10 @@
                         "access_rules":
                         [
                             "hook",
-                            "djump,silva",
-                            "djump,verboten",
-                            "$HORIZONTAL, silva",
-                            "$HORIZONTAL, djump",
-                            "verboten,silva"
+                            "djump, silva",
+                            "djump, verboten",
+                            "dodge2, silva",
+                            "verboten, silva"
                         ],
                         "item_count": 1
                     }
@@ -590,8 +589,8 @@
                         "access_rules": 
                         [
                             "$LEDGE",
-                            ["plume"],
-                            ["$AIRSTALL"]
+                            "[plume]",
+                            "[$AIRSTALL]"
                         ],
                         "item_count": 1
                     }
@@ -1094,10 +1093,15 @@
                         ],
                         "access_rules":
                         [
-                            "$cave01ACCESS, $FULLJUMP, $HORIZONTAL2",
-                            "$catacombsREV, claws, $FULLSILVA",
-                            "$catacombsREV, claws, djump, $HORIZONTAL2",
-                            "$catacombsREV, $LEDGE2, $HORIZONTAL"
+                            "$cave01ACCESS, $FULLJUMP",
+                            "$catacombsREV, claws, $FULLSILVA, dash",
+                            "$catacombsREV, claws, $LEDGE2, $HORIZONTAL2",
+                            "$catacombsREV, claws, $LEDGE2, $HORIZONTAL",
+                            "$catacombsREV, claws, silva, $HORIZONTAL2",
+                            "$catacombsREV, claws, silva, sinner, djump",
+                            "$catacombsREV, claws, dash, djump, verboten, sinner",
+                            "[$catacombsREV, claws, $FULLSILVA, ulv]"
+
                         ],
                         "item_count": 1
                     }
