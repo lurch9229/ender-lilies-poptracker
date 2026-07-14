@@ -3,72 +3,72 @@
     "name": "Cathedral",
     "location_size": 100,
     "location_border_thickness": 5,
-    "img": "images/maps/Cathedral.png"
+    "img": "images/maps/Cathedral.jpg"
   },
   {
     "name": "WhiteParish",
     "location_size": 100,
     "location_border_thickness": 5,
-    "img": "images/maps/White_Parish.png"
+    "img": "images/maps/White_Parish.jpg"
   },
   {
     "name": "CliffsideHamletWest",
     "location_size": 60,
     "location_border_thickness": 5,
-    "img": "images/maps/Cliffside_Hamlet_W.png"
+    "img": "images/maps/Cliffside_Hamlet_W.jpg"
   },
   {
     "name": "CliffsideHamletEast",
     "location_size": 100,
     "location_border_thickness": 5,
-    "img": "images/maps/Cliffside_Hamlet_E.png"
+    "img": "images/maps/Cliffside_Hamlet_E.jpg"
   },
   {
 	"name": "WitchesThicket",
 	"location_size": 60,
 	"location_border_thickness": 5,
-	"img": "images/maps/Witches_Thicket.png"
+	"img": "images/maps/Witches_Thicket.jpg"
   },
   {
     "name": "Catacombs",
     "location_size": 65,
     "location_border_thickness": 5,
-    "img": "images/maps/Catacombs.png"
+    "img": "images/maps/Catacombs.jpg"
   },
   {
     "name": "TwinSpires",
     "location_size": 60,
     "location_border_thickness": 5,
-    "img": "images/maps/Twin_Spires.png"
+    "img": "images/maps/Twin_Spires.jpg"
   },
   {
     "name": "Stockade",
     "location_size": 60,
     "location_border_thickness": 5,
-    "img": "images/maps/Stockade.png"
+    "img": "images/maps/Stockade.jpg"
   },
   {
     "name": "RuinedCastle",
     "location_size": 60,
     "location_border_thickness": 5,
-    "img": "images/maps/Ruined_Castle.png"
+    "img": "images/maps/Ruined_Castle.jpg"
   },
   {
     "name": "VerbotenDomain",
     "location_size": 100,
     "location_border_thickness": 5,
-    "img": "images/maps/Verboten_Domain.png"
+    "img": "images/maps/Verboten_Domain.jpg"
   },
   {
     "name": "Credits",
     "location_size": 100,
     "location_border_thickness": 5,
-    "img": "images/items/credits.png"
+    "img": "images/items/credits.jpg"
   },
   {
     "name": "WorldMap",
     "location_size": 140,
     "location_border_thickness": 5,
-    "img": "images/maps/full_map.png"
+    "img": "images/maps/full_map.jpg"
   }
 ]

@@ -14,20 +14,15 @@
                         "y": 350
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp3StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -42,20 +37,15 @@
                         "y": 470
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE"
+                        "access_rules": [
+                            "^$Swamp3AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -70,20 +60,15 @@
                         "y": 740
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp04ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -98,20 +83,15 @@
                         "y": 1030
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Verboten Champion Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            "unlock"
+                        "access_rules": [
+                            "^$Swamp04VerbotenChampionFight"
                         ],
                         "item_count": 1
                     }
@@ -126,20 +106,15 @@
                         "y": 1800
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Swamp05StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -154,20 +129,15 @@
                         "y": 1850
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Swamp05FuriousBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -182,20 +152,15 @@
                         "y": 1430
                     }
                 ],
-                "access_rules": [
-                    "$swamp06TopACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Heretic's Mask",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp06HereticsMask"
                         ],
                         "item_count": 1
                     }
@@ -210,20 +175,15 @@
                         "y": 1350
                     }
                 ],
-                "access_rules": [
-                    "$swamp06TopACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp06StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -238,22 +198,15 @@
                         "y": 1450
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS",
-                    "$swamp06TopACCESS, hammer"
-                ],
                 "sections": [
                     {
                         "name": "Verboten Domain Notice",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
-                            
+                        "access_rules": [
+                            "^$Swamp06VerbotenDomainNotice"
                         ],
                         "item_count": 1
                     }
@@ -268,21 +221,15 @@
                         "y": 1755
                     }
                 ],
-                "access_rules": [
-                    "claws"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "$swamp07RightACCESS"
-                            
+                        "access_rules": [
+                            "^$Swamp07AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -297,20 +244,15 @@
                         "y": 2040
                     }
                 ],
-                "access_rules": [
-                    "$swamp07LeftACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Calivia's Ring",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "claws"
+                        "access_rules": [
+                            "^$Swamp07CaliviasRing"
                         ],
                         "item_count": 1
                     }
@@ -325,20 +267,15 @@
                         "y": 2795
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Swamp08FuriousBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -353,20 +290,15 @@
                         "y": 2810
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Gem (+20 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Swamp08AmuletGem"
                         ],
                         "item_count": 1
                     }
@@ -381,20 +313,15 @@
                         "y": 2795
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Swamp08StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -409,20 +336,15 @@
                         "y": 695
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Weathered Necklace",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE"
+                        "access_rules": [
+                            "^$Swamp09WeatheredNecklace"
                         ],
                         "item_count": 1
                     }
@@ -437,21 +359,15 @@
                         "y": 505
                     }
                 ],
-                "access_rules": [
-                    "$domainACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE, $HORIZONTAL",
-                            "silva, djump"
+                        "access_rules": [
+                            "^$Swamp09StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -466,20 +382,15 @@
                         "y": 1410
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Swamp10StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -494,20 +405,15 @@
                         "y": 1330
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Faden's Archives IV",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp10FadensArchivesIV"
                         ],
                         "item_count": 1
                     }
@@ -522,20 +428,15 @@
                         "y": 2270
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Blighted Appendage",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp11BlightedAppendage"
                         ],
                         "item_count": 1
                     }
@@ -550,25 +451,15 @@
                         "y": 2220
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "djump, $HORIZONTAL",
-                            "silva, $HORIZONTAL",
-                            "claws, verboten, $HORIZONTAL",
-                            "claws, verboten, djump",
-                            "silva, djump, claws",
-                            "[silva, djump, plume]"
+                        "access_rules": [
+                            "^$Swamp11AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -583,20 +474,15 @@
                         "y": 2960
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_wishes"
                         ],
-                        "access_rules": 
-                        [
-                            "hammer"
+                        "access_rules": [
+                            "^$Swamp12PriestessWish"
                         ],
                         "item_count": 1
                     }
@@ -611,20 +497,15 @@
                         "y": 2885
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Faden's Archives II",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp12FadensArchivesII"
                         ],
                         "item_count": 1
                     }
@@ -642,14 +523,12 @@
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "$domainACCESS"
+                        "access_rules": [
+                            "^$Swamp13AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -664,20 +543,15 @@
                         "y": 1240
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp13StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -692,21 +566,15 @@
                         "y": 1255
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "claws"
+                        "access_rules": [
+                            "^$Swamp13FuriousBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -721,20 +589,15 @@
                         "y": 1785
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp14StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -749,20 +612,15 @@
                         "y": 2055
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp14ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -777,20 +635,15 @@
                         "y": 2700
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp15StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -805,20 +658,15 @@
                         "y": 3180
                     }
                 ],
-                "access_rules": [
-                    "$swamp13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Incompetent Sinner Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            "mask,aquatic"
+                        "access_rules": [
+                            "^$Swamp15IncompetentSinnerFight"
                         ],
                         "item_count": 1
                     }
@@ -833,20 +681,15 @@
                         "y": 3275
                     }
                 ],
-                "access_rules": [
-                    "$swamp16ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Faden's Archives I",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            "$swamp16ACCESS"
+                        "access_rules": [
+                            "^$Swamp16FadensArchivesI"
                         ],
                         "item_count": 1
                     }
@@ -861,24 +704,15 @@
                         "y": 3220
                     }
                 ],
-                "access_rules": [
-                    "$swamp16ACCESS, claws"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x800",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$FULLJUMP",
-                            "sinner, $LEDGE2",
-                            "$FULLSILVA",
-                            "dodge2, silva, verboten",
-                            "$HORIZONTAL2, verboten, djump"
+                        "access_rules": [
+                            "^$Swamp18StagnantBlightx800"
                         ],
                         "item_count": 1
                     }
@@ -893,46 +727,37 @@
                         "y": 3335
                     }
                 ],
-                "access_rules": [
-                    "$swamp16ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Faden",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp18Faden"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Finding - Miriel's Blighted Letter",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp18FindingMirielsBlightedLetter"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Finding - Faden's Archives V",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Swamp18FindingFadensArchivesV"
                         ],
                         "item_count": 1
                     }
@@ -947,20 +772,15 @@
                         "y": 3630
                     }
                 ],
-                "access_rules": [
-                    "$abyss01ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Silva's Bloodstained Note I",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss01SilvasBloodstainedNoteI"
                         ],
                         "item_count": 1
                     }
@@ -975,20 +795,15 @@
                         "y": 4300
                     }
                 ],
-                "access_rules": [
-                    "$abyss01ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss01FuriousBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -1003,20 +818,15 @@
                         "y": 4850
                     }
                 ],
-                "access_rules": [
-                    "$abyss01ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Silva's Bloodstained Note II",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss02SilvasBloodstainedNoteII"
                         ],
                         "item_count": 1
                     }
@@ -1031,20 +841,15 @@
                         "y": 4725
                     }
                 ],
-                "access_rules": [
-                    "$abyss01ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Fretia's Memoirs V",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss02FretiasMemoirsV"
                         ],
                         "item_count": 1
                     }
@@ -1059,20 +864,15 @@
                         "y": 4850
                     }
                 ],
-                "access_rules": [
-                    "$abyss01ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "White Priestess' Earrings",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss02WhitePriestessEarrings"
                         ],
                         "item_count": 1
                     }
@@ -1087,24 +887,15 @@
                         "y": 4690
                     }
                 ],
-                "access_rules": [
-                    "$abyss01ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "claws, $LEDGE, $HORIZONTAL,",
-                            "$HORIZONTAL2",
-                            "[$FULLSILVA, ulv]",
-                            "claws, $LEDGE2, dash",
-                            "claws, silva, djump, dash"
+                        "access_rules": [
+                            "^$Abyss02AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -1119,20 +910,15 @@
                         "y": 3540
                     }
                 ],
-                "access_rules": [
-                    "$abyss04ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss04StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -1147,20 +933,15 @@
                         "y": 3725
                     }
                 ],
-                "access_rules": [
-                    "$abyss04ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss04StagnantBlightx100_1"
                         ],
                         "item_count": 1
                     }
@@ -1175,20 +956,15 @@
                         "y": 4380
                     }
                 ],
-                "access_rules": [
-                    "$abyss05ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Ancient Soul x2",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss05AncientSoulx2"
                         ],
                         "item_count": 1
                     }
@@ -1203,22 +979,17 @@
                         "y": 4380
                     }
                 ],
-                "access_rules": [
-                    "$abyss05ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Domain Stone Tablet Fragment",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_c_end"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss05DomainStoneTabletFragment"
                         ],
-                        "item_count": 1 
+                        "item_count": 1
                     }
                 ]
             },
@@ -1231,31 +1002,27 @@
                         "y": 4380
                     }
                 ],
-                "access_rules": [
-                    "$abyss05ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "The Deathless Pact",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Abyss05TheDeathlessPact"
                         ],
-                        "item_count": 1 
+                        "item_count": 1
                     }
                 ]
             }
-        ] 
+        ]
     },
     {
-        "item_count": 1,
+        "name": "World Map_8",
         "children": [
             {
+                "name": "Verboten Domain - Swamp 03",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_3 - Stagnant Blight/Stagnant Blight x30",
@@ -1275,6 +1042,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 04",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_04 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
@@ -1294,6 +1062,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 05",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_05 - Stagnant Blight/Stagnant Blight x30",
@@ -1313,6 +1082,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 06",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_06 - Stagnant Blight/Stagnant Blight x30",
@@ -1336,6 +1106,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 07",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_07 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -1355,6 +1126,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 08",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_08 - Furious Blight/Furious Blight x100",
@@ -1378,6 +1150,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 09",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_09 - Relic/Weathered Necklace",
@@ -1397,6 +1170,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 10",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_10 - Stagnant Blight/Stagnant Blight x30",
@@ -1416,6 +1190,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 11",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_11 - Relic/Blighted Appendage",
@@ -1435,6 +1210,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 12",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_12 - Priestess' Wish/Priestess' Wish (Prayer Upgrade)",
@@ -1454,6 +1230,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 13",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_13 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -1477,6 +1254,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 14",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_14 - Stagnant Blight/Stagnant Blight x100",
@@ -1496,6 +1274,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 15",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_15 - Stagnant Blight/Stagnant Blight x30",
@@ -1515,6 +1294,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 16",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_16 - Finding/Faden's Archives I",
@@ -1530,6 +1310,7 @@
                 ]
             },
             {
+                "name": "Verboten Domain - Swamp 18",
                 "sections": [
                     {
                         "ref": "Verboten Domain/Verboten Domain - Swamp_18 - Stagnant Blight/Stagnant Blight x800",
@@ -1557,6 +1338,7 @@
                 ]
             },
             {
+                "name": "The Abyss - Abyss 01",
                 "sections": [
                     {
                         "ref": "Verboten Domain/The Abyss - Abyss_01 - Furious Blight/Furious Blight x100",
@@ -1576,6 +1358,7 @@
                 ]
             },
             {
+                "name": "The Abyss - Abyss 02",
                 "sections": [
                     {
                         "ref": "Verboten Domain/The Abyss - Abyss_02 - Relic/White Priestess' Earrings",
@@ -1603,6 +1386,7 @@
                 ]
             },
             {
+                "name": "The Abyss - Abyss 04",
                 "sections": [
                     {
                         "ref": "Verboten Domain/The Abyss - Abyss_04 - Stagnant Blight Upper/Stagnant Blight x100",
@@ -1622,6 +1406,7 @@
                 ]
             },
             {
+                "name": "The Abyss - Abyss 05",
                 "sections": [
                     {
                         "ref": "Verboten Domain/The Abyss - Abyss_05 - Ancient Soul/Ancient Soul x2",

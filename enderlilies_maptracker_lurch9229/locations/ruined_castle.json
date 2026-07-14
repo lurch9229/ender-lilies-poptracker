@@ -14,24 +14,16 @@
                         "y": 2430
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "$FULLSILVA",
-                            "$FULLJUMP"
+                        "access_rules": [
+                            "^$Castle02StagnantBlightx30"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -45,22 +37,16 @@
                         "y": 2445
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle02AmuletFragment"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -74,24 +60,16 @@
                         "y": 1950
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "claws, $HORIZONTAL",
-                            "claws, $LEDGE",
-                            "hook"
+                        "access_rules": [
+                            "^$Castle03StagnantBlightx30"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -105,22 +83,16 @@
                         "y": 1800
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle03AmuletFragment"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -134,22 +106,16 @@
                         "y": 2700
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Report from a Verboten Mage",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle04ReportfromaVerbotenMage"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -163,22 +129,16 @@
                         "y": 2075
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Royal Aegis Crest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle06RoyalAegisCrest"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -195,16 +155,13 @@
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$ruinedCastleACCESS,claws"
+                        "access_rules": [
+                            "^$Castle06StagnantBlightx30"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -218,22 +175,16 @@
                         "y": 2170
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Proof of Founding",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle07ProofofFounding"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -247,22 +198,16 @@
                         "y": 2030
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Blightwreathed Blade",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle08BlightwreathedBlade"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -276,22 +221,16 @@
                         "y": 2170
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle08StagnantBlightx10_2"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -305,22 +244,16 @@
                         "y": 2120
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle08StagnantBlightx10"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -334,22 +267,16 @@
                         "y": 1970
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle08StagnantBlightx10_1"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -363,26 +290,16 @@
                         "y": 1970
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            "claws",
-                            "[silva, ulv, djump, dodge2]",
-                            "$FULLSILVA, dodge2",
-                            "[silva, dodge2, djump, plume]",
-                            "silva, djump, $HORIZONTAL2"
+                        "access_rules": [
+                            "^$Castle08ChainofSorcery"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -396,28 +313,16 @@
                         "y": 1450
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "claws, djump, $HORIZONTAL",
-                            "$LEDGE2, dodge2",
-                            "$HORIZONTAL2",
-                            "$FULLSILVA",
-                            "sinner, djump",
-                            "[silva, djump, ulv]",
-                            "silva, djump, dash"
+                        "access_rules": [
+                            "^$Castle09FuriousBlightx30"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -431,22 +336,16 @@
                         "y": 1500
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Julius' Book",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle10JuliusBook"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -460,22 +359,16 @@
                         "y": 1600
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle10StagnantBlightx30"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -489,25 +382,16 @@
                         "y": 1485
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "$AIRSTALL",
-                            "$ruinedCastleACCESS,$LEDGE",
-                            "$ruinedCastleACCESS,$HORIZONTAL"
+                        "access_rules": [
+                            "^$Castle12StagnantBlightx30"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -521,22 +405,16 @@
                         "y": 1440
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "King of the First Age's Diary I",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle12KingoftheFirstAgesDiaryI"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -550,22 +428,16 @@
                         "y": 1440
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "King of the First Age's Diary II",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle12KingoftheFirstAgesDiaryII"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -579,23 +451,15 @@
                         "y": 1380
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules":
-                        [
-                            "hook",
-                            "claws, silva, djump, dodge2",
-                            "claws, $FULLSILVA",
-                            "claws, silva, dodge2, verboten"
+                        "access_rules": [
+                            "^$Castle12ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -610,29 +474,16 @@
                         "y": 1090
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Gem (+20 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "claws, dodge2, silva",
-                            "claws, djump, silva",
-                            "claws, dodge2, djump, hook",
-                            "claws, $FULLSILVA",
-                            "$FULLSILVA, hook",
-                            "$FULLJUMP, hook",
-                            "$LEDGE2, hook, claws",
-                            "$LEDGE, $HORIZONTAL, claws, hook"
+                        "access_rules": [
+                            "^$Castle13AmuletGem"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -646,27 +497,16 @@
                         "y": 1190
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS, $CHARGE"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "claws",
-                            "silva, djump",
-                            "silva, dodge2",
-                            "djump, dodge2",
-                            "sinner",
-                            "djump, verboten"
+                        "access_rules": [
+                            "^$Castle14StagnantBlightx100"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -680,23 +520,16 @@
                         "y": 850
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "$MAXJUMP, claws"
+                        "access_rules": [
+                            "^$Castle14AmuletFragment"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -710,28 +543,16 @@
                         "y": 720
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS, claws"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x800",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$FULLSILVA, dodge2",
-                            "$LEDGE2, $HORIZONTAL2",
-                            "$LEDGE2, dodge2, dash",
-                            "silva, $HORIZONTAL2",
-                            "$FULLJUMP",
-                            "sinner, $LEDGE2",
-                            "[$MAXJUMP, plume]"
+                        "access_rules": [
+                            "^$Castle14FuriousBlightx800"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -745,22 +566,16 @@
                         "y": 470
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_wishes"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle15PriestessWish"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -774,24 +589,16 @@
                         "y": 470
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS",
-                    "[$ruinedCastleACCESS, hook, $FULLJUMP]",
-                    "[$ruinedCastleACCESS, hook, $FULLSILVA]"
-                ],
                 "sections": [
                     {
                         "name": "Priestess' Castle Memo",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle15PriestessCastleMemo"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -805,146 +612,114 @@
                         "y": 430
                     }
                 ],
-                "access_rules": [
-                    "$castle16ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "One-Eyed Royal Aegis Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16OneEyedRoyalAegisFight"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 1st",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx101st"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 2nd",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx102nd"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 3rd",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx103rd"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 4th",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx104th"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 5th",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx105th"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 6th",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx106th"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 7th",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx107th"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 8th",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx108th"
                         ],
-                        
                         "item_count": 1
                     },
                     {
                         "name": "Stagnant Blight x10 9th",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                           ""
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx109th"
                         ],
                         "item_count": 1
                     }
@@ -959,24 +734,16 @@
                         "y": 380
                     }
                 ],
-                "access_rules": [
-                    "$castle16ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "claws",
-                            "$FULLSILVA",
-                            "$FULLJUMP"
+                        "access_rules": [
+                            "^$Castle16StagnantBlightx10"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -990,22 +757,16 @@
                         "y": 1120
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$ruinedCastleACCESS"
+                        "access_rules": [
+                            "^$Castle17StagnantBlightx30"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1019,22 +780,16 @@
                         "y": 800
                     }
                 ],
-                "access_rules": [
-                    "$castle20ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Castle18AmuletFragment"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1048,22 +803,16 @@
                         "y": 730
                     }
                 ],
-                "access_rules": [
-                    "$castle20ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "King's Note II",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Castle18KingsNoteII"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1077,22 +826,16 @@
                         "y": 730
                     }
                 ],
-                "access_rules": [
-                    "$castle20ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE, hook"
+                        "access_rules": [
+                            "^$Castle18FuriousBlightx100"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1106,22 +849,16 @@
                         "y": 730
                     }
                 ],
-                "access_rules": [
-                    "$castle20ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Eldred's Ring",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Castle18EldredsRing"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1135,22 +872,16 @@
                         "y": 800
                     }
                 ],
-                "access_rules": [
-                    "$castle20ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "King's Note I",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle19KingsNoteI"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1164,22 +895,16 @@
                         "y": 780
                     }
                 ],
-                "access_rules": [
-                    "$castle20ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Knight Captain Julius Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle20KnightCaptainJuliusFight"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1193,22 +918,16 @@
                         "y": 1590
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "unlock"
+                        "access_rules": [
+                            "^$Castle21StagnantBlightx100"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1222,22 +941,16 @@
                         "y": 1620
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Castle Stone Tablet Fragment",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_c_end"
                         ],
-                        "access_rules": 
-                        [
-                            "unlock"
+                        "access_rules": [
+                            "^$Castle21CastleStoneTabletFragment"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1251,22 +964,16 @@
                         "y": 1500
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "King of the First Age's Diary III",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            "unlock"
+                        "access_rules": [
+                            "^$Castle21KingoftheFirstAgesDiaryIII"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -1274,9 +981,10 @@
         ]
     },
     {
-        "item_count": 1,
+        "name": "World Map_5",
         "children": [
             {
+                "name": "Ruined Castle - Castle 02",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_02 - Stagnant Blight/Stagnant Blight x30",
@@ -1296,6 +1004,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 03",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_03 - Stagnant Blight/Stagnant Blight x30",
@@ -1315,6 +1024,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 04",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_04 - Finding/Report from a Verboten Mage",
@@ -1330,6 +1040,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 06",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_06 - Relic/Royal Aegis Crest",
@@ -1349,6 +1060,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 07",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_07 - Finding/Proof of Founding",
@@ -1364,6 +1076,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 08",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_08 - Relic/Blightwreathed Blade",
@@ -1395,10 +1108,11 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 09",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_09 - Furious Blight/Furious Blight x30",
-                        "name":  "Castle 09 - Furious Blight x30"
+                        "name": "Castle 09 - Furious Blight x30"
                     }
                 ],
                 "map_locations": [
@@ -1410,6 +1124,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 10",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_10 - Stagnant Blight/Stagnant Blight x30",
@@ -1428,7 +1143,8 @@
                     }
                 ]
             },
-            { 
+            {
+                "name": "Ruined Castle - Castle 12",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_12 - Stagnant Blight/Stagnant Blight x30",
@@ -1456,6 +1172,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 13",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_13 - Amulet Gem/Amulet Gem (+20 HP)",
@@ -1471,10 +1188,11 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 14",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_14 - Stagnant Blight/Stagnant Blight x100",
-                        "name":  "Castle 14 - Stagnant Blight x100"
+                        "name": "Castle 14 - Stagnant Blight x100"
                     },
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_14 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -1494,6 +1212,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 15",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_15 - Finding/Priestess' Castle Memo",
@@ -1513,6 +1232,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 16",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Castle Roof - Castle_16/One-Eyed Royal Aegis Fight",
@@ -1536,6 +1256,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 17",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_17 - Stagnant Blight/Stagnant Blight x30",
@@ -1551,6 +1272,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 18",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_18 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -1578,6 +1300,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 19",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_19 - Finding/King's Note I",
@@ -1593,6 +1316,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 20",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_20 - Main Spirit Fight/Knight Captain Julius Fight",
@@ -1608,6 +1332,7 @@
                 ]
             },
             {
+                "name": "Ruined Castle - Castle 21",
                 "sections": [
                     {
                         "ref": "Ruined Castle/Ruined Castle - Castle_21 - Stagnant Blight/Stagnant Blight x100",

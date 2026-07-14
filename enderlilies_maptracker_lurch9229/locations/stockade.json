@@ -14,20 +14,15 @@
                         "y": 1258
                     }
                 ],
-                "access_rules": [
-                    "$oubliette02ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Executioner's Vow",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette02ExecutionersVow"
                         ],
                         "item_count": 1
                     }
@@ -42,20 +37,15 @@
                         "y": 1800
                     }
                 ],
-                "access_rules": [
-                    "$oubliette03ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Oubliette03StagnantBlightx10_1"
                         ],
                         "item_count": 1
                     }
@@ -69,20 +59,16 @@
                         "x": 2310,
                         "y": 1870
                     }
-                ],"access_rules": [
-                    "$oubliette03ACCESS"
                 ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Oubliette03StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -97,20 +83,15 @@
                         "y": 1550
                     }
                 ],
-                "access_rules": [
-                    "$oubliette03ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x800",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Oubliette03StagnantBlightx800"
                         ],
                         "item_count": 1
                     }
@@ -125,22 +106,15 @@
                         "y": 1480
                     }
                 ],
-                "access_rules": [
-                    "$oubliette04ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "djump, silva",
-                            "$HORIZONTAL, djump, verboten"
+                        "access_rules": [
+                            "^$Oubliette04StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -154,20 +128,16 @@
                         "x": 1475,
                         "y": 1575
                     }
-                ],"access_rules": [
-                    "$oubliette04ACCESS"
                 ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette04FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -182,20 +152,15 @@
                         "y": 800
                     }
                 ],
-                "access_rules": [
-                    "$oubliette05ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Oubliette05StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -210,20 +175,15 @@
                         "y": 800
                     }
                 ],
-                "access_rules": [
-                    "$oubliette05TopACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Gem (+20 HP) + Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette05AmuletGemStagnantBlightx30"
                         ],
                         "item_count": 2,
                         "clear_as_group": true
@@ -239,20 +199,15 @@
                         "y": 630
                     }
                 ],
-                "access_rules": [
-                    "$oubliette05_1ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE"
+                        "access_rules": [
+                            "^$Oubliette05FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -267,21 +222,15 @@
                         "y": 350
                     }
                 ],
-                "access_rules": [
-                    "$oubliette05TopACCESS",
-                    "[$oubliette05_2ACCESS, claws, $FULLSILVA, plume]"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette05StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -296,20 +245,15 @@
                         "y": 1215
                     }
                 ],
-                "access_rules": [
-                    "$oubliette05_3ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette05ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -324,20 +268,15 @@
                         "y": 1160
                     }
                 ],
-                "access_rules": [
-                    "$oubliette06ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette06StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -352,20 +291,15 @@
                         "y": 1280
                     }
                 ],
-                "access_rules": [
-                    "$oubliette06ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette06AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -380,21 +314,15 @@
                         "y": 980
                     }
                 ],
-                "access_rules": [
-                    "$oubliette06ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            "hook,$LEDGE"
-
+                        "access_rules": [
+                            "^$Oubliette06ChainofSorcery_1"
                         ],
                         "item_count": 1
                     }
@@ -409,20 +337,15 @@
                         "y": 710
                     }
                 ],
-                "access_rules": [
-                    "$oubliette06_1ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Hoenir's Diary I",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette06HoenirsDiaryI"
                         ],
                         "item_count": 1
                     }
@@ -437,20 +360,15 @@
                         "y": 1345
                     }
                 ],
-                "access_rules": [
-                    "$oubliette06_2ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Executioner's Gloves",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Oubliette06ExecutionersGloves"
                         ],
                         "item_count": 1
                     }
@@ -465,20 +383,15 @@
                         "y": 350
                     }
                 ],
-                "access_rules": [
-                    "$oubliette06_3ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette06ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -493,20 +406,15 @@
                         "y": 220
                     }
                 ],
-                "access_rules": [
-                    "$oubliette06_4ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stockade Stone Tablet Fragment",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_c_end"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette06StockadeStoneTabletFragment"
                         ],
                         "item_count": 1
                     }
@@ -521,20 +429,15 @@
                         "y": 1200
                     }
                 ],
-                "access_rules": [
-                    "$oubliette07_1ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Forbidden Text Scrap",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette07ForbiddenTextScrap"
                         ],
                         "item_count": 1
                     }
@@ -549,20 +452,15 @@
                         "y": 630
                     }
                 ],
-                "access_rules": [
-                    "$oubliette07_2ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Hidden Test Subject Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette07HiddenTestSubjectFight"
                         ],
                         "item_count": 1
                     }
@@ -577,23 +475,15 @@
                         "y": 1740
                     }
                 ],
-                "access_rules": [
-                    "$oubliette08ACCESS",
-                    "$oubliette09ACCESS, $LEDGE",
-                    "$oubliette09ACCESS, hook",
-                    "$oubliette09ACCESS, $HORIZONTAL"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hammer"
+                        "access_rules": [
+                            "^$Oubliette08FuriousBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -608,26 +498,15 @@
                         "y": 1595
                     }
                 ],
-                "access_rules": [
-                    "$oubliette08ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "silva, dodge2",
-                            "$HORIZONTAL2, $LEDGE",
-                            "$FULLJUMP, sinner",
-                            "sinner, djump, verboten, dash",
-                            "sinner, silva, djump, dash",
-                            "[silva, djump, ulv, fretia]"
+                        "access_rules": [
+                            "^$Oubliette08FuriousBlightx30_1"
                         ],
                         "item_count": 1
                     }
@@ -642,24 +521,15 @@
                         "y": 1575
                     }
                 ],
-                "access_rules": [
-                    "$oubliette09ACCESS",
-                    "$oubliette09ACCESSFrom07"
-                ],
                 "sections": [
                     {
                         "name": "x2 Amulet Fragments (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "claws",
-                            "$FULLJUMP, sinner",
-                            "$MAXJUMP, dash",
-                            "[silva, ulv, djump ,dodge2]"
+                        "access_rules": [
+                            "^$Oubliette09x2AmuletFragments"
                         ],
                         "item_count": 2
                     }
@@ -674,22 +544,15 @@
                         "y": 1540
                     }
                 ],
-                "access_rules": [
-                    "$oubliette09ACCESS",
-                    "$oubliette09ACCESSFrom07, aquatic"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE",
-                            "$HORIZONTAL"
+                        "access_rules": [
+                            "^$Oubliette09StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -704,20 +567,15 @@
                         "y": 2130
                     }
                 ],
-                "access_rules": [
-                    "$oubliette10ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Executioner's Missive",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette10ExecutionersMissive"
                         ],
                         "item_count": 1
                     }
@@ -732,21 +590,15 @@
                         "y": 1380
                     }
                 ],
-                "access_rules": [
-                    "$oubliette11UpperACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$HORIZONTAL",
-                            "$LEDGE"
+                        "access_rules": [
+                            "^$Oubliette11FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -761,20 +613,15 @@
                         "y": 1250
                     }
                 ],
-                "access_rules": [
-                    "$oubliette11UpperACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Dark Executioner Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette12DarkExecutionerFight"
                         ],
                         "item_count": 1
                     }
@@ -789,22 +636,15 @@
                         "y": 1220
                     }
                 ],
-                "access_rules": [
-                    "$oubliette13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "$LEDGE2",
-                            "$LEDGE, claws"
+                        "access_rules": [
+                            "^$Oubliette13ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -819,20 +659,15 @@
                         "y": 1120
                     }
                 ],
-                "access_rules": [
-                    "$oubliette13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette13StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -847,20 +682,15 @@
                         "y": 930
                     }
                 ],
-                "access_rules": [
-                    "$oubliette13ACCESS, $CHARGE"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette13StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -875,20 +705,15 @@
                         "y": 1090
                     }
                 ],
-                "access_rules": [
-                    "$oubliette13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Slip of Paper",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette13SlipofPaper"
                         ],
                         "item_count": 1
                     }
@@ -903,20 +728,15 @@
                         "y": 1020
                     }
                 ],
-                "access_rules": [
-                    "$oubliette13_1ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Aura's Ring",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette13AurasRing"
                         ],
                         "item_count": 1
                     }
@@ -931,20 +751,15 @@
                         "y": 1765
                     }
                 ],
-                "access_rules": [
-                    "$oubliette11UpperACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Ancient Soul",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hammer"
+                        "access_rules": [
+                            "^$Oubliette13AncientSoul"
                         ],
                         "item_count": 1
                     }
@@ -959,20 +774,15 @@
                         "y": 1535
                     }
                 ],
-                "access_rules": [
-                    "$oubliette14ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Hoenir's Diary II",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette14HoenirsDiaryII"
                         ],
                         "item_count": 1
                     }
@@ -987,22 +797,17 @@
                         "y": 1540
                     }
                 ],
-                "access_rules": [
-                    "$oubliette15ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Hoenir, Keeper Of The Abyss Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits",
                             "setting_wishes",
-                            "setting_blight" 
+                            "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette15defeatHoenir"
                         ],
                         "hosted_item": "defeatHoenir",
                         "item_count": 0
@@ -1018,20 +823,15 @@
                         "y": 1510
                     }
                 ],
-                "access_rules": [
-                    "$oubliette16ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette16StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -1046,20 +846,15 @@
                         "y": 1280
                     }
                 ],
-                "access_rules": [
-                    "$outside01ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_wishes"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Oubliette16PriestessWish"
                         ],
                         "item_count": 1
                     }
@@ -1068,9 +863,10 @@
         ]
     },
     {
-        "item_count": 1,
+        "name": "World Map_6",
         "children": [
             {
+                "name": "Stockade - Oubliette 02",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_02 - Finding/Executioner's Vow",
@@ -1086,6 +882,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 03",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_03 - Stagnant Blight Left/Stagnant Blight x10",
@@ -1109,6 +906,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 04",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_04 - Stagnant Blight/Stagnant Blight x30",
@@ -1128,6 +926,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 05",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_05 - Stagnant Blight/Stagnant Blight x100",
@@ -1147,6 +946,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 05_1",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_05_1 - Furious Blight/Furious Blight x10",
@@ -1162,6 +962,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 05_2",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_05_2 - Stagnant Blight/Stagnant Blight x10",
@@ -1177,6 +978,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 05_3",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_05_3 - Chain of Sorcery (In Pot)/Chain of Sorcery (+1 Relic Slot)",
@@ -1192,6 +994,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 06",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06 - Stagnant Blight/Stagnant Blight x10",
@@ -1203,7 +1006,7 @@
                     },
                     {
                         "ref": "Stockade/Stockade - Oubliette_06 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
-                        "name" : "oubliette 06 - Chain of Sorcery"
+                        "name": "oubliette 06 - Chain of Sorcery"
                     }
                 ],
                 "map_locations": [
@@ -1215,6 +1018,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 06_1",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06_1 - Finding/Hoenir's Diary I",
@@ -1230,6 +1034,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 06_2",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06_2 - Relic/Executioner's Gloves",
@@ -1245,6 +1050,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 06_3",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06_3 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
@@ -1260,6 +1066,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 06_4",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_06_4 - Tablet/Stockade Stone Tablet Fragment",
@@ -1275,6 +1082,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 07_1",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_07_1 - Finding/Forbidden Text Scrap",
@@ -1290,6 +1098,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 07_2",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_07_2 - Sub-Spirit Fight/Hidden Test Subject Fight",
@@ -1305,6 +1114,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 08",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_08 - Furious Blight Lower/Furious Blight x30",
@@ -1324,6 +1134,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 09",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_09 - x2 Amulet Fragments/x2 Amulet Fragments (+5 HP)",
@@ -1343,6 +1154,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 10",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_10 - Finding/Executioner's Missive",
@@ -1358,6 +1170,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 11",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_11 - Furious Blight/Furious Blight x10",
@@ -1373,6 +1186,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 12",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_12 - Sub-Spirit Fight/Dark Executioner Fight",
@@ -1388,6 +1202,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 13",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_13 - Chain of Sorcery/Chain of Sorcery (+1 Relic Slot)",
@@ -1415,6 +1230,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 13_1",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_13_1 - Relic/Aura's Ring",
@@ -1430,6 +1246,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 13_2",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_13_2 - Ancient Soul/Ancient Soul",
@@ -1445,6 +1262,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 14",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_14 - Finding/Hoenir's Diary II",
@@ -1460,6 +1278,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 15",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_15 - Main Spirit Fight/Hoenir, Keeper Of The Abyss Fight",
@@ -1475,6 +1294,7 @@
                 ]
             },
             {
+                "name": "Stockade - Oubliette 16",
                 "sections": [
                     {
                         "ref": "Stockade/Stockade - Oubliette_16 - Stagnant Blight/Stagnant Blight x10",

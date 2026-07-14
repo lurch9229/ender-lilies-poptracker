@@ -1,0 +1,3165 @@
+[
+    {
+        "name": "Connections",
+        "children": [
+            {
+                "name": "Abyss01Top",
+                "access_rules": [
+                    "^$Abyss01Top"
+                ]
+            },
+            {
+                "name": "Abyss01Bottom",
+                "access_rules": [
+                    "^$Abyss01Bottom"
+                ]
+            },
+            {
+                "name": "BlightedHeart",
+                "access_rules": [
+                    "^$Abyss02SilvasBloodstainedNoteII"
+                ]
+            },
+            {
+                "name": "WhitePriestessEarrings",
+                "access_rules": [
+                    "^$Abyss02WhitePriestessEarrings"
+                ]
+            },
+            {
+                "name": "Abyss02Right",
+                "access_rules": [
+                    "^$Abyss02Right"
+                ]
+            },
+            {
+                "name": "Abyss02Top",
+                "access_rules": [
+                    "^$Abyss02Top"
+                ]
+            },
+            {
+                "name": "Abyss03Left",
+                "access_rules": [
+                    "^$Abyss03Left"
+                ]
+            },
+            {
+                "name": "Abyss04Top",
+                "access_rules": [
+                    "^$Abyss04Top"
+                ]
+            },
+            {
+                "name": "Abyss04Bottom",
+                "access_rules": [
+                    "^$Abyss04Bottom"
+                ]
+            },
+            {
+                "name": "Abyss05Teleport",
+                "access_rules": [
+                    "^$Abyss05Teleport"
+                ]
+            },
+            {
+                "name": "Abyss05Top",
+                "access_rules": [
+                    "^$Abyss05Top"
+                ]
+            },
+            {
+                "name": "Dog",
+                "access_rules": [
+                    "^$Castle01CastleTownMaidenFight"
+                ]
+            },
+            {
+                "name": "PriestessDoll",
+                "access_rules": [
+                    "^$Castle01PriestessDoll"
+                ]
+            },
+            {
+                "name": "DecayedCrown",
+                "access_rules": [
+                    "^$Castle01DecayedCrown"
+                ]
+            },
+            {
+                "name": "Castle01Left",
+                "access_rules": [
+                    "^$Castle01Left"
+                ]
+            },
+            {
+                "name": "Castle01Right2",
+                "access_rules": [
+                    "^$Castle01Right2"
+                ]
+            },
+            {
+                "name": "Castle01Right1",
+                "access_rules": [
+                    "^$Castle01Right1"
+                ]
+            },
+            {
+                "name": "Castle01Top",
+                "access_rules": [
+                    "^$Castle01Top"
+                ]
+            },
+            {
+                "name": "Castle02Top",
+                "access_rules": [
+                    "^$Castle02Top"
+                ]
+            },
+            {
+                "name": "Castle02Left2",
+                "access_rules": [
+                    "^$Castle02Left2"
+                ]
+            },
+            {
+                "name": "Castle02Bottom",
+                "access_rules": [
+                    "^$Castle02Bottom",
+                    "[], @RuinedCastleCellar, $AIRSTALL"
+                ]
+            },
+            {
+                "name": "Castle02Left1",
+                "access_rules": [
+                    "^$Castle02Left1"
+                ]
+            },
+            {
+                "name": "Castle03Bottom",
+                "access_rules": [
+                    "^$Castle03Bottom"
+                ]
+            },
+            {
+                "name": "Castle03Top1",
+                "access_rules": [
+                    "^$Castle03Top1"
+                ]
+            },
+            {
+                "name": "Castle03Top2",
+                "access_rules": [
+                    "^$Castle03Top2"
+                ]
+            },
+            {
+                "name": "RuinedCastleCellar",
+                "access_rules": [
+                    "^$Castle04ReportfromaVerbotenMage",
+                    "$isSpawn|RuinedCastleCellar"
+                ]
+            },
+            {
+                "name": "Castle04Top",
+                "access_rules": [
+                    "^$Castle04Top"
+                ]
+            },
+            {
+                "name": "Castle05Bottom",
+                "access_rules": [
+                    "^$Castle05Bottom"
+                ]
+            },
+            {
+                "name": "Castle05Right",
+                "access_rules": [
+                    "^$Castle05Right"
+                ]
+            },
+            {
+                "name": "Castle05Left",
+                "access_rules": [
+                    "^$Castle05Left"
+                ]
+            },
+            {
+                "name": "Castle05Top",
+                "access_rules": [
+                    "^$Castle05Top"
+                ]
+            },
+            {
+                "name": "RoyalAegisCrest",
+                "access_rules": [
+                    "^$Castle06RoyalAegisCrest"
+                ]
+            },
+            {
+                "name": "Castle06Top",
+                "access_rules": [
+                    "^$Castle06Top"
+                ]
+            },
+            {
+                "name": "Castle06Right",
+                "access_rules": [
+                    "^$Castle06Right"
+                ]
+            },
+            {
+                "name": "Castle06Left",
+                "access_rules": [
+                    "^$Castle06Left"
+                ]
+            },
+            {
+                "name": "GuestChamber",
+                "access_rules": [
+                    "^$Castle07ProofofFounding",
+                    "$isSpawn|GuestChamber"
+                ]
+            },
+            {
+                "name": "Castle07Right",
+                "access_rules": [
+                    "^$Castle07Right"
+                ]
+            },
+            {
+                "name": "Castle07Left",
+                "access_rules": [
+                    "^$Castle07Left"
+                ]
+            },
+            {
+                "name": "BlightWreathedBlade",
+                "access_rules": [
+                    "^$Castle08BlightwreathedBlade"
+                ]
+            },
+            {
+                "name": "Castle08Right",
+                "access_rules": [
+                    "^$Castle08Right"
+                ]
+            },
+            {
+                "name": "Castle08Top",
+                "access_rules": [
+                    "^$Castle08Top"
+                ]
+            },
+            {
+                "name": "Castle09Right",
+                "access_rules": [
+                    "^$Castle09Right"
+                ]
+            },
+            {
+                "name": "Castle09Bottom",
+                "access_rules": [
+                    "^$Castle09Bottom"
+                ]
+            },
+            {
+                "name": "Castle09Left",
+                "access_rules": [
+                    "^$Castle09Left"
+                ]
+            },
+            {
+                "name": "MaelstromRemparts",
+                "access_rules": [
+                    "^$Castle10JuliusBook",
+                    "$isSpawn|MaelstromRemparts"
+                ]
+            },
+            {
+                "name": "Castle10Right",
+                "access_rules": [
+                    "^$Castle10Right"
+                ]
+            },
+            {
+                "name": "Castle10Bottom",
+                "access_rules": [
+                    "^$Castle10Bottom"
+                ]
+            },
+            {
+                "name": "Castle11Right",
+                "access_rules": [
+                    "^$Castle11Right"
+                ]
+            },
+            {
+                "name": "Castle11Left",
+                "access_rules": [
+                    "^$Castle11Left"
+                ]
+            },
+            {
+                "name": "Castle11Top",
+                "access_rules": [
+                    "^$Castle11Top"
+                ]
+            },
+            {
+                "name": "Castle11Bottom1",
+                "access_rules": [
+                    "^$Castle11Bottom1"
+                ]
+            },
+            {
+                "name": "Castle11Bottom2",
+                "access_rules": [
+                    "^$Castle11Bottom2"
+                ]
+            },
+            {
+                "name": "Castle12Bottom",
+                "access_rules": [
+                    "^$Castle12Bottom"
+                ]
+            },
+            {
+                "name": "Castle12Left",
+                "access_rules": [
+                    "^$Castle12Left"
+                ]
+            },
+            {
+                "name": "Castle12Right",
+                "access_rules": [
+                    "^$Castle12Right"
+                ]
+            },
+            {
+                "name": "Castle13Left",
+                "access_rules": [
+                    "^$Castle13Left"
+                ]
+            },
+            {
+                "name": "Castle13Bottom",
+                "access_rules": [
+                    "^$Castle13Bottom"
+                ]
+            },
+            {
+                "name": "Castle13Right",
+                "access_rules": [
+                    "^$Castle13Right"
+                ]
+            },
+            {
+                "name": "Castle14Left",
+                "access_rules": [
+                    "^$Castle14Left"
+                ]
+            },
+            {
+                "name": "Castle14Top",
+                "access_rules": [
+                    "^$Castle14Top"
+                ]
+            },
+            {
+                "name": "TowerAlcove",
+                "access_rules": [
+                    "^$Castle15PriestessCastleMemo"
+                ]
+            },
+            {
+                "name": "Castle15Left",
+                "access_rules": [
+                    "^$Castle15Left"
+                ]
+            },
+            {
+                "name": "Castle15Bottom",
+                "access_rules": [
+                    "^$Castle15Bottom"
+                ]
+            },
+            {
+                "name": "Aegis",
+                "access_rules": [
+                    "^$Castle16OneEyedRoyalAegisFight"
+                ]
+            },
+            {
+                "name": "Castle16BottomLeft",
+                "access_rules": [
+                    "^$Castle16BottomLeft"
+                ]
+            },
+            {
+                "name": "Castle16Right",
+                "access_rules": [
+                    "^$Castle16Right"
+                ]
+            },
+            {
+                "name": "Castle17Right",
+                "access_rules": [
+                    "^$Castle17Right"
+                ]
+            },
+            {
+                "name": "Castle17Top",
+                "access_rules": [
+                    "^$Castle17Top"
+                ]
+            },
+            {
+                "name": "EldredsRing",
+                "access_rules": [
+                    "^$Castle18EldredsRing"
+                ]
+            },
+            {
+                "name": "Castle18Right",
+                "access_rules": [
+                    "^$Castle18Right"
+                ]
+            },
+            {
+                "name": "Castle18Bottom",
+                "access_rules": [
+                    "^$Castle18Bottom"
+                ]
+            },
+            {
+                "name": "KingsChamber",
+                "access_rules": [
+                    "^$Castle19KingsNoteI"
+                ]
+            },
+            {
+                "name": "Castle19Right",
+                "access_rules": [
+                    "^$Castle19Right"
+                ]
+            },
+            {
+                "name": "Castle19Left",
+                "access_rules": [
+                    "^$Castle19Left"
+                ]
+            },
+            {
+                "name": "Julius",
+                "access_rules": [
+                    "^$Castle20KnightCaptainJuliusFight"
+                ]
+            },
+            {
+                "name": "Castle20Left",
+                "access_rules": [
+                    "^$Castle20Left"
+                ]
+            },
+            {
+                "name": "Castle21Left",
+                "access_rules": [
+                    "^$Castle21Left"
+                ]
+            },
+            {
+                "name": "CathedralCloister",
+                "access_rules": [
+                    "^$CathedralCloister",
+                    "$isSpawn|CathedralCloister"
+                ]
+            },
+            {
+                "name": "BottomOfTheWell",
+                "access_rules": [
+                    "^$Cave01FretiasRing",
+                    "$isSpawn|BottomOfTheWell"
+                ]
+            },
+            {
+                "name": "Cave01Bottom",
+                "access_rules": [
+                    "^$Cave01Bottom"
+                ]
+            },
+            {
+                "name": "Cave01Left",
+                "access_rules": [
+                    "^$Cave01Left"
+                ]
+            },
+            {
+                "name": "Cave02Right",
+                "access_rules": [
+                    "^$Cave02Right"
+                ]
+            },
+            {
+                "name": "Cave02Bottom",
+                "access_rules": [
+                    "^$Cave02Bottom"
+                ]
+            },
+            {
+                "name": "Cave02Top",
+                "access_rules": [
+                    "^$Cave02Top"
+                ]
+            },
+            {
+                "name": "Charnel",
+                "access_rules": [
+                    "^$Cave03DefenseoftheTwinSpiresII",
+                    "$isSpawn|Charnel"
+                ]
+            },
+            {
+                "name": "Cave03Left",
+                "access_rules": [
+                    "^$Cave03Left"
+                ]
+            },
+            {
+                "name": "Cave03Right",
+                "access_rules": [
+                    "^$Cave03Right"
+                ]
+            },
+            {
+                "name": "Cave03Top",
+                "access_rules": [
+                    "^$Cave03Top"
+                ]
+            },
+            {
+                "name": "Cave04Right",
+                "access_rules": [
+                    "^$Cave04Right"
+                ]
+            },
+            {
+                "name": "Cave04Bottom",
+                "access_rules": [
+                    "^$Cave04Bottom"
+                ]
+            },
+            {
+                "name": "Cave04Left",
+                "access_rules": [
+                    "^$Cave04Left"
+                ]
+            },
+            {
+                "name": "Cave05Left",
+                "access_rules": [
+                    "^$Cave05Left"
+                ]
+            },
+            {
+                "name": "Cave05Top",
+                "access_rules": [
+                    "^$Cave05Top"
+                ]
+            },
+            {
+                "name": "Cave05Bottom",
+                "access_rules": [
+                    "^$Cave05Bottom"
+                ]
+            },
+            {
+                "name": "Cave05Right",
+                "access_rules": [
+                    "^$Cave05Right",
+                    "[], @Cave10Bottom, dodge2, ulv",
+                    "[], @Cave10Bottom, djump, ulv",
+                    "[], @Cave10Bottom, dash, ulv, fretia"
+                ]
+            },
+            {
+                "name": "KilteusRing",
+                "access_rules": [
+                    "^$Cave06KilteusRing"
+                ]
+            },
+            {
+                "name": "Cave06Top",
+                "access_rules": [
+                    "^$Cave06Top"
+                ]
+            },
+            {
+                "name": "Cave06Bottom",
+                "access_rules": [
+                    "^$Cave06Bottom"
+                ]
+            },
+            {
+                "name": "Spider",
+                "access_rules": [
+                    "^$Cave07ElderCryptKeeperFight"
+                ]
+            },
+            {
+                "name": "Cave07Top",
+                "access_rules": [
+                    "^$Cave07Top"
+                ]
+            },
+            {
+                "name": "Cave07Right",
+                "access_rules": [
+                    "^$Cave07Right"
+                ]
+            },
+            {
+                "name": "Cave08Top",
+                "access_rules": [
+                    "^$Cave08Top"
+                ]
+            },
+            {
+                "name": "Cave08Left",
+                "access_rules": [
+                    "^$Cave08Left"
+                ]
+            },
+            {
+                "name": "Cave08Bottom",
+                "access_rules": [
+                    "^$Cave08Bottom"
+                ]
+            },
+            {
+                "name": "Cave08Right",
+                "access_rules": [
+                    "^$Cave08Right"
+                ]
+            },
+            {
+                "name": "Cave09Top",
+                "access_rules": [
+                    "^$Cave09Top"
+                ]
+            },
+            {
+                "name": "Cave09Bottom",
+                "access_rules": [
+                    "^$Cave09Bottom"
+                ]
+            },
+            {
+                "name": "Cave09Right",
+                "access_rules": [
+                    "^$Cave09Right"
+                ]
+            },
+            {
+                "name": "Cave10Right",
+                "access_rules": [
+                    "^$Cave10Right"
+                ]
+            },
+            {
+                "name": "Cave10Left",
+                "access_rules": [
+                    "^$Cave10Left"
+                ]
+            },
+            {
+                "name": "Cave10Bottom",
+                "access_rules": [
+                    "^$Cave10Bottom"
+                ]
+            },
+            {
+                "name": "Cave10Top",
+                "access_rules": [
+                    "^$Cave10Top"
+                ]
+            },
+            {
+                "name": "Cave11Tip",
+                "access_rules": [
+                    "^$Cave11SilvasNoteII"
+                ]
+            },
+            {
+                "name": "Cave11Left",
+                "access_rules": [
+                    "^$Cave11Left"
+                ]
+            },
+            {
+                "name": "Cave11Top",
+                "access_rules": [
+                    "^$Cave11Top"
+                ]
+            },
+            {
+                "name": "Cave11Right1",
+                "access_rules": [
+                    "^$Cave11Right1"
+                ]
+            },
+            {
+                "name": "Cave12Right",
+                "access_rules": [
+                    "^$Cave12Right"
+                ]
+            },
+            {
+                "name": "Ossuary",
+                "access_rules": [
+                    "^$Cave13SilvasNoteI",
+                    "$isSpawn|Ossuary"
+                ]
+            },
+            {
+                "name": "Cave13Bottom",
+                "access_rules": [
+                    "^$Cave13Bottom"
+                ]
+            },
+            {
+                "name": "Cave13Top",
+                "access_rules": [
+                    "^$Cave13Top"
+                ]
+            },
+            {
+                "name": "Cave13Left",
+                "access_rules": [
+                    "^$Cave13Left"
+                ]
+            },
+            {
+                "name": "Cave13Right",
+                "access_rules": [
+                    "^$Cave13Right"
+                ]
+            },
+            {
+                "name": "Cave14Bottom",
+                "access_rules": [
+                    "^$Cave14Bottom"
+                ]
+            },
+            {
+                "name": "Cave14Left",
+                "access_rules": [
+                    "^$Cave14Left"
+                ]
+            },
+            {
+                "name": "Cave14Right",
+                "access_rules": [
+                    "^$Cave14Right"
+                ]
+            },
+            {
+                "name": "Cave15Right",
+                "access_rules": [
+                    "^$Cave15Right"
+                ]
+            },
+            {
+                "name": "Cave15Left",
+                "access_rules": [
+                    "^$Cave15Left"
+                ]
+            },
+            {
+                "name": "GreatHall",
+                "access_rules": [
+                    "^$Cave16TheNextWhitePriestess",
+                    "$isSpawn|GreatHall"
+                ]
+            },
+            {
+                "name": "Cave16Right",
+                "access_rules": [
+                    "^$Cave16Right"
+                ]
+            },
+            {
+                "name": "Cave16Bottom",
+                "access_rules": [
+                    "^$Cave16Bottom"
+                ]
+            },
+            {
+                "name": "Cave16Left",
+                "access_rules": [
+                    "^$Cave16Left"
+                ]
+            },
+            {
+                "name": "Cave17Top",
+                "access_rules": [
+                    "^$Cave17Top"
+                ]
+            },
+            {
+                "name": "HolySpringWater",
+                "access_rules": [
+                    "^$Cave18HolySpringWater"
+                ]
+            },
+            {
+                "name": "Cave18Left1",
+                "access_rules": [
+                    "^$Cave18Left1"
+                ]
+            },
+            {
+                "name": "Cave18Left2",
+                "access_rules": [
+                    "^$Cave18Left2"
+                ]
+            },
+            {
+                "name": "Archer",
+                "access_rules": [
+                    "^$Cave19FallenArcherFight"
+                ]
+            },
+            {
+                "name": "Cave19Top",
+                "access_rules": [
+                    "^$Cave19Top"
+                ]
+            },
+            {
+                "name": "Cave19Left",
+                "access_rules": [
+                    "^$Cave19Left"
+                ]
+            },
+            {
+                "name": "Cave20Top",
+                "access_rules": [
+                    "^$Cave20Top"
+                ]
+            },
+            {
+                "name": "Cave20Bottom",
+                "access_rules": [
+                    "^$Cave20Bottom"
+                ]
+            },
+            {
+                "name": "Cave20Left",
+                "access_rules": [
+                    "^$Cave20Left"
+                ]
+            },
+            {
+                "name": "WhitePriestessStatue",
+                "access_rules": [
+                    "^$Cave21PriestessStatue"
+                ]
+            },
+            {
+                "name": "Cave21Left",
+                "access_rules": [
+                    "^$Cave21Left"
+                ]
+            },
+            {
+                "name": "Cave21Right",
+                "access_rules": [
+                    "^$Cave21Right"
+                ]
+            },
+            {
+                "name": "Cave22Right",
+                "access_rules": [
+                    "^$Cave22Right"
+                ]
+            },
+            {
+                "name": "Cave22Left",
+                "access_rules": [
+                    "^$Cave22Left"
+                ]
+            },
+            {
+                "name": "Cave22Bottom",
+                "access_rules": [
+                    "^$Cave22Bottom"
+                ]
+            },
+            {
+                "name": "Silva",
+                "access_rules": [
+                    "^$Cave23GuardianSilvaFight"
+                ]
+            },
+            {
+                "name": "Cave23Right",
+                "access_rules": [
+                    "^$Cave23Right"
+                ]
+            },
+            {
+                "name": "Cave23Left",
+                "access_rules": [
+                    "^$Cave23Left"
+                ]
+            },
+            {
+                "name": "Church01Bottom",
+                "access_rules": [
+                    "^$Church01Bottom"
+                ]
+            },
+            {
+                "name": "Church01Left",
+                "access_rules": [
+                    "^$Church01Left"
+                ]
+            },
+            {
+                "name": "Church02Top",
+                "access_rules": [
+                    "^$Church02Top"
+                ]
+            },
+            {
+                "name": "Church02Right",
+                "access_rules": [
+                    "^$Church02Right"
+                ]
+            },
+            {
+                "name": "Siegrid",
+                "access_rules": [
+                    "^$Church03defeatSiegrid"
+                ]
+            },
+            {
+                "name": "Church03Left",
+                "access_rules": [
+                    "^$Church03Left"
+                ]
+            },
+            {
+                "name": "Church03Right",
+                "access_rules": [
+                    "^$Church03Right"
+                ]
+            },
+            {
+                "name": "SaintsPassage",
+                "access_rules": [
+                    "^$Church04GroasLetter",
+                    "$isSpawn|SaintsPassage"
+                ]
+            },
+            {
+                "name": "Church04Left",
+                "access_rules": [
+                    "^$Church04Left"
+                ]
+            },
+            {
+                "name": "Church04Right",
+                "access_rules": [
+                    "^$Church04Right"
+                ]
+            },
+            {
+                "name": "SoiledPrayerBeads",
+                "access_rules": [
+                    "^$Church05SoiledPrayerBeads"
+                ]
+            },
+            {
+                "name": "Church05Bottom",
+                "access_rules": [
+                    "^$Church05Bottom"
+                ]
+            },
+            {
+                "name": "Church05Right",
+                "access_rules": [
+                    "^$Church05Right"
+                ]
+            },
+            {
+                "name": "Church05Top",
+                "access_rules": [
+                    "^$Church05Top"
+                ]
+            },
+            {
+                "name": "Church06Left",
+                "access_rules": [
+                    "^$Church06Left"
+                ]
+            },
+            {
+                "name": "Church06Right",
+                "access_rules": [
+                    "^$Church06Right"
+                ]
+            },
+            {
+                "name": "Youth",
+                "access_rules": [
+                    "^$Church07CliffsideHamletYouthFight"
+                ]
+            },
+            {
+                "name": "Church07Left",
+                "access_rules": [
+                    "^$Church07Left"
+                ]
+            },
+            {
+                "name": "Church07Right",
+                "access_rules": [
+                    "^$Church07Right"
+                ]
+            },
+            {
+                "name": "Crossroads",
+                "access_rules": [
+                    "^$Church08TheParishWayII",
+                    "$isSpawn|Crossroads"
+                ]
+            },
+            {
+                "name": "Church08Top",
+                "access_rules": [
+                    "^$Church08Top"
+                ]
+            },
+            {
+                "name": "Church08Bottom",
+                "access_rules": [
+                    "^$Church08Bottom"
+                ]
+            },
+            {
+                "name": "Church08Left",
+                "access_rules": [
+                    "^$Church08Left"
+                ]
+            },
+            {
+                "name": "Chief",
+                "access_rules": [
+                    "^$Church09ChiefGuardianFight"
+                ]
+            },
+            {
+                "name": "VibrantPlume",
+                "access_rules": [
+                    "^$Church09VibrantPlume"
+                ]
+            },
+            {
+                "name": "Church09Bottom",
+                "access_rules": [
+                    "^$Church09Bottom"
+                ]
+            },
+            {
+                "name": "Church09Bottom2",
+                "access_rules": [
+                    "^$Church09Bottom2"
+                ]
+            },
+            {
+                "name": "Church09Top",
+                "access_rules": [
+                    "^$Church09Top"
+                ]
+            },
+            {
+                "name": "Cellar",
+                "access_rules": [
+                    "^$Church10OntheBlightedI",
+                    "$isSpawn|Cellar"
+                ]
+            },
+            {
+                "name": "Church10Left",
+                "access_rules": [
+                    "^$Church10Left"
+                ]
+            },
+            {
+                "name": "Church10Right",
+                "access_rules": [
+                    "^$Church10Right"
+                ]
+            },
+            {
+                "name": "Church11Top",
+                "access_rules": [
+                    "^$Church11Top"
+                ]
+            },
+            {
+                "name": "Church11Left",
+                "access_rules": [
+                    "^$Church11Left"
+                ]
+            },
+            {
+                "name": "Start",
+                "access_rules": [
+                    "^$Church12StatueInscription",
+                    "$isSpawn|Start"
+                ]
+            },
+            {
+                "name": "Church12Right",
+                "access_rules": [
+                    "^$Church12Right"
+                ]
+            },
+            {
+                "name": "Church12Bottom",
+                "access_rules": [
+                    "^$Church12Bottom"
+                ]
+            },
+            {
+                "name": "Church13Top",
+                "access_rules": [
+                    "^$Church13Top"
+                ]
+            },
+            {
+                "name": "Church14Bottom",
+                "access_rules": [
+                    "^$Church14Bottom"
+                ]
+            },
+            {
+                "name": "Forest01Top",
+                "access_rules": [
+                    "^$Forest01Top"
+                ]
+            },
+            {
+                "name": "Forest01Right",
+                "access_rules": [
+                    "^$Forest01Right"
+                ]
+            },
+            {
+                "name": "Forest02Left",
+                "access_rules": [
+                    "^$Forest02Left"
+                ]
+            },
+            {
+                "name": "Forest02Right1",
+                "access_rules": [
+                    "^$Forest02Right1"
+                ]
+            },
+            {
+                "name": "Forest02Right2",
+                "access_rules": [
+                    "^$Forest02Right2"
+                ]
+            },
+            {
+                "name": "Forest03Right",
+                "access_rules": [
+                    "^$Forest03Right"
+                ]
+            },
+            {
+                "name": "Forest03Left",
+                "access_rules": [
+                    "^$Forest03Left"
+                ]
+            },
+            {
+                "name": "RustedBlueOrnament",
+                "access_rules": [
+                    "^$Forest04RustedBlueOrnament"
+                ]
+            },
+            {
+                "name": "Forest04Right",
+                "access_rules": [
+                    "^$Forest04Right"
+                ]
+            },
+            {
+                "name": "Forest04Left",
+                "access_rules": [
+                    "^$Forest04Left"
+                ]
+            },
+            {
+                "name": "DryadLake",
+                "access_rules": [
+                    "^$Forest05CovenHandbook",
+                    "$isSpawn|DryadLake"
+                ]
+            },
+            {
+                "name": "Forest05Right",
+                "access_rules": [
+                    "^$Forest05Right"
+                ]
+            },
+            {
+                "name": "Forest05Left",
+                "access_rules": [
+                    "^$Forest05Left"
+                ]
+            },
+            {
+                "name": "Forest05Top",
+                "access_rules": [
+                    "^$Forest05Top"
+                ]
+            },
+            {
+                "name": "Fungal",
+                "access_rules": [
+                    "^$Forest06FungalSorcererFight"
+                ]
+            },
+            {
+                "name": "Forest06Bottom",
+                "access_rules": [
+                    "^$Forest06Bottom"
+                ]
+            },
+            {
+                "name": "Forest07Right",
+                "access_rules": [
+                    "^$Forest07Right"
+                ]
+            },
+            {
+                "name": "Forest07Bottom",
+                "access_rules": [
+                    "^$Forest07Bottom"
+                ]
+            },
+            {
+                "name": "Forest07Left",
+                "access_rules": [
+                    "^$Forest07Left"
+                ]
+            },
+            {
+                "name": "Forest07Top",
+                "access_rules": [
+                    "^$Forest07Top"
+                ]
+            },
+            {
+                "name": "ManisasRing",
+                "access_rules": [
+                    "^$Forest08ManisasRing"
+                ]
+            },
+            {
+                "name": "CrackedFamiliarStone",
+                "access_rules": [
+                    "^$Forest08CrackedFamiliarStone"
+                ]
+            },
+            {
+                "name": "Forest08Top",
+                "access_rules": [
+                    "^$Forest08Top"
+                ]
+            },
+            {
+                "name": "Forest08Right",
+                "access_rules": [
+                    "^$Forest08Right"
+                ]
+            },
+            {
+                "name": "Forest09Top",
+                "access_rules": [
+                    "^$Forest09Top"
+                ]
+            },
+            {
+                "name": "Forest09Left",
+                "access_rules": [
+                    "^$Forest09Left"
+                ]
+            },
+            {
+                "name": "Forest10Bottom2",
+                "access_rules": [
+                    "^$Forest10Bottom2"
+                ]
+            },
+            {
+                "name": "Forest10Bottom1",
+                "access_rules": [
+                    "^$Forest10Bottom1"
+                ]
+            },
+            {
+                "name": "WitchsHermitage",
+                "access_rules": [
+                    "^$Forest10SorcerersNote",
+                    "$isSpawn|WitchsHermitage"
+                ]
+            },
+            {
+                "name": "Forest10Left",
+                "access_rules": [
+                    "^$Forest10Left"
+                ]
+            },
+            {
+                "name": "Forest10Right",
+                "access_rules": [
+                    "^$Forest10Right"
+                ]
+            },
+            {
+                "name": "Floral",
+                "access_rules": [
+                    "^$Forest11FloralSorceressFight"
+                ]
+            },
+            {
+                "name": "RuinedWitchsBook",
+                "access_rules": [
+                    "^$Forest11RuinedWitchsBook"
+                ]
+            },
+            {
+                "name": "Forest11Top",
+                "access_rules": [
+                    "^$Forest11Top"
+                ]
+            },
+            {
+                "name": "Forest11Right",
+                "access_rules": [
+                    "^$Forest11Right"
+                ]
+            },
+            {
+                "name": "Forest12Left",
+                "access_rules": [
+                    "^$Forest12Left"
+                ]
+            },
+            {
+                "name": "Forest12Bottom",
+                "access_rules": [
+                    "^$Forest12Bottom"
+                ]
+            },
+            {
+                "name": "Forest12Right",
+                "access_rules": [
+                    "^$Forest12Right"
+                ]
+            },
+            {
+                "name": "Forest13Top",
+                "access_rules": [
+                    "^$Forest13Top"
+                ]
+            },
+            {
+                "name": "Forest13Bottom",
+                "access_rules": [
+                    "^$Forest13Bottom"
+                ]
+            },
+            {
+                "name": "Forest13Right",
+                "access_rules": [
+                    "^$Forest13Right"
+                ]
+            },
+            {
+                "name": "CovenHalls",
+                "access_rules": [
+                    "^$Forest14TheParishWayIII",
+                    "$isSpawn|CovenHalls"
+                ]
+            },
+            {
+                "name": "Forest14Bottom",
+                "access_rules": [
+                    "^$Forest14Bottom"
+                ]
+            },
+            {
+                "name": "Forest14Top",
+                "access_rules": [
+                    "^$Forest14Top"
+                ]
+            },
+            {
+                "name": "Forest14Left",
+                "access_rules": [
+                    "^$Forest14Left"
+                ]
+            },
+            {
+                "name": "Eleine",
+                "access_rules": [
+                    "^$Forest15DarkWitchEleineFight"
+                ]
+            },
+            {
+                "name": "Forest15Top",
+                "access_rules": [
+                    "^$Forest15Top"
+                ]
+            },
+            {
+                "name": "Forest16Left",
+                "access_rules": [
+                    "^$Forest16Left"
+                ]
+            },
+            {
+                "name": "SpellboundAnklet",
+                "access_rules": [
+                    "^$Forest17SpellboundAnklet"
+                ]
+            },
+            {
+                "name": "Forest17Left",
+                "access_rules": [
+                    "^$Forest17Left"
+                ]
+            },
+            {
+                "name": "AnkletRoom",
+                "access_rules": [
+                    "^$Forest17EleinesDiaryI"
+                ]
+            },
+            {
+                "name": "Sentinel",
+                "access_rules": [
+                    "^$Fort01FallenSentinelFight"
+                ]
+            },
+            {
+                "name": "Fort01Right",
+                "access_rules": [
+                    "^$Fort01Right"
+                ]
+            },
+            {
+                "name": "Fort01Left2",
+                "access_rules": [
+                    "^$Fort01Left2"
+                ]
+            },
+            {
+                "name": "Fort01Left1",
+                "access_rules": [
+                    "^$Fort01Left1"
+                ]
+            },
+            {
+                "name": "Fort02Right",
+                "access_rules": [
+                    "^$Fort02Right"
+                ]
+            },
+            {
+                "name": "Fort02Left",
+                "access_rules": [
+                    "^$Fort02Left"
+                ]
+            },
+            {
+                "name": "BastionGates",
+                "access_rules": [
+                    "^$Fort03BloodiedNoteI",
+                    "$isSpawn|BastionGates"
+                ]
+            },
+            {
+                "name": "Fort03Right",
+                "access_rules": [
+                    "^$Fort03Right"
+                ]
+            },
+            {
+                "name": "Fort03Left1",
+                "access_rules": [
+                    "^$Fort03Left1"
+                ]
+            },
+            {
+                "name": "Fort03Left2",
+                "access_rules": [
+                    "^$Fort03Left2"
+                ]
+            },
+            {
+                "name": "Fort03Top",
+                "access_rules": [
+                    "^$Fort03Top"
+                ]
+            },
+            {
+                "name": "Fort04Top",
+                "access_rules": [
+                    "^$Fort04Top"
+                ]
+            },
+            {
+                "name": "Fort04Left",
+                "access_rules": [
+                    "^$Fort04Left"
+                ]
+            },
+            {
+                "name": "Fort05Bottom2",
+                "access_rules": [
+                    "^$Fort05Bottom2"
+                ]
+            },
+            {
+                "name": "Fort05Right",
+                "access_rules": [
+                    "^$Fort05Right"
+                ]
+            },
+            {
+                "name": "Fort05Bottom1",
+                "access_rules": [
+                    "^$Fort05Bottom1"
+                ]
+            },
+            {
+                "name": "Fort05Top",
+                "access_rules": [
+                    "^$Fort05Top"
+                ]
+            },
+            {
+                "name": "Fort06Left",
+                "access_rules": [
+                    "^$Fort06Left"
+                ]
+            },
+            {
+                "name": "Fort06Right",
+                "access_rules": [
+                    "^$Fort06Right"
+                ]
+            },
+            {
+                "name": "Fort06Bottom",
+                "access_rules": [
+                    "^$Fort06Bottom"
+                ]
+            },
+            {
+                "name": "Fort07Bottom1",
+                "access_rules": [
+                    "^$Fort07Bottom1"
+                ]
+            },
+            {
+                "name": "Fort07Right",
+                "access_rules": [
+                    "^$Fort07Right"
+                ]
+            },
+            {
+                "name": "Fort07Left",
+                "access_rules": [
+                    "^$Fort07Left"
+                ]
+            },
+            {
+                "name": "Fort07Top",
+                "access_rules": [
+                    "^$Fort07Top"
+                ]
+            },
+            {
+                "name": "Fort07Bottom2",
+                "access_rules": [
+                    "^$Fort07Bottom2"
+                ]
+            },
+            {
+                "name": "SecondSpireChamber",
+                "access_rules": [
+                    "^$Fort08HoenirsDiaryIII",
+                    "$isSpawn|SecondSpireChamber"
+                ]
+            },
+            {
+                "name": "Fort08Left",
+                "access_rules": [
+                    "^$Fort08Left"
+                ]
+            },
+            {
+                "name": "SnowdropBracelet",
+                "access_rules": [
+                    "^$Fort09SnowdropBracelet"
+                ]
+            },
+            {
+                "name": "Fort09Right",
+                "access_rules": [
+                    "^$Fort09Right"
+                ]
+            },
+            {
+                "name": "Fort09Left",
+                "access_rules": [
+                    "^$Fort09Left"
+                ]
+            },
+            {
+                "name": "Fort09Top1",
+                "access_rules": [
+                    "^$Fort09Top1"
+                ]
+            },
+            {
+                "name": "Fort09Top2",
+                "access_rules": [
+                    "^$Fort09Top2"
+                ]
+            },
+            {
+                "name": "Courtyard",
+                "access_rules": [
+                    "^$Fort10BloodiedNoteII",
+                    "$isSpawn|Courtyard"
+                ]
+            },
+            {
+                "name": "Fort10Right",
+                "access_rules": [
+                    "^$Fort10Right"
+                ]
+            },
+            {
+                "name": "Fort10Top",
+                "access_rules": [
+                    "^$Fort10Top"
+                ]
+            },
+            {
+                "name": "RicorusRing",
+                "access_rules": [
+                    "^$Fort11RicorusRing"
+                ]
+            },
+            {
+                "name": "Fort11Stagnant",
+                "access_rules": [
+                    "^$Fort11StagnantBlightx30"
+                ]
+            },
+            {
+                "name": "Fort11Bottom",
+                "access_rules": [
+                    "^$Fort11Bottom"
+                ]
+            },
+            {
+                "name": "Fort11Left",
+                "access_rules": [
+                    "^$Fort11Left"
+                ]
+            },
+            {
+                "name": "Fort11Top1",
+                "access_rules": [
+                    "^$Fort11Top1"
+                ]
+            },
+            {
+                "name": "Fort11Top2",
+                "access_rules": [
+                    "^$Fort11Top2"
+                ]
+            },
+            {
+                "name": "Fellwyrm",
+                "access_rules": [
+                    "^$Fort12ForsakenFellwyrmFight"
+                ]
+            },
+            {
+                "name": "Fort12HP",
+                "access_rules": [
+                    "^$Fort12AmuletFragment"
+                ]
+            },
+            {
+                "name": "Fort12Right",
+                "access_rules": [
+                    "^$Fort12Right"
+                ]
+            },
+            {
+                "name": "Fort12Top",
+                "access_rules": [
+                    "^$Fort12Top"
+                ]
+            },
+            {
+                "name": "Fort12Left",
+                "access_rules": [
+                    "^$Fort12Left"
+                ]
+            },
+            {
+                "name": "Fort13Chain",
+                "access_rules": [
+                    "^$Fort13ChainofSorcery"
+                ]
+            },
+            {
+                "name": "Fort13Bottom1",
+                "access_rules": [
+                    "^$Fort13Bottom1"
+                ]
+            },
+            {
+                "name": "Fort13Bottom2",
+                "access_rules": [
+                    "^$Fort13Bottom2"
+                ]
+            },
+            {
+                "name": "Fort13Left",
+                "access_rules": [
+                    "^$Fort13Left"
+                ]
+            },
+            {
+                "name": "Fort13Top",
+                "access_rules": [
+                    "^$Fort13Top"
+                ]
+            },
+            {
+                "name": "Fort14Left",
+                "access_rules": [
+                    "^$Fort14Left"
+                ]
+            },
+            {
+                "name": "Fort14Right",
+                "access_rules": [
+                    "^$Fort14Right"
+                ]
+            },
+            {
+                "name": "Fort14Bottom",
+                "access_rules": [
+                    "^$Fort14Bottom"
+                ]
+            },
+            {
+                "name": "ImmortalsCrest",
+                "access_rules": [
+                    "^$Fort15ImmortalsCrest"
+                ]
+            },
+            {
+                "name": "Fort15Right2",
+                "access_rules": [
+                    "^$Fort15Right2",
+                    "$isSpawn|MonumentOfTheWind"
+                ]
+            },
+            {
+                "name": "Fort15Right1",
+                "access_rules": [
+                    "^$Fort15Right1"
+                ]
+            },
+            {
+                "name": "Fort15Bottom",
+                "access_rules": [
+                    "^$Fort15Bottom"
+                ]
+            },
+            {
+                "name": "Fort15Top",
+                "access_rules": [
+                    "^$Fort15Top"
+                ]
+            },
+            {
+                "name": "Fort15Right3",
+                "access_rules": [
+                    "^$Fort15Right3"
+                ]
+            },
+            {
+                "name": "Fort16Left1",
+                "access_rules": [
+                    "^$Fort16Left1"
+                ]
+            },
+            {
+                "name": "Fort16Top",
+                "access_rules": [
+                    "^$Fort16Top"
+                ]
+            },
+            {
+                "name": "Fort16Left2",
+                "access_rules": [
+                    "^$Fort16Left2"
+                ]
+            },
+            {
+                "name": "Fort16Right",
+                "access_rules": [
+                    "^$Fort16Right"
+                ]
+            },
+            {
+                "name": "Fort17Bottom",
+                "access_rules": [
+                    "^$Fort17Bottom"
+                ]
+            },
+            {
+                "name": "Fort17Right",
+                "access_rules": [
+                    "^$Fort17Right"
+                ]
+            },
+            {
+                "name": "Fort18Left",
+                "access_rules": [
+                    "^$Fort18Left"
+                ]
+            },
+            {
+                "name": "Fort18Right",
+                "access_rules": [
+                    "^$Fort18Right"
+                ]
+            },
+            {
+                "name": "Fort18Bottom",
+                "access_rules": [
+                    "^$Fort18Bottom"
+                ]
+            },
+            {
+                "name": "AncientDragonClaw",
+                "access_rules": [
+                    "^$Fort19AncientDragonClaw"
+                ]
+            },
+            {
+                "name": "Fort19Left",
+                "access_rules": [
+                    "^$Fort19Left"
+                ]
+            },
+            {
+                "name": "Fort19Top",
+                "access_rules": [
+                    "^$Fort19Top"
+                ]
+            },
+            {
+                "name": "Fort19Bottom",
+                "access_rules": [
+                    "^$Fort19Bottom"
+                ]
+            },
+            {
+                "name": "Fort20Bottom",
+                "access_rules": [
+                    "^$Fort20Bottom"
+                ]
+            },
+            {
+                "name": "Fort20Top",
+                "access_rules": [
+                    "^$Fort20Top"
+                ]
+            },
+            {
+                "name": "Ulv",
+                "access_rules": [
+                    "^$Fort21defeatUlv"
+                ]
+            },
+            {
+                "name": "Fort21Bottom",
+                "access_rules": [
+                    "^$Fort21Bottom"
+                ]
+            },
+            {
+                "name": "MourningHall",
+                "access_rules": [
+                    "^$MourningHall",
+                    "$isSpawn|MourningHall"
+                ]
+            },
+            {
+                "name": "Oubliette01Left",
+                "access_rules": [
+                    "^$Oubliette01Left"
+                ]
+            },
+            {
+                "name": "Oubliette01Right",
+                "access_rules": [
+                    "^$Oubliette01Right"
+                ]
+            },
+            {
+                "name": "Aqueduct",
+                "access_rules": [
+                    "^$Oubliette02ExecutionersVow",
+                    "$isSpawn|Aqueduct"
+                ]
+            },
+            {
+                "name": "Oubliette02Left",
+                "access_rules": [
+                    "^$Oubliette02Left"
+                ]
+            },
+            {
+                "name": "Oubliette02Right1",
+                "access_rules": [
+                    "^$Oubliette02Right1"
+                ]
+            },
+            {
+                "name": "Oubliette02Right2",
+                "access_rules": [
+                    "^$Oubliette02Right2"
+                ]
+            },
+            {
+                "name": "Oubliette03Left",
+                "access_rules": [
+                    "^$Oubliette03Left"
+                ]
+            },
+            {
+                "name": "Oubliette03Right",
+                "access_rules": [
+                    "^$Oubliette03Right"
+                ]
+            },
+            {
+                "name": "Oubliette03Top",
+                "access_rules": [
+                    "^$Oubliette03Top"
+                ]
+            },
+            {
+                "name": "Oubliette04Right",
+                "access_rules": [
+                    "^$Oubliette04Right"
+                ]
+            },
+            {
+                "name": "Oubliette04Left",
+                "access_rules": [
+                    "^$Oubliette04Left"
+                ]
+            },
+            {
+                "name": "Oubliette051Bottom",
+                "access_rules": [
+                    "^$Oubliette051Bottom"
+                ]
+            },
+            {
+                "name": "Oubliette052Bottom1",
+                "access_rules": [
+                    "^$Oubliette052Bottom1"
+                ]
+            },
+            {
+                "name": "Oubliette052Bottom2",
+                "access_rules": [
+                    "^$Oubliette052Bottom2"
+                ]
+            },
+            {
+                "name": "Oubliette053Top",
+                "access_rules": [
+                    "^$Oubliette053Top"
+                ]
+            },
+            {
+                "name": "Oubliette05Top2",
+                "access_rules": [
+                    "^$Oubliette05Top2"
+                ]
+            },
+            {
+                "name": "Oubliette05Bottom2",
+                "access_rules": [
+                    "^$Oubliette05Bottom2"
+                ]
+            },
+            {
+                "name": "Oubliette05Top3",
+                "access_rules": [
+                    "^$Oubliette05Top3"
+                ]
+            },
+            {
+                "name": "Oubliette05Top1",
+                "access_rules": [
+                    "^$Oubliette05Top1"
+                ]
+            },
+            {
+                "name": "Oubliette05Bottom1",
+                "access_rules": [
+                    "^$Oubliette05Bottom1"
+                ]
+            },
+            {
+                "name": "Oubliette05Left",
+                "access_rules": [
+                    "^$Oubliette05Left"
+                ]
+            },
+            {
+                "name": "Oubliette05Right",
+                "access_rules": [
+                    "^$Oubliette05Right"
+                ]
+            },
+            {
+                "name": "Oubliette05Bottom3",
+                "access_rules": [
+                    "^$Oubliette05Bottom3"
+                ]
+            },
+            {
+                "name": "Oubliette05Top4",
+                "access_rules": [
+                    "^$Oubliette05Top4"
+                ]
+            },
+            {
+                "name": "Cells",
+                "access_rules": [
+                    "^$Oubliette06HoenirsDiaryI",
+                    "$isSpawn|Cells"
+                ]
+            },
+            {
+                "name": "Oubliette061Left",
+                "access_rules": [
+                    "^$Oubliette061Left"
+                ]
+            },
+            {
+                "name": "ExecutionersGloves",
+                "access_rules": [
+                    "^$Oubliette06ExecutionersGloves"
+                ]
+            },
+            {
+                "name": "Oubliette062Bottom2",
+                "access_rules": [
+                    "^$Oubliette062Bottom2"
+                ]
+            },
+            {
+                "name": "Oubliette063Left1",
+                "access_rules": [
+                    "^$Oubliette063Left1"
+                ]
+            },
+            {
+                "name": "Oubliette064Top",
+                "access_rules": [
+                    "^$Oubliette064Top"
+                ]
+            },
+            {
+                "name": "Oubliette06Left",
+                "access_rules": [
+                    "^$Oubliette06Left"
+                ]
+            },
+            {
+                "name": "Oubliette06Right",
+                "access_rules": [
+                    "^$Oubliette06Right"
+                ]
+            },
+            {
+                "name": "Oubliette06Bottom",
+                "access_rules": [
+                    "^$Oubliette06Bottom"
+                ]
+            },
+            {
+                "name": "Oubliette071Top",
+                "access_rules": [
+                    "^$Oubliette071Top"
+                ]
+            },
+            {
+                "name": "Subject",
+                "access_rules": [
+                    "^$Oubliette07HiddenTestSubjectFight"
+                ]
+            },
+            {
+                "name": "Oubliette072Bottom",
+                "access_rules": [
+                    "^$Oubliette072Bottom"
+                ]
+            },
+            {
+                "name": "Oubliette07Right1",
+                "access_rules": [
+                    "^$Oubliette07Right1"
+                ]
+            },
+            {
+                "name": "Oubliette07Left1",
+                "access_rules": [
+                    "^$Oubliette07Left1"
+                ]
+            },
+            {
+                "name": "Oubliette07Bottom2",
+                "access_rules": [
+                    "^$Oubliette07Bottom2"
+                ]
+            },
+            {
+                "name": "Oubliette07Top",
+                "access_rules": [
+                    "^$Oubliette07Top"
+                ]
+            },
+            {
+                "name": "Oubliette07Left2",
+                "access_rules": [
+                    "^$Oubliette07Left2"
+                ]
+            },
+            {
+                "name": "Oubliette07Right2",
+                "access_rules": [
+                    "^$Oubliette07Right2"
+                ]
+            },
+            {
+                "name": "Oubliette07Bottom1",
+                "access_rules": [
+                    "^$Oubliette07Bottom1"
+                ]
+            },
+            {
+                "name": "Oubliette08Right",
+                "access_rules": [
+                    "^$Oubliette08Right"
+                ]
+            },
+            {
+                "name": "Oubliette08Left",
+                "access_rules": [
+                    "^$Oubliette08Left"
+                ]
+            },
+            {
+                "name": "Oubliette08Top",
+                "access_rules": [
+                    "^$Oubliette08Top"
+                ]
+            },
+            {
+                "name": "Oubliette09Right",
+                "access_rules": [
+                    "^$Oubliette09Right"
+                ]
+            },
+            {
+                "name": "Oubliette09Left",
+                "access_rules": [
+                    "^$Oubliette09Left"
+                ]
+            },
+            {
+                "name": "Oubliette09Top",
+                "access_rules": [
+                    "^$Oubliette09Top"
+                ]
+            },
+            {
+                "name": "DarkChamber",
+                "access_rules": [
+                    "^$Oubliette10ExecutionersMissive",
+                    "$isSpawn|DarkChamber"
+                ]
+            },
+            {
+                "name": "Oubliette10Right",
+                "access_rules": [
+                    "^$Oubliette10Right"
+                ]
+            },
+            {
+                "name": "Oubliette10Left1",
+                "access_rules": [
+                    "^$Oubliette10Left1"
+                ]
+            },
+            {
+                "name": "Oubliette10Left2",
+                "access_rules": [
+                    "^$Oubliette10Left2"
+                ]
+            },
+            {
+                "name": "Oubliette10Top",
+                "access_rules": [
+                    "^$Oubliette10Top"
+                ]
+            },
+            {
+                "name": "Oubliette11Right1",
+                "access_rules": [
+                    "^$Oubliette11Right1"
+                ]
+            },
+            {
+                "name": "Oubliette11Left2",
+                "access_rules": [
+                    "^$Oubliette11Left2"
+                ]
+            },
+            {
+                "name": "Oubliette11Right2",
+                "access_rules": [
+                    "^$Oubliette11Right2"
+                ]
+            },
+            {
+                "name": "Oubliette11Left1",
+                "access_rules": [
+                    "^$Oubliette11Left1"
+                ]
+            },
+            {
+                "name": "Oubliette11Bottom",
+                "access_rules": [
+                    "^$Oubliette11Bottom"
+                ]
+            },
+            {
+                "name": "Oubliette11Top",
+                "access_rules": [
+                    "^$Oubliette11Top"
+                ]
+            },
+            {
+                "name": "Executioner",
+                "access_rules": [
+                    "^$Oubliette12DarkExecutionerFight"
+                ]
+            },
+            {
+                "name": "Oubliette12Left",
+                "access_rules": [
+                    "^$Oubliette12Left"
+                ]
+            },
+            {
+                "name": "AurasRing",
+                "access_rules": [
+                    "^$Oubliette13AurasRing"
+                ]
+            },
+            {
+                "name": "Oubliette131Bottom",
+                "access_rules": [
+                    "^$Oubliette131Bottom"
+                ]
+            },
+            {
+                "name": "Oubliette132Top",
+                "access_rules": [
+                    "^$Oubliette132Top"
+                ]
+            },
+            {
+                "name": "Oubliette13Bottom",
+                "access_rules": [
+                    "^$Oubliette13Bottom"
+                ]
+            },
+            {
+                "name": "Oubliette13Right",
+                "access_rules": [
+                    "^$Oubliette13Right"
+                ]
+            },
+            {
+                "name": "Oubliette13Left",
+                "access_rules": [
+                    "^$Oubliette13Left"
+                ]
+            },
+            {
+                "name": "ExecutionGrounds",
+                "access_rules": [
+                    "^$Oubliette14HoenirsDiaryII",
+                    "$isSpawn|ExecutionGrounds"
+                ]
+            },
+            {
+                "name": "Oubliette14Left",
+                "access_rules": [
+                    "^$Oubliette14Left"
+                ]
+            },
+            {
+                "name": "Oubliette14Right",
+                "access_rules": [
+                    "^$Oubliette14Right"
+                ]
+            },
+            {
+                "name": "Hoenir",
+                "access_rules": [
+                    "^$Oubliette15defeatHoenir"
+                ]
+            },
+            {
+                "name": "Oubliette15Left",
+                "access_rules": [
+                    "^$Oubliette15Left"
+                ]
+            },
+            {
+                "name": "Oubliette15Right",
+                "access_rules": [
+                    "^$Oubliette15Right"
+                ]
+            },
+            {
+                "name": "Oubliette16Left",
+                "access_rules": [
+                    "^$Oubliette16Left"
+                ]
+            },
+            {
+                "name": "Oubliette16Right",
+                "access_rules": [
+                    "^$Oubliette16Right"
+                ]
+            },
+            {
+                "name": "Oubliette17Right",
+                "access_rules": [
+                    "^$Oubliette17Right"
+                ]
+            },
+            {
+                "name": "Oubliette17Bottom",
+                "access_rules": [
+                    "^$Oubliette17Bottom"
+                ]
+            },
+            {
+                "name": "Outside01Right",
+                "access_rules": [
+                    "^$Outside01Right"
+                ]
+            },
+            {
+                "name": "Outside01Left1",
+                "access_rules": [
+                    "^$Outside01Left1"
+                ]
+            },
+            {
+                "name": "Outside01Left2",
+                "access_rules": [
+                    "^$Outside01Left2"
+                ]
+            },
+            {
+                "name": "Outside02Left",
+                "access_rules": [
+                    "^$Outside02Left"
+                ]
+            },
+            {
+                "name": "Grotto",
+                "access_rules": [
+                    "^$Outside03KingoftheFirstAgesTornNoteI"
+                ]
+            },
+            {
+                "name": "NymphiliasRing",
+                "access_rules": [
+                    "^$Outside03NymphiliasRing"
+                ]
+            },
+            {
+                "name": "Outside03Right",
+                "access_rules": [
+                    "^$Outside03Right"
+                ]
+            },
+            {
+                "name": "Outside03Top",
+                "access_rules": [
+                    "^$Outside03Top"
+                ]
+            },
+            {
+                "name": "Champion",
+                "access_rules": [
+                    "^$Swamp04VerbotenChampionFight"
+                ]
+            },
+            {
+                "name": "Swamp04Bottom",
+                "access_rules": [
+                    "^$Swamp04Bottom"
+                ]
+            },
+            {
+                "name": "Swamp04Left",
+                "access_rules": [
+                    "^$Swamp04Left"
+                ]
+            },
+            {
+                "name": "Swamp05Top",
+                "access_rules": [
+                    "^$Swamp05Top"
+                ]
+            },
+            {
+                "name": "Swamp05Right",
+                "access_rules": [
+                    "^$Swamp05Right"
+                ]
+            },
+            {
+                "name": "Swamp05Bottom",
+                "access_rules": [
+                    "^$Swamp05Bottom"
+                ]
+            },
+            {
+                "name": "Swamp05Left",
+                "access_rules": [
+                    "^$Swamp05Left"
+                ]
+            },
+            {
+                "name": "Lab2",
+                "access_rules": [
+                    "^$Swamp06VerbotenDomainNotice",
+                    "$isSpawn|Lab2"
+                ]
+            },
+            {
+                "name": "HereticsMask",
+                "access_rules": [
+                    "^$Swamp06HereticsMask"
+                ]
+            },
+            {
+                "name": "Swamp06Left",
+                "access_rules": [
+                    "^$Swamp06Left"
+                ]
+            },
+            {
+                "name": "Swamp06Top",
+                "access_rules": [
+                    "^$Swamp06Top"
+                ]
+            },
+            {
+                "name": "CaliviasRing",
+                "access_rules": [
+                    "^$Swamp07CaliviasRing"
+                ]
+            },
+            {
+                "name": "Swamp07Bottom",
+                "access_rules": [
+                    "^$Swamp07Bottom"
+                ]
+            },
+            {
+                "name": "Swamp07Right",
+                "access_rules": [
+                    "^$Swamp07Right"
+                ]
+            },
+            {
+                "name": "Swamp07Left",
+                "access_rules": [
+                    "^$Swamp07Left"
+                ]
+            },
+            {
+                "name": "Swamp07Top",
+                "access_rules": [
+                    "^$Swamp07Top"
+                ]
+            },
+            {
+                "name": "Swamp08Right1",
+                "access_rules": [
+                    "^$Swamp08Right1"
+                ]
+            },
+            {
+                "name": "Swamp08Right2",
+                "access_rules": [
+                    "^$Swamp08Right2"
+                ]
+            },
+            {
+                "name": "Swamp08Top",
+                "access_rules": [
+                    "^$Swamp08Top"
+                ]
+            },
+            {
+                "name": "WeatheredNecklace",
+                "access_rules": [
+                    "^$Swamp09WeatheredNecklace"
+                ]
+            },
+            {
+                "name": "Swamp09Bottom1",
+                "access_rules": [
+                    "^$Swamp09Bottom1"
+                ]
+            },
+            {
+                "name": "Swamp09Right1",
+                "access_rules": [
+                    "^$Swamp09Right1"
+                ]
+            },
+            {
+                "name": "Swamp09Bottom2",
+                "access_rules": [
+                    "^$Swamp09Bottom2"
+                ]
+            },
+            {
+                "name": "Swamp09Right2",
+                "access_rules": [
+                    "^$Swamp09Right2"
+                ]
+            },
+            {
+                "name": "Lab1",
+                "access_rules": [
+                    "^$Swamp1FadensArchivesIII",
+                    "$isSpawn|Lab1"
+                ]
+            },
+            {
+                "name": "Swamp1Bottom",
+                "access_rules": [
+                    "^$Swamp1Bottom"
+                ]
+            },
+            {
+                "name": "Swamp1Left",
+                "access_rules": [
+                    "^$Swamp1Left"
+                ]
+            },
+            {
+                "name": "Lab3",
+                "access_rules": [
+                    "^$Swamp10FadensArchivesIV"
+                ]
+            },
+            {
+                "name": "Swamp10Right",
+                "access_rules": [
+                    "^$Swamp10Right"
+                ]
+            },
+            {
+                "name": "BlightedAppendage",
+                "access_rules": [
+                    "^$Swamp11BlightedAppendage"
+                ]
+            },
+            {
+                "name": "Swamp11Bottom",
+                "access_rules": [
+                    "^$Swamp11Bottom"
+                ]
+            },
+            {
+                "name": "Swamp11Left",
+                "access_rules": [
+                    "^$Swamp11Left"
+                ]
+            },
+            {
+                "name": "Lab4",
+                "access_rules": [
+                    "^$Swamp12FadensArchivesII"
+                ]
+            },
+            {
+                "name": "Swamp12Left",
+                "access_rules": [
+                    "^$Swamp12Left"
+                ]
+            },
+            {
+                "name": "Swamp12Bottom",
+                "access_rules": [
+                    "^$Swamp12Bottom"
+                ]
+            },
+            {
+                "name": "Swamp13Left",
+                "access_rules": [
+                    "^$Swamp13Left"
+                ]
+            },
+            {
+                "name": "Swamp13Top1",
+                "access_rules": [
+                    "^$Swamp13Top1"
+                ]
+            },
+            {
+                "name": "Swamp13Top2",
+                "access_rules": [
+                    "^$Swamp13Top2"
+                ]
+            },
+            {
+                "name": "Swamp13Bottom",
+                "access_rules": [
+                    "^$Swamp13Bottom"
+                ]
+            },
+            {
+                "name": "Swamp14Top",
+                "access_rules": [
+                    "^$Swamp14Top"
+                ]
+            },
+            {
+                "name": "Swamp14Right",
+                "access_rules": [
+                    "^$Swamp14Right"
+                ]
+            },
+            {
+                "name": "Swamp14Bottom",
+                "access_rules": [
+                    "^$Swamp14Bottom"
+                ]
+            },
+            {
+                "name": "Sinner",
+                "access_rules": [
+                    "^$Swamp15IncompetentSinnerFight"
+                ]
+            },
+            {
+                "name": "Swamp15Top",
+                "access_rules": [
+                    "^$Swamp15Top"
+                ]
+            },
+            {
+                "name": "Swamp15Left",
+                "access_rules": [
+                    "^$Swamp15Left"
+                ]
+            },
+            {
+                "name": "Swamp15Right",
+                "access_rules": [
+                    "^$Swamp15Right"
+                ]
+            },
+            {
+                "name": "Lab5",
+                "access_rules": [
+                    "^$Swamp16FadensArchivesI"
+                ]
+            },
+            {
+                "name": "Swamp16Top",
+                "access_rules": [
+                    "^$Swamp16Top"
+                ]
+            },
+            {
+                "name": "Swamp16Left",
+                "access_rules": [
+                    "^$Swamp16Left"
+                ]
+            },
+            {
+                "name": "Swamp17Left",
+                "access_rules": [
+                    "^$Swamp17Left"
+                ]
+            },
+            {
+                "name": "Swamp17Right",
+                "access_rules": [
+                    "^$Swamp17Right"
+                ]
+            },
+            {
+                "name": "Faden",
+                "access_rules": [
+                    "^$Swamp18Faden"
+                ]
+            },
+            {
+                "name": "Swamp18Bottom",
+                "access_rules": [
+                    "^$Swamp18Bottom"
+                ]
+            },
+            {
+                "name": "Swamp18Right",
+                "access_rules": [
+                    "^$Swamp18Right"
+                ]
+            },
+            {
+                "name": "Swamp2Right",
+                "access_rules": [
+                    "^$Swamp2Right"
+                ]
+            },
+            {
+                "name": "Swamp2Top",
+                "access_rules": [
+                    "^$Swamp2Top"
+                ]
+            },
+            {
+                "name": "Swamp3Left",
+                "access_rules": [
+                    "^$Swamp3Left"
+                ]
+            },
+            {
+                "name": "Swamp3Top",
+                "access_rules": [
+                    "^$Swamp3Top"
+                ]
+            },
+            {
+                "name": "Swamp3Right",
+                "access_rules": [
+                    "^$Swamp3Right"
+                ]
+            },
+            {
+                "name": "Swamp3Bottom",
+                "access_rules": [
+                    "^$Swamp3Bottom"
+                ]
+            },
+            {
+                "name": "Village01Right",
+                "access_rules": [
+                    "^$Village01Right"
+                ]
+            },
+            {
+                "name": "Village01Bottom",
+                "access_rules": [
+                    "^$Village01Bottom"
+                ]
+            },
+            {
+                "name": "Village02Right",
+                "access_rules": [
+                    "^$Village02Right"
+                ]
+            },
+            {
+                "name": "Village02Left",
+                "access_rules": [
+                    "^$Village02Left"
+                ]
+            },
+            {
+                "name": "Village02Bottom",
+                "access_rules": [
+                    "^$Village02Bottom"
+                ]
+            },
+            {
+                "name": "BrokenMusicBox",
+                "access_rules": [
+                    "^$Village03BrokenMusicBox"
+                ]
+            },
+            {
+                "name": "Village03Bottom1",
+                "access_rules": [
+                    "^$Village03Bottom1"
+                ]
+            },
+            {
+                "name": "Village03Right",
+                "access_rules": [
+                    "^$Village03Right"
+                ]
+            },
+            {
+                "name": "Village03Bottom2",
+                "access_rules": [
+                    "^$Village03Bottom2"
+                ]
+            },
+            {
+                "name": "Bird",
+                "access_rules": [
+                    "^$Village04WesternMerchantFight"
+                ]
+            },
+            {
+                "name": "Village041Bottom",
+                "access_rules": [
+                    "^$Village041Bottom"
+                ]
+            },
+            {
+                "name": "BloodstainedRibbon",
+                "access_rules": [
+                    "^$Village04BloodstainedRibbon"
+                ]
+            },
+            {
+                "name": "Village04Top",
+                "access_rules": [
+                    "^$Village04Top"
+                ]
+            },
+            {
+                "name": "Village04Right",
+                "access_rules": [
+                    "^$Village04Right"
+                ]
+            },
+            {
+                "name": "CollapsedShack",
+                "access_rules": [
+                    "^$Village05TrueBelieversNote",
+                    "$isSpawn|CollapsedShack"
+                ]
+            },
+            {
+                "name": "Village05Top",
+                "access_rules": [
+                    "^$Village05Top"
+                ]
+            },
+            {
+                "name": "Village05Left",
+                "access_rules": [
+                    "^$Village05Left"
+                ]
+            },
+            {
+                "name": "Village05Right",
+                "access_rules": [
+                    "^$Village05Right"
+                ]
+            },
+            {
+                "name": "Village06Left",
+                "access_rules": [
+                    "^$Village06Left"
+                ]
+            },
+            {
+                "name": "Village06Right1",
+                "access_rules": [
+                    "^$Village06Right1"
+                ]
+            },
+            {
+                "name": "Village06Bottom",
+                "access_rules": [
+                    "^$Village06Bottom"
+                ]
+            },
+            {
+                "name": "Village06Right2",
+                "access_rules": [
+                    "^$Village06Right2"
+                ]
+            },
+            {
+                "name": "Village07Left",
+                "access_rules": [
+                    "^$Village07Left"
+                ]
+            },
+            {
+                "name": "Village07Right",
+                "access_rules": [
+                    "^$Village07Right"
+                ]
+            },
+            {
+                "name": "Village07Top",
+                "access_rules": [
+                    "^$Village07Top"
+                ]
+            },
+            {
+                "name": "Defender",
+                "access_rules": [
+                    "^$Village08HeadlessDefenderFight"
+                ]
+            },
+            {
+                "name": "Village08Left",
+                "access_rules": [
+                    "^$Village08Left"
+                ]
+            },
+            {
+                "name": "Village08Right",
+                "access_rules": [
+                    "^$Village08Right"
+                ]
+            },
+            {
+                "name": "BridgeHead",
+                "access_rules": [
+                    "^$Village09HamletRequestI",
+                    "$isSpawn|BridgeHead"
+                ]
+            },
+            {
+                "name": "Village09Right1",
+                "access_rules": [
+                    "^$Village09Right1"
+                ]
+            },
+            {
+                "name": "Village09Right2",
+                "access_rules": [
+                    "^$Village09Right2"
+                ]
+            },
+            {
+                "name": "Village09Left1",
+                "access_rules": [
+                    "^$Village09Left1"
+                ]
+            },
+            {
+                "name": "Village09Left2",
+                "access_rules": [
+                    "^$Village09Left2"
+                ]
+            },
+            {
+                "name": "Gerrod",
+                "access_rules": [
+                    "^$Village10defeatGerrod"
+                ]
+            },
+            {
+                "name": "Village10Left",
+                "access_rules": [
+                    "^$Village10Left"
+                ]
+            },
+            {
+                "name": "Village10Right",
+                "access_rules": [
+                    "^$Village10Right"
+                ]
+            },
+            {
+                "name": "Village111Bottom",
+                "access_rules": [
+                    "^$Village111Bottom"
+                ]
+            },
+            {
+                "name": "Village11Top",
+                "access_rules": [
+                    "^$Village11Top"
+                ]
+            },
+            {
+                "name": "Village11Left",
+                "access_rules": [
+                    "^$Village11Left"
+                ]
+            },
+            {
+                "name": "Village11Right",
+                "access_rules": [
+                    "^$Village11Right"
+                ]
+            },
+            {
+                "name": "Village12Top",
+                "access_rules": [
+                    "^$Village12Top"
+                ]
+            },
+            {
+                "name": "Village12Left1",
+                "access_rules": [
+                    "^$Village12Left1"
+                ]
+            },
+            {
+                "name": "Village12Right",
+                "access_rules": [
+                    "^$Village12Right"
+                ]
+            },
+            {
+                "name": "Village12Left2",
+                "access_rules": [
+                    "^$Village12Left2"
+                ]
+            },
+            {
+                "name": "GiantsRing",
+                "access_rules": [
+                    "^$Village13GiantsRing"
+                ]
+            },
+            {
+                "name": "Village13Top",
+                "access_rules": [
+                    "^$Village13Top"
+                ]
+            },
+            {
+                "name": "Village13Left",
+                "access_rules": [
+                    "^$Village13Left"
+                ]
+            },
+            {
+                "name": "Village13Right",
+                "access_rules": [
+                    "^$Village13Right"
+                ]
+            },
+            {
+                "name": "Elder",
+                "access_rules": [
+                    "^$Village14CliffsideHamletElderFight"
+                ]
+            },
+            {
+                "name": "Village14Bottom",
+                "access_rules": [
+                    "^$Village14Bottom"
+                ]
+            },
+            {
+                "name": "Village800",
+                "access_rules": [
+                    "^$Village15StagnantBlightx800"
+                ]
+            },
+            {
+                "name": "Village15Left",
+                "access_rules": [
+                    "^$Village15Left"
+                ]
+            },
+            {
+                "name": "Village15Right",
+                "access_rules": [
+                    "^$Village15Right"
+                ]
+            },
+            {
+                "name": "Village16Right",
+                "access_rules": [
+                    "^$Village16Right"
+                ]
+            },
+            {
+                "name": "Cave11Right2",
+                "access_rules": [
+                    "^$Cave11Right2"
+                ]
+            },
+            {
+                "name": "Church01Top",
+                "access_rules": [
+                    "^$Church01Top"
+                ]
+            },
+            {
+                "name": "Swamp12TP",
+                "access_rules": [
+                    "^$Swamp12TP"
+                ]
+            },
+            {
+                "name": "Castle18Top",
+                "access_rules": [
+                    "^$Castle18Top"
+                ]
+            }
+        ]
+    }
+]

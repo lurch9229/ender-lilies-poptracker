@@ -18,14 +18,12 @@
                     {
                         "name": "Eleine's Letter",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church02EleinesLetter"
                         ]
                     }
                 ]
@@ -42,16 +40,13 @@
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church02AmuletFragment"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -68,13 +63,11 @@
                 "sections": [
                     {
                         "name": "Guardian Siegrid Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church03defeatSiegrid"
                         ],
                         "hosted_item": "defeatSiegrid",
                         "item_count": 0
@@ -93,15 +86,12 @@
                 "sections": [
                     {
                         "name": "Soiled Prayer Beads",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules":
-                        [
-                            "$LEDGE",
-                            "claws"
+                        "access_rules": [
+                            "^$Church05SoiledPrayerBeads"
                         ],
                         "item_count": 1
                     }
@@ -109,8 +99,7 @@
             },
             {
                 "name": "Cathedral - Church_09 - Sub-Spirit Fight",
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "Cathedral",
                         "x": 4320,
@@ -120,13 +109,12 @@
                 "sections": [
                     {
                         "name": "Chief Guardian Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules":[
-                            "$church09ACCESS"
+                        "access_rules": [
+                            "^$Church09ChiefGuardianFight"
                         ],
                         "item_count": 1
                     }
@@ -144,15 +132,13 @@
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            "$church09ACCESS"
-                        ], 
+                        "access_rules": [
+                            "^$Church09FuriousBlightx30"
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -169,14 +155,12 @@
                 "sections": [
                     {
                         "name": "Vibrant Plume",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules":
-                        [
-                            "$church09ACCESS, $CHARGE, $LEDGE"
+                        "access_rules": [
+                            "^$Church09VibrantPlume"
                         ],
                         "item_count": 1
                     }
@@ -195,14 +179,12 @@
                     {
                         "name": "On the Blighted I",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church10OntheBlightedI"
                         ]
                     }
                 ]
@@ -220,18 +202,16 @@
                     {
                         "name": "On the Blighted II",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church10OntheBlightedII"
                         ]
                     }
                 ]
-            }, 
+            },
             {
                 "name": "Cathedral - Church_11 - Amulet Fragment",
                 "map_locations": [
@@ -244,16 +224,13 @@
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church11AmuletFragment"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -270,14 +247,12 @@
                 "sections": [
                     {
                         "name": "The Parish Way I",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church11TheParishWayI"
                         ],
                         "item_count": 1
                     }
@@ -295,14 +270,12 @@
                 "sections": [
                     {
                         "name": "Statue Inscription",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church12StatueInscription"
                         ],
                         "item_count": 1
                     }
@@ -317,24 +290,17 @@
                         "y": 4410
                     }
                 ],
-                "access_rules":
-                [
-                    "$church13ACCESS, $curioACCESS",
-                    "$church13ACCESS, tabletAP:7"
-                ],
                 "sections": [
                     {
                         "name": "Luminant Aegis Curio",
                         "item_count": 1,
                         "hosted_item": "luminantcurio",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_c_end"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church13LuminantAegisCurio"
                         ]
                     }
                 ]
@@ -348,22 +314,16 @@
                         "y": 4410
                     }
                 ],
-                "access_rules":
-                [
-                    "$church13ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Restoring the Aegis Curio",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Church13RestoringtheAegisCurio"
                         ]
                     }
                 ]
@@ -380,14 +340,12 @@
                 "sections": [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_wishes"
                         ],
-                        "access_rules":
-                        [
-                            "$church14ACCESS"
+                        "access_rules": [
+                            "^$Church14PriestessWish"
                         ],
                         "item_count": 1
                     }
@@ -406,14 +364,12 @@
                     {
                         "name": "Lily's Note",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            "$church14ACCESS"
+                        "access_rules": [
+                            "^$Church14LilysNote"
                         ]
                     }
                 ]
@@ -421,9 +377,10 @@
         ]
     },
     {
-        "item_count": 1,
+        "name": "World Map_2",
         "children": [
             {
+                "name": "Cathedral - Church 02",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_02 - Finding/Eleine's Letter",
@@ -441,9 +398,9 @@
                         "y": 2850
                     }
                 ]
-                    
             },
             {
+                "name": "Cathedral - Church 03",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_03 - Sub-Spirit Fight/Guardian Siegrid Fight",
@@ -459,6 +416,7 @@
                 ]
             },
             {
+                "name": "Cathedral - Church 05",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_05 - Relic/Soiled Prayer Beads",
@@ -474,6 +432,7 @@
                 ]
             },
             {
+                "name": "Cathedral - Church 09",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_09 - Sub-Spirit Fight/Chief Guardian Fight",
@@ -497,6 +456,7 @@
                 ]
             },
             {
+                "name": "Cathedral - Church 10",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_10 - Finding Left/On the Blighted I",
@@ -516,6 +476,7 @@
                 ]
             },
             {
+                "name": "Cathedral - Church 11",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_11 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -535,6 +496,7 @@
                 ]
             },
             {
+                "name": "Cathedral - Church 12",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_12 - Finding/Statue Inscription",
@@ -550,6 +512,7 @@
                 ]
             },
             {
+                "name": "Cathedral - Church 13",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_13 - Relic/Luminant Aegis Curio",
@@ -569,6 +532,7 @@
                 ]
             },
             {
+                "name": "Cathedral - Church 14",
                 "sections": [
                     {
                         "ref": "Cathedral/Cathedral - Church_14 - Priestess' Wish/Priestess' Wish (Prayer Upgrade)",

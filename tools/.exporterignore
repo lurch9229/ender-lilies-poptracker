@@ -1,0 +1,42 @@
+# Ignore patterns for the exporter tool
+# This uses the same syntax as .gitignore files, and is used to exclude files and directories from the exported zip file.
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+[Dd]ebug/x64/
+[Dd]ebugPublic/x64/
+[Rr]elease/x64/
+[Rr]eleases/x64/
+bin/x64/
+obj/x64/
+
+[Dd]ebug/x86/
+[Dd]ebugPublic/x86/
+[Rr]elease/x86/
+[Rr]eleases/x86/
+bin/x86/
+obj/x86/
+
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]64[Ee][Cc]/
+bld/
+[Oo]bj/
+[Oo]ut/
+[Oo]utput/
+[Ll]og/
+[Ll]ogs/
+
+# Editor directories
+.vscode/
+.vs/
+.idea/
+
+# Lua schema
+.luarc.json
+poptracker.lua

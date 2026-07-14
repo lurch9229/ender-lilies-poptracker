@@ -70,6 +70,145 @@
 						]
 					}
 				]
+			},
+			{
+				"type": "group",
+				"header": "Starting Location",
+				"content":
+				[
+					{
+						"type": "array",						
+						"orientation": "vertical",
+						"content":
+						[
+							{
+								"type": "item",
+								"item": "start_lily_chamber_off"
+							},
+							{
+								"type": "item",
+								"item": "start_cellar_off"
+							},
+							{
+								"type": "item",
+								"item":"start_cloister_off"
+							},
+							{
+								"type": "item",
+								"item":"start_saint_passage_off"
+							},
+							{
+								"type": "item",
+								"item":"start_crossroads_off"
+							},
+							{
+								"type": "item",
+								"item":"start_shack_off"
+							},
+							{
+								"type": "item",
+								"item":"start_bridgehead_off"
+							},
+							{
+								"type": "item",
+								"item":"start_castle_cellar_off"
+							},
+							{
+								"type": "item",
+								"item":"start_guest_chambers_off"
+							},
+							{
+								"type": "item",
+								"item":"start_ramparts_off"
+							},
+							{
+								"type": "item",
+								"item":"start_bastion_off"
+							},
+							{
+								"type": "item",
+								"item":"start_courtyard_off"
+							},
+							{
+								"type": "item",
+								"item":"start_second_spire_off"
+							},
+							{
+								"type": "item",
+								"item":"start_motw_off"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"content":
+				[
+					{
+						"type": "array",						
+						"orientation": "vertical",
+						"content":
+						[
+							{
+								"type": "item",
+								"item":"start_mourning_hall_off"
+							},
+							{
+								"type": "item",
+								"item": "start_dryad_lake_off"
+							},
+							{
+								"type": "item",
+								"item": "start_witchs_hermitage_off"
+							},
+							{
+								"type": "item",
+								"item":"start_coven_halls_off"
+							},
+							{
+								"type": "item",
+								"item":"start_botw_off"
+							},
+							{
+								"type": "item",
+								"item":"start_charnel_off"
+							},
+							{
+								"type": "item",
+								"item":"start_ossuary_off"
+							},
+							{
+								"type": "item",
+								"item":"start_great_hall_off"
+							},
+							{
+								"type": "item",
+								"item":"start_aqueduct_off"
+							},
+							{
+								"type": "item",
+								"item":"start_cells_off"
+							},
+							{
+								"type": "item",
+								"item":"start_dark_chamber_off"
+							},
+							{
+								"type": "item",
+								"item":"start_execution_off"
+							},
+							{
+								"type": "item",
+								"item":"start_labs1_off"
+							},
+							{
+								"type": "item",
+								"item":"start_labs2_off"
+							}
+						]
+					}
+				]
 			}
 		]
 	}

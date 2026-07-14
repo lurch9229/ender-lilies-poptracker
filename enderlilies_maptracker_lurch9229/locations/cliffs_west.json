@@ -14,24 +14,15 @@
                         "y": 1700
                     }
                 ],
-                "access_rules": [
-                    "$village02ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            "hook",
-                            "$LEDGE2",
-							"djump, $HORIZONTAL",
-							"sinner",
-							"silva, ulv, fretia"
+                        "access_rules": [
+                            "^$Village02StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -49,15 +40,12 @@
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules":
-                        [
-                            "$church08ACCESS",
-                            "SL-CR"
+                        "access_rules": [
+                            "^$Village02AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -72,24 +60,15 @@
                         "y": 1650
                     }
                 ],
-                "access_rules": [
-                    "$village02ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            "hook",
-                            "djump, silva",
-                            "djump, verboten",
-                            "dodge2, silva",
-                            "verboten, silva"
+                        "access_rules": [
+                            "^$Village02StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -104,20 +83,15 @@
                         "y": 1320
                     }
                 ],
-                "access_rules": [
-                    "$village03ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            "hammer"
+                        "access_rules": [
+                            "^$Village03FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -132,20 +106,15 @@
                         "y": 1320
                     }
                 ],
-                "access_rules": [
-                    "$village03ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "hammer"
+                        "access_rules": [
+                            "^$Village03AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -160,20 +129,15 @@
                         "y": 1320
                     }
                 ],
-                "access_rules": [
-                    "$village03ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village03StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -188,25 +152,15 @@
                         "y": 1305
                     }
                 ],
-                "access_rules": [
-                    "$village03ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Broken Music Box",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "claws",
-                            "silva",
-                            "$HORIZONTAL",
-                            "djump",
-                            "$AIRSTALL",
-                            "ulv"
+                        "access_rules": [
+                            "^$Village03BrokenMusicBox"
                         ],
                         "item_count": 1
                     }
@@ -221,26 +175,15 @@
                         "y": 700
                     }
                 ],
-                "access_rules": [
-                    "$village04ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Bloodstained Ribbon",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE2",
-                            "hook",
-                            "claws, $LEDGE",
-                            "verboten,$HORIZONTAL",
-                            "silva, $HORIZONTAL, $AIRSTALL",
-                            "djump, silva, $AIRSTALL",
-                            "dodge2, silva"                            
+                        "access_rules": [
+                            "^$Village04BloodstainedRibbon"
                         ],
                         "item_count": 1
                     }
@@ -255,20 +198,15 @@
                         "y": 850
                     }
                 ],
-                "access_rules": [
-                    "$village04ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village04StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -283,20 +221,15 @@
                         "y": 680
                     }
                 ],
-                "access_rules": [
-                    "$village04ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village04AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -311,20 +244,15 @@
                         "y": 350
                     }
                 ],
-                "access_rules": [
-                    "$village04_1ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Western Merchant Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village04WesternMerchantFight"
                         ],
                         "item_count": 1
                     }
@@ -339,21 +267,16 @@
                         "y": 1315
                     }
                 ],
-                "access_rules": [
-                    "$village05ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "True Believer's Note",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village05TrueBelieversNote"
                         ]
                     }
                 ]
@@ -363,25 +286,19 @@
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
-                       
                         "x": 3370,
                         "y": 1150
                     }
                 ],
-                "access_rules": [
-                    "$village06LeftACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village06AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -396,22 +313,15 @@
                         "y": 1330
                     }
                 ],
-                "access_rules": [
-                    "$village06LeftACCESS, hammer"
-                ],
                 "sections": [
                     {
                         "name": "x2 Stagnant Blights x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "claws",
-                            "hook",
-                            "$LEDGE2"
+                        "access_rules": [
+                            "^$Village06x2StagnantBlightsx10"
                         ],
                         "item_count": 2
                     }
@@ -426,20 +336,15 @@
                         "y": 1330
                     }
                 ],
-                "access_rules": [
-                    "$village06RightACCESS, hammer"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village06FuriousBlightx10_1"
                         ],
                         "item_count": 1
                     }
@@ -454,22 +359,15 @@
                         "y": 1180
                     }
                 ],
-                "access_rules": [
-                    "$village06RightACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "claws",
-                            "$LEDGE"
+                        "access_rules": [
+                            "^$Village06FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -484,24 +382,15 @@
                         "y": 1150
                     }
                 ],
-                "access_rules": [
-                    "$village06RightACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "claws, $LEDGE",
-                            "$LEDGE2",
-                            "$HORIZONTAL, silva",
-                            "$HORIZONTAL, djump",
-                            "sinner, verboten"
+                        "access_rules": [
+                            "^$Village06StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -516,23 +405,15 @@
                         "y": 780
                     }
                 ],
-                "access_rules": [
-                    "$village07ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            "hook",
-                            "djump,silva",
-                            "verboten,silva",
-                            "djump,verboten"
+                        "access_rules": [
+                            "^$Village07FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -547,20 +428,15 @@
                         "y": 780
                     }
                 ],
-                "access_rules": [
-                    "$village07ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village07StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -575,22 +451,17 @@
                         "y": 772
                     }
                 ],
-                "access_rules": [
-                    "$village07ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE",
-                            "[plume]",
-                            "[$AIRSTALL]"
+                        "access_rules": [
+                            "^$Village07ChainofSorcery",
+                            "[], @Village07Left, plume",
+                            "[], @Village07Left, $AIRSTALL"
                         ],
                         "item_count": 1
                     }
@@ -605,20 +476,15 @@
                         "y": 1360
                     }
                 ],
-                "access_rules": [
-                    "$village08ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Village08StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -633,20 +499,15 @@
                         "y": 1300
                     }
                 ],
-                "access_rules": [
-                    "$village08ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village08AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -661,20 +522,15 @@
                         "y": 1240
                     }
                 ],
-                "access_rules": [
-                    "$village08ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Headless Defender Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village08HeadlessDefenderFight"
                         ],
                         "item_count": 1
                     }
@@ -689,22 +545,16 @@
                         "y": 1150
                     }
                 ],
-                "access_rules": [
-                    "$village08ACCESS",
-                    "$village07ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Hamlet Request I",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village09HamletRequestI"
                         ]
                     }
                 ]
@@ -718,22 +568,16 @@
                         "y": 1090
                     }
                 ],
-                "access_rules": [
-                    "$village08ACCESS",
-                    "$village07ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Adherent's Letter",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village09AdherentsLetter"
                         ]
                     }
                 ]
@@ -747,20 +591,15 @@
                         "y": 2500
                     }
                 ],
-                "access_rules": [
-                    "$village12ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village12StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -775,20 +614,15 @@
                         "y": 2300
                     }
                 ],
-                "access_rules": [
-                    "$village13LeftACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village13StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -803,20 +637,15 @@
                         "y": 2430
                     }
                 ],
-                "access_rules": [
-                    "$village13LeftACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Giant's Ring",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Village13GiantsRing"
                         ],
                         "item_count": 1
                     }
@@ -831,20 +660,15 @@
                         "y": 2320
                     }
                 ],
-                "access_rules": [
-                    "$village13RightACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village13ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -859,22 +683,15 @@
                         "y": 2230
                     }
                 ],
-                "access_rules": [
-                    "$village13RightACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Gem (+20 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE2",
-                            "$LEDGE,$HORIZONTAL",
-							"djump,ulv"
+                        "access_rules": [
+                            "^$Village13AmuletGem"
                         ],
                         "item_count": 1
                     }
@@ -889,22 +706,15 @@
                         "y": 500
                     }
                 ],
-                "access_rules": [
-                    "$village14ACCESS, hammer"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "claws,$LEDGE",
-                            "$FULLSILVA",
-                            "hook"
+                        "access_rules": [
+                            "^$Village14FuriousBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -919,37 +729,15 @@
                         "y": 480
                     }
                 ],
-                "access_rules": [
-                    "$village14ACCESS, hammer"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "djump,dodge2,claws",
-                            "djump,dodge2,dash",
-                            "djump,dodge2,ulv,plume",
-                            "djump,dodge2,ulv,fretia",
-                            "dodge2,verboten,claws",
-                            "dodge2,verboten,ulv,fretia",
-                            "sinner,verboten",
-                            "dodge2,silva,claws",
-                            "sinner,silva",
-                            "djump,sinner",
-                            "$HORIZONTAL2,plume",
-                            "hook",
-                            "silva,djump,claws",
-                            "djump,silva,ulv,fretia",
-                            "verboten,djump,ulv,fretia",
-                            "plume,silva,djump,ulv",
-                            "plume,verboten,silva,ulv,fretia",
-                            "$FULLSILVA"
+                        "access_rules": [
+                            "^$Village14StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -964,24 +752,15 @@
                         "y": 300
                     }
                 ],
-                "access_rules": [
-                    "$village14ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Cliffside Hamlet Elder Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            "plume",
-                            "$LEDGE",
-                            "hook,$HORIZONTAL",
-                            "hook,ulv",
-                            "hook, $AIRSTALL"
+                        "access_rules": [
+                            "^$Village14CliffsideHamletElderFight"
                         ],
                         "item_count": 1
                     }
@@ -996,21 +775,16 @@
                         "y": 2810
                     }
                 ],
-                "access_rules": [
-                    "$village12ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Faden's Letter",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Village16FadensLetter"
                         ]
                     }
                 ]
@@ -1024,20 +798,15 @@
                         "y": 2810
                     }
                 ],
-                "access_rules": [
-                    "$village12ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Hamlet Stone Tablet Fragment",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_c_end"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Village16HamletStoneTabletFragment"
                         ],
                         "item_count": 1
                     }
@@ -1055,20 +824,12 @@
                 "sections": [
                     {
                         "name": "Fretia's Ring",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$cave01ACCESS",
-                            "$catacombsREV, claws, $FULLSILVA, dash",
-                            "$catacombsREV, $FULLJUMP",
-                            "$catacombsREV, claws, $LEDGE2, $HORIZONTAL2",
-                            "$catacombsREV, claws, silva, $HORIZONTAL2",
-                            "$catacombsREV, claws, silva, sinner, djump, dash",
-                            "$catacombsREV, claws, dash, djump, verboten, sinner"
+                        "access_rules": [
+                            "^$Cave01FretiasRing"
                         ],
                         "item_count": 1
                     }
@@ -1086,22 +847,12 @@
                 "sections": [
                     {
                         "name": "Furious Blight x800",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules":
-                        [
-                            "$cave01ACCESS, $FULLJUMP",
-                            "$catacombsREV, claws, $FULLSILVA, dash",
-                            "$catacombsREV, claws, $LEDGE2, $HORIZONTAL2",
-                            "$catacombsREV, claws, $LEDGE2, $HORIZONTAL",
-                            "$catacombsREV, claws, silva, $HORIZONTAL2",
-                            "$catacombsREV, claws, silva, sinner, djump",
-                            "$catacombsREV, claws, dash, djump, verboten, sinner",
-                            "[$catacombsREV, claws, $FULLSILVA, ulv]"
-
+                        "access_rules": [
+                            "^$Cave01FuriousBlightx800"
                         ],
                         "item_count": 1
                     }
@@ -1110,9 +861,10 @@
         ]
     },
     {
-        "item_count": 1,
+        "name": "World Map_4",
         "children": [
             {
+                "name": "Cliffside Hamlet - Village 02",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_02 - Stagnant Blight Left/Stagnant Blight x30",
@@ -1136,6 +888,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 03",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_03 - Furious Blight/Furious Blight x10",
@@ -1163,6 +916,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 04",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_04 - Relic/Bloodstained Ribbon",
@@ -1186,6 +940,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 04_1",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_04_1 - Sub-Spirit Fight/Western Merchant Fight",
@@ -1201,6 +956,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 05",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_05 - Finding/True Believer's Note",
@@ -1216,6 +972,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 06",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_06 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -1247,6 +1004,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 07",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_07 - Stagnant Blight/Stagnant Blight x10",
@@ -1270,6 +1028,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 08",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_08 - Stagnant Blight/Stagnant Blight x10",
@@ -1293,6 +1052,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 09",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_09 - Finding Lower/Hamlet Request I",
@@ -1312,6 +1072,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 12",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_12 - Stagnant Blight/Stagnant Blight x10",
@@ -1327,6 +1088,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 13",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_13 - Stagnant Blight/Stagnant Blight x10",
@@ -1354,6 +1116,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 14",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_14 - Furious Blight/Furious Blight x30",
@@ -1377,6 +1140,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 16",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Cliffside Hamlet - Village_16 - Finding/Faden's Letter",
@@ -1396,6 +1160,7 @@
                 ]
             },
             {
+                "name": "Catacombs - Cave 01",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet West/Catacombs - Cave_01 - Relic/Fretia's Ring",

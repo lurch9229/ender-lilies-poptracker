@@ -141,7 +141,7 @@
     "name": "Bloody Knight's Claws",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/bloody_knights_claws.png",
+    "img": "images/items/bloody_knights_claws.jpg",
     "codes": "claws",
 	  "swap_actions": false
   },
@@ -162,14 +162,14 @@
     "name": "Dash",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/dash.png",
+    "img": "images/items/dash.jpg",
     "codes": "dash",
 	  "swap_actions": false
   },
   {
     "name": "Dodge",
     "type": "toggle",
-    "img": "images/items/dodge.png",
+    "img": "images/items/dodge.jpg",
     "codes": "dodge",
     "swap_actions": false
   },
@@ -177,7 +177,7 @@
     "name": "Executioner's Hook",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/executioners_hook.png",
+    "img": "images/items/executioners_hook.jpg",
     "codes": "hook",
 	  "swap_actions": false
   },
@@ -185,7 +185,7 @@
     "name": "Giant's Hammer",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/giants_hammer.png",
+    "img": "images/items/giants_hammer.jpg",
     "codes": "hammer",
 	  "swap_actions": false
   },
@@ -193,7 +193,7 @@
     "name": "Guardian's Leap",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/guardians_leap.png",
+    "img": "images/items/guardians_leap.jpg",
     "codes": "djump",
 	  "swap_actions": false
   },
@@ -201,14 +201,14 @@
     "name": "Guardian's Wings",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/guardians_wings.png",
+    "img": "images/items/guardians_wings.jpg",
     "codes": "dodge2",
 	  "swap_actions": false
   },
   {
     "name": "Jump",
     "type": "toggle",
-    "img": "images/items/jump.png",
+    "img": "images/items/jump.jpg",
     "codes": "jump",
     "swap_actions": false
   },
@@ -216,7 +216,7 @@
     "name": "Last Rites",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/last_rites.png",
+    "img": "images/items/last_rites.jpg",
     "codes": "rites,ult",
 	  "swap_actions": false
   },
@@ -224,14 +224,14 @@
     "name": "Piercing Spectral Lance",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/piercing_spectral_lance.png",
+    "img": "images/items/piercing_spectral_lance.jpg",
     "codes": "lance",
 	  "swap_actions": false
   },
   {
     "name": "Prayer",
     "type": "toggle",
-    "img": "images/items/prayer.png",
+    "img": "images/items/prayer.jpg",
     "codes": "pray",
     "swap_actions": false
   },
@@ -249,14 +249,14 @@
   {
     "name": "Swim",
     "type": "toggle",
-    "img": "images/items/swim.png",
+    "img": "images/items/swim.jpg",
     "codes": "paddle",
     "swap_actions": false
   },
   {
     "name": "Switch Spirits",
     "type": "toggle",
-    "img": "images/items/switch.png",
+    "img": "images/items/switch.jpg",
     "codes": "switch",
     "swap_actions": false
   },
@@ -264,7 +264,7 @@
     "name": "Unlock",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/unlock.png",
+    "img": "images/items/unlock.jpg",
     "codes": "unlock",
 	  "swap_actions": false
   },
@@ -272,7 +272,7 @@
     "name": "Witch's Bubble",
     "type": "toggle",
     "loop": "false",
-    "img": "images/items/witchs_bubble.png",
+    "img": "images/items/witchs_bubble.jpg",
     "codes": "aquatic",
 	  "swap_actions": false
   },
@@ -287,25 +287,25 @@
     "name": "Defeat Siegrid",
     "type": "toggle",
     "codes": "defeatSiegrid",
-    "img": "images/spirits/guardian_siegrid.png"
+    "img": "images/spirits/guardian_siegrid.jpg"
   },
   {
     "name": "Defeat Gerrod",
     "type": "toggle",
     "codes": "defeatGerrod",
-    "img": "images/spirits/gerrod.png"
+    "img": "images/spirits/gerrod.jpg"
   },
   {
     "name": "Defeat Hoenir",
     "type": "toggle",
     "codes": "defeatHoenir",
-    "img": "images/spirits/hoenir.png"
+    "img": "images/spirits/hoenir.jpg"
   },
   {
     "name": "Defeat Ulv",
     "type": "toggle",
     "codes": "defeatUlv",
-    "img": "images/spirits/ulv.png"
+    "img": "images/spirits/ulv.jpg"
   },
   {
     "name": "Stone Tablet Fragment",

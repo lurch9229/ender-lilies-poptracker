@@ -11,6 +11,7 @@ elseif (string.find(Tracker.ActiveVariantUID, "items_only")) then
     Tracker:AddLayouts("layouts/broadcast_horizontal.json")
 elseif (string.find(Tracker.ActiveVariantUID, "world_map")) then
     Tracker:AddMaps("maps/world_map.json")
+    Tracker:AddLocations("locations/connections.json")
     Tracker:AddLocations("locations/cathedral.json")
     Tracker:AddLocations("locations/white_parish.json")
     Tracker:AddLocations("locations/cliffs_west.json")
@@ -25,6 +26,7 @@ elseif (string.find(Tracker.ActiveVariantUID, "world_map")) then
     Tracker:AddLayouts("layouts/tracker_worldmap.json")
 elseif (string.find(Tracker.ActiveVariantUID,"map_tracker")) then
     Tracker:AddMaps("maps/maps.json")
+    Tracker:AddLocations("locations/connections.json")
     Tracker:AddLocations("locations/cathedral.json")
     Tracker:AddLocations("locations/white_parish.json")
     Tracker:AddLocations("locations/cliffs_west.json")

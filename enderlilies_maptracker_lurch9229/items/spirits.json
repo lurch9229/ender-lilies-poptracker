@@ -5,7 +5,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/castle_town_maiden.png",
+    "img": "images/spirits/castle_town_maiden.jpg",
     "overlay_background": "#000",
     "codes": "maiden",
 	"swap_actions": false
@@ -16,7 +16,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/chief_guardian.png",
+    "img": "images/spirits/chief_guardian.jpg",
     "overlay_background": "#000",
     "codes": "chief",
 	  "action_swap": false
@@ -27,7 +27,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/cliffside_hamlet_elder.png",
+    "img": "images/spirits/cliffside_hamlet_elder.jpg",
     "overlay_background": "#000",
     "codes": "cliffelder",
 	  "action_swap": false
@@ -38,7 +38,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/cliffside_hamlet_youth.png",
+    "img": "images/spirits/cliffside_hamlet_youth.jpg",
     "overlay_background": "#000",
     "codes": "cliffyouth",
 	  "action_swap": false
@@ -49,7 +49,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/dark_executioner.png",
+    "img": "images/spirits/dark_executioner.jpg",
     "overlay_background": "#000",
     "codes": "executioner",
 	  "action_swap": false
@@ -60,7 +60,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/dark_witch_eleine.png",
+    "img": "images/spirits/dark_witch_eleine.jpg",
     "overlay_background": "#000",
     "codes": "eleine"
   },
@@ -70,7 +70,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/elder_crypt_keeper.png",
+    "img": "images/spirits/elder_crypt_keeper.jpg",
     "overlay_background": "#000",
     "codes": "elderkeeper"
   },
@@ -80,7 +80,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/faden_the_heretic.png",
+    "img": "images/spirits/faden_the_heretic.jpg",
     "overlay_background": "#000",
     "codes": "faden"
   },
@@ -90,7 +90,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/fallen_archer.png",
+    "img": "images/spirits/fallen_archer.jpg",
     "overlay_background": "#000",
     "codes": "archer"
   },
@@ -100,7 +100,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/fallen_sentinel.png",
+    "img": "images/spirits/fallen_sentinel.jpg",
     "overlay_background": "#000",
     "codes": "sentinel"
   },
@@ -110,7 +110,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/floral_sorceress.png",
+    "img": "images/spirits/floral_sorceress.jpg",
     "overlay_background": "#000",
     "codes": "floral"
   },
@@ -120,7 +120,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/forsaken_fellwyrm.png",
+    "img": "images/spirits/forsaken_fellwyrm.jpg",
     "overlay_background": "#000",
     "codes": "fellwyrm"
   },
@@ -130,7 +130,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/fungal_sorcerer.png",
+    "img": "images/spirits/fungal_sorcerer.jpg",
     "overlay_background": "#000",
     "codes": "fungal"
   },
@@ -140,7 +140,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/gerrod.png",
+    "img": "images/spirits/gerrod.jpg",
     "overlay_background": "#000",
     "codes": "gerrod"
   },
@@ -150,7 +150,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/guardian_siegrid.png",
+    "img": "images/spirits/guardian_siegrid.jpg",
     "overlay_background": "#000",
     "codes": "siegrid"
   },
@@ -160,7 +160,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/guardian_silva.png",
+    "img": "images/spirits/guardian_silva.jpg",
     "overlay_background": "#000",
     "codes": "silva"
   },
@@ -170,7 +170,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/headless_defender.png",
+    "img": "images/spirits/headless_defender.jpg",
     "overlay_background": "#000",
     "codes": "headless"
   },
@@ -180,7 +180,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/hidden_test_subject.png",
+    "img": "images/spirits/hidden_test_subject.jpg",
     "overlay_background": "#000",
     "codes": "testsubject"
   },
@@ -190,7 +190,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/hoenir.png",
+    "img": "images/spirits/hoenir.jpg",
     "overlay_background": "#000",
     "codes": "hoenir"
   },
@@ -199,7 +199,7 @@
     "type": "consumable",
     "max_quantity": 6,
     "increment": 1,
-    "img": "images/spirits/incompetent_sinner.png",
+    "img": "images/spirits/incompetent_sinner.jpg",
     "overlay_background": "#000",
     "codes": "sinner"
   },
@@ -209,7 +209,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/julius.png",
+    "img": "images/spirits/julius.jpg",
     "overlay_background": "#000",
     "codes": "julius"
   },
@@ -219,7 +219,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/one-eyed_royal_aegis.png",
+    "img": "images/spirits/one-eyed_royal_aegis.jpg",
     "overlay_background": "#000",
     "codes": "royalaegis"
   },
@@ -229,7 +229,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/ulv.png",
+    "img": "images/spirits/ulv.jpg",
     "overlay_background": "#000",
     "codes": "ulv"
   },
@@ -239,7 +239,7 @@
   "max_quantity": 6,
   "increment": 1,
 	"allow_disabled": true,
-	"img": "images/spirits/umbral_knight.png",
+	"img": "images/spirits/umbral_knight.jpg",
   "overlay_background": "#000",
     "codes": "umbral"
   },
@@ -249,7 +249,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/verboten_champion.png",
+    "img": "images/spirits/verboten_champion.jpg",
     "overlay_background": "#000",
     "codes": "verboten"
   },
@@ -258,7 +258,7 @@
     "max_quantity": 6,
     "increment": 1,
     "loop": "false",
-    "img": "images/spirits/western_merchant.png",
+    "img": "images/spirits/western_merchant.jpg",
     "overlay_background": "#000",
     "codes": "merchant"
   }

@@ -14,20 +14,15 @@
                         "y": 2210
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Fort04StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -45,15 +40,12 @@
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$spiresACCESS, hammer",
-                            "$fort03ACCESS, $LEDGE, claws"
+                        "access_rules": [
+                            "^$Fort05StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -66,26 +58,17 @@
                         "map": "TwinSpires",
                         "x": 850,
                         "y": 1800
-                    }                    
-                ],
-                "access_rules": [
-                    "$spiresACCESS, $LEDGE",
-                    "$spiresACCESS, claws"
+                    }
                 ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "claws",
-                            "$FULLSILVA",
-                            "$MAXJUMP"
+                        "access_rules": [
+                            "^$Fort05ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -100,20 +83,15 @@
                         "y": 1910
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE"
+                        "access_rules": [
+                            "^$Fort05AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -128,22 +106,15 @@
                         "y": 1890
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS, claws"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "verboten",
-                            "djump",
-                            "silva, $HORIZONTAL"
+                        "access_rules": [
+                            "^$Fort06StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -158,21 +129,15 @@
                         "y": 2030
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE",
-                            "claws"
+                        "access_rules": [
+                            "^$Fort07StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -187,20 +152,15 @@
                         "y": 1920
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Hoenir's Diary III",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort08HoenirsDiaryIII"
                         ],
                         "item_count": 1
                     }
@@ -215,20 +175,15 @@
                         "y": 2525
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Note on the Castle Wall",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort09NoteontheCastleWall"
                         ],
                         "item_count": 1
                     }
@@ -243,20 +198,15 @@
                         "y": 2580
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Snowdrop Bracelet",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Fort09SnowdropBracelet"
                         ],
                         "item_count": 1
                     }
@@ -271,20 +221,15 @@
                         "y": 2450
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort09StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -299,20 +244,15 @@
                         "y": 2300
                     }
                 ],
-                "access_rules": [
-                    "$spiresLeftWallACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort09FuriousBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -327,23 +267,15 @@
                         "y": 2450
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "claws, $LEDGE",
-                            "$MAXJUMP",
-                            "$FULLSILVA, dash",
-                            "$FULLSILVA, sinner"
+                        "access_rules": [
+                            "^$Fort10AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -358,20 +290,15 @@
                         "y": 2510
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Bloodied Note II",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort10BloodiedNoteII"
                         ],
                         "item_count": 1
                     }
@@ -386,27 +313,15 @@
                         "y": 1720
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Ricorus' Ring",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic, hammer",
-                            "silva",
-                            "julius",
-                            "gerrod",
-                            "ulv",
-							"chief",
-                            "fungal",
-                            "fellwyrm"
+                        "access_rules": [
+                            "^$Fort11RicorusRing"
                         ],
                         "item_count": 1
                     }
@@ -421,27 +336,15 @@
                         "y": 1550
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE, sinner, hook",
-                            "$LEDGE, dodge2, claws, hook",
-                            "$LEDGE2, claws",
-                            "$LEDGE2, hook",
-                            "$FULLJUMP, claws",
-                            "$FULLJUMP, sinner",
-                            "$spiresLeftWallACCESS"
-
+                        "access_rules": [
+                            "^$Fort11StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -456,20 +359,15 @@
                         "y": 1540
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort12AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -484,20 +382,15 @@
                         "y": 1565
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS, $CHARGE"
-                ],
                 "sections": [
                     {
                         "name": "Forsaken Fellwyrm Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort12ForsakenFellwyrmFight"
                         ],
                         "item_count": 1
                     }
@@ -512,26 +405,21 @@
                         "y": 1130
                     }
                 ],
-                "access_rules": [
-                    "$spiresLeftWallACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort13ChainofSorcery"
                         ],
                         "item_count": 1
                     }
                 ]
             },
-			{
+            {
                 "name": "Twin Spires - Fort_13 - Amulet Fragment",
                 "map_locations": [
                     {
@@ -540,20 +428,15 @@
                         "y": 1370
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort13AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -568,20 +451,15 @@
                         "y": 1345
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Fort14StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -596,20 +474,15 @@
                         "y": 1345
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort14FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -624,22 +497,15 @@
                         "y": 1035
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS , hammer, unlock, hook"
-                ],
                 "sections": [
                     {
                         "name": "Tablet, x800 Stagnant, Writing on the Wall",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_c_end"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic",
-                            "[plume]",
-                            "[LEDGE2]"
+                        "access_rules": [
+                            "^$Fort14Tabletx800StagnantWritingontheWall"
                         ],
                         "item_count": 3,
                         "clear_as_group": true
@@ -655,20 +521,15 @@
                         "y": 1660
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort15StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -683,21 +544,15 @@
                         "y": 1310
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS, claws, $LEDGE",
-                    "$fort15TopACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort15StagnantBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -712,23 +567,15 @@
                         "y": 1220
                     }
                 ],
-                "access_rules": [
-                    "$fort15TopACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Immortal's Crest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "hook",
-                            "silva, djump",
-                            "silva, dodge2, verboten",
-                            "$FULLJUMP"
+                        "access_rules": [
+                            "^$Fort15ImmortalsCrest"
                         ],
                         "item_count": 1
                     }
@@ -743,20 +590,15 @@
                         "y": 1555
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Bloodied Note III",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort15BloodiedNoteIII"
                         ],
                         "item_count": 1
                     }
@@ -771,20 +613,15 @@
                         "y": 1565
                     }
                 ],
-                "access_rules": [
-                    "$spiresACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Monument Engraving",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort16MonumentEngraving"
                         ],
                         "item_count": 1
                     }
@@ -799,20 +636,15 @@
                         "y": 580
                     }
                 ],
-                "access_rules": [
-                    "$fort17ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Fragment (+5 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort17AmuletFragment"
                         ],
                         "item_count": 1
                     }
@@ -827,20 +659,15 @@
                         "y": 550
                     }
                 ],
-                "access_rules": [
-                    "$fort17ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Chain of Sorcery (+1 Relic Slot)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_chains"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort18ChainofSorcery"
                         ],
                         "item_count": 1
                     }
@@ -855,22 +682,15 @@
                         "y": 575
                     }
                 ],
-                "access_rules": [
-                    "$fort17ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Amulet Gem (+20 HP)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_amulets"
                         ],
-                        "access_rules": 
-                        [
-                            "claws, $LEDGE, $HORIZONTAL",
-                            "claws, silva, djump",
-                            "claws, silva, dodge2"
+                        "access_rules": [
+                            "^$Fort18AmuletGem"
                         ],
                         "item_count": 1
                     }
@@ -885,21 +705,15 @@
                         "y": 880
                     }
                 ],
-                "access_rules": [
-                    "$fort17ACCESS, $LEDGE",
-                    "$spiresLeftWallTopACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Ancient Dragon Claw",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort19AncientDragonClaw"
                         ],
                         "item_count": 1
                     }
@@ -914,21 +728,15 @@
                         "y": 730
                     }
                 ],
-                "access_rules": [
-                    "$fort17ACCESS, $LEDGE",
-                    "$spiresLeftWallTopACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "hammer"
+                        "access_rules": [
+                            "^$Fort19FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -943,22 +751,15 @@
                         "y": 480
                     }
                 ],
-                "access_rules": [
-                    "$fort17ACCESS, claws, $LEDGE",
-                    "$fort17ACCESS, $MAXJUMP",
-                    "$spiresLeftWallTopACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort19FuriousBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -973,22 +774,17 @@
                         "y": 180
                     }
                 ],
-                "access_rules": [
-                    "$fort20ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Ulv, The Mad Knight Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits",
                             "setting_wishes",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort21defeatUlv"
                         ],
                         "item_count": 0,
                         "hosted_item": "defeatUlv"
@@ -1004,22 +800,15 @@
                         "y": 180
                     }
                 ],
-                "access_rules": [
-                    "$fort20ACCESS, defeatUlv"
-                ],
                 "sections": [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_wishes"
                         ],
-                        "access_rules": 
-                        [
-                            "claws",
-                            "$FULLSILVA",
-                            "$FULLJUMP"
+                        "access_rules": [
+                            "^$Fort21PriestessWish"
                         ],
                         "item_count": 1
                     }
@@ -1034,22 +823,15 @@
                         "y": 180
                     }
                 ],
-                "access_rules": [
-                    "$fort20ACCESS, defeatUlv"
-                ],
                 "sections": [
                     {
                         "name": "White Priestess' Bastion Letter",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules": 
-                        [
-                            "claws",
-                            "$FULLSILVA",
-                            "$FULLJUMP"
+                        "access_rules": [
+                            "^$Fort21WhitePriestessBastionLetter"
                         ],
                         "item_count": 1
                     }
@@ -1064,22 +846,15 @@
                         "y": 2450
                     }
                 ],
-                "access_rules": [
-                    "$outside03ACCESS, claws"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE2",
-                            "$LEDGE, $HORIZONTAL",
-                            "verboten"
+                        "access_rules": [
+                            "^$Outside03StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -1094,20 +869,15 @@
                         "y": 2800
                     }
                 ],
-                "access_rules": [
-                    "$outside03ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Nymphilia's Ring",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "aquatic"
+                        "access_rules": [
+                            "^$Outside03NymphiliasRing"
                         ],
                         "item_count": 1
                     }
@@ -1122,22 +892,15 @@
                         "y": 2800
                     }
                 ],
-                "access_rules": [
-                    "$outside03ACCESS, claws"
-                ],
                 "sections": [
                     {
                         "name": "King of the First Age's Torn Note I",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE2",
-                            "$LEDGE, $HORIZONTAL",
-                            "verboten"
+                        "access_rules": [
+                            "^$Outside03KingoftheFirstAgesTornNoteI"
                         ],
                         "item_count": 1
                     }
@@ -1152,22 +915,15 @@
                         "y": 2800
                     }
                 ],
-                "access_rules": [
-                    "$outside03ACCESS, claws"
-                ],
                 "sections": [
                     {
                         "name": "King of the First Age's Torn Note II",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE2",
-                            "$LEDGE, $HORIZONTAL",
-                            "verboten"
+                        "access_rules": [
+                            "^$Outside03KingoftheFirstAgesTornNoteII"
                         ],
                         "item_count": 1
                     }
@@ -1176,9 +932,10 @@
         ]
     },
     {
-        "item_count": 1,
+        "name": "World Map_7",
         "children": [
             {
+                "name": "Twin Spires - Fort 04",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_04 - Stagnant Blight/Stagnant Blight x100",
@@ -1194,6 +951,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 05",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_05 - Stagnant Blight/Stagnant Blight x10",
@@ -1217,6 +975,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 06",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_06 - Stagnant Blight/Stagnant Blight x30",
@@ -1232,6 +991,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 07",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_07 - Stagnant Blight/Stagnant Blight x10",
@@ -1247,6 +1007,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 08",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_08 - Finding/Hoenir's Diary III",
@@ -1262,6 +1023,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 09",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_09 - Finding/Note on the Castle Wall",
@@ -1289,6 +1051,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 10",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_10 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -1308,6 +1071,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 11",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_11 - Relic/Ricorus' Ring",
@@ -1327,6 +1091,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 12",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_12 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -1346,6 +1111,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 13",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_13 - Chain of Sorcery (In Barrel)/Chain of Sorcery (+1 Relic Slot)",
@@ -1365,6 +1131,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 14",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_14 - Stagnant Blight/Stagnant Blight x100",
@@ -1388,6 +1155,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 15",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_15 - Stagnant Blight Lower/Stagnant Blight x30",
@@ -1415,6 +1183,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 16",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_16 - Finding/Monument Engraving",
@@ -1430,6 +1199,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 17",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_17 - Amulet Fragment/Amulet Fragment (+5 HP)",
@@ -1445,6 +1215,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 18",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_18 - Chain of Sorcery (In Crate)/Chain of Sorcery (+1 Relic Slot)",
@@ -1464,6 +1235,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 19",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_19 - Relic/Ancient Dragon Claw",
@@ -1487,6 +1259,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 21",
                 "sections": [
                     {
                         "ref": "Twin Spires/Twin Spires - Fort_21 - Main Spirit Fight/Ulv, The Mad Knight Fight",
@@ -1510,6 +1283,7 @@
                 ]
             },
             {
+                "name": "Hinterlands - Outside 03",
                 "sections": [
                     {
                         "ref": "Twin Spires/Hinterlands - Outside_03 - Stagnant Blight/Stagnant Blight x100",

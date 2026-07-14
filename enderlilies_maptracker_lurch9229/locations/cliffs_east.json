@@ -14,15 +14,11 @@
                         "y": 2730
                     }
                 ],
-                "access_rules": [
-                    "$village10ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Gerrod, The Elder Warrior Fight",
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village10defeatGerrod"
                         ],
                         "hosted_item": "defeatGerrod",
                         "item_count": 0
@@ -38,22 +34,16 @@
                         "y": 2720
                     }
                 ],
-                "access_rules": [
-                    "$village11ACCESS",
-                    "$village11ACCESSFromCastle01"
-                ],
                 "sections": [
                     {
                         "name": "Hamlet Scrawl",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village11HamletScrawl"
                         ]
                     }
                 ]
@@ -67,22 +57,16 @@
                         "y": 2720
                     }
                 ],
-                "access_rules": [
-                    "$village11ACCESS",
-                    "$village11ACCESSFromCastle01"
-                ],
                 "sections": [
                     {
                         "name": "Hamlet Request II",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village11HamletRequestII"
                         ]
                     }
                 ]
@@ -96,21 +80,15 @@
                         "y": 2640
                     }
                 ],
-                "access_rules": [
-                    "$village11ACCESS",
-                    "$village11ACCESSFromCastle01"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village11FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -125,20 +103,15 @@
                         "y": 1960
                     }
                 ],
-                "access_rules": [
-                    "$village11_1ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_wishes"
                         ],
-                        "access_rules": 
-                        [
-                            "hammer"
+                        "access_rules": [
+                            "^$Village11PriestessWish"
                         ],
                         "item_count": 1
                     }
@@ -153,21 +126,15 @@
                         "y": 4100
                     }
                 ],
-                "access_rules": [
-                    "$village15ACCESS",
-                    "$village15ACCESSFromFort"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x10",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village15FuriousBlightx10"
                         ],
                         "item_count": 1
                     }
@@ -178,43 +145,19 @@
                 "map_locations": [
                     {
                         "map": "CliffsideHamletEast",
-                        "x": 4480, 
+                        "x": 4480,
                         "y": 4100
                     }
-                ],
-                "access_rules": [
-                    "$village15ACCESS, claws, silva, dodge2",
-                    "$village15ACCESS, claws, djump, $HORIZONTAL2",
-                    "$village15ACCESS, claws, $HORIZONTAL2, verboten",
-                    "$village15ACCESS, claws, dodge2, dash, verboten, silva",
-                    "$village15ACCESS, hook, claws, $HORIZONTAL",
-                    "$village15ACCESS, claws, djump, hook",
-					"$village15ACCESS, claws, hook, verboten",
-					"$village15ACCESS, silva, dodge2, hook",
-                    "$village15ACCESS, silva, djump, hook",
-                    "$village15ACCESS, silva, verboten, hook",
-                    "$village15ACCESSFromFort, claws, silva, dodge2",
-                    "$village15ACCESSFromFort, claws, djump, $HORIZONTAL2",
-                    "$village15ACCESSFromFort, claws, $HORIZONTAL2, verboten",
-                    "$village15ACCESSFromFort, claws, dodge2, dash, verboten, silva",
-                    "$village15ACCESSFromFort, hook, claws, $HORIZONTAL",
-                    "$village15ACCESSFromFort, claws, djump, hook",
-					"$village15ACCESSFromFort, claws, hook, verboten",
-					"$village15ACCESSFromFort, silva, dodge2, hook",
-                    "$village15ACCESSFromFort, silva, djump, hook",
-                    "$village15ACCESSFromFort, silva, verboten, hook"
                 ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Village15StagnantBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -229,30 +172,15 @@
                         "y": 3470
                     }
                 ],
-                "access_rules": [
-                    "$fort01ACCESSFromVillage",
-                    "$village15ACCESSFromFort"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x800",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "claws,FULLSILVA,dodge2",
-                            "claws,djump,$HORIZONTAL2",
-                            "claws,$HORIZONTAL2,verboten",
-                            "claws,dodge2,dash,verboten,silva",
-                            "hook,claws,$HORIZONTAL",
-                            "claws,djump,hook",
-							"claws,hook,verboten",
-							"silva,dodge2,hook",
-                            "silva, djump, hook",
-                            "silva, verboten, hook"                            
+                        "access_rules": [
+                            "^$Village15StagnantBlightx800"
                         ],
                         "item_count": 1
                     }
@@ -267,21 +195,15 @@
                         "y": 2520
                     }
                 ],
-                "access_rules": [
-                    "$village11ACCESS, claws",
-                    "$castle01ACCESSFromCastle02"
-                ],
                 "sections": [
                     {
                         "name": "Stagnant Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Castle01StagnantBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -296,21 +218,15 @@
                         "y": 2520
                     }
                 ],
-                "access_rules": [
-                    "$village11ACCESS, claws",
-                    "$castle01ACCESSFromCastle02"
-                ],
                 "sections": [
                     {
                         "name": "Castle Town Maiden Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Castle01CastleTownMaidenFight"
                         ],
                         "item_count": 1
                     }
@@ -325,21 +241,15 @@
                         "y": 2560
                     }
                 ],
-                "access_rules": [
-                    "$village11ACCESS, claws",
-                    "$castle01ACCESSFromCastle02"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x100",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            "$CHARGE"
+                        "access_rules": [
+                            "^$Castle01FuriousBlightx100"
                         ],
                         "item_count": 1
                     }
@@ -354,23 +264,17 @@
                         "y": 2250
                     }
                 ],
-                "access_rules": [
-                    "$village11ACCESS, claws",
-                    "$castle01ACCESSFromCastle02"
-                ],
                 "sections": [
                     {
                         "name": "Priestess' Doll",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$HORIZONTAL",
-                            "$LEDGE",
-                            "plume"
+                        "access_rules": [
+                            "^$Castle01PriestessDoll",
+                            "[], @Dog, $AIRSTALL",
+                            "[], @Dog, plume"
                         ],
                         "item_count": 1
                     }
@@ -385,21 +289,15 @@
                         "y": 2080
                     }
                 ],
-                "access_rules": [
-                    "$ruinedCastleACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Decayed Crown",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_relics"
                         ],
-                        "access_rules": 
-                        [
-                            "$LEDGE, claws",
-                            "silva, djump, $HORIZONTAL2"
+                        "access_rules": [
+                            "^$Castle01DecayedCrown"
                         ],
                         "item_count": 1
                     }
@@ -414,22 +312,15 @@
                         "y": 2890
                     }
                 ],
-                "access_rules": [
-                    "$fort01ACCESSFromCastle",
-                    "$fort01ACCESSFromVillage, hook",
-                    "$fort01ACCESSFromCatacombs, hook"
-                ],
                 "sections": [
                     {
                         "name": "Furious Blight x30",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_blight"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort01FuriousBlightx30"
                         ],
                         "item_count": 1
                     }
@@ -444,22 +335,15 @@
                         "y": 3210
                     }
                 ],
-                "access_rules": [
-                    "$fort01ACCESSFromCastle",
-                    "$fort01ACCESSFromVillage",
-                    "$fort01ACCESSFromCatacombs"
-                ],
                 "sections": [
                     {
                         "name": "Fallen Sentinel Fight",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_spirits"
                         ],
-                        "access_rules": 
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort01FallenSentinelFight"
                         ],
                         "item_count": 1
                     }
@@ -479,21 +363,16 @@
                         "y": 2430
                     }
                 ],
-                "access_rules": [
-                    "$fort03ACCESS"
-                ],
                 "sections": [
                     {
                         "name": "Bloodied Note I",
                         "item_count": 1,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "setting_all",
                             "setting_findings"
                         ],
-                        "access_rules":
-                        [
-                            ""
+                        "access_rules": [
+                            "^$Fort03BloodiedNoteI"
                         ]
                     }
                 ]
@@ -501,9 +380,10 @@
         ]
     },
     {
-        "item_count": 1,
+        "name": "World Map_3",
         "children": [
             {
+                "name": "Cliffside Hamlet - Village 10",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_10 - Main Spirit Fight/Gerrod, The Elder Warrior Fight",
@@ -519,6 +399,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 11",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_11 - Finding Left/Hamlet Scrawl",
@@ -542,6 +423,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 11_1",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_11_1 - Priestess' Wish/Priestess' Wish (Prayer Upgrade)",
@@ -557,6 +439,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Village 15",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet East/Cliffside Hamlet - Village_15 - Furious Blight/Furious Blight x10",
@@ -580,6 +463,7 @@
                 ]
             },
             {
+                "name": "Cliffside Hamlet - Castle 01",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet East/Cliffside Hamlet - Castle_01 - Stagnant Blight/Stagnant Blight x100",
@@ -611,6 +495,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 01",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet East/Twin Spires - Fort_01 - Furious Blight/Furious Blight x30",
@@ -630,6 +515,7 @@
                 ]
             },
             {
+                "name": "Twin Spires - Fort 03",
                 "sections": [
                     {
                         "ref": "Cliffside Hamlet East/Twin Spires - Fort_03 - Finding/Bloodied Note I",
