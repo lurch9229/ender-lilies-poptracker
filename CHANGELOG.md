@@ -1,5 +1,24 @@
 # Changelog
 
+2.0.1
+
+- Fixed Nesting issue so you no longer need to unzip the release and location the correct folder (Lurch)
+
+- Updated Changelog (Lurch)
+
+2.0.0 Release
+
+Rekast is now maintaining the pack. Keep up to date here if there are issues with this version of the pack
+
+- Now supports Random Start Location (Rekast)
+
+- Whole bunch of fixes made to logic (Rekast)
+
+- Hosted items fixed for bosses, so you no longer need to check them off manually (Rekast)
+
+- Fixed some map sizing issues (Rekast)
+
+
 2.0.0-D4
 
 - A whole bunch of Logic Fixes. Thanks to everyone in the Discord for testing and reporting
